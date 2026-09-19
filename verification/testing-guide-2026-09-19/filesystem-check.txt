@@ -1,0 +1,2 @@
+fsck.fat 4.2 (2021-01-31)
+/dev/loop0p1: 7258 files, 440281/1891344 clusters

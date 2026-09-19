@@ -20,6 +20,8 @@ staging and does not update that image. The new packaging command is
 helper is [verify-release-payload.py](../scripts/verify-release-payload.py).
 Neither takes a physical USB target. Building and boot-testing an image need no
 connected flash drive.
+For explicit pass/fail criteria, error diagnosis and independent testing of an
+already-built image, use [testing and acceptance](testing-and-acceptance.md).
 
 The procedure was run on September 19: the finalized image passed complete
 readback, filesystem/geometry checks, a read-only boot to the account-choice
@@ -279,7 +281,10 @@ it does not demonstrate Wi-Fi/Ethernet operation on physical Lenovo hardware.
 ## Hand off and flash the image
 
 Deliver the raw `.img`, its `.img.sha256`, `release-image.json`, and the boot-test
-evidence together. The image already contains an MBR, one active FAT32 partition,
+evidence together. Also retain `source-validation-ready.json`,
+`SHA256SUMS.source.txt` and `source-preflight.json` so a recipient can independently
+repeat the [complete payload/filesystem checks](testing-and-acceptance.md#record-the-artifact-and-environment-before-testing).
+The image already contains an MBR, one active FAT32 partition,
 Microsoft's UEFI loader, Setup and all finalized payload files. Write it to the
 **whole USB device**, beginning at byte zero. Copying the `.img` onto an existing
 USB filesystem, writing it to partition 1, or treating it as a Windows source ISO

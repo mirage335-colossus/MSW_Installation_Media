@@ -2,6 +2,10 @@
 
 This guide describes the driver collection retrieved on **September 18, 2026**, the decisions behind it, and how to reproduce or refresh it. It covers driver preparation and acceptance testing; use the [runbook](runbook.md) for account setup and assembly, then the [release-image guide](ready-to-flash-image.md) to produce a verified `.img` for flashing.
 
+Use the [physical bootstrap checks](testing-and-acceptance.md#check-real-lenovo-bootstrap-usability)
+to test actual storage, input, Wi-Fi and Ethernet operation and record findings
+separately from package-store acceptance.
+
 The finished collection contains **171 source-package directories, 876 INF paths, 73 network INF paths, 5,166 files, and 5,844,200,528 bytes (5.44 GiB)**. It provides bootstrap coverage: installation storage, a basic desktop, input, and Wi-Fi/Ethernet. GPU acceleration, audio, and optional hardware features can be completed through Windows Update or Lenovo's model-specific update tools after networking works. Package presence and a successful virtual-machine import do not establish that every physical laptop configuration works.
 
 All shell examples start in the repository root. Use an isolated `.runs/<unique>/` workspace for rebuilds. The research scripts use paths relative to their own location and overwrite named JSON reports; they are not safe to run indiscriminately over the historical evidence or a frozen release staging tree.

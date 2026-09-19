@@ -2,6 +2,10 @@
 
 Recorded September 19, 2026 from the September 18 build and tests. This document describes observed behavior of that media, not a guarantee that a later Windows build or online OOBE update behaves the same way. OOBE is Windows' first-run account and device setup.
 
+The [testing and acceptance guide](testing-and-acceptance.md) supplies the overall
+pass/fail rules, error-triage procedure, image/USB integrity checks and report
+template. This guide provides the detailed account-VM procedure and dated evidence.
+
 ## What was built
 
 The boot menu asks for the desired account type before launching Windows Setup. It passes one answer file explicitly; there is no root `autounattend.xml` that silently chooses a path. No username, password, automatic login, product key value, or installation destination is embedded.

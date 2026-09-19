@@ -3,6 +3,8 @@
 This is the maintainer procedure for the **2026-09-18 reference build**. Read the
 [lessons](lessons-learned.md) before running it. The commands below are a recipe
 for a new run, not a request to rewrite a connected disk merely to update docs.
+Use [testing and acceptance](testing-and-acceptance.md) to choose required endpoints,
+assess errors and complete a fresh test report before claiming an image or USB is usable.
 
 The intended result is a UEFI installer that explicitly offers either an
 interactive local account or Microsoft sign-in, with factory-variant bootstrap

@@ -1,0 +1,4 @@
+Checked 2026-09-19T14:21:49.990667+00:00
+PASS: sudo -n losetup -j <tested image> exited 0 with no attached loops.
+PASS: findmnt inventory contains no original image-mount target.
+PASS: temporary verification/t1 directory removed after evidence preservation.

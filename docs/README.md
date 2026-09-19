@@ -10,6 +10,7 @@ separate, verified artifact.
 | --- | --- |
 | Perform a rebuild, test it, and write a USB | [Runbook](runbook.md) |
 | Create a ready-to-flash `.img`, verify it, and hand it off | [Release image build and flashing](ready-to-flash-image.md) |
+| Decide whether an image/USB passed boot, installation and usability testing | [Testing and acceptance](testing-and-acceptance.md), [blank test report](templates/test-report.md) |
 | Preserve a usable local/Microsoft account choice | [Account design and testing](account-choice-and-testing.md) |
 | Cover broad E485/L14/L15 factory hardware, plus T15g Gen 1 | [Driver maintenance](driver-maintenance.md) |
 | Obtain and verify Microsoft media; understand Secure Boot | [Source media and Secure Boot](source-media-and-secure-boot.md) |

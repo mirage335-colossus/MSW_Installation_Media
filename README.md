@@ -2,6 +2,8 @@
 
 For maintainers, start with the [rebuild and refresh runbook](docs/runbook.md).
 To produce a file for a USB flasher, follow [ready-to-flash image creation](docs/ready-to-flash-image.md).
+Use [testing and acceptance](docs/testing-and-acceptance.md) for pass/fail criteria,
+error diagnosis, independent image checks, and verification of each written USB.
 The [documentation index](docs/README.md) links the account tests, driver
 maintenance procedure, source/Secure Boot research, and lessons learned.
 These guides explain which scripts are pinned to the September 18, 2026 build

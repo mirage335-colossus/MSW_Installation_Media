@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "kind": "geometry",
+  "image_bytes": 61991813120,
+  "partition_table": "dos",
+  "partition_start_sector": 2048,
+  "partition_sectors": 121075712,
+  "partition_type": "0c",
+  "active": true,
+  "bytes_per_sector": 512,
+  "sectors_per_cluster": 64,
+  "cluster_bytes": 32768,
+  "filesystem": "FAT32",
+  "label": "MSW11LENOVO",
+  "filesystem_sectors": 121075668,
+  "filesystem_bytes": 61990742016,
+  "partition_tail_sectors": 44,
+  "partition_tail_bytes": 22528,
+  "heads": 255,
+  "sectors_per_track": 63,
+  "filesystem_sector_alignment": "Partition sector count rounded down to a complete 63-sector track"
+}

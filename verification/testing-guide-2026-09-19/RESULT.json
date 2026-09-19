@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-19",
+  "timezone": "America/Chicago",
+  "scope": "Standalone existing-image integrity recipe; no new boot, installation, account, physical USB, or hardware test",
+  "image_path": "release/r3/MSW11-Lenovo-x64.img",
+  "image_bytes": 61991813120,
+  "image_sha256": "0647f68a9151511f9fa9b74b9f8d62267efacb55712da6852da9c640e2d5ef37",
+  "command": "bash /tmp/msw11-testing-guide-recheck.sh",
+  "exit_code": 0,
+  "execution_directory": "/home/user/Documents/ChatGPT/MSW11 Installation Media",
+  "original_evidence_directory": "verification/t1",
+  "image_access": "read-only loop and filesystem mount",
+  "integrity_status": "passed",
+  "total_files_including_manifest": 6634,
+  "total_bytes_including_manifest": 14276211222,
+  "non_root_directories": 623,
+  "boot_test_performed": false,
+  "installation_test_performed": false,
+  "physical_usb_test_performed": false,
+  "lenovo_hardware_test_performed": false,
+  "source_commit_before_documentation_changes": "e15890a"
+}
