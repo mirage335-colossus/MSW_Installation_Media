@@ -1,0 +1,12 @@
+{
+  "image_bytes": 61991813120,
+  "mbr_start_and_partition_sectors": [
+    2048,
+    121075712
+  ],
+  "fat_hidden_sectors": 2048,
+  "fat_filesystem_sectors": 121075668,
+  "fat_sectors_per_track": 63,
+  "fat_heads": 255,
+  "release_published": false
+}

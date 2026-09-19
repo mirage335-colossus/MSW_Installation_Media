@@ -2,6 +2,10 @@
 # profiles, documentation, provenance, manifests, and recorded validation evidence.
 # Git cannot ignore by file size; exclude known payloads and image formats instead.
 
+# Isolated future workspaces: promote reviewed sources/evidence deliberately.
+/.runs/
+/release/
+
 # Windows installation media and VM/USB disk images, wherever they are created.
 # Companion files such as .iso.sha256 remain eligible for version control.
 *.[iI][sS][oO]
@@ -9,6 +13,9 @@
 *.[sS][wW][mM]
 *.[eE][sS][dD]
 *.[iI][mM][gG]
+*.[iI][mM][gG].xz
+*.[iI][mM][gG].zst
+*.[iI][mM][gG].gz
 *.qcow
 *.qcow2
 *.vhd

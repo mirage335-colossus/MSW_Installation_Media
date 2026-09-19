@@ -1,0 +1,19 @@
+Disk /home/user/Documents/ChatGPT/MSW11 Installation Media/release/r1/MSW11-Lenovo-x64.partial.img: 57.73 GiB, 61991813120 bytes, 121077760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+>>> Script header accepted.
+>>> Script header accepted.
+>>> Created a new DOS (MBR) disklabel with disk identifier 0xca0a80b2.
+/home/user/Documents/ChatGPT/MSW11 Installation Media/release/r1/MSW11-Lenovo-x64.partial.img1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 57.7 GiB.
+/home/user/Documents/ChatGPT/MSW11 Installation Media/release/r1/MSW11-Lenovo-x64.partial.img2: Done.
+
+New situation:
+Disklabel type: dos
+Disk identifier: 0xca0a80b2
+
+Device                                                                                         Boot Start       End   Sectors  Size Id Type
+/home/user/Documents/ChatGPT/MSW11 Installation Media/release/r1/MSW11-Lenovo-x64.partial.img1 *     2048 121077759 121075712 57.7G  c W95 FAT32 (LBA)
+
+The partition table has been altered.

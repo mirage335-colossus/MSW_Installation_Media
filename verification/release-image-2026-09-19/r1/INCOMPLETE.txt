@@ -1,0 +1,1 @@
+Build incomplete (exit 1). Inspect build.log; partial files are not ready to flash.

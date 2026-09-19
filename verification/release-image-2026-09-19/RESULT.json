@@ -1,0 +1,24 @@
+{
+  "completed_at_utc": "2026-09-19T13:53:07.234739+00:00",
+  "image": "release/r3/MSW11-Lenovo-x64.img",
+  "image_bytes": 61991813120,
+  "allocated_bytes_observed": 14323875840,
+  "image_sha256": "0647f68a9151511f9fa9b74b9f8d62267efacb55712da6852da9c640e2d5ef37",
+  "builder_exit_code": 0,
+  "payload_files_including_manifest": 6634,
+  "read_only_image_boot_to_account_choice_menu": "passed",
+  "menu_choices": [
+    "local account",
+    "Microsoft account",
+    "troubleshooting prompt",
+    "shutdown"
+  ],
+  "preboot_block_graph_review": "passed",
+  "guest_shutdown_and_final_checksum_exit_code": 0,
+  "checksum_after_boot": "matched builder checksum",
+  "account_installations_reexecuted": false,
+  "physical_usb_written_this_run": false,
+  "physical_lenovo_device_tests_performed": false,
+  "inherited_account_scope": "Offline Home local-account desktop and online Pro Microsoft sign-in form; no cloud credentials supplied.",
+  "candidate_full_payload_snapshot_available_for_historical_account_tests": false
+}

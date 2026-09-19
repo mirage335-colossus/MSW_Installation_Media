@@ -1,0 +1,13 @@
+{
+   "loopdevices": [
+      {
+         "name": "/dev/loop0",
+         "back-file": "/home/user/Documents/ChatGPT/MSW11 Installation Media/release/r1/MSW11-Lenovo-x64.partial.img",
+         "back-ino": 818429,
+         "offset": 0,
+         "sizelimit": 0,
+         "ro": true,
+         "log-sec": 512
+      }
+   ]
+}

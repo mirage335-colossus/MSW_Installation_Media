@@ -1,0 +1,19 @@
+{
+  "completed_at_utc": "2026-09-19T13:53:42.489017+00:00",
+  "removed_incomplete_images": [
+    {
+      "path": "release/r1/MSW11-Lenovo-x64.partial.img",
+      "logical_bytes": 61991813120,
+      "allocated_bytes": 14323875840
+    },
+    {
+      "path": "release/r2/MSW11-Lenovo-x64.partial.img",
+      "logical_bytes": 61991813120,
+      "allocated_bytes": 14323875840
+    }
+  ],
+  "allocated_bytes_reclaimed": 28647751680,
+  "compact_failure_and_boot_evidence_preserved": true,
+  "disposable_smoke_firmware_state_removed": true,
+  "verified_release_image_retained": "release/r3/MSW11-Lenovo-x64.img"
+}

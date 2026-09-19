@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "kind": "geometry",
+  "image_bytes": 61991813120,
+  "partition_table": "dos",
+  "partition_start_sector": 2048,
+  "partition_sectors": 121075712,
+  "partition_type": "0c",
+  "active": true
+}

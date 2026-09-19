@@ -1,5 +1,12 @@
 # Windows 11 installation USB for Lenovo ThinkPads
 
+For maintainers, start with the [rebuild and refresh runbook](docs/runbook.md).
+To produce a file for a USB flasher, follow [ready-to-flash image creation](docs/ready-to-flash-image.md).
+The [documentation index](docs/README.md) links the account tests, driver
+maintenance procedure, source/Secure Boot research, and lessons learned.
+These guides explain which scripts are pinned to the September 18, 2026 build
+and how to create fresh evidence without overwriting the recorded successful run.
+
 Prepared September 18, 2026. English (United States), x64, Windows 11 25H2.
 The Microsoft multi-edition installer includes Home and Pro; activation requires
 the appropriate existing license or product key.

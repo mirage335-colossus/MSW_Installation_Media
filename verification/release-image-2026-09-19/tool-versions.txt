@@ -1,0 +1,11 @@
+Python 3.13.5
+coreutils	9.7-3
+dosfstools	4.2-1.2
+fdisk	2.41.5-0+deb13u1
+ovmf	2025.02-8+deb13u1
+python3	3.13.5-1
+python3-pil	11.1.0-5+deb13u4
+qemu-system-x86	1:10.0.11+ds-0+deb13u1
+qemu-utils	1:10.0.11+ds-0+deb13u1
+rsync	3.4.1+ds1-5+deb13u4
+util-linux	2.41.5-0+deb13u1

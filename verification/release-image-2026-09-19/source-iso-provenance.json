@@ -1,0 +1,16 @@
+{
+  "filename": "Win11_25H2_English_x64_v2.iso",
+  "description": "Windows 11 25H2 English (United States) x64 multi-edition v2",
+  "source_page": "https://www.microsoft.com/en-us/software-download/windows11",
+  "download_host": "software.download.prss.microsoft.com",
+  "retrieved_at_utc": "2026-09-18T19:31:43.523148+00:00",
+  "official_sha256": "768984706B909479417B2368438909440F2967FF05C6A9195ED2667254E465E3",
+  "hash_source": "Official Microsoft page, live browser Verify your download table, English 64-bit",
+  "download_link_expiration_utc": "2026-09-19T19:30:55.9909284Z",
+  "verification_status": "passed",
+  "verified_sha256": "768984706b909479417b2368438909440f2967ff05c6a9195ed2667254e465e3",
+  "verified_at_utc": "2026-09-18T19:36:47.446374+00:00",
+  "size_bytes": 8471603200,
+  "iso_volume_label": "CCCOMA_X64FRE_EN-US_DV9",
+  "iso_creation_date": "2026-03-07"
+}
