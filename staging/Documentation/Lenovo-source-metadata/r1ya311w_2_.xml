@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="AUDIO_R1YA3" id="r1ya311w" version="6.0.9481.1" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Realtek Audio Features Driver - 10 (20H2 or later)/11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[VEN_10EC&DEV_0257]]></_PnPID>
+    <_PnPID><![CDATA[VEN_10EC&DEV_0287]]></_PnPID>
+    <_PnPID><![CDATA[VEN_10EC&DEV_0274]]></_PnPID>
+    <_PnPID><![CDATA[VEN_10EC&DEV_0235]]></_PnPID>
+    <_PnPID><![CDATA[VEN_10EC&DEV_0230]]></_PnPID>
+    <_PnPID><![CDATA[VEN_10EC&DEV_0285]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0257]]></HardwareID>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0287]]></HardwareID>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0274]]></HardwareID>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0235]]></HardwareID>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0230]]></HardwareID>
+        <HardwareID><![CDATA[VEN_10EC&DEV_0285]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1ya311w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-03-15</ReleaseDate>
+  <DiskSpaceNeeded>381095566</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1ya311w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1ya311w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0257]]></HardwareID>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0287]]></HardwareID>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0274]]></HardwareID>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0235]]></HardwareID>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0230]]></HardwareID>
+      <HardwareID><![CDATA[VEN_10EC&DEV_0285]]></HardwareID>
+      <Date>2023-02-14</Date>
+      <Version>6.0.9481.1^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0257]]></_PnPID>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0287]]></_PnPID>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0274]]></_PnPID>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0235]]></_PnPID>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0230]]></_PnPID>
+        <_PnPID><![CDATA[VEN_10EC&DEV_0285]]></_PnPID>
+      </Or>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19042^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <_Bios>
+        <Level>R1YET*</Level>
+        <Level>*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1ya311w.exe</Name>
+        <CRC>1579E03B0D8A5C9C8461547149BF34783A792F41146DF2F0B5D70D9D8FFA6FC0</CRC>
+        <Size>57212752</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1ya311w.txt</Name>
+        <CRC>311467C951BD58E4F02A58165886F5E8A08992B45D0F13420185DE4EE0583FF4</CRC>
+        <Size>6447</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PmIO+rsoEDVpJSgqCaxXny7TjwY=</DigestValue></Reference></SignedInfo><SignatureValue>gQgZhiDR1Poq+9BsHWydkiuPutS5lUCNGOfi+P/smfpSwFPaaqO5vVj8CVSCqeCpJpqtrHiYl29Uf9soGfQ46ikwIUY3uiDRq6tkOsRoUsI5AmOHbck71DU2ZS//+r5HCUen2/wRunuepFsFaNMy2VuWGKN5ziHk2dSJb1rO16khqjKiW83KPvR5xAcVO1FCCXFTj9WPaX6kKcpSC1QZmJbI/MdBGXDvuA00zyRL+SYfsiwMkXPRtSQj6DBqCYWKaUcKGYBdbHO+zbzKohR2JHonvJtKHI3ESomkQOYsF7dxksoAz/eHw8xozLyw+HvJRXNLObpwd73bovsm3pjMaQZvvW4E/Es+WfZnWAQOqMmMVTUH/kRMs6DYc0i2DWBghSI/drwjvlb8BEDYyktveFc7pk42ipDGq3tW7oQnxFah2tiCujZ3RLk4dkkUTxQL2CAFxUjArf2K7BwtzKiS+d80JDuesrM//RrUeFSjwQ9Uha9BSyiA62baUcicc33w</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

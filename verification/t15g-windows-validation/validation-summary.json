@@ -1,0 +1,40 @@
+{
+  "validated_at_host_utc": "2026-09-18T20:41:16.531647+00:00",
+  "vm": "Windows 11 Home 25H2 installed local-account test VM",
+  "input_packages": 12,
+  "input_infs": 90,
+  "pnputil_accepted_packages": 90,
+  "identical_inf_hashes_already_in_baseline": 50,
+  "new_driver_store_entries": 40,
+  "third_party_entries_before": 416,
+  "third_party_entries_after": 456,
+  "new_class_counts": {
+    "hdc": 1,
+    "scsiadapter": 1,
+    "softwarecomponent": 8,
+    "extension": 3,
+    "system": 20,
+    "net": 3,
+    "ports": 1,
+    "sdhost": 1,
+    "hidclass": 2
+  },
+  "matches_expected_unique_inf_count_and_class_counts": true,
+  "pnputil_exit_code": 0,
+  "secure_boot": true,
+  "network_attached": false,
+  "install_flag_used": false,
+  "forced_device_installation": false,
+  "normal_shutdown_completed": true,
+  "staging_or_physical_usb_modified": false,
+  "scope": "Windows signature/payload acceptance in the driver store. Does not test physical Lenovo devices, BIOS storage settings, WiFi/Ethernet function, or driver binding on target hardware.",
+  "dependency_messages": "Thunderbolt host INFs import three dependent packages each; six additional success/already-present messages describe the same packages, not six additional input INFs.",
+  "evidence_files": [
+    "exported/pnputil-add-driver.txt",
+    "exported/result.json",
+    "exported/before-drivers.json",
+    "exported/after-drivers.json",
+    "exported/setupapi.dev.log",
+    "15-validation-result.png"
+  ]
+}

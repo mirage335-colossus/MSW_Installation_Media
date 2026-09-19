@@ -1,0 +1,779 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package for Windows 11 Version 24H2
+Support Models
+ThinkPad L14 Gen 5 (Type 21L5, 21L6) Laptops
+ThinkPad L16 Gen 1 (Type 21L7 21L8) Laptops
+View Less Models
+Operating Systems
+Windows 11 (24H2)
+Version
+06
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.
+Changes in This Release
+Package 06       01    2026/04/25  Upadte driver
+Software name
+BuildID
+Version_Number
+Status
+Alcor SmartCard Reader Driver
+NYASQ04W
+1.10.7.1001
+Updated
+AMD Graphics Driver
+R2ID714W
+32.0.21030.18001
+Updated
+ELAN TrackPoint Device Driver
+NYATE06W
+31.21.51.2(Driver)
+Updated
+ELAN TrackPoint Device        31.21.51.2
+Elan TrackPoint Component  31.21.51.2
+ETD HSA Device                  31.21.51.2
+Quectel Wireless WAN EM160R-GL Software
+NYBWH07W
+1.2.0.26 (WWAN Driver Package Version)
+Updated
+1.0.0.9 (Quectel PCI Express)
+1.0.0.10 (Quectel USB Composition Device)
+30.0.0.7 (HighSpeed USB Composite Device(UDE))
+1.0.89.11 (Quectel QMUX Interconnect)
+1.0.89.9 (Quectel Wireless Location Sensor)
+5.0.0.34 (Modem Authenticator Service)
+6.0.0.41 (Quectel Mini DPR Service)
+6.0.0.42 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT05W
+2.1.0.24   (Driver Package Version)
+Updated
+1.1.0.7(Quectel Location)
+1.1.0.6(Quectel Wifinotifiesrvc Service)
+1.1.0.8(Quectel QMUX Interconnect with Service)
+6.0.0.42(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.16(Quectel USB Composition device)
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+Updated
+Lenovo Base Utility Package
+r18vu70w
+10.15.2511.2
+Updated
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Updated
+Lenovo Power Management Driver
+n4bku11w
+1.69.132.0
+Updated
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Updated
+Lenovo View Driver
+r2slf17w
+4.2.7.765
+Updated
+ThinkPad USB 3.0 Ethernet INF64 Driver
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Updated
+Dependency
+Not Applicable
+Important Notice
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+- The SCCM match Server Winpe version 10.0.26100.2454
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Software name
+BuildID
+Version_Number
+AMD PPM Settings Package
+R2IPK04W
+8.0.0.32
+AMD I2C Driver
+R2IAI03W
+1.2.0.124
+AMD GPIO Driver
+R2IGG02W
+2.2.0.133
+AMD Micro PEP Driver
+R2IPE03W
+1.0.43.1
+AMD PSP Drive
+R2IPP03W
+5.28.0.0
+AMD SMBUS Driver
+R2IMS02W
+5.12.0.44
+AMD S0I3 Filter driver
+R2IFC03W
+1.0.0.20
+Qualcomm Bluetooth Filter Driver
+R2IBU04W
+2.0.0.1229
+Qualcomm NFA725 Wireless LAN Driver
+R2IWU07W
+2.0.0.1277
+Alcor SmartCard Reader Driver
+NYASQ04W
+1.10.7.1001
+Realtek PCIe GBE Family Controller Software
+R2IRE03W
+1166.019.704.2024 (Dash)
+1168.019.0704.2024 (Non Dash)
+Integrated Camera Driver
+NY3C407W
+realtek:10.0.22000.20386   Sunplus:5.0.18.284    Sonix:10.13.26100.6
+AMD Graphics Driver
+R2ID714W
+32.0.21030.18001
+ELAN TrackPoint Device Driver
+NYATE06W
+31.21.51.2(Driver)
+ELAN TrackPoint Device        31.21.51.2
+Elan TrackPoint Component  31.21.51.2
+ETD HSA Device                  31.21.51.2
+Realtek Audio Features
+R2IA313W
+6.0.9721.1(Realtek Audio), 6.0.0.91(AMD ACP)
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+Quectel Wireless WAN EM160R-GL Software
+NYBWH07W
+1.2.0.26 (WWAN Driver Package Version)
+1.0.0.9 (Quectel PCI Express)
+1.0.0.10 (Quectel USB Composition Device)
+30.0.0.7 (HighSpeed USB Composite Device(UDE))
+1.0.89.11 (Quectel QMUX Interconnect)
+1.0.89.9 (Quectel Wireless Location Sensor)
+5.0.0.34 (Modem Authenticator Service)
+6.0.0.41 (Quectel Mini DPR Service)
+6.0.0.42 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT05W
+2.1.0.24   (Driver Package Version)
+1.1.0.7(Quectel Location)
+1.1.0.6(Quectel Wifinotifiesrvc Service)
+1.1.0.8(Quectel QMUX Interconnect with Service)
+6.0.0.42(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.16(Quectel USB Composition device)
+Round Power Button Fingerprint Reader
+R2IGL10W
+6.0.51.1136(Synaptics) 3.4.51.1065(Goodix)
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+AMD DRTM Boot Driver
+R2IDT03W
+1.0.18.4
+Lenovo Base Utility Package
+r18vu70w
+10.15.2511.2
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Lenovo Power Management Driver
+n4bku11w
+1.69.132.0
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Lenovo View Driver
+r2slf17w
+4.2.7.765
+Lenovo Adaptive ICC Profile for Windows
+n3yfz21w
+2.0.1.6
+ThinkPad USB 3.0 Ethernet INF64 Driver
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Version Information
+The following versions have been released to date.
+Version Information
+The following versions have been released to date.
+Package
+Rev.
+Issue Date
+06
+01
+2026/05/06
+05
+01
+2026/02/11
+04
+01
+2025/08/15
+03
+01
+2025/03/24
+02
+01
+2024/09/11
+01
+01
+2024/03/31
+Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+software version. There is no need to upgrade this software when the revision number changes.
+Package 06       01    2026/04/25  Upadte driver
+Software name
+BuildID
+Version_Number
+Alcor SmartCard Reader Driver
+NYASQ04W
+1.10.7.1001
+AMD Graphics Driver
+R2ID714W
+32.0.21030.18001
+ELAN TrackPoint Device Driver
+NYATE06W
+31.21.51.2(Driver)
+ELAN TrackPoint Device        31.21.51.2
+Elan TrackPoint Component  31.21.51.2
+ETD HSA Device                  31.21.51.2
+Quectel Wireless WAN EM160R-GL Software
+NYBWH07W
+1.2.0.26 (WWAN Driver Package Version)
+1.0.0.9 (Quectel PCI Express)
+1.0.0.10 (Quectel USB Composition Device)
+30.0.0.7 (HighSpeed USB Composite Device(UDE))
+1.0.89.11 (Quectel QMUX Interconnect)
+1.0.89.9 (Quectel Wireless Location Sensor)
+5.0.0.34 (Modem Authenticator Service)
+6.0.0.41 (Quectel Mini DPR Service)
+6.0.0.42 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT05W
+2.1.0.24   (Driver Package Version)
+1.1.0.7(Quectel Location)
+1.1.0.6(Quectel Wifinotifiesrvc Service)
+1.1.0.8(Quectel QMUX Interconnect with Service)
+6.0.0.42(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.16(Quectel USB Composition device)
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+Lenovo Base Utility Package
+r18vu70w
+10.15.2511.2
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Lenovo Power Management Driver
+n4bku11w
+1.69.132.0
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Lenovo View Driver
+r2slf17w
+4.2.7.765
+ThinkPad USB 3.0 Ethernet INF64 Driver
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Package 05       01    2026/01/04  Upadte driver
+Software name
+BuildID
+Version_Number
+Integrated Camera Driver
+NY3C407W
+realtek:10.0.22000.20386   Sunplus:5.0.18.284    Sonix:10.13.26100.6
+AMD Graphics Driver
+R2ID713W
+32.0.13040.6004
+Realtek Audio Features
+R2IA313W
+6.0.9721.1(Realtek Audio), 6.0.0.91(AMD ACP)
+Quectel Wireless WAN EM160R-GL Software
+NYBWH06W
+1.2.0.25 (WWAN Driver Package Version)
+1.0.0.8 (Quectel PCI Express)
+1.0.0.9 (Quectel USB Composition Device)
+30.0.0.6 (HighSpeed USB Composite Device(UDE))
+1.0.89.10 (Quectel QMUX Interconnect)
+1.0.89.8 (Quectel Wireless Location Sensor)
+5.0.0.33 (Modem Authenticator Service)
+6.0.0.39 (Quectel Mini DPR Service)
+6.0.0.39 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT04W
+2.1.0.23   (Driver Package Version)
+1.1.0.6(Quectel Location)
+1.1.0.5(Quectel Wifinotifiesrvc Service)
+1.1.0.7(Quectel QMUX Interconnect with Service)
+6.0.0.40(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.15(Quectel USB Composition device)
+Lenovo Adaptive ICC Profile for Windows
+n3yfz21w
+2.0.1.6
+Package 04       01    2025/08/11  Upadte driver
+Software name
+BuildID
+Version_Number
+Integrated Camera Driver
+NY3C405W
+realtek:10.0.22000.20371 Sunplus:5.0.18.270 Sonix:10.13.22621.32
+ELAN TrackPoint Device Driver
+NYATE05W
+31.21.49.1(Driver)
+ELAN TrackPoint Device        31.21.49.1
+Elan TrackPoint Component  31.21.0.6
+ETD HSA Device                  31.21.0.5
+Quectel Wireless WAN EM160R-GL Software
+NYBWH05W
+1.2.0.23 (WWAN Driver Package Version)
+1.0.0.8 (Quectel PCI Express)
+1.0.0.8 (Quectel USB Composition Device)
+30.0.0.6 (HighSpeed USB Composite Device(UDE))
+1.0.89.10 (Quectel QMUX Interconnect)
+1.0.89.8 (Quectel Wireless Location Sensor)
+5.0.0.33 (Modem Authenticator Service)
+6.0.0.39 (Quectel Mini DPR Service)
+6.0.0.36 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT03W
+2.1.0.22   (Driver Package Version)
+1.1.0.6(Quectel Location)
+1.1.0.5(Quectel Wifinotifiesrvc Service)
+1.1.0.7(Quectel QMUX Interconnect with Service)
+6.0.0.35(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.15(Quectel USB Composition device)
+ThinkPad Monitor File
+NYAM104W
+6.14.26.0
+Lenovo Base Utility Package
+r18vu66w
+10.14.1.4
+Lenovo View Driver
+N3YLF12W
+3.2.37.201
+Lenovo Adaptive ICC Profile for Windows
+N3YFZ18W
+2.0.1.3
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W2
+1153.17.1029.2024(1Gbps)
+1156.17.1029.2024(2.5Gbps)
+Package 03       01    2025/03/17  Upadte driver
+Software name
+BuildID
+Version_Number
+Qualcomm NFA725 Wireless LAN Driver
+R2IWU07W
+2.0.0.1277
+Integrated Camera Driver
+NY3C402W
+realtek:10.0.22000.20356 Sunplus:5.0.18.247 Sonix:10.13.22621.32
+AMD Graphics Driver
+R2ID711W
+32.0.13026.0
+Quectel Wireless WAN EM160R-GL Software
+NYBWH03W
+1.2.0.17 (WWAN Driver Package Version)
+1.0.0.6 (Quectel PCI Express)
+1.0.0.7 (Quectel USB Composition Device)
+30.0.0.5 (HighSpeed USB Composite Device(UDE))
+1.0.89.8 (Quectel QMUX Interconnect)
+1.0.89.7 (Quectel Wireless Location Sensor)
+5.0.0.32 (Modem Authenticator Service)
+6.0.0.34 (Quectel Mini DPR Service)
+6.0.0.26 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+NYBWT02W
+2.1.0.18   (Driver Package Version)
+1.1.0.5(Quectel Location)
+1.1.0.4(Quectel Wifinotifiesrvc Service)
+1.1.0.6(Quectel QMUX Interconnect with Service)
+6.0.0.30(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.13(Quectel USB Composition device)
+Round Power Button Fingerprint Reader
+R2IGL10W
+6.0.51.1136(Synaptics) 3.4.51.1065(Goodix)
+Lenovo Base Utility Package
+r18vu62w
+10.12.0.5
+Lenovo Settings Power Base Module
+n1fupa3w
+10.1.10.0
+Package 02       01    2025/01/23  Upadte driver
+Software name
+BuildID
+Version_Number
+Qualcomm Bluetooth Filter Driver
+R2IBU04W
+2.0.0.1229
+Qualcomm NFA725 Wireless LAN Driver
+R2IWU06W
+2.0.0.1229
+Integrated Camera Driver
+NY3C401W
+10.0.22000.20350/5.0.18.242/10.13.22621.32 (Realtek/Sunplus/Sonix)
+Quectel Wireless WAN EM160R-GL Software
+NYBWH02W
+1.2.0.16 (WWAN Driver Package Version)
+1.0.0.6 (Quectel PCI Express)
+1.0.0.7 (Quectel USB Composition Device)
+30.0.0.5 (HighSpeed USB Composite Device(UDE))
+1.0.89.8 (Quectel QMUX Interconnect)
+1.0.89.7 (Quectel Wireless Location Sensor)
+5.0.0.28 (Modem Authenticator Service)
+6.0.0.33 (Quectel Mini DPR Service)
+6.0.0.22 (Quectel MBIHV Mobile Broadband Firmware Device)
+Lenovo Base Utility Package
+r18vu60w
+10.11.0.10
+Lenovo Intelligent Thermal Solution Driver
+N4BDY05W
+2.1.38.5
+Lenovo View Driver
+n3ylf09w
+3.2.36.201
+Lenovo Adaptive ICC Profile for Windows
+n3yfz12w
+2.0.0.7
+Package 01   01    2024/11/21  Initial Released
+Software name
+BuildID
+Version_Number
+AMD PPM Settings Package
+R2IPK04W
+8.0.0.32
+AMD I2C Driver
+R2IAI03W
+1.2.0.124
+AMD GPIO Driver
+R2IGG02W
+2.2.0.133
+AMD Micro PEP Driver
+R2IPE03W
+1.0.43.1
+AMD PSP Drive
+R2IPP03W
+5.28.0.0
+AMD SMBUS Driver
+R2IMS02W
+5.12.0.44
+AMD S0I3 Filter driver
+R2IFC03W
+1.0.0.20
+Qualcomm Bluetooth Filter Driver
+R2IBU03W
+2.0.0.1193
+Qualcomm NFA725 Wireless LAN Driver
+R2IWU05W
+2.0.0.1193
+Alcor SmartCard Reader Driver
+NYASQ03W
+1.9.17.2325
+Realtek PCIe GBE Family Controller Software
+R2IRE03W
+1166.019.704.2024 (Dash)
+1168.019.0704.2024 (Non Dash)
+Integrated Camera Driver
+NYAC403W
+10.0.22000.20315 (Realtek) / 5.0.18.222 (Sunplus) / 10.13.22621.20 (Sonix)
+AMD Graphics Driver
+R2ID710W
+32.0.11012.8
+ELAN TrackPoint Device Driver
+NYATE04W
+31.21.41.1(Driver)
+ELAN TrackPoint Device        31.21.41.1
+Elan TrackPoint Component  31.21.0.3
+ETD HSA Device                  31.21.0.4
+Realtek Audio Features
+R2IA311W
+6.0.9721.1(Realtek Audio), 6.0.0.91(AMD ACP)
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+Quectel Wireless WAN EM160R-GL Software
+NYBWH01W
+1.2.0.15 (WWAN Driver Package Version)
+1.0.0.6 (Quectel PCI Express)
+1.0.0.7 (Quectel USB Composition Device)
+30.0.0.5 (HighSpeed USB Composite Device(UDE))
+1.0.89.8 (Quectel QMUX Interconnect)
+1.0.89.7 (Quectel Wireless Location Sensor)
+5.0.0.28 (Modem Authenticator Service)
+6.0.0.33 (Quectel Mini DPR Service)
+6.0.0.21 (Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel Wireless WAN EM061K-GL Software
+R2IFX04W
+2.1.0.15   (Driver Package Version)
+1.1.0.4(Quectel Location)
+1.1.0.2(Quectel Wifinotifiesrvc Service)
+1.1.0.5(Quectel QMUX Interconnect with Service)
+6.0.0.25(Quectel MBIHV Mobile Broadband Firmware)
+30.0.0.12 (Quectel USB Composition device)
+Round Power Button Fingerprint Reader
+R2IGL09W
+6.0.46.1136(Synaptics) 3.4.51.850(Goodix)
+ThinkPad Monitor File
+NYAM103W
+6.14.22.0
+AMD DRTM Boot Driver
+R2IDT03W
+1.0.18.4
+Lenovo Base Utility Package
+r18vu59w
+10.10.0.13
+Lenovo Intelligent Thermal Solution Driver
+n3ydy56w
+2.1.22.12
+Lenovo Power Management Driver
+n3yku05w
+1.69.15.1
+Lenovo Smart Standby
+n25by27w
+4.3.11.0
+Lenovo View Driver
+n3ylf06w
+3.2.20.201
+Lenovo Settings Power Base Module
+n1fupa1w
+10.1.7.0
+Lenovo Adaptive ICC Profile for Windows
+n3yfz09w
+2.0.0.6
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN10W2
+1153.13.0420.2023
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Elan is a registered trademark of ELAN Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+* AMD is a registered trademark of AMD Corporation.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

@@ -1,0 +1,294 @@
+                                                                   Revision : 01
+--------------------------------------------------------------------------------
+Software name      Intel Rapid Storage Technology Driver include TG Optane Memory
+                   for Windows
+
+Support models     Microsoft Windows 10 64-bit (1709 or later)
+                   ThinkPad T490 (Machine Types: 20N2, 20N3, 20RY, 20RX)
+                   ThinkPad T590 (Machine Types: 20N4, 20N5)
+                   ThinkPad P53s (Machine Types: 20N6, 20N7)
+                   ThinkPad P43s (Machine Types: 20RH, 20RJ)
+                   ThinkPad T490_Healthcare (Machine Types: 20Q9, 20QH)
+                   ThinkPad T490s (Machine Type: 20NX, 20NY)
+                   ThinkPad X390  (Machine Type: 20Q0, 20Q1, 20SC, 20SD)
+                   ThinkPad P53 (Machine types: 20QN, 20QQ)
+                   ThinkPad P73 (Machine types: 20QR, 20QS)
+
+                   Microsoft Windows 10 64-bit (1809 or later)
+                   ThinkPad P15 Gen 1  (Machine types: 20ST, 20SU)
+                   ThinkPad P17 Gen 1  (Machine types: 20SN, 20SQ)
+                   ThinkPad P15v Gen 1 (Machine types: 20TQ, 20TR)
+                   ThinkPad T15g Gen 1 (Machine types: 20UR, 20US)
+                   ThinkPad T15p Gen 1 (Machine types: 20TM, 20TN)
+
+Operating System   Microsoft Windows 10 64-bit (1709 or later)
+                   Microsoft Windows 11 (21H2 or later)
+
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Version            17.11.0.1000
+
+Support devices    Intel(R) 300 Sereies Chipset Family SATA AHCI Controller
+                   Intel(R) Chipset SATA/PCIe RST Premium Controller
+                   Intel(R) RST Managed Storage Controller
+
+*1: Caution: This package should not be installed on any systems other than
+             Support models for Windows 10.
+
+*2: Caution: This package should not be installed if your system has PCIe SSD.
+             Please use MS inbox driver instead.
+
+*3: Caution: The IRST driver must not be uninstalled.
+             To return to the usage of MS Inbox driver,
+             follow [MS Inbox Driver Installation Method].
+
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package installs the software (Intel Rapid Storage Technology Driver) to
+  enable the following device.
+
+  Device name                               Device name in the Device Manager
+  ----------------------------------        -----------------------------------
+  Standard SATA AHCI Controller             Intel(R) 300 Sereies Chipset Family
+                                            SATA AHCI Controller
+
+  Refer to marketing materials to find out what computer models support which
+  devices.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+  Version  17.11.0.1000
+
+[Important updates]
+- Nothing.
+
+[New functions or enhancements]
+- Added following products to support in common driver:
+                     ThinkPad T490s (Machine Type: 20NX, 20NY)
+                     ThinkPad X390  (Machine Type: 20Q0, 20Q1, 20SC, 20SD)
+                     ThinkPad P53 (Machine types: 20QN, 20QQ)
+                     ThinkPad P73 (Machine types: 20QR, 20QS)
+                     ThinkPad P15 Gen 1  (Machine types: 20ST, 20SU)
+                     ThinkPad P17 Gen 1  (Machine types: 20SN, 20SQ)
+                     ThinkPad P15v Gen 1 (Machine types: 20TQ, 20TR)
+                     ThinkPad T15g Gen 1 (Machine types: 20UR, 20US)
+                     ThinkPad T15p Gen 1 (Machine types: 20TM, 20TN)
+
+[Problem fixes]
+-IRST driver Bugcheck 0x13A BSOD(iastora.sys,iastorac.sys,iastoravc.sys,iastorvd.sys)issue.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+
+  [Mouse and Keyboard]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click the IDE ATA/ATAPI controllers or Storage controllers category.
+  4. Double-click either of the following devices;
+       Intel(R) 100 Series/C230 Chipset Family SATA AHCI Controller
+       Intel(R) 8th Generation Core Processor Family Platform I/O SATA AHCI Controller
+  5. Select the Driver tab.
+  6. Check Driver Version.
+
+  [Touch]
+  1. Press and hold the Start Button in the lower-left corner of the screen to
+     open a menu.
+  2. Select Device Manager from the menu.
+  3. Double-tap the IDE ATA/ATAPI controllers or Storage controllers category.
+  4. Double-tap either of the following devices;
+       Intel(R) 100 Series/C230 Chipset Family SATA AHCI Controller
+       Intel(R) 8th Generation Core Processor Family Platform I/O SATA AHCI Controller
+  5. Select the Driver tab.
+  6. Check Driver Version.
+
+
+--------------------------------------------------------------------------------
+NOTES
+
+  Uninstallation is not supported.
+
+
+--------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+Note:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the software. To determine if you should update the software, refer to the
+  Version Information section.
+
+
+Manual Install
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading file
+  1. Select the underlined file name. Once this is done, some pop-up windows
+     will appear.
+  2. Follow the instructions on the screen.
+  3. In the window to choose Run or Save, select Save.
+  4. The download will begin and complete.
+     Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting files
+  5. Make sure to be logged on with an administrator account.
+  6. Locate the folder where the file was downloaded.
+  7. Locate the file that was downloaded and double-click/double-tap it.
+  8. Follow the instructions on the screen.
+  9. In Extract or Install? window, select "Install", click Next, and move to
+     step 13 to continue installation.
+     Or, select "Extract only" and click Next to extract and keep the files
+     on the specified folder.
+ 10. In the Select Destination Location window, click Extract.
+     If you would like to select a different folder, click Browse.
+ 11. In the Ready to Install window, click Install. All the necessary files
+     will be extracted to the folder selected in the step 10.
+ 12. Click Finish.
+
+  Installing files
+ 13. In the Ready to Install window, click Install. All the necessary files will
+     be extracted to the temporally folder. And extracted files will be deleted
+     after installation.
+ 14. Click Finish.
+ 15. Follow the instructions on the screen to complete installation and restart
+     the computer.
+     IMPORTANT: Make sure to restart the computer after installation.
+
+
+Unattended Install
+
+  This is for system administrator's use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+
+  2. At the command line, execute Install.bat with -s option.
+     Example:
+     [Path where the files were extracted]\Install.bat -s
+
+
+*IMPORTANT: Make sure to restart the system after installation.
+
+MS Inbox Driver Installation Method
+ 1. Open device manager.
+ 2. Open property of IDE ATA/ATAPI controllers.
+    -or-
+    Open property of Intel NVMe controller on Storage controller tree.
+ 3. Select "Driver" tab.
+ 4. Click button of update driver. then open window for update drivers guidance.
+ 5. Select "Brows my computer for driver software"
+ 6. Select "Let me pick from a list of available drivers on my computer"
+ 7. Select "Standard SATA AHCI controller", then click "Apply/OK" button.
+    -or-
+    Select "Standard NVM Express controller", then click "Apply/OK" button.
+ 8. Click "Close" button for the guidance.
+ 9. Click "Close" button on the properties window.
+ 10. Follow pop-up window to restart computer.
+ 11. Check if "Standard SATA AHCI controller" or
+     "Standard NVM Express controller" driver is installed.
+
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Version      Build ID    Rev.  Issue Date
+  -----------  --------    ----  ----------
+  17.11.0.1000 N2IDG13W    01    2021/12/17
+  17.9.0.1007  N2IDG12W    01    2020/07/16
+  17.5.1.1021  N2IDG11W    02    2020/04/10
+  17.5.1.1021  N2IDG11W    01    2019/10/15
+  17.5.0.1017  N2IDG10W    01    2019/07/05
+  17.2.7.1028  N2IDG07W    01    2019/05/21
+  17.2.0.1009  N2IDG06W    01    2019/03/28
+  17.0.0.1072  N2IDG05W    01    2019/03/08
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+
+Summary of Changes
+
+  Where: <   >        Version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+
+Defect/Feature IMPLEMENTED
+N2IDG13W <17.11.0.1000>
+-(Fix) IRST driver Bugcheck 0x13A BSOD(iastora.sys,iastorac.sys,iastoravc.sys,iastorvd.sys)issue.
+-(New) Added following products to support in common driver:
+                         ThinkPad T490s (Machine Type: 20NX, 20NY)
+                         ThinkPad X390  (Machine Type: 20Q0, 20Q1, 20SC, 20SD)
+                         ThinkPad P53 (Machine types: 20QN, 20QQ)
+                         ThinkPad P73 (Machine types: 20QR, 20QS)
+                         ThinkPad P15 Gen 1  (Machine types: 20ST, 20SU)
+                         ThinkPad P17 Gen 1  (Machine types: 20SN, 20SQ)
+                         ThinkPad P15v Gen 1 (Machine types: 20TQ, 20TR)
+                         ThinkPad T15g Gen 1 (Machine types: 20UR, 20US)
+                         ThinkPad T15p Gen 1 (Machine types: 20TM, 20TN)
+
+<17.9.0.1007>(N2IDG12W)
+-Fixed BSOD/Data lost issue with IRST 17.5.1.1021.
+
+<17.5.1.1021> (N2IDG11W)
+-[Important] Address security vulnerability issues CVE-2019-6173 and CVE-2019-6196
+
+<17.5.1.1021> (N2IDG11W)
+- (New) Added support for ThinkPad T490 (Machine types: 20RY, 20RX).
+- (New) Fix security issue.
+
+<17.5.0.1017> (N2IDG10W)
+- (New) Added support for ThinkPad P43s (Machine types: 20RH,Å@20RJ),
+                          ThinkPad T490_Healthcare (Machine types: 20Q9,20QH).
+- Enabled Pinning feature with same package.
+
+<17.2.7.1028> (N2IDG07W)
+- (New) Added support for ThinkPad P53s (Machine Types:20N6,20N7).
+
+<17.2.0.1009> (N2IDG06W)
+- Fix security issue.
+- Follow Intel BKC WW10"2019.(Kit: 131306)
+- It's a customized driver as the same as PV package.
+- Fix Intel(R) NVMe Controller show MDA FAIL: Driver not Declarative.
+
+<17.0.0.1072> (N2IDG05W)
+-(New) Initial release for ThinkPad T490 (Machine Types:20N2, 20N3),
+                           ThinkPad T590 (Machine Types:20N4, 20N5).
+
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo and ThinkPad are registered trademarks of Lenovo.
+
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft, Internet Explorer and Windows are registered trademarks of
+  Microsoft Corporation.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.

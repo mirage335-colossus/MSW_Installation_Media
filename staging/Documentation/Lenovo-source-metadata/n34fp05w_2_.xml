@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="FP_N34FP" id="n34fp05w" version="6.0.64.1105" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Synaptics Fingerprint Reader Driver - 10 (1809 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00BD]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00C2]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0123]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00BD]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00C2]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0123]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n34fp05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2024-02-05</ReleaseDate>
+  <DiskSpaceNeeded>16347656</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n34fp05w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n34fp05w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_00BD]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_00C2]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_0123]]></HardwareID>
+      <Date>2023-08-13</Date>
+      <Version>6.0.64.1105^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_Bios>
+        <Level>*</Level>
+        <Level>N34ET*</Level>
+        <Level>N37ET*</Level>
+        <Level>N38ET*</Level>
+        <Level>R1JET*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <And>
+          <_OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>22000^</Version>
+          </_WindowsBuildVersion>
+        </And>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_00BD]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_00C2]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_0123]]></_PnPID>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n34fp05w.exe</Name>
+        <CRC>BFB94FA4AE5B87554FE0474B9B09B7FF791055282267B8650F7741C43496DFE2</CRC>
+        <Size>2691520</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n34fp05w.txt</Name>
+        <CRC>886288C8E417893F1A170234B7FCD36FC018001491C3159EB5F496D4772CF010</CRC>
+        <Size>9355</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HkdOa9m2vw0jYB/8c2BTDBy4348=</DigestValue></Reference></SignedInfo><SignatureValue>hfQQinGKJmDx6Oy6aO9fZBxlFA1A8IcHEKpi9w425wFHCB2tc/z9y/rHQ+DDB4vuNc4Lk29ljQWoZPa/7QJNkqhjwqJVpfnCaIemwC18ksbXjch0tdHLvavYJsd6l+JbH3pTHL+1+cXK0Iwy82tCqVvaskB5bt0daP23roqfyW86IZjZuHYSfmMaQiH+xArVLJow5ZZlS6zg+Na87OsdLiXpm2G6hT1TTfbSZvR7ohsy/+BaDxSgXhZkA1nkIdPHjD4hv0D6yge3fgXYzGZnRu9YTdm2obOWxSkVLAShHyLN4svJL9vTtve/7gTPakdKOMW4kW08O3bwoibLzVMpg9rOMvUsD5cDKYGWPyiF29LqZiOTPUY7w8KjfSRsERGwAcyEewV8U4bRLciUHrnd5YLcHqm/D8B4mbpYQtn/sawMB4NI87pRZwa0D+l9DGfpmC9wqYTOKHKZQC3OK4rxv/jS0x+7KoPQ80H6o4hFV7E6tIc/8mr5k6HhpFKVO22F</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

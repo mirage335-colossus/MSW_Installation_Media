@@ -1,0 +1,4614 @@
+[
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tbt3wsdkfw3182_2_2_.xml",
+    "sha": "f997523cba14978f3a9ec96dfefe89a40596f3401572792a080ac1876af2eb37",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Product Firmware",
+    "id": "tbt3wsdkfw3182_2",
+    "title": "ThinkPad Thunderbolt 3 dock Gen2 / Workstation dock Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-07-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/fwnva70_2_.xml",
+    "sha": "fe234069ddfd7daf979cf0ab6fda906d12f51f0bd837ed6ddeb8daab384e01c5",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "fwnva70",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 10 (21H1 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n4ody12w_w10w11_2_.xml",
+    "sha": "2d2a6c31c5b08e9e73523300cd5c8684e39236d37311c751dfa21ae04a876806",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "n4ody12w_w10w11",
+    "title": "Lenovo Intelligent Thermal Solution Driver - 10 (1607 or Later)/11",
+    "date": "2026-06-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24dg02w_2_.xml",
+    "sha": "86e95a81d4c7183e409e2dcfa7894fcef5d91a42263839879925a2ee7a3bfb6b",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r24dg02w",
+    "title": "NVIDIA GFE(GN18-S5) App - 10/11 (21H2 or later)",
+    "date": "2023-08-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24gl04w_2_.xml",
+    "sha": "8c87c7113948ea5148076ef61c2064e9ee464e98d394a552f97e6eed185a7f0a",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r24gl04w",
+    "title": "Fingerprint Driver - 11 (21H2 or Later)",
+    "date": "2023-08-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24tt01w_v2_2_.xml",
+    "sha": "cdcb006807baa3d2ec695c22556fca363bbf7ca24d167efa807566ca500f081d",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "id": "r24tt01w_v2",
+    "title": "USB4(TBT4) DisplayPort Bandwidth Management - 11 (21H2 or Later)",
+    "date": "2024-06-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzajt03w_2_.xml",
+    "sha": "c0cebbfbcc8dc341c6a640939b50cb01f508baf12da3e83d81c5774b3c01c8fa",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzajt03w",
+    "title": "Intel TXT Authenticated Code Module - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-09-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/usbcundkg2fw1024_2_2_.xml",
+    "sha": "70abc27093ae5f5e0b0991024d3e51c9c9481abd837a5bead271d17372ae78e0",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "usbcundkg2fw1024_2",
+    "title": "ThinkPad Universal USB-C Dock v2 FW Package - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-26"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/usbcg2dkfw1122_3_2_.xml",
+    "sha": "72aad8701cfdc59ed0d95a0b94947d6d5fb9d0376730bd187c51c2d2648d257f",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "usbcg2dkfw1122_3",
+    "title": "ThinkPad USB-C Dock Gen2 FW Package - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-03-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24br03w_2_.xml",
+    "sha": "9ab8d8c3ec0ebb74dd7262bbd1d980cd36ab258b728880f11b0475f341122bdc",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r24br03w",
+    "title": "BayHubTech Flash Memory Card - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24q604w_2_.xml",
+    "sha": "c8c6911798cc0a95fbe19cfeb0ab24cd33fd230cd320e30d950e344e97a7e560",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r24q604w",
+    "title": "Realtek Media Card Reader Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24s503w_2_.xml",
+    "sha": "228bcf63ba6515526be7937bf25c0fd0ef86c32f4fbb9c6a6594d0a7ec53f9ce",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r24s503w",
+    "title": "Genesys Logic Card Reader Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzahd04w_2_.xml",
+    "sha": "00e744fe86ce4a3b0853d43d7b06826a70f2dd16a1091dbc46f00b2c086bda86",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzahd04w",
+    "title": "Intel Dynamic Tuning Technology Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzali02w_w10w11_2_.xml",
+    "sha": "d6a222a9b1b20fdc2d749a4a0d4313c334d75cc67d36cea77a80dfb4cd672c63",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzali02w_w10w11",
+    "title": "Intel Serial IO Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tbt4dkkp2fw1014_3_w10w11_2_.xml",
+    "sha": "cbf53179af41eeac627ddc5ae4e1b2a72fa5f3c2922a4610536fba9cfb587fd4",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "tbt4dkkp2fw1014_3_w10w11",
+    "title": "ThinkPad Thunderbolt 4 Smart Dock Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-07-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/usbcundkfw3098_w10w11_2_.xml",
+    "sha": "df973a9cef8eeef44e12ca291737887b7626a3852a82eab643872e06621949e8",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "usbcundkfw3098_w10w11",
+    "title": "ThinkPad Universal USB-C Dock FW Package - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24ac06w_2_.xml",
+    "sha": "bb82493f784cba40a01aa30fd3b2764a5b9a22be679bbc55b0ceaee03fafd20d",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r24ac06w",
+    "title": "Realtek Audio Features and Senary Audio Features - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-10-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaic03w_2_.xml",
+    "sha": "d59309495403d4a78c6a7e3acc4df322faeefe47288a04f87e9b1415cefd7386",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzaic03w",
+    "title": "Intel(R) Chipset Device Software - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-12-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawr08w_2_.xml",
+    "sha": "82c7ec0062db45bdeebfffe8106f49e61804486849d8ed0b2f43102cb73d20f9",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzawr08w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (21H1 or Later)/11",
+    "date": "2025-12-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n25by28w_w10w11_2_.xml",
+    "sha": "b3098f4117e701ac7a075134c62d9c54b3743d66ea7f8d912f105ff8379996db",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "n25by28w_w10w11",
+    "title": "Lenovo Smart Standby - 10 (1703 or Later)/11 (21H2 or Later)",
+    "date": "2026-01-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzav104w_2_.xml",
+    "sha": "1c9baaff56e4e6622d98f250f616f569bb0244cc2da93cc4811a4b98f44e3380",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "nzav104w",
+    "title": "Alcor SmartCard Reader Driver - 10 (21H2 or Later)/11",
+    "date": "2026-02-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawi02w_2_.xml",
+    "sha": "9def5becf40afbf5aae3544dac4291a007872e1fd7aa6ee27faf1c9b5d7216ce",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzawi02w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "date": "2026-02-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaoi04w_2_.xml",
+    "sha": "32eb9274f54432a765343dfa4aaa92b2792e67a88bce7b4d2db297c1e2d5a0c4",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzaoi04w",
+    "title": "ThinkPad Monitor File - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2026-04-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzagi09w_w11w10_2_.xml",
+    "sha": "fa344dd47a052aea3de4bd90882f6ef7df82516d82ad8edbee8f73898b729d59",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "nzagi09w_w11w10",
+    "title": "Goodix Fingerprint Reader Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2026-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2slf18w_2_.xml",
+    "sha": "206084bb6aaf8a917de33c3154fafe6c562a5dc7aac2f5e83727864601200709",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "21l1_Win11.xml",
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21l6_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r2slf18w",
+    "title": "Lenovo View Driver - 10 /11 (22H2 or Later)",
+    "date": "2026-04-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n1fupa7w_w10w11_2_.xml",
+    "sha": "ff7d7e58602093c3c118f4d0e1271f05c77d2583ceb67c0a2031aa84e856f4a5",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "n1fupa7w_w10w11",
+    "title": "Lenovo Power and Battery Driver - 10 (1703 or Later)/11",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz3cd09w_2_.xml",
+    "sha": "ecb3be3aaa4b8039fd70ddf609508c86c83f648826e2425e105b36f9cb9ecee2",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "nz3cd09w",
+    "title": "Integrated USB Camera Driver - 10 (21H2 or Later)/11",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawl13w_2_.xml",
+    "sha": "9e633abf7ef1c55040959b47fd71036e888f033084f4094037eb10ea9447651c",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "nzawl13w",
+    "title": "Intel AX211 WLAN Driver - 10 (1809 or Later)/11",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawm12w_2_.xml",
+    "sha": "cffb5436659462189793d7f3d37c081d7ae52f59d52d39a97ec66706f59dab7f",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "nzawm12w",
+    "title": "Intel AX201 Wireless LAN Driver - 10 (1809 or Later)/11",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzara10w_2_.xml",
+    "sha": "a6b9ec36fd5f6fc2e415ee0bc036dc7a9bda20ec55f1898300c7000eed6d94d3",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzara10w",
+    "title": "Intel Management Engine Software - 10 (21H2 or Later)/11",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaef06w_w10w11_2_.xml",
+    "sha": "c14ecfff4087ef9de9aa013cf20194d1ad5a32db2115cbcba66cf8b2592e9a14",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzaef06w_w10w11",
+    "title": "Intel HID Event Filter Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzadr21w_2_.xml",
+    "sha": "3856ac839ba9040cf27da0b5422d97d8038484a93d2ede44fc53b3890046a025",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzadr21w",
+    "title": "Intel Graphics Driver - 10 (21H2 or Later)/11",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n4bku13w_w10w11_2_.xml",
+    "sha": "5675bff545eccf090cd5e7f4e4277eee5e7fe2459e1045de13f923bb3c16aa65",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "n4bku13w_w10w11",
+    "title": "Lenovo Power Management Driver - 10 (1607 or Later)/11",
+    "date": "2026-06-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawx14w_2_.xml",
+    "sha": "1a4220c23babf5a8afba031ffd15170c20e2c646b3c5c84adae46c3b21f46094",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nzawx14w",
+    "title": "Intel AX201 Bluetooth Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-06-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzadb10w_2_.xml",
+    "sha": "fc4ee3b66ffddf6b3b62449a40e8b474409a4b0e0af7c4dac851a862727055ae",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzadb10w",
+    "title": "NVIDIA Video Features Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-06-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24rc04w_2_.xml",
+    "sha": "6b2a3754044ae73db60eef65ef45f7fad4ad06903547c80b4d2f3c5e83fbf162",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r24rc04w",
+    "title": "Intel PRO1000 LAN Adapter Software - 10 (21H2 or Later)/11",
+    "date": "2026-07-28"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzag208w_2_.xml",
+    "sha": "6326519d7b71484777b6c5a00588e1d6b1cb533b600a0cea2be897b22c0128de",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "nzag208w",
+    "title": "ELAN TrackPoint Driver - 10 (20H2 or Later)/11",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24rg02w_2_.xml",
+    "sha": "6f991d8cdd6cb62f547f3b34ffe20498f666bd6c3889e4b5d81963087dba73f8",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r24rg02w",
+    "title": "Intel Management Engine Firmware - 10(21H2 or later)/11(21H2 or later)",
+    "date": "2025-05-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24rg06w_2_.xml",
+    "sha": "fa2d08bc5e30a12d0dbf799e67ce0e4904a41e079f62ed604e3df30ecc6abf8a",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r24rg06w",
+    "title": "Intel Management Engine Firmware - 10 (21H2 or Later)/11",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcwc03w_2_.xml",
+    "sha": "7360a0b9f797a65e7a9b057057d4bb32006c6ec872db547b47910615f9d27d00",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "nzcwc03w",
+    "title": "NXP NFC Driver - 11 (22H2 or Later)",
+    "date": "2026-08-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzagg15w_2_.xml",
+    "sha": "bdf7544fb41f8531d83a5b9319cf44211010a4bec879a4702deaab4669a9700c",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21l1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "nzagg15w",
+    "title": "Synaptics Fingerprint Reader Driver - 10 (21H2 or Later)/11",
+    "date": "2026-08-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24uj08w_v2_2_.xml",
+    "sha": "55e1010396ac3de607c4e7bd6a54f65ca11b0dc64ae50d5e1ef35ff101b2a8b3",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r24uj08w_v2",
+    "title": "BIOS Update Utility for R24ET34W or Earlier - 10/11",
+    "date": "2026-04-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r24uj23w_2_.xml",
+    "sha": "15763660345285c1ac9d1f836e3f9c3a0ced65d672e2f294b0d822f5faac1be8",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r24uj23w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-08-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwx79_2_.xml",
+    "sha": "50a7f28dd7a001adf88654f1739a9c685de440a4643b6b8e06ae2bdc77c16872",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "fwsdwx79",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 10 (21H1 or Later)/11",
+    "date": "2026-08-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaws08w_2_.xml",
+    "sha": "894dcd889ae9a0d3c4abeb3f250de71d96931133618b637d2380e2ababfdadd8",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzaws08w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (20H2 or Later)/11",
+    "date": "2026-04-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r18vu75w_w10w11_2_.xml",
+    "sha": "7b6d90b9a2133132782e7ace65ae010fb2491cac5d47ab22ef29ab1979d67f5e",
+    "catalogs": [
+      "21h1_Win11.xml",
+      "21c6_Win11.xml",
+      "21h8_Win11.xml",
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml",
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r18vu75w_w10w11",
+    "title": "Lenovo Base Utility - 10 (1607 or Later)/11",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2fcm01w_2_.xml",
+    "sha": "a6dac14114783dae0cb96f8ee8abce64a523c46b115b6d39d702df83ea1227e6",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r2fcm01w",
+    "title": "Integrated Camera Firmware - 10 (21H1 or Later)/11 (22H2 or Later)",
+    "date": "2025-09-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzawv01w_w10w11_2_.xml",
+    "sha": "88494dc291f384e7250b5185bfca87d779fd6b848c4a8c2c7f61992b0f325c66",
+    "catalogs": [
+      "21h1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nzawv01w_w10w11",
+    "title": "Intel AX211 Bluetooth Driver - 10 (20H2 or Later)/11",
+    "date": "2026-08-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ypk01w_2_.xml",
+    "sha": "698dc78477ce1cd02a1aa4df180d357d4032203863d2e8b4fbdd9d353aff7f66",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "r1ypk01w",
+    "title": "AMD Processor Power Management Support - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-03-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ym103w_2_.xml",
+    "sha": "86aac7122e30b29b358f589de159316e8d7ab8ea069992f15c9b677c9bf7ee18",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1ym103w",
+    "title": "ThinkPad Monitor File Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ynp02w_2_.xml",
+    "sha": "cf105ec2e8170371692ddeef6fcddee18b3ca4454ae49fd41e56fea1505be4c4",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r1ynp02w",
+    "title": "NXP NFC Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ys502w_2_.xml",
+    "sha": "3c525d20bc18e19b2ac5213690706a1078a00cc3d9cbc9e6977a8532e5d72183",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1ys502w",
+    "title": "Genesys Logic Card Reader Driver- 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yte02w_2_.xml",
+    "sha": "d7fe58b7457580315942557f926277105e36ee4d6410ddc9ca872c1d19c5d05a",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r1yte02w",
+    "title": "ELAN TrackPoint Device Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yre05w_2_.xml",
+    "sha": "bedd2a1630023ee9b1d5046cd1e6da7b69a69d39e3ceb8d6fcabeebc2735205c",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1yre05w",
+    "title": "Realtek PCIe GBE Family Controller Driver - 11 (21H2 or Later)",
+    "date": "2022-08-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yre05w_d_2_.xml",
+    "sha": "6a32aa69f48d408ee18260b389a93fa3e709c81d6778ea72882758921f537bb1",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1yre05w_d",
+    "title": "Realtek PCIe GBE Family Controller Driver - 11 (21H2 or later)",
+    "date": "2022-08-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yre05w_n_2_.xml",
+    "sha": "efce15c77c13be5305cb6c538ab45ac74212f6094c06ce6d94e6effd3045613d",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1yre05w_n",
+    "title": "Realtek PCIe GBE Family Controller Driver - 11 (21H2 or later)",
+    "date": "2022-08-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yfq03w_2_.xml",
+    "sha": "5ec637d9dd35759cc3df9795c15c72dbc4240a7fde41fe8d608abff6fc91f117",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r1yfq03w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ya311w_2_.xml",
+    "sha": "bf0c683a9d191a960cc3424988693e7df0a6dc70d8107a66ed03c4112d168997",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r1ya311w",
+    "title": "Realtek Audio Features Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2023-03-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ype04w_2_.xml",
+    "sha": "8cfdbfb4ee7ece9e8d4a73780df3998b23b95af9609bb68d6b4fd378481a21ed",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1ype04w",
+    "title": "AMD Micro PEP Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-08-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ybr02w_2_.xml",
+    "sha": "bb494540fe5231ef36bfdbb3cfa914f7262a9cf1a8608d9853e33ae85260a32b",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1ybr02w",
+    "title": "BayHubTech Flash Memory Card Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yai01w_2_.xml",
+    "sha": "6575b14d1f08216a0ba20baa0fe5d3817e17cba9a1f8d91981925f49172ea967",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1yai01w",
+    "title": "AMD I2C Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ypp01w_2_.xml",
+    "sha": "08a470f6c54bfbd9f1660222e77fc436f88509bb4c25ea5cfbc4ef643f62e652",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1ypp01w",
+    "title": "AMD PSP Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yms01w_2_.xml",
+    "sha": "fc2c2e38c6d638c80f56e6737ee1c164685c3ecc3ae3843414f6fae6e59f914a",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1yms01w",
+    "title": "AMD SMBUS Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ysq03w_2_.xml",
+    "sha": "9e5c9c5652d0a4af27f9f79100d6c2f5447cdf0d316693f7deb6471553cca1a9",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1ysq03w",
+    "title": "Alcor SmartCard Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-04-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ywu09w_2_.xml",
+    "sha": "5ae834b107535833efcb7dc0e845e7f46c7e72c660a1501e0286cc52ceb03395",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1ywu09w",
+    "title": "Qualcomm NFA765 Wireless LAN Driver - 11 (21H2 or Later)",
+    "date": "2023-04-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ygg01w_2_.xml",
+    "sha": "0843e632308245d70c61b581fbc19b7d73fd5c0506a49869267e0d3e5a3ea652",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1ygg01w",
+    "title": "AMD GPIO Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ydt02w_2_.xml",
+    "sha": "29a30958e894f021f69cd1588e02c8194e8913baa622f1c87d269b5ec5fae3ea",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1ydt02w",
+    "title": "AMD DRTM Boot Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yc408w_2_.xml",
+    "sha": "5e63b3ce37bba837627f2088c05b31bfc6c7b35f5de84bbca86a5dcb4f3e33c7",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1yc408w",
+    "title": "Integrated Camera  Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "date": "2022-11-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ybu09w_2_.xml",
+    "sha": "d52ed5d481eeede6332db4102af4ec09ecb7aab8d6bc73acadc40cb995de12bf",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1ybu09w",
+    "title": "Qualcomm NFA765 Bluetooth Filter Driver - 11 (21H2 or Later)",
+    "date": "2023-04-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ygn12w_2_.xml",
+    "sha": "04a21ed6a410a617cd6bab9c56359fcd70fad1e0a3b83232f853ab4b82b35d20",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r1ygn12w",
+    "title": "Round Power Button Fingerprint Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-01-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ybs07w_2_.xml",
+    "sha": "6c79ef7c709e9d156001820b3f29606140b28682ace4109922bcb4ebbf6b9b89",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1ybs07w",
+    "title": "RZ616 Bluetooth Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-06-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yws08w_2_.xml",
+    "sha": "da31de8605435fb67dd0203b1645280d58f9a206c637b6544ff79b7d04f16d46",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1yws08w",
+    "title": "RZ616 Wireless LAN Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-06-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2tbr09w_2_.xml",
+    "sha": "8d15eeb5d2c1c713ec8d22d4a56436d0e384f5e885d30776afe0b37fdfdca2bf",
+    "catalogs": [
+      "21c6_Win11.xml",
+      "21c2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "n2tbr09w",
+    "title": "Lenovo Battery Firmware Update Utility - 10 (1709 or Later)/11 (21H2 or Later)",
+    "date": "2025-02-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj04w_2_.xml",
+    "sha": "cf9ae16dedd6b4c25e09a8e3eb50105f829f3a1445dd953a0c69954cf0bef499",
+    "catalogs": [
+      "21c6_Win11.xml",
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz8wj04w",
+    "title": "Fibocom L860-GL-16 Software - 10 (20H2 or Later)/11 (21H2)",
+    "date": "2025-02-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/usbcwodkfw1010_3_2_.xml",
+    "sha": "4862a48e4bc6545c0fc11da5ac497ba249fd3a83daa23307d545685fdf037a98",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "usbcwodkfw1010_3",
+    "title": "Lenovo USB-C Dock Firmware - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wl08w_2_.xml",
+    "sha": "1e78ef106a463d3ed3c4972ade18d3eb282a0175ab5cfa20e91760f26950f0a5",
+    "catalogs": [
+      "21c6_Win11.xml",
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz8wl08w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (1809 or Later)/11",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj06w_2_.xml",
+    "sha": "e35d57ddacec3521f4b991d6195e6cb4e0f9baaf4f6d42404fe31c011612eafb",
+    "catalogs": [
+      "21c6_Win11.xml",
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz8wj06w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "date": "2026-05-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yuj28w_v2_2_.xml",
+    "sha": "683b5eab9c05de41ef6b35af0367e2f398c8167f3e44a4059a41d3add627d65c",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r1yuj28w_v2",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-07-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1yd725w_2_.xml",
+    "sha": "e075b57eb4c0e18173651951bf2a07e9a5c8f28a48497b70af5ac3ff862e7f27",
+    "catalogs": [
+      "21c6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1yd725w",
+    "title": "AMD Graphics Driver - 10 (20H2 or Later)/11",
+    "date": "2026-08-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25pp06w_2_.xml",
+    "sha": "06e599dda17dabc49073fab96d3b34c2bbc5bc1d77269fd853790417fddf9c22",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25pp06w",
+    "title": "AMD PSP Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25q604w_2_.xml",
+    "sha": "2b7b393f2c07afb1cd50728646f3c22787e30232426e331a1c87282e4b52647e",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r25q604w",
+    "title": "Realtek Media Card Reader Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25s503w_2_.xml",
+    "sha": "0d52b1348d2b698409ce4297f4287641f786a8b4a878be394c89e54bb97be188",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r25s503w",
+    "title": "Genesys Logic Card Reader Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25pe07w_2_.xml",
+    "sha": "74171fa80c7a0be9c13ae220e805c756661fea4bca4c4d3002ad47bfb2096de8",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25pe07w",
+    "title": "AMD Micro PEP Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25ms03w_2_.xml",
+    "sha": "4c53f9c3676d15c57ae1db8bb3efcde970b6749331275aeeb6e76f45444fd03f",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25ms03w",
+    "title": "AMD SMBUS Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25gg03w_2_.xml",
+    "sha": "84bab5485e560b47d6747f9cff370cca2df6638cd520c34a44696cc67498eb45",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25gg03w",
+    "title": "AMD GPIO Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25ai05w_2_.xml",
+    "sha": "99f6442e88d1ba66acb24abe1b4eb9fc5718cdb14f1f3f5cb295d505d18d4af5",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25ai05w",
+    "title": "AMD I2C Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25br02w_2_.xml",
+    "sha": "629c35fe91b5610a9e541d893af17b88d79e68cd0c4cb396901f947073322bb1",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r25br02w",
+    "title": "Bayhubtech Flash Memory Card - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25b107w_2_.xml",
+    "sha": "d381f922db755b9f70366494241c5fe248e237ee0af99aad2f4372b783e0c177",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r25b107w",
+    "title": "Realtek Bluetooth Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-03-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25w111w_2_.xml",
+    "sha": "3b775e2587dfb5c1e2642f439ce09d78eedd1dd4103670b7c0ebc3a70cc09a5a",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r25w111w",
+    "title": "Realtek Wireless LAN Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-03-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25re03w_v3_2_.xml",
+    "sha": "74ad9eb6e3a472390d80f9c0a0a677bd75f38eb28dad24c2b8a93a0f9e853b7b",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r25re03w_v3",
+    "title": "Realtek PCIe GBE Family Controller Software - 11 (21H2 or Later)",
+    "date": "2025-09-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyanp01w_w10w11_2_.xml",
+    "sha": "47bd26ca05dbb553e0a86488174bbedc9d19217937a0b8146d4588133bf5132c",
+    "catalogs": [
+      "21h8_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "nyanp01w_w10w11",
+    "title": "NXP NFC Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-10-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25a315w_2_.xml",
+    "sha": "44438602d5581892e6fff50d6bcbb3508e523f789d91370ed3b2f9246947d6cb",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r25a315w",
+    "title": "Realtek Audio Driver - 10 (21H2 or Later)/11",
+    "date": "2025-11-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/ny3c407w_2_.xml",
+    "sha": "14f59f31d16619ec7e0c6fa60ac8e063d980a47d455210cebda3b1ea90c987e2",
+    "catalogs": [
+      "21h8_Win11.xml",
+      "21s8_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "ny3c407w",
+    "title": "Integrated Camera Driver - 10 (21H2 or Later)/11 (23H2 or Later)",
+    "date": "2025-11-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyasq04w_2_.xml",
+    "sha": "44e0172ec4e5ab975c7cdc4c032f3ed0d3f13a7773d63ff1c8516d823d31f9f7",
+    "catalogs": [
+      "21h8_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "nyasq04w",
+    "title": "Alcor Smart Card Reader Driver - 10 (21H2 or Later)/11",
+    "date": "2026-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25gn11w_2_.xml",
+    "sha": "58b68a21a87e774473edea6fef7712a6f38aeecb0ee15a217116719990ff0283",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r25gn11w",
+    "title": "Fingerprint Reader Driver - 10 (21H2 or Later)/11",
+    "date": "2026-01-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyafr07w_2_.xml",
+    "sha": "45eb77064833f38b6751db263dc59694e3a037dc18a60df0077654738438c02a",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nyafr07w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (21H2 or Later)/11",
+    "date": "2026-03-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyafj02w_2_.xml",
+    "sha": "4c71052e4e8b5dc1870199ec130d3b59ca0ef5e9732692be341d00ddd55d0798",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nyafj02w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "date": "2026-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyam105w_w10w11_2_.xml",
+    "sha": "760a09c57fa9a94a1bbcf0d0cc707dc525cf55961fb81e709bfc2c68bab99fc8",
+    "catalogs": [
+      "21h8_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nyam105w_w10w11",
+    "title": "ThinkPad Monitor File - 10 (21H2 or Later)/11",
+    "date": "2026-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyafg05w_2_.xml",
+    "sha": "f2dcb3a57d611b1b5c2fe5804aa404896134c74cbc51472e9580cda778be83dc",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nyafg05w",
+    "title": "Fibocom L860-GL-16 Software - 10 (21H2 or Later)/11 (21H2)",
+    "date": "2024-12-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyafu10w_2_.xml",
+    "sha": "9538f63afee758584c46753260f892529bac2acf7a9d2adb6e6c63bbee5e78f4",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nyafu10w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (21H2 or Later)/11",
+    "date": "2026-05-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyate07w_w10w11_2_.xml",
+    "sha": "48b586e635773fdac8838ccb5d44b33fcf0d40f230d57352b16427b8fcb26774",
+    "catalogs": [
+      "21h8_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "nyate07w_w10w11",
+    "title": "ELAN TrackPoint Driver - 10 (21H2 or Later)/11",
+    "date": "2026-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyabs10w_2_.xml",
+    "sha": "6e506357842ec622e83b6535dd9f5390873e9b7c8dc330ec3f8922506e13a218",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nyabs10w",
+    "title": "RZ616 Bluetooth Driver - 10 (21H2 or Later)/11",
+    "date": "2026-07-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyaws12w_2_.xml",
+    "sha": "e86e95909c4ec7440e2e3822f61423b4e9b567c2c3e8dc78157d59d92d7fbee9",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "nyaws12w",
+    "title": "RZ616 WLAN Driver - 10 (21H2 or Later)/11",
+    "date": "2026-07-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25dt05w_2_.xml",
+    "sha": "095ae87c4e8598388ba34b77e4756ba5c211b2b63d1107b43bac2f7621b2bdc9",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r25dt05w",
+    "title": "AMD DRTM Boot Driver - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-10-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25d720w_2_.xml",
+    "sha": "f11d367184a8f212a9d3108cc164d074ea6849bcfc9dc2a2ffb275f038c996c9",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r25d720w",
+    "title": "AMD Graphics Driver - 10 (21H2 or Later)/11",
+    "date": "2026-08-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r25uj23w_2_.xml",
+    "sha": "a84546122f6646cea3ed0ca763e2d8cd065a710f6facc9ddab0965a67dcd7351",
+    "catalogs": [
+      "21h8_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r25uj23w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-08-26"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xrr01w_2_.xml",
+    "sha": "fa0622599e6b8c6af97694732a467bb862d8ec1c129cfb276aadeb0c1c0a5542",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1xrr01w",
+    "title": "Intel PRO/1000 LAN Adapter Software - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-04-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xbu09w_2_.xml",
+    "sha": "5b616dc41bc2f4221bb8b1eb9417257e791eb9b5084bdec357c0c09c6fcd9e0d",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1xbu09w",
+    "title": "Qualcomm NFA765/Qualcomm NFA725 Bluetooth Filter Driver - 11 (21H2 or Later)",
+    "date": "2023-07-26"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xdg02w_2_.xml",
+    "sha": "fd4791b9c067665a9f744e8ae84534b3cc2ba885b8a5720bd24e65f6bd936f49",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1xdg02w",
+    "title": "NVIDIA Video GFE (GN18-S5 Optimus) - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-05-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xmk04w_2_.xml",
+    "sha": "23bcba2fde5a569dfceadb3409a74dd24fb908c789d1414d92bb5fad0df630c8",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xmk04w",
+    "title": "Intel Management Engine Interface Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-04-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xre01w_2_.xml",
+    "sha": "807a4aa14b0f8677ef047003d3ad2334e1e59eb6bdaff136d8b0eec9af8845bf",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1xre01w",
+    "title": "Realtek PCIe 2.5GBE Family Controller Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-04-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xwu10w_2_.xml",
+    "sha": "c9adc722322396ed2e60d64d5ce9c2b1675c479bc06e399210528f9ebfba1f3a",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1xwu10w",
+    "title": "Qualcomm NFA765 Wireless LAN Driver - 11 (21H2 or Later)",
+    "date": "2023-07-26"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xm103w_2_.xml",
+    "sha": "7569241501f7cf41af09e08bf21132fff6431f3ffad0b2382bedc104a0ef3f3f",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1xm103w",
+    "title": "ThinkPad Monitor File Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xsi04w_2_.xml",
+    "sha": "f716025c34cb489d436f74393e867c09dec9baf3de8e22ff33e2ba3162937ae6",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xsi04w",
+    "title": "Intel Serial IO Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xte03w_2_.xml",
+    "sha": "73d8017fff9e5c43ac6cba1df215f5ddae4355cdb417c11056e3b14ae86179d1",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r1xte03w",
+    "title": "ELAN TrackPoint Device Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xtx04w_2_.xml",
+    "sha": "0ada8c214e09debfd3149bee3a97a888b83f190d9be414f8d9bfc6fceb8c17ff",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xtx04w",
+    "title": "Intel(R) TXT Authenticated Code Module - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xhd03w_2_.xml",
+    "sha": "c08040591b2b27428f61ab12c1bb47549ebd4715634d51d9e94ca47671595c1f",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r1xhd03w",
+    "title": "Intel HID Event Filter Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xia04w_2_.xml",
+    "sha": "7ed6943850e2a41c0f869ef27d192bba222ecc1f168fe56da45c8c58c9b0e5cf",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xia04w",
+    "title": "Intel Chipset Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xnp03w_2_.xml",
+    "sha": "79c5c69bf02856bf8416279f7969e7512f096db750bc330fddf10a3a53b34c77",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r1xnp03w",
+    "title": "NXP NFC Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xs503w_2_.xml",
+    "sha": "ac6e54e417a5eea22533f35bfae2431b26c6a5670071a95459d73661259f92f6",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1xs503w",
+    "title": "Genesys Logic Card Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xsq02w_2_.xml",
+    "sha": "a35cd45bd1fbe52667780e8de1d5a8473d0aa2f96e8953f686ee8bdd9a94c3f9",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1xsq02w",
+    "title": "Alcor SmartCard Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xc410w_2_.xml",
+    "sha": "01284932b6d9922c3751a1cdad6966086dcabb92c8ea1328ee6ba7ea45c4081f",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1xc410w",
+    "title": "Integrated Camera Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-12-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xbr03w_2_.xml",
+    "sha": "2b5edecf526fed6f1911de38cbe30333e5e72186dbc0e53c83ba81f83586e3e9",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1xbr03w",
+    "title": "BayHubTech Flash Memory Card - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-12-28"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xgn13w_2_.xml",
+    "sha": "f3b39b51cd4d253314cc1040b6d6e6ab0062a0aae806e5b59d5a31ef277e45b2",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r1xgn13w",
+    "title": "Round Power Button Fingerprint Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2024-01-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xif07w_2_.xml",
+    "sha": "5e3c6978d7fdc3cf903714b9d337a0d2833524f51a66b2ee210891c856c369c7",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xif07w",
+    "title": "Intel Dynamic Tuning Tecnology Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wr04w_2_.xml",
+    "sha": "19346e0f15c3e8a837e5ee1afab3a9a159882ece61e83f36ac8b81fa58a0a8a3",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz8wr04w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xa314w_2_.xml",
+    "sha": "5c9cdaf695bfb26f382cbf2b2981efbc02bddf61d9fe17337e35dfa7c99c60d3",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r1xa314w",
+    "title": "Realtek Audio Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-01-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tbtesdkfw1014_1_2_.xml",
+    "sha": "31d3a768d9cee8218a525fa46eade2d6fb55574ffeb913ca8827e6a2ca57fc0c",
+    "catalogs": [
+      "21c2_Win11.xml",
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "tbtesdkfw1014_1",
+    "title": "Lenovo Thunderbolt 3 Essential Dock Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-02-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xd908w_2_.xml",
+    "sha": "ac18c9dd00908b4b5f48d058267f0173119a5be1b33db9c63a4ef4343d38aa3f",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1xd908w",
+    "title": "NVIDIA Video Features Driver - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-10-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xbe06w_2_.xml",
+    "sha": "c83a96055d0588bcff22bbf91ebea3d67edbced700a95f5104ffc8d9d898fc5b",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1xbe06w",
+    "title": "Intel Bluetooth Driver - 10 (20H2 or Later)/11",
+    "date": "2025-11-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xd221w_2_.xml",
+    "sha": "1774c4ea55bf0be27983251390ca914b2ecb6da6e24ef4cfb62d36183d5254cb",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1xd221w",
+    "title": "Intel Graphics Driver - 10 (20H2 or Later)/11",
+    "date": "2025-12-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xwg07w_2_.xml",
+    "sha": "a92f824b8b7dfb204a79d7ba7235d936d0168e5f6361e6081f9abdd92c3a2d44",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1xwg07w",
+    "title": "Intel AX201/AX211Wireless LAN Driver - 10 (20H2 or Later)/11",
+    "date": "2026-04-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xuj27w_2_.xml",
+    "sha": "aad4a8b015cbe83bbdfe74c8e79d6a1a3c0d1ee470513a06a1c1ee3795cac3cc",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r1xuj27w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-07-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1xrg05w_2_.xml",
+    "sha": "81811546e5a2c88e2d5f582be774057adda2c5898e0eaff6bf38538a10821d3d",
+    "catalogs": [
+      "21c2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1xrg05w",
+    "title": "Intel Management Engine Firmware - 10 (1903 or Later)/11",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n20pe10w_2_.xml",
+    "sha": "e69a7b0f5a313f526630a96e12fe8a60c529d3301ccbcaf2a2e13f4b10e2af4b",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20u5_Win11.xml",
+      "20u1_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "n20pe10w",
+    "title": "Realtek USB Audio for Docking Station - 10/11 (21H2 or later)",
+    "date": "2021-12-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kre06w_2_.xml",
+    "sha": "e41c5a62026305a851217d86e5072088f2bb8163ce8ab09b6dffbcf40e626d04",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1kre06w",
+    "title": "Realtek Ethernet Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kad02w_2_.xml",
+    "sha": "571cd9cc2c075c1df39fe3c6e30e24850d93f1dd56f07fd9de5bbbe16dd3ee6b",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1kad02w",
+    "title": "AMD DRTM Boot Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kae03w_2_.xml",
+    "sha": "e54305b9a0df86041b5f0f7f62aaf210069820e0950384e77a07677ce4bb6d20",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1kae03w",
+    "title": "AMD PEP Driver - 10 (1909 or later)/11 (21H2 or later)",
+    "date": "2022-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kap02w_2_.xml",
+    "sha": "05a6ff9d68acd6164603054eceeaa075a9f86dfe4791976f4cb24f46ae26998f",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1kap02w",
+    "title": "AMD SMBus Driver - 10 (1909 or later)/11 (21H2 or later)",
+    "date": "2022-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kaq05w_2_.xml",
+    "sha": "c4336c36b2f152536e795fd7f4c25c71ec2441e5b9be5acc191160327a28f533",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1kaq05w",
+    "title": "AMD I2C Driver - 10 (1909 or later)/11 (21H2 or later)",
+    "date": "2022-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kbr02w_rea_2_.xml",
+    "sha": "cc13aa570e481e389fc6ec39fbeafd09d4f9bfbf09e302e5cc6b882eb67e5a4c",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1kbr02w_rea",
+    "title": "MultiCard Reader Driver for Realtek - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kbr02w_bay_2_.xml",
+    "sha": "d0d78230ddb9dfe3b68bdae716d508d0241a84f1884f9d4937268bda90d65948",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r1kbr02w_bay",
+    "title": "MultiCard Reader Driver for BayHub - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kam04w_2_.xml",
+    "sha": "f46bd2e4b781e45dc27fad2583d8d120033d4e77f455bc026e2c8ba9dd1602eb",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "r1kam04w",
+    "title": "AMD Processor Power Management Support - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2022-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1koi03w_2_.xml",
+    "sha": "dfa4a9c3b71b5ee46f071f152ee2b66c450758bef13dd18a5dcbf0cef27f7bc2",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1koi03w",
+    "title": "ThinkPad Monitor File - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2022-09-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1mst13w_2_.xml",
+    "sha": "f38508793cb7ffe82556fc03cdd3c83891b94a72734e6fb9ab476f1e5e62ad62",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r1mst13w",
+    "title": "Synaptics UltraNav Driver - 10 (1809 or Later)/11(21H2 or Later)",
+    "date": "2022-11-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jgb01w_2_.xml",
+    "sha": "a643551a907344e4827cd1b1e5bd372e4200b8b641af11bcdc21a168ac482c0c",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r1jgb01w",
+    "title": "Synaptics Touchpad Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jsp06w_2_.xml",
+    "sha": "be698a3d071d79fb6acbbe556a63637d3ec96055086ff2b09e9b713b6ca5842c",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "r1jsp06w",
+    "title": "Static Power Reduction Utility - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2022-12-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n34sr05w_2_.xml",
+    "sha": "c192070b8243733bb46b4aa39c2c75c00d5968a9fab5bc2f29bc384a48b0e4c3",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "n34sr05w",
+    "title": "Alcor Micro USB Smart Card Reader Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-08-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1krw12w_2_.xml",
+    "sha": "d9de9c9de62ce44c30cc8660422742eb09c404a82cfa6488bbce801d26a3e51f",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1krw12w",
+    "title": "Realtek 8852AE Wireless Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2023-08-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r13fp12w_2_.xml",
+    "sha": "87d21333eb8835464fed060fd8167395f0bf49dea3761dd3b02dfbaee9eec3a1",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r13fp12w",
+    "title": "Synaptics FingerPrint Driver - 10 (1803 or Later)/11 (21H2 or Later)",
+    "date": "2023-12-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1mra06w_2_.xml",
+    "sha": "2be65d977b40fe99a8152419a051a0b48aa0dea94c272f00dde9c4c71494e1e7",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r1mra06w",
+    "title": "Realtek Audio Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1krb08w_2_.xml",
+    "sha": "89a45588b8fa1915ac751f915347d9f0423b3b31592600ff8371f41c0b4c7986",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1krb08w",
+    "title": "Realtek Bluetooth Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-04-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kib11w_2_.xml",
+    "sha": "9ba16d913c6872f0a6993d3ba04ef0545679bd4302fa7c4516e9fdaf2f807710",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1kib11w",
+    "title": "Intel Bluetooth Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2025-04-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1mcb10w_2_.xml",
+    "sha": "f8c32e20502a0a256db45c7cc14c810880be0eb16284d36a53d92c23d535d31e",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1mcb10w",
+    "title": "Qualcomm Bluetooth Driver - 11 (21H2 or Later)",
+    "date": "2025-05-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kmb16w_2_.xml",
+    "sha": "86018be17ed77c0c45ccd9e50efac07c49c407d3bf4176af41aa8f310a452d96",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1kmb16w",
+    "title": "Mediatek MT7921 Bluetooth Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2025-06-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n34cm27w_2_.xml",
+    "sha": "e11c244bfcd644fe5b3d56938ed11877747e97dfe79faef2444281b958140887",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "n34cm27w",
+    "title": "Integrated Camera Driver - 10 (1903 or Later)/11",
+    "date": "2025-12-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kmw17w_2_.xml",
+    "sha": "8fbe922f134bfe77f23d6e7e5c2cc62f3100eca516ecc0a50ce54d4392ff5be0",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1kmw17w",
+    "title": "Mediatek MT7921 WLAN Driver - 10 (1909 or Later)/11",
+    "date": "2026-01-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n3kgf03w_2_.xml",
+    "sha": "e3ff8707e4ca32a55b37e3d726a5ca437fd49eb87d2f387e450d76ecad0de7d2",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "n3kgf03w",
+    "title": "Goodix Fingerprint Reader Driver - 10 (20H2 or Later)/11",
+    "date": "2026-01-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ksb03w_2_.xml",
+    "sha": "cf01c31c4cf88e8443ad3d74d88d28758d993d970c2ecfb1dc435791f7338267",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1ksb03w",
+    "title": "AMD PSP Driver - 10 (1909 or Later)/11",
+    "date": "2026-01-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kgg03w_2_.xml",
+    "sha": "34f8d1842dbc00863797e9f06ef368ffe5ff6741375b60eb8d55cd18477cef70",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1kgg03w",
+    "title": "AMD GPIO Driver - 10 (1909 or Later)/11",
+    "date": "2026-01-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1mcw12w_2_.xml",
+    "sha": "e3dba6e10fab5e7c72066cd0ab800ec5c617a4b21243f100a388c4ccaa5d20d2",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1mcw12w",
+    "title": "Qualcomm Wireless LAN Driver - 11",
+    "date": "2026-04-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1kuj22w_2_.xml",
+    "sha": "baef9064bcf6d7c6bf97c46de525b5de75f16105d4bb2000173cff142a3953fc",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r1kuj22w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-05-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1miw14w_2_.xml",
+    "sha": "5d89869b767bb82acfdc2be17275cb2d484a0fcb95693dba09bc9bbdbecaf567",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1miw14w",
+    "title": "Intel Wireless LAN Driver - 10 (1909 or Later)/11",
+    "date": "2026-05-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz7wj19w_2_.xml",
+    "sha": "03f15d16a7c5d25c5ffc3d364e79cf1d72e5ae88355a4972e995d7dfc8c5dd40",
+    "catalogs": [
+      "20x6_Win11.xml",
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz7wj19w",
+    "title": "Quectel EM120R-GL Wireless WAN Driver - 10 (1809 or Later)/11",
+    "date": "2026-08-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ka301w_2_.xml",
+    "sha": "9dca5e01b2a410123364b3df06aa69a8ee46c0e20aff381ea539ec94cbe7e421",
+    "catalogs": [
+      "20x6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1ka301w",
+    "title": "AMD Video Driver - 10 (21H2 or Later)/11",
+    "date": "2026-05-26"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19gf02w_2_.xml",
+    "sha": "11bffe37f7fd5ae6103629af93a707541dc3610462de75e9b5c66c148e8f7dc9",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r19gf02w",
+    "title": "Goodix FingerPrint Driver - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2021-12-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19fp02w_2_.xml",
+    "sha": "ae26c6c5ddc5a158ff9ae9d8b184d4c932c574727f420c819b7dfa7e8315a663",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r19fp02w",
+    "title": "Synaptics FingerPrint FM3463 Driver - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2021-12-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19er05w_2_.xml",
+    "sha": "e91f993a1d5232095aed85303250982b80fbddcab692018de6dbd4994ab82e66",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r19er05w",
+    "title": "Realtek Ethernet Driver -10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19sb02w_2_.xml",
+    "sha": "b5c5f8cb8a7ec267934de2c45becc4d4842d849db955d57c9e22e79246e44f9f",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r19sb02w",
+    "title": "AMD PSP Driver -10 (1809 or Later)/11(21H2 or Later)",
+    "date": "2021-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19oi04w_2_.xml",
+    "sha": "551ed7f8e4fdb17ffc76efa5bb4deafa73a66e0a85fdec57387b66c81b5d7a04",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r19oi04w",
+    "title": "ThinkPad Monitor File - 11 (21H2 or later)",
+    "date": "2021-12-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19ap02w_2_.xml",
+    "sha": "f93d87c2c0aca7622b7b7318053747381541f67f0438728cdb6a4cc8667f1018",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r19ap02w",
+    "title": "AMD SMBus Driver -10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19aq03w_2_.xml",
+    "sha": "f4a859764bd95f308202902e74bced85a4034cee5a2e586d6d69cfe77bec08a6",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r19aq03w",
+    "title": "AMD I2C Driver -10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19br02w_bay_2_.xml",
+    "sha": "0fc36140cdf35eff4ca21973682e9c33e68706211bb70e4c56e72e8d1be05535",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r19br02w_bay",
+    "title": "MultiCard Reader Driver for Bayhub - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19br02w_rtk_2_.xml",
+    "sha": "c0c6b2ccd6982f862d014dd383d99d5ed9253128773a36a1e83277233999240c",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r19br02w_rtk",
+    "title": "MultiCard Reader Driver for Realtek - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19gg03w_2_.xml",
+    "sha": "837d528d4bc1c316e16bcdcec4f21e1864991798179abc9e34e5b3a925f044bf",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r19gg03w",
+    "title": "AMD GPIO Driver -10 (1809 or later)/11(21H2 or later)",
+    "date": "2021-12-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17wj13w_2_.xml",
+    "sha": "db92d86f3a7611c00f6146947c5400371dcd6f7dd1b32daa7801da5e1a1e9736",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r17wj13w",
+    "title": "Fibocom L850 Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-08-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2xst13w_2_.xml",
+    "sha": "34474a9c280ebcdbffedc2bbde1d1765c60c729c0b1bf43a25b3c866279b0cea",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "n2xst13w",
+    "title": "Synaptics ThinkPad UltraNav Driver - 10(1809 or later)/11(21H2 or later)",
+    "date": "2022-12-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2igb02w_2_.xml",
+    "sha": "66e8c585efa66c0769a45aa881df874eac4b585c2b8c39b4ee584633c72ba75b",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "n2igb02w",
+    "title": "Synaptics Touchpad Firmware - 10 (1809 or Later)/ 11 (21H2 or Later)",
+    "date": "2023-01-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17cm33w_2_.xml",
+    "sha": "d21e0c148ded35eda43344872f81c13d90e5b6ab75be928129860533132e3fd5",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r17cm33w",
+    "title": "Integrated Camera Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-03-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2xsr05w_2_.xml",
+    "sha": "54d36b30ca7b5ad96bfb9f36ee7abef73169bcc08132608efd962f6d64ba7e05",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "n2xsr05w",
+    "title": "Alcor Micro USB Smart Card Reader Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-07-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1are10w_2_.xml",
+    "sha": "40b33c60d50644caa80f449d010075d0bee5c694074cb3118bd9c53be6b361cb",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1are10w",
+    "title": "Realtek Wireless LAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-03-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19ib13w_2_.xml",
+    "sha": "6fbc1dee93001de058337affd37fa75b8c10e9d988f90d402101e8446892804b",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r19ib13w",
+    "title": "Intel Bluetooth Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-07-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1amb16w_2_.xml",
+    "sha": "058f5f3d0629a8f63b6b10d0885bedfd11e9e3307c8f061722495aa239918659",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1amb16w",
+    "title": "Mediatek MT7921 Bluetooth Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1amw17w_2_.xml",
+    "sha": "befe030936ef8ee50462cb76f7cd368c321513ef7c5eca60bdb8610561567495",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1amw17w",
+    "title": "Mediatek MT7921 WLAN Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19a116w_2_.xml",
+    "sha": "cd50d8123e1ce9be83bf52890ba8c1e5162df61936c53c1d71d264b3a45bbb42",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r19a116w",
+    "title": "Realtek Audio Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1ard09w_2_.xml",
+    "sha": "5130b28a7b9c5e66ffaca9e13ebbe7ca8a170ad1e82b3464cbe15dad15d87cff",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1ard09w",
+    "title": "Realtek Bluetooth Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-04-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17iw21w_2_.xml",
+    "sha": "906d4023de1508d545c80023f49f8ce154dfe90bd3ba8a8363188c5fe36d3b2f",
+    "catalogs": [
+      "20u5_Win11.xml",
+      "20u1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r17iw21w",
+    "title": "Intel Wireless LAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19av28w_2_.xml",
+    "sha": "dd7ebbfad3a28b6273fc16fba805d3e1827647b8c792c35d1469d79160411ddd",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r19av28w",
+    "title": "AMD Video Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-07-28"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r19uj30w_2_.xml",
+    "sha": "89510e0c724ef9d23e2b360c736889935cb69b2f206b34da35b1cbf8fc269d72",
+    "catalogs": [
+      "20u5_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r19uj30w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-07-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17oi03w_2_.xml",
+    "sha": "fe9d5620718c46cadba7cb5dba9103b3762afc7b8009d159011a3d4ebbf35faa",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r17oi03w",
+    "title": "ThinkPad Monitor File - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2021-10-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17av04w_2_.xml",
+    "sha": "06228e24ae3820ce531c48fe8c7073fa487e9ca547c952c21dd1d9d6a442d8c6",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r17av04w",
+    "title": "AMD Video Driver - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2021-10-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17hd04w_2_.xml",
+    "sha": "d55209e6a7486d36261bf4842e6477d76355ac992d3698bf69e54cf3f5176dde",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r17hd04w",
+    "title": "Intel Dynamic Tuning Technology Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-03-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17ch03w_2_.xml",
+    "sha": "8429cfad337b661bfe6e37da31835f058f6dd4d707744c05f7c595d4e9c9718f",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r17ch03w",
+    "title": "Intel Chipset Device Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-03-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17wa04w_2_.xml",
+    "sha": "338b6fbe89ffa7e56933a19a3ab1bbefc40603b622d3638a974d157f98be9452",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r17wa04w",
+    "title": "NXP NFC Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2022-04-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r0zrs09w_2_.xml",
+    "sha": "7c855642bd2a6d6c3683e552f5900f5cd762137c1cf5c44f4ab4908df89d942d",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "r0zrs09w",
+    "title": "Intel Rapid Storage Technology Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-07-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r0zsi09w_r5_2_.xml",
+    "sha": "6ffa492e5dba10e8c049a3edbe9b774fbd276b05aa5ab7934fb66b55e07dff12",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r0zsi09w_r5",
+    "title": "Intel(R) SGX Device and Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-02-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r0zgf07w_2_.xml",
+    "sha": "5bc3cc3ccbccf07b8850fb5ffdf7b3df3ad1267cefcc3d89a580318d57255831",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r0zgf07w",
+    "title": "Goodix FingerPrint Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-03-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17rc07w_2_.xml",
+    "sha": "6f2cdb6e78911857227a0cc133260d77c38f46b4c7e65ef6dd06bce6cefbdd93",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r17rc07w",
+    "title": "Realtek RTL8852AE WLAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-05-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2yfp12w_2_.xml",
+    "sha": "f1665311e1f040a7e6e162650d443c3dce10cac4c75013cd62c4ae47b618a766",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "n2yfp12w",
+    "title": "Synaptics Fingerprint Reader Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17ib12w_2_.xml",
+    "sha": "eb8b5cf5ddc3334fb30406cca775eef54e11f1c04a6db2eac8a6d1f8525c59a6",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r17ib12w",
+    "title": "Intel Bluetooth Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-05-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17md11w_2_.xml",
+    "sha": "d56cdd1af9d827e352caca32f205fc736abd3ad2cc6cb3cb696f4516928a736b",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r17md11w",
+    "title": "Intel Management Engine Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-09-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17rw05w_2_.xml",
+    "sha": "0cb05c11db5619a15c4720b42e0ba4aaea6a93e71baa0da495fc891f7df53c21",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r17rw05w",
+    "title": "Intel PRO1000 LAN Adapter Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-10-28"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17a116w_2_.xml",
+    "sha": "3f5e05c25736518d8b864c647710c7414ed7b52914e1eb9deabaacffb8333f49",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r17a116w",
+    "title": "Realtek Audio Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17mw15w_2_.xml",
+    "sha": "ff0aab172135d6fde7e4c8182aca7d03a5db4895f7945338dcff949650084347",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r17mw15w",
+    "title": "Mediatek MT7921 WLAN Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17mb15w_2_.xml",
+    "sha": "cfb07c86ff9e5ed8d2d93f9b4a14ccf94da076602c2361cad958d2f38499dfba",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r17mb15w",
+    "title": "Mediatek MT7921 Bluetooth Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2024-12-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17rb07w_2_.xml",
+    "sha": "6c40f484c9fce0296d6e30b1e2418c20a50db111097dd33269d12796b587b292",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r17rb07w",
+    "title": "Realtek Bluetooth Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-05-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17mg16w_2_.xml",
+    "sha": "7453e39b4786a08a2a39a435413390c56c5bfe0cd14f30dc62d444120d90580f",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r17mg16w",
+    "title": "Intel Management Engine Firmware - 10/11",
+    "date": "2025-10-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n2yiv25w_2_.xml",
+    "sha": "01a1212532d341059313cdc15cebd50569654deb8917e82683c119696fdf3073",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "n2yiv25w",
+    "title": "Intel Graphics Driver - 10 (1709 or Later)/11",
+    "date": "2026-01-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r17uj25w_2_.xml",
+    "sha": "ab28ce6a33e64d2ae131f52fcfd8dceeba640e97da9779886184a5a87186a3b6",
+    "catalogs": [
+      "20u1_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r17uj25w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jch03w_2_.xml",
+    "sha": "45280cdf108036a9afcf60be022d6ed16f2e1981cba9bba60b66616be0f0dcd3",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jch03w",
+    "title": "Intel Chipset Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jhd05w_2_.xml",
+    "sha": "b67e107f0e412591b9a518e299a9a289c756fa9e5747cb0b445f5fca423506f6",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jhd05w",
+    "title": "Intel Dynamic Tuning Technology Driver - 10 (1903 or later)/11 (21H2 or later)",
+    "date": "2021-12-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jli04w_2_.xml",
+    "sha": "badabd06f79d72658167c10a55a367e6d39846e469fdb45b9f711845f07e75de",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jli04w",
+    "title": "Intel(R) Serial IO Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-28"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jwa03w_2_.xml",
+    "sha": "ae1adc44acb7e4a91ebf6b1f18355966bef7cbeafb8e2d4011211d88d8fd30ac",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r1jwa03w",
+    "title": "NXP NPC300 NFC Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2022-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jbb02w_2_.xml",
+    "sha": "61da0b483a52792c93d688ca734901f1d850af3db2aa2d8b8cd210c58f7bccbc",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "id": "r1jbb02w",
+    "title": "Intel Thunderbolt Retimer Firmware - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2022-07-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jad02w_2_.xml",
+    "sha": "ae2358bbfa5b9ba86a7a4406fb3d01871f3d02d4f554776dac0a7e8374cf95bc",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jad02w",
+    "title": "Intel TXT Authenticated Code Module Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2022-08-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1joi05w_2_.xml",
+    "sha": "5d7d90dfe21bec0eeaf831df622f2e6760295d26556a69ed28b2a54704bcc6ce",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1joi05w",
+    "title": "ThinkPad Monitor File - 10(1903 or Later) / 11(21H2 or Later)",
+    "date": "2022-09-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jre11w_2_.xml",
+    "sha": "afa98ade087b48ece64b3ba0411cbf44988523a25dbc243351791eecd8d6cac8",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1jre11w",
+    "title": "Realtek Wireless Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2023-03-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n34fp05w_2_.xml",
+    "sha": "3e400459c04dddc6a939e36b5215312ab4ff93e7de1908a9a22b30482a3088d3",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "n34fp05w",
+    "title": "Synaptics Fingerprint Reader Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-02-05"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jhe07w_2_.xml",
+    "sha": "892ae2bea675ae5b899ec24e6b6f32bd3eccc8e8447b38ab98e2ab22bfdaa7b8",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r1jhe07w",
+    "title": "Intel HID Event Filter Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2024-05-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nz7wp11w_2_.xml",
+    "sha": "6b1dd9c3459ef0178dc180f669c7db13bc2ecc0cecaa42f8a09a007ba921a758",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nz7wp11w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2024-08-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jrw11w_2_.xml",
+    "sha": "e919d11bb3be89201086b9aa9c692b1e6029b9ca72298efbc0074f5c23da710b",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r1jrw11w",
+    "title": "Intel PRO1000 LAN Adapter Software - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2024-10-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jrb07w_2_.xml",
+    "sha": "f9018dd59a9d42973d0bbd419091c3aa8a8bb14353126de69bb4266a9f9f8c65",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1jrb07w",
+    "title": "Realtek 8852AE Bluetooth Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2023-03-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jib15w_2_.xml",
+    "sha": "73296e3d10346680192cee13d38fdb7c6ff6e63f7014bd6d6b7a21cc0eb4fe8d",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1jib15w",
+    "title": "Intel Bluetooth Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-05-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jrb08w_2_.xml",
+    "sha": "eb98cce8cfb654cde4a9be92fe9d328aabe58c01f0538914e7d751715420d356",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1jrb08w",
+    "title": "Realtek Bluetooth Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-05-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jmw19w_2_.xml",
+    "sha": "bf91d8221cb29e4a3136e9b6ba92feddd2686811c42c1345c89139bd6fb13156",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1jmw19w",
+    "title": "Mediatek MT7921 WLAN Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2025-06-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jmb18w_2_.xml",
+    "sha": "68ee2fda36c3a78a2f5ad3925cec11cb922b4baf3255f8815c9af152223bca0b",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r1jmb18w",
+    "title": "Mediatek MT7921 Bluetooth Driver - 10 (1909 or Later)/11 (21H2 or Later)",
+    "date": "2025-06-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jmd19w_2_.xml",
+    "sha": "3053b06397719379b9bab1280265ab9c2445724d2e88c61d1f50b850d3de7a2e",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jmd19w",
+    "title": "Intel Management Engine Software - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jiw18w_2_.xml",
+    "sha": "960a78e428895b69a99529095d5807d7a6f9b23f48a1efb47233b824dc15f5a6",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r1jiw18w",
+    "title": "Intel Wireless LAN Driver - 10 (1903 or Later)/11",
+    "date": "2025-11-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jta10w_2_.xml",
+    "sha": "0366b583918c7543c827a06bdec06a4c1c2ad54ddd3e500b98506650e1b172dc",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "id": "r1jta10w",
+    "title": "Intel Thunderbolt Driver - 10 (1903 or Later)/11",
+    "date": "2026-01-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n34gf08w_2_.xml",
+    "sha": "8ce6973a52779c35557a220706f853b99f5504c551ab09031a96b0555e74ce5e",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "n34gf08w",
+    "title": "Goodix Fingerprint Reader Driver - 10 (20H1 or Later)/11",
+    "date": "2026-02-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jda27w_2_.xml",
+    "sha": "d6527ec5fcedd9b47d8206042f08bc180b07cf68fe5a4b521080d5d658430db8",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r1jda27w",
+    "title": "ThinkPad Video Features Driver - 10 (1903 or Later)/11",
+    "date": "2026-02-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1juj31w_2_.xml",
+    "sha": "f7699e08175629653bab4f2f0fcd520e3c6a4f0f0e6ca8f3c8720a89dbb2cbac",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r1juj31w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-06-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r1jmg21w_2_.xml",
+    "sha": "b415fb1450899bf3f83975bf46546b4f7b3e23c98d49f98633927dbaa77531e5",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r1jmg21w",
+    "title": "Intel Management Engine Firmware - 10 (1809 or Later)/11",
+    "date": "2026-07-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n35a611w_2_.xml",
+    "sha": "24149ed19d2c7b84648e8cbdd2f130aa0c8eb7efa651049e1824f82212ab766f",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "n35a611w",
+    "title": "Realtek Audio Driver - 10 (1903 or Later)/11 (21H2 or Later)",
+    "date": "2025-02-05"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n34iv37w_2_.xml",
+    "sha": "4d8cbab3cfa554395fff7ffa3f6171de7cfd5bd890425f6d983726ce42d18fb6",
+    "catalogs": [
+      "20x1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "n34iv37w",
+    "title": "Intel Graphics Driver - 10 (1909 or Later)/11",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hia02w_2_.xml",
+    "sha": "291fbaddf0e2b173739e2e5d6a0fcb51248ec0edf3ba8fc214ecd54ed2fdca93",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2hia02w",
+    "title": "Intel Chipset Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-04-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hwg04w_2_.xml",
+    "sha": "79a88b3a417fac1a8600ff34c71cee96b8feb603d2c123ded8059448e6cdf7aa",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r2hwg04w",
+    "title": "Intel Wireless LAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-04-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n45cr01w_v2_2_.xml",
+    "sha": "68881bf1cabff8a50a5989d60299584b57d3b54daa125882a7fd9f32d0f1bfcd",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "n45cr01w_v2",
+    "title": "Integrated RGB Camera Firmware - 10 (21H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-02-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbjt04w_w10w11_2_.xml",
+    "sha": "084629141631cb83152fb31a80040a4a66464ed28c02c7ffd9c67ab90e77618d",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbjt04w_w10w11",
+    "title": "Intel TXT Authenticated Code Module - 10 (22H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-05"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbwr05w_2_.xml",
+    "sha": "ae1f45f035d5a7b55e9780d3ab5705f665bb9ae9c9ca6ec664418d271f8d283e",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzbwr05w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "date": "2025-12-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbli03w_2_.xml",
+    "sha": "8cf1c7df16dfb599002384944a8d77f73e45abfbe32beebec954d52d3bd38e98",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbli03w",
+    "title": "Intel Serial IO Driver - 10 (22H2 or Later)/11",
+    "date": "2026-02-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbhd08w_2_.xml",
+    "sha": "f7b811145897597b11fbbde1078194ea426b4e9bcb7cb239ee55c5095b0ec639",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbhd08w",
+    "title": "Intel Dynamic Tuning Technology Driver - 11 (22H2 or Later)",
+    "date": "2026-02-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzajg03w_w10w11_2_.xml",
+    "sha": "04f54d5fe87b3b1c1935c218b5c0d174d37b965559237434569940758bfe4dec",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzajg03w_w10w11",
+    "title": "Intel GNA Driver - 10 (20H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-04-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ha514w_2_.xml",
+    "sha": "d4a39188f9dfef72eb3ae1d9004a8ea109b735f295a6e969581c639756ea25ef",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r2ha514w",
+    "title": "Senary Audio Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n3yfz29w_w10w11_2_.xml",
+    "sha": "c3f7c474f2114d623b8ce496fbacbf1060e17ac6395efdadb37341ee32591576",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "n3yfz29w_w10w11",
+    "title": "Lenovo Adaptive ICC Profile - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n41me31w_2_.xml",
+    "sha": "10d273812f826be03ea95e8ce6505f3a715dd4e58a0a465a052280c55e611ad4",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml",
+      "21l6_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "n41me31w",
+    "title": "Lenovo MEP Opt-in Driver - 11 (23H2 or Later)",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2huj16w_2_.xml",
+    "sha": "573371881ec306b55d834f090fc0e55ffe869c8d02fbfb0fb1f53bd2b7939359",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r2huj16w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-07-20"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbdr15w_2_.xml",
+    "sha": "14c70d95d685ef1b3167b9cdd37c5135fb7459a346d5bd9c8bfcb1d555e291f5",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzbdr15w",
+    "title": "Intel Graphics Driver - 10 (21H2 or Later)/11",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbwl12w_2_.xml",
+    "sha": "32b48fbe34a2778bc8cb8b1e896cc0124ec9fa5693bc87fd21a17fc2e5a13260",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "nzbwl12w",
+    "title": "Intel AX211/BE200 Wireless LAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbwh10w_2_.xml",
+    "sha": "b9f3dcd9ee5a9968a6673c3c2da3a2db0b61cf76709f117651d0ea105bbb6b5b",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzbwh10w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-07-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hrg03w_2_.xml",
+    "sha": "8ba98400c2255da5b60ef717e96a2c86754aa746952eb371f30a5dcc7d2abf07",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2hrg03w",
+    "title": "Intel Management Engine Firmware - 10 (22H2 or Later)/11 (23H2 or Later)",
+    "date": "2025-03-24"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hfx11w_2_.xml",
+    "sha": "d28162e59133b566420a74457a576096f11be7cb9e06010487da681508554a4d",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r2hfx11w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-08-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbnp10w_2_.xml",
+    "sha": "b03bd2815b0729656d6c0b07a71d884b1daf3f416b70af29a0490e9b77979be3",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbnp10w",
+    "title": "Intel Neural Processing Unit Driver - 11",
+    "date": "2026-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/5grkq8ppsgwt4_x86_v2_2_.xml",
+    "sha": "7a2631eb06f092dc460a9b3f01296ec6d7dbe123d59b2519ae244bc5d59f4056",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "5grkq8ppsgwt4_x86_v2",
+    "title": "TrackPoint Quick Menu Assistant Patcher - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "date": "2025-08-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2icm01w_2_.xml",
+    "sha": "f544b988e44f06ed4798348b0c8be6ae2b04b0f433f26f1072002298f26a7292",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21l6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r2icm01w",
+    "title": "Integrated Camera Firmware - 11 (22H2 or Later)",
+    "date": "2025-09-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hpd02w_2_.xml",
+    "sha": "0625f98048b103e99d0e7ca3112d9d671aa5b16a9c34d42f6fb51af11da2507d",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "id": "r2hpd02w",
+    "title": "Type C PD Firmware - 10 (21H1 or Later)/11",
+    "date": "2025-12-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2hrc06w_2_.xml",
+    "sha": "2483e1bed77ac798be98f8ddfea16cbb9a335b7e9cea8c4f4a32f60c7e826f4f",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r2hrc06w",
+    "title": "Intel Ethernet Driver - 11 (22H2 or Later)",
+    "date": "2026-08-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbww11w_w10w11_2_.xml",
+    "sha": "d0b1ca208dc507131e2d6fe2e209df4261cc5c5b93aebbc0851ef4d6b66f9dc5",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nzbww11w_w10w11",
+    "title": "Intel BE200 Bluetooth Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-08-05"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaww15w_w10w11_2_.xml",
+    "sha": "28cd5ece95959f345112de9d6e6fc85dfa1f42355f147b57ca0263d177a65c0d",
+    "catalogs": [
+      "21l1_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nzaww15w_w10w11",
+    "title": "Intel AX211 Bluetooth Driver - 10 (20H2 or Later)/11",
+    "date": "2026-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbmt04w_2_.xml",
+    "sha": "da60a77e3398b7e94eef6945432fb92e6694019dd263f7455cb0a44d435031cc",
+    "catalogs": [
+      "21l1_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "nzbmt04w",
+    "title": "Intel Platform Monitoring Technology Driver - 11 (22H2 or Later)",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ug301w_2_.xml",
+    "sha": "71396815c270c04cc4a14cd2160b0be488bafe68e42b75c2a02c68693fd79364",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r2ug301w",
+    "title": "JYT TrackPoint Firmware - 11 (24H2)",
+    "date": "2025-06-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tbt4dkkp2fw1014_3_w11_2_.xml",
+    "sha": "9ef16f8a79d058432427cc5e4822c6420650501fa2672dbdad3227d8331ff93a",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "error": ""
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/usbcundkfw3098_w11_2_.xml",
+    "sha": "60cc5341b385c4464cf1e0dd0b1a98919c6022d56e66c311b4caa8456e11efa7",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Advanced Firmware",
+    "id": "usbcundkfw3098_w11",
+    "title": "ThinkPad Universal USB-C Dock FW Package - 11 (21H2 or Later)",
+    "date": "2025-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nycsq02w_2_.xml",
+    "sha": "a48b34d5bfd5516450cc5caed3cf8561cbfe3adcba326cc811e3514cb33c0398",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "nycsq02w",
+    "title": "Alcor Smart Card Reader Driver - 11 (23H2 or Later)",
+    "date": "2026-01-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n1fupa7w_w11_2_.xml",
+    "sha": "8aa3029de1453a6488f7595e9b56e247f2c1f9485da8e78401b7668102b0164c",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "n1fupa7w_w11",
+    "title": "Lenovo Power and Battery Driver - 11",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n4bku13w_w11_2_.xml",
+    "sha": "93e717909b2432dbe0ed516a8fb0ecf41e347027c6827f90dc91febb091daf28",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "n4bku13w_w11",
+    "title": "Lenovo Power Management Driver - 11",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n25by28w_w11_2_.xml",
+    "sha": "f85174b6ceed54c401e1ab2300805f3bb1ad28417c82f195ab66eb176b442642",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml"
+    ],
+    "category": "Power Management",
+    "id": "n25by28w_w11",
+    "title": "Lenovo Smart Standby - 11 (21H2 or Later)",
+    "date": "2026-07-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n3yfz33w_w11_2_.xml",
+    "sha": "0bb2d52c76a977c1854c2e6868d8880bee7788dfe7e9768545630d3e1a1c4e6a",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "n3yfz33w_w11",
+    "title": "Lenovo Adaptive ICC Profile - 11 (24H2 or Later)",
+    "date": "2026-08-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwy80_2_.xml",
+    "sha": "204d5b48c71a0792aca8fa05950f39628de34a4ea297105f637e6ca9eb0ad3bb",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "fwsdwy80",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 11 (22H2 or Later)",
+    "date": "2026-08-31"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ucm01w_2_.xml",
+    "sha": "2c13fc6bd04a9cc37dc249fe8732dccc47bfb4a14fd23930122afea0901e02bb",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r2ucm01w",
+    "title": "Integrated Camera Firmware - 11 (22H2 or Later)",
+    "date": "2025-09-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2upp05w_2_.xml",
+    "sha": "281c54d40d8a7bc3a2fe799fc63155ae4dc2efa66677903eed935643b2388e73",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r2upp05w",
+    "title": "AMD PSP Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ugg03w_2_.xml",
+    "sha": "4d70db8c2f67add3f33b9c5c6d5ccc3d588a7793c7bb882d3d21a6cb3412e48b",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ugg03w",
+    "title": "AMD GPIO Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ums04w_2_.xml",
+    "sha": "8d376082cafc714177ec40c7300e995d475c8f9340e414dd65747668127d6a7b",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ums04w",
+    "title": "AMD SMBUS Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2unf05w_2_.xml",
+    "sha": "aeb804f4f84da4c646413e5809e94177a230be55c27f1a4f81f78a006e8540f8",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2unf05w",
+    "title": "AMD NPU Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2upe03w_2_.xml",
+    "sha": "e6be208100909a2d3ddf60d1a67e86fa6d05b3d8e5303badd025a25c403c39e0",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2upe03w",
+    "title": "AMD Micro PEP Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2upk05w_2_.xml",
+    "sha": "c97b7498a86b28b8087b47f640b386eb6f0b4b359a4a218bca245d55df973176",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2upk05w",
+    "title": "AMD Processor Power Management - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2uai03w_2_.xml",
+    "sha": "10f56ce7330bf8de47733080cb1165c533ca68723a15c7ce7bd33686e504816f",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2uai03w",
+    "title": "AMD I2C Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2uas03w_2_.xml",
+    "sha": "e531135508e1819bf01a5e8f9e0c705e24035409d85903acf8c75df60fffde66",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2uas03w",
+    "title": "AMD AMS Boot Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyanp01w_w11_2_.xml",
+    "sha": "40db8d5baa9dedca4eb105eb658cd80a54e358f0978cdb99aec1cf7ba2da0c24",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "nyanp01w_w11",
+    "title": "NXP NFC Driver - 11 (23H2 or Later)",
+    "date": "2026-03-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2udt04w_2_.xml",
+    "sha": "365bee16f53444c5e9429ec38cdeb62dd169dfbe88b423edb4c7a7f54882736f",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2udt04w",
+    "title": "AMD DRTM Boot Driver - 11 (23H2 or Later)",
+    "date": "2026-03-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ud712w_2_.xml",
+    "sha": "5a89247b2ad092672e50a7cde6a744e4be36ae953cf2b641ca86b60154c22f37",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r2ud712w",
+    "title": "AMD Graphics Driver - 11 (23H2 or Later)",
+    "date": "2026-03-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyam105w_w11_2_.xml",
+    "sha": "338e31a761c419db1e258ea330281e5a2e05a9b2c92c1b40484a6741f697fc71",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nyam105w_w11",
+    "title": "ThinkPad Monitor File - 11 (23H2 or Later)",
+    "date": "2026-03-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2urr04w_2_.xml",
+    "sha": "c258229eca982fa08f63a1852c463902eb34f697e73b0c3121f8f6db23fe316b",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r2urr04w",
+    "title": "Realtek LAN Adapter Software - 11 (23H2 or Later)",
+    "date": "2026-02-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyate07w_w11_2_.xml",
+    "sha": "258f986bf6b3a9264da0b1a724cd42a3b39ec26e0cd0e91e1ee0f8bb4564f498",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "nyate07w_w11",
+    "title": "ELAN Trackpoint Driver - 11 (23H2 or Later)",
+    "date": "2026-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ua307w_2_.xml",
+    "sha": "4c253c647c805af55133bf06e602068ac8e02384008fe2164633b61dff6fc0d0",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r2ua307w",
+    "title": "AMD Audio Device Driver - 11 (23H2 or Later)",
+    "date": "2026-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n4ody12w_w11_2_.xml",
+    "sha": "4e7dfd1f910c5284b2780fdf7852af9a06124dd940c2fca844a2571f37022a30",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "n4ody12w_w11",
+    "title": "Lenovo Intelligent Thermal Solution Driver - 11",
+    "date": "2026-07-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n3yfz29w_w11_2_.xml",
+    "sha": "19269dae8a019bc0efd703e8dee54edae5652aede83fd50f55b9ed491ab51c81",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "n3yfz29w_w11",
+    "title": "Lenovo Adaptive ICC Profile - 11 (22H2 and 23H2)",
+    "date": "2026-08-19"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2up805w_2_.xml",
+    "sha": "6c1b7f93d39a99e2ca648eb658b4ad125700d034748543bb31b73bd9512ce50b",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2up805w",
+    "title": "AMD PMF_8000 Series Driver - 11 (23H2 or Later)",
+    "date": "2026-09-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ubs14w_2_.xml",
+    "sha": "c351d81d2cd9d653154add26ecc9ba230b8e23155c527280e8db178d587a71fc",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r2ubs14w",
+    "title": "Mediatek Bluetooth Driver - 11 (23H2 or Later)",
+    "date": "2026-09-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nyagn10w_w11_2_.xml",
+    "sha": "c1a58dd523015b407a38dce25625ce431753d95758040a4f93d69c09e857a4ed",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "nyagn10w_w11",
+    "title": "Round Power Button Fingerprint Reader Driver - 11 (23H2 or Later)",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nycwt03w_2_.xml",
+    "sha": "c218dc27f35cb480d33caf586ea211bd0348947627899c83cc90967655710e53",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nycwt03w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 11 (23H2 or Later)",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2uws10w_2_.xml",
+    "sha": "a1f142e6feace291acd939d47833bb7c9e51e6411f80eb7d11d8b0cd4543cea2",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r2uws10w",
+    "title": "MTK MT7925 Wireless LAN Driver - 11 (23H2 or Later)",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r18vu75w_w11_2_.xml",
+    "sha": "befe694e8eec711f4845cd64dc5d1a3b56a16d7bafbe99942334bc02c3c78070",
+    "catalogs": [
+      "21s8_Win11.xml",
+      "21s6_Win11.xml",
+      "21x6_Win11.xml",
+      "21x2_Win11.xml",
+      "21sf_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r18vu75w_w11",
+    "title": "Lenovo Base Utility - 11",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2uuj09w_2_.xml",
+    "sha": "f8dff2bb3b8d7e9f881c2d20d9bc7d9a0bb86dbdac576e792a258b0725a98f48",
+    "catalogs": [
+      "21s8_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r2uuj09w",
+    "title": "System Firmware Update Utility - 11",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2swg05w_2_.xml",
+    "sha": "c6d0fec1e0312ed3a88e661997a1a086f65014ac696866bf59fab5e9254c11db",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r2swg05w",
+    "title": "Intel Wireless LAN Driver - 11 (23H2 or Later)",
+    "date": "2025-05-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ssi01w_2_.xml",
+    "sha": "7b9dc325a6ca3c0fd98c1875ffa62ebcec047e40bba3ae08f900d1cf9c6b2bee",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ssi01w",
+    "title": "Intel Serial IO Driver - 11 (23H2 or Later)",
+    "date": "2025-05-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcwr01w_2_.xml",
+    "sha": "7046c5e5de97025b33e57e652742e371f438d59fc662b54bc701db26784ef50b",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzcwr01w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 11 (23H2 or Later)",
+    "date": "2025-12-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbic02w_2_.xml",
+    "sha": "6a93ebbaef195ff9b17d5e2430da94f2575d889846114e32330f3abec8f26be4",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbic02w",
+    "title": "Intel Chipset Device Software - 11",
+    "date": "2026-02-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2sa514w_2_.xml",
+    "sha": "6b3259857680380fdee76ec6b4f50be7705de74bc40cb142499ca87a86e0bb9d",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r2sa514w",
+    "title": "Senary Audio Driver - 11 (23H2 or Later)",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2src03w_2_.xml",
+    "sha": "d14976e8db456eb5b2bf8715987d08bce7c5c356236de27c14aa19c05bdcb504",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r2src03w",
+    "title": "Intel PRO1000 LAN Adapter Software - 11 (23H2 or Later)",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzboi02w_2_.xml",
+    "sha": "38f0852a033e119ec98432deeb93b3104de95a6b9a08101e43d63493e01c09ef",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzboi02w",
+    "title": "ThinkPad Monitor File - 11 (22H2 or Later)",
+    "date": "2026-06-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcg203w_2_.xml",
+    "sha": "14c3f365da605ec5e76ec6f0ffec21f9c76a3c571504fb4349cad7ce87ae44d0",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "nzcg203w",
+    "title": "ELAN TrackPoint Driver - 11",
+    "date": "2026-06-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2suj14w_2_.xml",
+    "sha": "08d98b1979a925fb9328099a454535efa5a0d040da08970342e9f0244bd79c0e",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r2suj14w",
+    "title": "System Firmware Update Utility - 10 /11",
+    "date": "2026-07-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcdr07w_2_.xml",
+    "sha": "1b54eff177284a0d9607b85340bc095341ee500af9985448690eb5b086107010",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "nzcdr07w",
+    "title": "Intel Graphics Driver - 11",
+    "date": "2026-08-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2sbf10w_2_.xml",
+    "sha": "c690dec5662a11460643f6ea71bbd0b34b548e1a9058c2f042b46a3747a4a4c4",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r2sbf10w",
+    "title": "Intel BE201 Bluetooth Driver - 11 (23H2 or Later)",
+    "date": "2026-08-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2sfx05w_2_.xml",
+    "sha": "2672dc381044ba7a3173fc8c4c6b31dfff3c05fd91616c42e6c66a336f0aa520",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r2sfx05w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 11 (23H2 or Later)",
+    "date": "2026-08-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzagg15w_w11_2_.xml",
+    "sha": "d289170f8551b594d577f63997de0101a45e9ebfdab26c58956c32a324f337c4",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "nzagg15w_w11",
+    "title": "Synaptics Fingerprint Reader Driver - 11 (22H2 or Later)",
+    "date": "2026-08-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzchd04w_2_.xml",
+    "sha": "2d99dcd3e3743c9f5591814175cd9ae1790396ebdc74aa164ee4b6f5234b1063",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzchd04w",
+    "title": "Intel Dynamic Tuning Technology Driver - 11 (23H2 or Later)",
+    "date": "2026-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcv101w_2_.xml",
+    "sha": "c490cf3ff4c1d2264876bd7c4b3a438f81bfe6a4be135aee23f91fcd769cf409",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "nzcv101w",
+    "title": "Alcor SmartCard Reader Driver - 11 (23H2 or Later)",
+    "date": "2026-01-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzbjt04w_w11_2_.xml",
+    "sha": "b2e6225deca92893f50d8b82c8724b367f632482993b89e7c08083dfc60d8c0b",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzbjt04w_w11",
+    "title": "Intel TXT Authenticated Code Module - 11 (23H2 or Later)",
+    "date": "2026-02-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzajg03w_w11_2_.xml",
+    "sha": "63c4723dd661f1995814bf04d20c6ccc6aa70d5ebd68735e0e5945cfd3ed75a5",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzajg03w_w11",
+    "title": "Intel GNA Driver - 11 (24H2 or Later)",
+    "date": "2026-04-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzagi09w_w11_2_.xml",
+    "sha": "3fba52b31bd27c31a7f650f53a839290cfea200d61feb9e0bb94e0b12abf1778",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "nzagi09w_w11",
+    "title": "Goodix Fingerprint Reader Driver - 11 (23H2 or Later)",
+    "date": "2026-04-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaef06w_w11_2_.xml",
+    "sha": "cd8bb07dd8a28b7fc7555d0d7c094d2f57e8cabf18012992d61b87eaded30072",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzaef06w_w11",
+    "title": "Intel HID Event Filter Driver - 11 (23H2 or Later)",
+    "date": "2026-06-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcwl07w_2_.xml",
+    "sha": "b35be3fa79c5adacd73457838ba7fc90da975bf38a1e8aede54dc4a9ea2e0ce7",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "nzcwl07w",
+    "title": "Intel AX211/BE200/BE201 Wireless LAN Driver - 11 (23H2 or Later)",
+    "date": "2026-07-30"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcw104w_2_.xml",
+    "sha": "2c50d84ccd7aa0ca109d14f82194278816a3f306fe492854d7131d59c006ec24",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nzcw104w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 11 (23H2 or Later)",
+    "date": "2026-08-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzcra06w_2_.xml",
+    "sha": "3e68c150db134a51397b9413b64b7880c4e8557bb45577faaf05b18ffbca0fe8",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "nzcra06w",
+    "title": "Intel Management Engine Software - 11 (23H2 or Later)",
+    "date": "2026-08-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nzaww15w_w11_2_.xml",
+    "sha": "c556f0324908fd2fd770ac5418aec6f482e3980e08222fb42ff0406ed1082c82",
+    "catalogs": [
+      "21s6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "nzaww15w_w11",
+    "title": "Intel AX211 Bluetooth Driver - 11 (22H2 or Later)",
+    "date": "2026-09-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gsq01w_2_.xml",
+    "sha": "63ab62cbd79002b6790307a140670fbe6b8f354a13d6ef6543ca9d32dd807c22",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r3gsq01w",
+    "title": "Alcor Smart Card Reader Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gte03w_2_.xml",
+    "sha": "019f14f2a859365f79da35efc7562fc819441651170179552a278bf099e784c1",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r3gte03w",
+    "title": "ELAN TrackPoint Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gbs03w_2_.xml",
+    "sha": "fd71cc3f706af443e19424c016d5372e32daf3255f7e1695256aad27012e8dc0",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r3gbs03w",
+    "title": "Mediatek MT7925 Bluetooth Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gd709w_2_.xml",
+    "sha": "de9c292e9c8d144b8cb64e89e329afa3ba4cd7cccfa2e161597775eb2d014f2b",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gd709w",
+    "title": "AMD Graphics Driver - 11 (24H2 or Later)",
+    "date": "2026-04-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gdt03w_2_.xml",
+    "sha": "0bf66f27f5152a8a4a428a4021bb82c7af8f2e533755a86429c5caab47d9b595",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gdt03w",
+    "title": "AMD DRTM Boot Driver - 11 (24H2 or Later)",
+    "date": "2026-04-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ggg02w_2_.xml",
+    "sha": "1b93ec19683ca58f91ff85124e9613c85cabd61de7bc54407fbc639011cbe089",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3ggg02w",
+    "title": "AMD GPIO Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ggn01w_2_.xml",
+    "sha": "0e8e59b8e505e510b9a7a838a6d3c762ac4853e318d642d622fd7a8ac65729ff",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r3ggn01w",
+    "title": "Round Power Button Fingerprint Reader Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gm102w_2_.xml",
+    "sha": "01d7665d7b9a664d806879f800f2c19d1c7ccf0b84b6429003c780d5d08140a0",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r3gm102w",
+    "title": "ThinkPad Monitor File - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gms02w_2_.xml",
+    "sha": "ac3222d5218cd9a2371b6922b6ee634696d6931f12ea3f8554b8b5ff96094173",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gms02w",
+    "title": "AMD SMBUS Driver - 11 (24H2 or Later)",
+    "date": "2026-04-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gnf03w_2_.xml",
+    "sha": "846a6581305f1398cecb64f6659c1a3dd2351b2195ad7d4db04de9d744591fb2",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gnf03w",
+    "title": "AMD NPU Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gnp02w_2_.xml",
+    "sha": "783199820f3a76b3b1b220e053e455cf224e161ed7b9bd5f25e4ff93d7c4bbd0",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r3gnp02w",
+    "title": "NXP NFC Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gws04w_2_.xml",
+    "sha": "1b798015060b76b4b7ed4a20e6fb49fe07fd55b78f677ea98894810e8eb32d2c",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r3gws04w",
+    "title": "MTK MT7925 Wireless LAN Driver - 11 (24H2 or Later)",
+    "date": "2026-04-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3grr02w_2_.xml",
+    "sha": "2c748355f38bcc39987ff4ffa571ec4cb1e4dbb5371c2a200773c02c01f984b7",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r3grr02w",
+    "title": "Realtek LAN Adapter Software - 11 (24H2 or Later)",
+    "date": "2026-04-23"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gpp02w_2_.xml",
+    "sha": "6e0a675381149496df6b19c9c8e3951b95fa0b688ebfa1acb4e98b3a3a77d721",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gpp02w",
+    "title": "AMD PSP Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gpk02w_2_.xml",
+    "sha": "7a8c4b93d09d13b5ee196b703fcca446e6ec8495fb856fa19522313661cadd73",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gpk02w",
+    "title": "AMD Processor Power Management (PPM) Package - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gpe02w_2_.xml",
+    "sha": "6fd600de2cc1cb62a75875488677bf3736e65a39acf891ef7dd6aa9fb09296d0",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gpe02w",
+    "title": "AMD Micro PEP Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gp803w_2_.xml",
+    "sha": "c16688de96ffc5593ba3e6fac66da0a564b29d6ceab403d6c5fa864480a33811",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gp803w",
+    "title": "AMD PMF_8000 Series Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gas02w_2_.xml",
+    "sha": "2610837df0faec6caa6b090635219963d465e9ec06590e19b4fe5f0df3b80efa",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gas02w",
+    "title": "AMD AMS Boot Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gai02w_2_.xml",
+    "sha": "f523e3366228e1efab10e5e51e5d9858a3de9bce3610fccd8ef47f1485df36c6",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3gai02w",
+    "title": "AMD I2C Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ga304w_2_.xml",
+    "sha": "196700ce43462f2cf288735d43de72211eff90794f1195cf48c19d78876b243a",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r3ga304w",
+    "title": "Realtek Audio Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gc405w_2_.xml",
+    "sha": "3c56246036ab61482bc730f8d840732276b880aa26d74b076b01229d4e1f4335",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r3gc405w",
+    "title": "Integrated Camera Driver - 11 (24H2 or Later)",
+    "date": "2026-04-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3grw06w_2_.xml",
+    "sha": "161162a5a9db19a44a689ba90ff9a7e38fae9d9d281c95b6198fb7ac3ee3da38",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r3grw06w",
+    "title": "Snapdragon X12 4G Cat6 Modem WWAN Software - 11 (24H2 or Later)",
+    "date": "2026-06-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3gwr08w_2_.xml",
+    "sha": "692f60143e3674218cf1066a074e1e6ed96f2692851f2cd63628b0c5887dce4a",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r3gwr08w",
+    "title": "Snapdragon X12 4G Cat12 Modem WWAN Software - 11 (24H2 or Later)",
+    "date": "2026-06-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3guj04w_2_.xml",
+    "sha": "68bb2796cd8fe90f69d2aa4f7902af05ce46b8791a6abda55243ea2275e89534",
+    "catalogs": [
+      "21x6_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r3guj04w",
+    "title": "System Firmware Update Utility - 11",
+    "date": "2026-07-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/n4ost48w_w11_2_.xml",
+    "sha": "d204f938c017c5415f43c44cdd7e59058c240edddf2128cc148cf2466d335436",
+    "catalogs": [
+      "21x6_Win11.xml",
+      "21x2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "n4ost48w_w11",
+    "title": "Lenovo Intelligent Sensing Driver - 11 (24H2 or Later)",
+    "date": "2026-08-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ebf05w_2_.xml",
+    "sha": "f27515ffd215086546b620411debba539a51d996509292542e48b45e4db6b37b",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r3ebf05w",
+    "title": "Intel Bluetooth Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ec405w_2_.xml",
+    "sha": "15d2ddc75afda242e0a58bd9090a0339a675289cff276293ac2301369f27864e",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r3ec405w",
+    "title": "Integrated Camera Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3egn01w_2_.xml",
+    "sha": "686a4f16c92832df25eec0af588444334ca91b871ab190f8dd4de9c2d99486d3",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r3egn01w",
+    "title": "Round Power Button Fingerprint Reader Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ehd02w_2_.xml",
+    "sha": "05f97327f2c4173ca8c828e587340d55291fbef4789398b1d4d1689d634bacf8",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r3ehd02w",
+    "title": "Intel HID Event Filter Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3evp06w_2_.xml",
+    "sha": "40c6fd5cca68862ec117d7167ff5e74eb75fadcc5bf6a3f13f5d261df1801a73",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3evp06w",
+    "title": "Intel Neural Processing Unit Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3emk03w_v2_2_.xml",
+    "sha": "86a27e1e7c1043d62e42fdecba381940ce5118f14000f13be2b5f98543763a5f",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3emk03w_v2",
+    "title": "Intel Management Engine Software - 11 (24H2 or Later)",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3esq01w_2_.xml",
+    "sha": "1d26453cb0002381ca380538a13916baf8f1db49144ab316db97531f10ec2d70",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r3esq01w",
+    "title": "Alcor Smart Card Reader Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3esj01w_2_.xml",
+    "sha": "72498d43d01e4e37c7ff0df33b795be98feb8dcdc5fb97c2a7cf15ad66722ab8",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "r3esj01w",
+    "title": "Intel Serial IO Driver - 11 (24H2 or Later)",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3erc03w_2_.xml",
+    "sha": "4a0eae523bce59167665d2277473201493bf1e919f4eb78ec9cd6e8437872b26",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r3erc03w",
+    "title": "Intel PRO1000 LAN Adapter Software - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ept02w_2_.xml",
+    "sha": "948983bc7655a4a2efdcbf5af7f85e11ddde53415d19bcc8ac34164f6d275788",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches,Storage",
+    "id": "r3ept02w",
+    "title": "Intel Platform Monitoring Technology Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3enp02w_2_.xml",
+    "sha": "198e47122586b504f1e2f90df5b15f24f73b3a82464d69d6ca9c33e1aa733cde",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r3enp02w",
+    "title": "NXP NFC Driver - 11 (24H2 or Later)",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ete02w_2_.xml",
+    "sha": "53d6f38533ae4820df42f6ab27b1dde97ab254c7110ff66e6e44baeb0fd72ba8",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r3ete02w",
+    "title": "ELAN TrackPoint Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3eif03w_2_.xml",
+    "sha": "e58100e2a775753c2e8fb87d5956588242fd1a2a872ecc125ed774c64e3391cc",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3eif03w",
+    "title": "Intel Dynamic Tuning Technology Driver - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3em102w_2_.xml",
+    "sha": "fa05f0300cde20f5a1be7cab63633c21c67e002812711ba0521a55ccafac0166",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r3em102w",
+    "title": "ThinkPad Monitor File - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3etx03w_2_.xml",
+    "sha": "9a7dda0af97a9eae658de5a728de9c854b1bee66beb0345c02dc40566dafd337",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3etx03w",
+    "title": "Intel TXT Authenticated Code Module - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ewg05w_2_.xml",
+    "sha": "a72522b5c826124c59295ae4506c9734b6556951b53bf400f75b9f773e9942d6",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r3ewg05w",
+    "title": "Intel Wireless LAN Driver - 11 (24H2 or Later)",
+    "date": "2026-05-06"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ets01w_2_.xml",
+    "sha": "579057ab76df8cb7b950972c0f6e4b779a813122db862f6a4ee7a64c8e211b56",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Storage",
+    "id": "r3ets01w",
+    "title": "Intel Total Storage Encryption - 11 (24H2 or Later)",
+    "date": "2026-04-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3eia02w_2_.xml",
+    "sha": "1a5ea11e32532b0a64676b0a24e0562a4d90f99a5d475a42451bf330a3a52568",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r3eia02w",
+    "title": "Intel Chipset Device Software - 11 (24H2 or Later)",
+    "date": "2026-04-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ed207w_2_.xml",
+    "sha": "f4c078b0e970c04973ce254b8e76018ed259719a88b71cd6c0dc8150fddd878c",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r3ed207w",
+    "title": "Intel Graphics Driver - 11 (24H2 or Later)",
+    "date": "2026-05-18"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ewr05w_2_.xml",
+    "sha": "b434d60be0d2ee3c711374a706a49d4c94dd118e45141f4d9882b53e5581f856",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r3ewr05w",
+    "title": "Snapdragon X12 4G Cat12 Modem WWAN Software - 11 (24H2 or Later)",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3erw05w_2_.xml",
+    "sha": "2fe63907dc8a2245c8f35215cbc5039681e155903f72fd323a2409a0ad709749",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r3erw05w",
+    "title": "Snapdragon X12 4G Cat6 Modem WWAN Software - 11 (24H2 or Later)",
+    "date": "2026-06-15"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3euj02w_2_.xml",
+    "sha": "fefbc6410b7588feaa480c2f723609c4c552e28e964ee01fd626f6507f465971",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r3euj02w",
+    "title": "System Firmware Update Utility - 11",
+    "date": "2026-07-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r3ea309w_2_.xml",
+    "sha": "c81721fa4ebdace66d9c0d1ff1c1a707c28c242e2f88f431323ee62a6928efc0",
+    "catalogs": [
+      "21x2_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r3ea309w",
+    "title": "Realtek Audio Driver - 11 (24H2 or Later)",
+    "date": "2026-08-17"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ims02w_2_.xml",
+    "sha": "9d300c46a715ecc74c6a403b308e05c9911e755192891a0d9e4684f4740fc5b8",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ims02w",
+    "title": "AMD SMBUS Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ipe03w_2_.xml",
+    "sha": "52602fc805d3ac5fa671105e51435e135868777c06428faeeb6be5dd2aada01a",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ipe03w",
+    "title": "AMD Micro PEP Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ipk04w_2_.xml",
+    "sha": "293a32836eb2d03d8246415657f4743acd55c86e5523ac2d1b188c63819fe576",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ipk04w",
+    "title": "AMD Processor Power Management - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-04"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ipp03w_2_.xml",
+    "sha": "1fb04a523d87d90f8ad14654f7096ff86addd36b8725e172b2461a38d45ffbb1",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r2ipp03w",
+    "title": "AMD PSP Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifc03w_2_.xml",
+    "sha": "fe842cc41d4546ca053b4e0db36d1f5a8764ce11e6ea7de6b31109d2ecb5692a",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2ifc03w",
+    "title": "AMD S0I3 Filter Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-02"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2iai03w_2_.xml",
+    "sha": "8990e11c1b38d1a788c6c9ec3ef46dad1dbe630497ebda4cf05cb2bbad218443",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Software and Utilities",
+    "id": "r2iai03w",
+    "title": "AMD I2C Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2igg02w_2_.xml",
+    "sha": "283bc2065246a6908bff871397af8c56c886fb792d31dc18f655922474189d09",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2igg02w",
+    "title": "AMD GPIO Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2024-09-03"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ire03w_2_.xml",
+    "sha": "756384dc38352d2575e77b0373824d985a21dd905baa3436cc831a837dc29340",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r2ire03w",
+    "title": "Realtek LAN Adapter Software - 11 (22H2 or Later)",
+    "date": "2024-11-01"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ibu04w_2_.xml",
+    "sha": "b066ef2dd3f84855f27d182849b318c4b538fa4343d1a9810beec3d18c87777e",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r2ibu04w",
+    "title": "Qualcomm Bluetooth Driver - 11 (22H2 or Later)",
+    "date": "2024-12-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ia313w_2_.xml",
+    "sha": "aceddbeb67e26b9d3ca97de2eb11d5748492a90e5d8cd28ee44ebe3a1ff9493e",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r2ia313w",
+    "title": "Realtek Audio Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2025-11-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2id714w_2_.xml",
+    "sha": "6ef18a9493ebdd8d2c2e27e7f95d06e33cc112c7a1233ca83e0b77fd79cfa59f",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r2id714w",
+    "title": "AMD Graphics Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-03-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2iwu08w_2_.xml",
+    "sha": "21cf518e032f3586f1d8f97d3c2f30336ea59ce86700a603216173abda00d7f0",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r2iwu08w",
+    "title": "Qualcomm Wireless LAN Driver - 11 (22H2 or Later)",
+    "date": "2026-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2igl11w_2_.xml",
+    "sha": "859ff2b14d87ea8c1ded68e3e36547357a0c52f61200fdbd570bced011153421",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r2igl11w",
+    "title": "Fingerprint Reader Driver - 11 (22H2 or Later)",
+    "date": "2026-09-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2iuj16w_2_.xml",
+    "sha": "28e8bc16e491f29cc7dff21c3d2decec4edce51a3a87d5b829cdc752afe38b0f",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r2iuj16w",
+    "title": "BIOS Update Utility - 10/11",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2idt05w_2_.xml",
+    "sha": "2817d95eb9cec3b5d3e545d25cd30826ed4f6f2747500e36f42fe3b577dc0fcc",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2idt05w",
+    "title": "AMD DRTM Boot Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2igb01w_2_.xml",
+    "sha": "f990e66a32bffc43f4a6cf52d5597f673d772eae8f200032f72b4db15ceb5aba",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Mouse Pen and Keyboard",
+    "id": "r2igb01w",
+    "title": "Synaptics TrackPad Firmware - 10/11",
+    "date": "2025-08-27"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifx06w_2_.xml",
+    "sha": "8e923474441040e25c2b4937482b3a92ddc35c37279ab09edb0a79604dd649cc",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r2ifx06w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifv05w_2_.xml",
+    "sha": "44438b08f12ab05f2276cdac69b7151ff298527461f9ef7aad0efa0d2fbb96e3",
+    "catalogs": [
+      "21l6_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "r2ifv05w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vm102w_2_.xml",
+    "sha": "dc3229dc2e5c4b0e7b2cd907c8c78d78bbc5d6c8ea2aeaaebb1b1cbf57b3f23e",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r2vm102w",
+    "title": "ThinkPad Monitor File - 11 (23H2 or Later)",
+    "date": "2025-07-29"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vc404w_2_.xml",
+    "sha": "ff0f201a93e80015c618493b51f18ce67babea3172f238e2f16650f0fd000ab6",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Camera and Card Reader",
+    "id": "r2vc404w",
+    "title": "Integrated Camera Driver - 11 (23H2 or Later)",
+    "date": "2025-07-25"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vpp04w_2_.xml",
+    "sha": "4e38c9f744dadf3d8b1da21bdd5edcd31e7f51de0efa56e22ce0740eb7c6fb3a",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vpp04w",
+    "title": "AMD PSP Driver - 11 (23H2 or Later)",
+    "date": "2026-01-12"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vpk04w_2_.xml",
+    "sha": "aae2fb98f74f9134d7ef12f1659626d7aa5387fe912bb0cd23ba512a95f8b58a",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vpk04w",
+    "title": "AMD Processor Power Management (PPM) Package - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vgg02w_2_.xml",
+    "sha": "d83a1003f3cd800186d96b30e61200763b59bcea51c5ca15bcb05317f898f489",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vgg02w",
+    "title": "AMD GPIO Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vpe02w_2_.xml",
+    "sha": "d48937d23813b2fddb6e24a79103dbca8d81272dbd6c6d1a5905283e699d7ef7",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vpe02w",
+    "title": "AMD Micro PEP Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vai02w_2_.xml",
+    "sha": "82f520235a9f9765cf33dcfadc15fe9e29c603ff40c63604ad59165ff749cf36",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vai02w",
+    "title": "AMD I2C Driver - 11 (23H2 or Later)",
+    "date": "2026-01-21"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vas03w_2_.xml",
+    "sha": "b871aeeb8a016638a17887595b0e80b482465eb39052ff18ffcee5ed842cbd28",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vas03w",
+    "title": "AMD AMS Boot Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vnf05w_2_.xml",
+    "sha": "e70e8aa962dac2b5b297ea58d79c80683588a0bac87a6bcb907ec8aa2d3e7a7a",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vnf05w",
+    "title": "AMD NPU Driver - 11 (23H2 or Later)",
+    "date": "2026-03-13"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vrr04w_v2_2_.xml",
+    "sha": "3f89d174d83926ea06e85428d15160604c10f195a23bcfaba41b4c19e488b486",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Networking LAN Ethernet",
+    "id": "r2vrr04w_v2",
+    "title": "Realtek LAN Adapter Software - 11 (23H2 or Later)",
+    "date": "2026-04-22"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2va305w_2_.xml",
+    "sha": "9f369fd4ee7116f1e2d0b1bdda28eda493cacaf44f18b8b4c4acecd914fa18a3",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Audio",
+    "id": "r2va305w",
+    "title": "Realtek Audio Driver - 11 (23H2 or Later)",
+    "date": "2026-05-07"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vms03w_2_.xml",
+    "sha": "8e572ec268dd7120397927f5d81ce5d20108db8a515588f8f3d4d4f7478636f2",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vms03w",
+    "title": "AMD SMBUS Driver - 11 (23H2 or Later)",
+    "date": "2026-01-16"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vpc05w_2_.xml",
+    "sha": "69571d46b7df07119b306b5d13fa7d441c5c77fe1ce4c4404e504953637fceea",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vpc05w",
+    "title": "AMD PMF_8000 Series Driver - 11 (23H2 or Later)",
+    "date": "2026-09-08"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vdt05w_2_.xml",
+    "sha": "1a82ed114d13ee50b01d6ecde2c85fc09334b5564c7914b6012f838a2b9e42e7",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "id": "r2vdt05w",
+    "title": "AMD DRTM Boot Driver - 11 (23H2 or Later)",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vbs11w_2_.xml",
+    "sha": "f978b2be4c8680d74bf29f935719b35ff7ce772e2c3f2d3796aff6ea04f99c15",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Bluetooth and Modem",
+    "id": "r2vbs11w",
+    "title": "Mediatek Bluetooth Driver - 11 (23H2 or Later)",
+    "date": "2026-09-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vgn04w_2_.xml",
+    "sha": "c922052497dec8df69683a72a96507787504c329081557297441b0c87c736acb",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Fingerprint reader",
+    "id": "r2vgn04w",
+    "title": "Fingerprint Reader Driver - 11 (23H2 or Later)",
+    "date": "2026-09-11"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vuj09w_2_.xml",
+    "sha": "e14200bac6b2d9373af6cd70d363220ae7a42a17d2762e8215bc4a3a82a328f6",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "BIOS UEFI",
+    "id": "r2vuj09w",
+    "title": "System Firmware Update Utility - 11",
+    "date": "2026-09-10"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vws08w_2_.xml",
+    "sha": "5f1473cf41812921057ce1feb356ac3e8b5cb326f3fe7db9066286f688319434",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Networking Wireless LAN",
+    "id": "r2vws08w",
+    "title": "MTK MT7925 Wireless LAN Driver - 11 (23H2 or Later)",
+    "date": "2026-09-09"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/nybwh08w_2_.xml",
+    "sha": "78227e92788b6c2d8b57e508bfb933c6dca7c4e1a06f9e931465481377f95564",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Networking Wireless WAN",
+    "id": "nybwh08w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "date": "2026-09-14"
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/r2vd714w_2_.xml",
+    "sha": "ad9bae723808e488b48dad47fefa75b9b9681d53f7bc9dd3c6f44bc5cb98b024",
+    "catalogs": [
+      "21sf_Win11.xml"
+    ],
+    "category": "Display and Video Graphics",
+    "id": "r2vd714w",
+    "title": "AMD Graphics Driver - 11 (23H2 or Later)",
+    "date": "2026-09-15"
+  }
+]

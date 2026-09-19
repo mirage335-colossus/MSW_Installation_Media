@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="APD_R19SB" id="r19sb02w" version="5.17.0.0" hide="False">
+  <Title default="EN">
+    <Desc id="EN">AMD PSP Driver -10 (1809 or Later)/11(21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[PCI\VEN_1022&DEV_15DF]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_1022&DEV_15DF]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r19sb02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2021-12-29</ReleaseDate>
+  <DiskSpaceNeeded>4136480</DiskSpaceNeeded>
+  <Reboot type="0" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r19sb02w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r19sb02w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_1022&DEV_15DF]]></HardwareID>
+      <Date>2021-06-11</Date>
+      <Version>5.17.0.0^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_1022&DEV_15DF]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R19ET*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r19sb02w.exe</Name>
+        <CRC>A73C456B1C7845CC23D69820021F64E8D08BC125837FA6883348F5D87D6DE002</CRC>
+        <Size>1563944</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r19sb02w.txt</Name>
+        <CRC>462ECF2DD0331BE07F750353BE107D957E0A26A4F541BB136A4F4F9385D2C1B0</CRC>
+        <Size>6987</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>iopb4/8UOkaSkT9HHNer07RPzow=</DigestValue></Reference></SignedInfo><SignatureValue>HFtPQdcVqRCvoqbImtbbQZic14XRHYhCSb+2QT3AgZGlOyLuHQAkczz98YfAo2SXqpgs7NuioSju01q+0dOZIngrYI1V3zki1YE21ZG0XlnX7/3JR41rWyaIzM9CmlyDvWuxj7mvXM18E1q8PVvAlL35b6GAG+HAwqDz6r2jOgLKKZJ6CMmNw0gZIY05TLy4T5RBGaSXxWx8uuD4Bo987zpioyrMohgimt1iPT2Cxmam3VYYlyq0IfLyLxpyJJDeQ47bFem9MJu+jiN0LRYlkinrZGfPGF5IgzuOFc5/Iw1lXchibGWVMRZGqdbRwEzylqiDK9OStZu/7qBFXjpnS36Ud0EtzvMmWOXGnL+T3gswbQd4kuIpO00GWL3e0ZJFrr0UusSQJN841rwxXi+7R+TTLCDH1OongITg/zx57wIrmHMLSSy8IbDExtSZwR7auTeB24inWMJy8qrkDqGRh6D7q5BIkV4zV9n9U4NUkoccfH3EoT5WUz2SRfb2SwAp</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

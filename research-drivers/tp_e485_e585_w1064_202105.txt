@@ -1,0 +1,204 @@
+                                                                                               Package  09
+----------------------------------------------------------------------------------------------------------		
+Software name      SCCM package for Windows 10 version 1709, 1803, 1809, 1903, 1909, 2004, 20H2, 21H1
+		
+Support models     ThinkPad E485 (Machine Type: 20KU)
+                   ThinkPad E585 (Machine Type: 20KV)
+				
+Operating System   Microsoft Windows 10  64-bit  (1709, 1803, 1809, 1903, 1909, 2004, 20H2, 21H1)	
+		
+Revision           01
+		
+		
+----------------------------------------------------------------------------------------------------------		
+WHAT THIS PACKAGE DOES		
+		
+  This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+  deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+  drivers. INF file will be available after executing the downloaded self-extracting EXE package.		
+	
+----------------------------------------------------------------------------------------------------------
+NOTES
+
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+  computer first.
+
+- If you encountered Microsoft a ISATAP yellow bang after OS deployment, restart
+  the machine. Or customize the 'CustomSettings.ini' file to add auto restart command once the OS
+  deployment is completed.
+
+- Please reboot your system once after OOBE is done to let drivers working properly.
+		
+----------------------------------------------------------------------------------------------------------		
+VERSION INFORMATION		
+		
+  The following versions have been released to date.	
+
+  Package   Rev.  Issue Date		
+  -------   ----  ----------	
+  09        01    2021/05/21
+  08        01    2020/12/17
+  07        01    2020/06/15
+  06        01    2020/03/05
+  05        01    2019/12/03
+  04        01    2019/09/23
+  03        01    2019/06/08
+  02        01    2019/03/23
+
+
+  Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+        software version. There is no need to upgrade this software when the revision number changes.
+						
+		
+Version List		
+		
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA112W      25.20.14012.22001
+  AMD SMBUS Driver Driver                              R0UA112W      5.12.0.38
+  AMD PSP Driver                                       R0UA112W      4.9.0.0
+  AMD HDMI Driver                                      R0UA112W      10.0.1.7
+  Synaptics Audio Driver                               R0UAC12W      8.66.77.65
+  Bayhub MutliCard Reader Driver                       R0USR05W      1.1.101.1024
+  Realtek LAN Driver                                   R0UER04W      10.037.1028.2019
+  Realtek Wireless LAN Driver                          R0URW11W      2024.0.8.108
+  Qualcomm Atheros Bluetooth Driver                    R0UAB07W      10.0.0.948
+  Realtek Bluetooth Driver                             R0URB05W      1.5.1014.3003
+  UltraNav Driver                                      R11ST10W      19.5.19.75
+  Integrated  Camera Driver                            N2CCM18W      5.0.18.73_10.0.19041.20180
+  PowerManagement                                      N2HKU67W      1.67.17.54
+  ThinkPad Monitor File                                R0UMI06W      6.9.1.0
+
+
+  Where: Build ID is for administrative purpose.
+
+----------------------------------------------------------------------------------------------------------
+LIMITATIONS
+
+- N/A
+
+----------------------------------------------------------------------------------------------------------
+SUMMARY OF CHANGES
+
+
+Package 09    Rev 01
+
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  UltraNav Driver                                      R11ST10W      19.5.19.75                  (Updated)
+  Integrated  Camera Driver                            N2CCM18W      5.0.18.73_10.0.19041.20180  (Updated)
+  PowerManagement                                      N2HKU67W      1.67.17.54                  (Updated)
+
+
+Package 08    Rev 01    2020/12/17
+
+ [Important updates] 
+                   Repackaged to support VERYSILENT installation.
+
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA112W      25.20.14012.22001           (Updated)
+  AMD SMBUS Driver Driver                              R0UA112W      5.12.0.38                   (Updated)
+  AMD PSP Driver                                       R0UA112W      4.9.0.0                     (Updated)
+  AMD HDMI Driver                                      R0UA112W      10.0.1.7                    (Updated)
+  Qualcomm Atheros Bluetooth Driver                    R0UAB07W      10.0.0.948                  (Updated)
+  UltraNav Driver                                      R11ST09W      19.5.19.63                  (Updated)
+  Integrated  Camera Driver                            N2CCM17W      5.0.18.73_10.0.19041.20146  (Updated)
+
+
+Package 07    Rev 01    2020/06/15 
+
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  PowerManagement                                      N2HKU62W      1.67.17.51                  (Updated)
+
+
+Package 06    Rev 01    2020/03/05    
+
+    [Important updates] 
+        Address security vulnerability issues CVE-2019-6173 and CVE-2019-6196
+
+    [New functions or enhancements]
+        Nothing.
+
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA110W      25.20.14012.15001           (Updated)
+  AMD SMBUS Driver Driver                              R0UA110W      5.12.0.38                   (Updated)
+  AMD PSP Driver                                       R0UA110W      4.9.0.0                     (Updated)
+  AMD HDMI Driver                                      R0UA110W      10.0.1.7                    (Updated)
+  Realtek LAN Driver                                   R0UER04W      10.037.1028.2019            (Updated)
+  UltraNav Driver                                      R0UST14W      19.5.19.55                  (Updated)
+  PowerManagement                                      N2HKU60W      1.67.17.50                  (Updated)
+
+
+Package 05    Rev 01    2019/12/03
+
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA10FW      25.20.14012.9002            (Updated)
+  Realtek Wireless LAN Driver                          R0URW11W      2024.0.8.108                (Updated)
+  PowerManagement                                      N2HKU54W      1.67.17.28                  (Updated)
+
+
+Package 04    Rev 01    2019/09/23    		
+		
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  Realtek Wireless LAN Driver                          R0URW10W      2024.0.5.103                (Updated)
+  PowerManagement                                      N2HKU52W      1.67.17.17                  (Updated)
+
+
+Package 03    Rev 01    2019/06/08        		
+		
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA10EW      25.20.14002.1               (Updated)
+  AMD SMBUS Driver Driver                              R0UA10EW      5.12.0.38                   (Updated)
+  AMD PSP Driver                                       R0UA10EW      4.9.0.0                     (Updated)
+  AMD HDMI Driver                                      R0UA10EW      10.0.1.7                    (Updated)
+  Qualcomm Atheros Wireless LAN Driver                 R0UAW09W      12.0.0.720                  (Updated)
+  Qualcomm Atheros Bluetooth Driver                    R0UAB06W      10.0.0.720                  (Updated)
+  Realtek Bluetooth Driver                             R0URB05W      1.5.1014.3003               (Updated)
+  UltraNav Driver                                      R0UST12W      19.5.19.33                  (Updated)
+  Integrated  Camera Driver                            R0UCM09W      5.0.18.32
+                                                                     _10.0.17763.20065           (Updated)
+  PowerManagement                                      N20KU14W      1.67.14.7                   (Updated)
+  ThinkPad Monitor File                                R0UMI06W      6.9.1.0                     (Updated)
+			
+		
+Package 02    Rev 01    2019/03/23     		
+		
+  Software name		                               Build ID      Version number
+  ---------------------------------------------------  --------      --------------
+  AMD Graphics Driver for Windows                      R0UA10DW      23.20.826.4096              (Added)
+  AMD SMBUS Driver Driver                              R0UA10DW      5.12.0.38                   (Added)
+  AMD PSP Driver                                       R0UA10DW      4.5.0.0                     (Added)
+  AMD HDMI Driver                                      R0UA10DW      10.0.1.6                    (Added)
+  Synaptics Audio Driver                               R0UAC12W      8.66.77.65                  (Added)
+  Bayhub MutliCard Reader Driver                       R0USR05W      1.1.101.1024                (Added)
+  Realtek LAN Driver                                   R0UER03W      10.026.0328.2018            (Added)
+  Qualcomm Atheros Wireless LAN Driver                 R0UAW07W      12.0.0.709                  (Added)
+  Realtek Wireless LAN Driver                          R0URW07W      2023.79.0601.2018           (Added)
+  Qualcomm Atheros Bluetooth Driver                    R0UAB04W      10.0.0.709                  (Added)
+  Realtek Bluetooth Driver                             R0URB04W      1.5.1012.3                  (Added)
+  UltraNav Driver                                      R0UST10W      19.5.19.26                  (Added)
+  Integrated  Camera Driver                            R0UCM06W      10.0.17134.20044
+                                                                     5.0.18.19                   (Added)
+  PowerManagement                                      LGABEU1JA2    1.67.14.05                  (Added)
+  ThinkPad Monitor File                                R0UMI05W      6.07.0.0                    (Added)
+					
+		
+----------------------------------------------------------------------------------------------------------		
+TRADEMARKS		
+		
+* Lenovo, Ideapad are registered trademarks of Lenovo.	
+	
+* Intel is a registered trademark of Intel Corporation.		
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.				
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* HuaWei is a registered trademark of HuaWei Corporation 				
+		
+Other company, product, and service names may be registered trademarks, trademarks or service marks of		
+others.		
+	

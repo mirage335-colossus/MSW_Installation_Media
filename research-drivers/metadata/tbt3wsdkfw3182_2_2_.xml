@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="FWU_TRDOCK_TR_TB" id="tbt3wsdkfw3182_2" version="3.1.82" hide="False">
+  <Title default="EN">
+    <Desc id="EN">ThinkPad Thunderbolt 3 dock Gen2 / Workstation dock Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>tbt3wsdkfw3182_2.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-07-03</ReleaseDate>
+  <DiskSpaceNeeded>71196302</DiskSpaceNeeded>
+  <Reboot type="1" />
+  <Brand type="2" />
+  <PackageType type="4" />
+  <Install rc="0" rccancel="20" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\TRDock_FwUpdate.exe /tvsu</Cmdline>
+  </Install>
+  <Uninstall />
+  <DetectInstall />
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <_ExternalDetection rc="0">%PACKAGEPATH%\tbt3wsdkfw3182_2_version.exe</_ExternalDetection>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>tbt3wsdkfw3182_2.exe</Name>
+        <CRC>5BC8BDD8BD185C56ADEA087491A76CF3D49128C82D3EE0A9C27668061F02ACC2</CRC>
+        <Size>19561360</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>tbt3wsdkfw3182_2.txt</Name>
+        <CRC>935D458B1BEEDDFD6E8BAA6E6D300DF7CB976B7566ACFA3090DE96014889EDC3</CRC>
+        <Size>28717</Size>
+      </File>
+    </Readme>
+    <External>
+      <File>
+        <Name>trdock_verchk.ini</Name>
+        <CRC>A2532C9073BA03CCDD5A03F096C959BD41C70C4DF704244C8C78A646F7599386</CRC>
+        <Size>107</Size>
+      </File>
+      <File>
+        <Name>tbt3wsdkfw3182_2_version.exe</Name>
+        <CRC>FAB8301ECB9CB38D542BA9521B6A9B79BE754DC1508CEF148C9F508D29661AE9</CRC>
+        <Size>3392544</Size>
+      </File>
+    </External>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mEOMGob1526oXkf6mh5aD4DQO9Q=</DigestValue></Reference></SignedInfo><SignatureValue>iDcyv0qG7izeXxoy2JyPRTO460fFtMcVBvB845qPwMYxkFwdQtJRlte7bPXe8KzeTymx7R2+D6/tNdjGcZZ+tNZFDWVZsafVdMO6UMMU2i1HmFfZDimIF98H0QbMIqZlLU4vRD3XVb4Jz6NcmQuZlnRfFUWDkSTUfPX86R5Sw9+90ul8HlN0GK3ogF1RWgKxY+f3tg2DSBJ2481aS13bMJvLvSi1u/ue4UITDM31DA00FhoIU86TVps1ydi3U+NlTp54ROvCOBqs56rQe6p0tXx6DGIW/RKXNIE6dmFd33+1sy/efuVO+GFD/hi+rzs97eczS34DYq/9N5xG+GE+CYS/hsuDpVwB/vwEFfaX+s7UacfCeJYwuzW8U+OzIETACjIsXLs+Iem8/neckcaYKsej/aiHYMx8jFUr3bQmcvfNyVsZ9diaBs/xsT0KFa8pp9tEMLZqU+30JpE52q8CctDY4zEggHKzplowrEcR2r3f8c5RCnrrq0FuE4BkWsqa</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

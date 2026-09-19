@@ -1,0 +1,608 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package for Windows 11 Version 25H2
+Support Models
+ThinkPad L14 Gen 6 (Type 21S8, 21S9) Laptops
+ThinkPad L16 Gen 2 (Type 21SC, 21SD) Laptops
+View Less Models
+Operating Systems
+Windows 11 (25H2)
+Version
+01
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.
+Changes in This Release
+Package 01        01    2026/06/29
+Software name
+BuildID
+Version_Number
+Status
+Realtek Audio Features
+R2UA307W
+6.0.3.119(AMD ACP), 6.0.9960.1(Realtek Audio)
+Added
+AMD I2C Driver
+R2UAI03W
+1.2.0.126
+Added
+AMD AMS Boot Driver
+R2UAS03W
+5.0.0.1075
+Added
+MTK MT7925 Bluetooth Filter Driver
+NYCBS02W
+25.30.3.57
+Added
+Integrated Camera Driver
+NY3C407W
+realtek:10.0.22000.20386   Sunplus:5.0.18.284    Sonix:10.13.26100.6
+Added
+AMD Graphics Driver
+R2UD712W
+32.0.22024.4008
+Added
+AMD DRTM Boot Driver
+R2UDT04W
+1.0.19.3
+Added
+Quectel Wireless WAN EM160R-GL Software
+NYCWH02W
+1.2.0.28      (Driver Version)
+1.0.89.9      (Quectel Wireless Location Sensor)
+1.0.89.11      (Quectel QMUX Interconnect)
+30.0.0.7      (HighSpeed USB Composite Device(UDE))
+Added
+Quectel Wireless WAN EM061K-GL Software
+NYCWT03W
+2.1.0.27     (Driver Package Ver.)
+1.1.0.7      (Quectel GNSS Sensor Device)
+6.0.0.45     (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.16    (Quectel USB Composition device)
+Added
+AMD GPIO Driver
+R2UGG03W
+2.2.0.134
+Added
+Fingerprint Reader Driver
+NYAGN09W
+6.0.62.1136(Synaptics) 3.4.51.2020(Goodix)
+Added
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+Added
+AMD SMBUS Driver
+R2UMS04W
+2.0.0.23
+Added
+AMD Micro NPU_MEP Driver
+R2UNF05W
+32.2.0.0/32.0.203.304
+Added
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+Added
+AMD PMF_8000Series Driver
+R2UP804W
+25.5.27.0
+Added
+AMD Micro PEP Driver
+R2UPE03W
+1.0.46.0
+Added
+AMD PPM Settings Package
+R2UPK05W
+8.0.0.56
+Added
+AMD PSP Driver
+R2UPP05W
+5.40.0.0
+Added
+Realtek PCIe GBE Family Controller Software
+R2URR04W
+1166.27.50.0919
+Added
+Alcor SmartCard Reader Driver
+NYCSQ02W
+1.10.7.1001
+Added
+ELAN TrackPoint Device Driver
+NYATE07W
+31.21.60.1
+Added
+MTK MT7925 Wireless LAN Driver
+NYCWS04W
+26.30.3.61
+Added
+Lenovo Base Utility Package
+r18vu73w
+10.17.2603.3
+Added
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Added
+Lenovo Power Management Driver
+n4bku13w
+1.69.168.0
+Added
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Added
+Lenovo View Driver
+r2slf18w
+4.3.0.3
+Added
+Lenovo Adaptive ICC Profile
+n3yfz29w
+2.0.1.12
+Added
+Lenovo MEP Opt-in Driver
+n41me31w
+1.0.19.0
+Added
+ThinkPad USB 3.0 LAN Driver for Docka and Adapters
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Added
+Dependency
+Software name
+Important Notice
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+- The SCCM match Server Winpe version 10.0.26100.2454
+The camera app opens and appears Find Camera cannot be opened and show "Can not start your camera with error code 0xA00F429E or Can not start your camera with error code  0xA00F429F, Please install on Microsoft VC_dedist.exe
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Software name
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Software name
+BuildID
+Version_Number
+Realtek Audio Features
+R2UA307W
+6.0.3.119(AMD ACP), 6.0.9960.1(Realtek Audio)
+AMD I2C Driver
+R2UAI03W
+1.2.0.126
+AMD AMS Boot Driver
+R2UAS03W
+5.0.0.1075
+MTK MT7925 Bluetooth Filter Driver
+NYCBS02W
+25.30.3.57
+Integrated Camera Driver
+NY3C407W
+realtek:10.0.22000.20386   Sunplus:5.0.18.284    Sonix:10.13.26100.6
+AMD Graphics Driver
+R2UD712W
+32.0.22024.4008
+AMD DRTM Boot Driver
+R2UDT04W
+1.0.19.3
+Quectel Wireless WAN EM160R-GL Software
+NYCWH02W
+1.2.0.28      (Driver Version)
+1.0.89.9      (Quectel Wireless Location Sensor)
+1.0.89.11      (Quectel QMUX Interconnect)
+30.0.0.7      (HighSpeed USB Composite Device(UDE))
+Quectel Wireless WAN EM061K-GL Software
+NYCWT03W
+2.1.0.27     (Driver Package Ver.)
+1.1.0.7      (Quectel GNSS Sensor Device)
+6.0.0.45     (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.16    (Quectel USB Composition device)
+AMD GPIO Driver
+R2UGG03W
+2.2.0.134
+Fingerprint Reader Driver
+NYAGN09W
+6.0.62.1136(Synaptics) 3.4.51.2020(Goodix)
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+AMD SMBUS Driver
+R2UMS04W
+2.0.0.23
+AMD Micro NPU_MEP Driver
+R2UNF05W
+32.2.0.0/32.0.203.304
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+AMD PMF_8000Series Driver
+R2UP804W
+25.5.27.0
+AMD Micro PEP Driver
+R2UPE03W
+1.0.46.0
+AMD PPM Settings Package
+R2UPK05W
+8.0.0.56
+AMD PSP Driver
+R2UPP05W
+5.40.0.0
+Realtek PCIe GBE Family Controller Software
+R2URR04W
+1166.27.50.0919
+Alcor SmartCard Reader Driver
+NYCSQ02W
+1.10.7.1001
+ELAN TrackPoint Device Driver
+NYATE07W
+31.21.60.1
+MTK MT7925 Wireless LAN Driver
+NYCWS04W
+26.30.3.61
+Lenovo Base Utility Package
+r18vu73w
+10.17.2603.3
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Lenovo Power Management Driver
+n4bku13w
+1.69.168.0
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Lenovo View Driver
+r2slf18w
+4.3.0.3
+Lenovo Adaptive ICC Profile
+n3yfz29w
+2.0.1.12
+Lenovo MEP Opt-in Driver
+n41me31w
+1.0.19.0
+ThinkPad USB 3.0 LAN Driver for Docka and Adapters
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Version Information
+The following versions have been released to date.
+Package
+Rev.
+Issue Date
+01
+01
+2026/07/02
+Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+software version. There is no need to upgrade this software when the revision number changes.
+Where: Build ID is for administrative purpose.
+Package 01        01    2026/06/29
+Software name
+BuildID
+Version_Number
+Realtek Audio Features
+R2UA307W
+6.0.3.119(AMD ACP), 6.0.9960.1(Realtek Audio)
+AMD I2C Driver
+R2UAI03W
+1.2.0.126
+AMD AMS Boot Driver
+R2UAS03W
+5.0.0.1075
+MTK MT7925 Bluetooth Filter Driver
+NYCBS02W
+25.30.3.57
+Integrated Camera Driver
+NY3C407W
+realtek:10.0.22000.20386   Sunplus:5.0.18.284    Sonix:10.13.26100.6
+AMD Graphics Driver
+R2UD712W
+32.0.22024.4008
+AMD DRTM Boot Driver
+R2UDT04W
+1.0.19.3
+Quectel Wireless WAN EM160R-GL Software
+NYCWH02W
+1.2.0.28      (Driver Version)
+1.0.89.9      (Quectel Wireless Location Sensor)
+1.0.89.11      (Quectel QMUX Interconnect)
+30.0.0.7      (HighSpeed USB Composite Device(UDE))
+Quectel Wireless WAN EM061K-GL Software
+NYCWT03W
+2.1.0.27     (Driver Package Ver.)
+1.1.0.7      (Quectel GNSS Sensor Device)
+6.0.0.45     (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.16    (Quectel USB Composition device)
+AMD GPIO Driver
+R2UGG03W
+2.2.0.134
+Fingerprint Reader Driver
+NYAGN09W
+6.0.62.1136(Synaptics) 3.4.51.2020(Goodix)
+ThinkPad Monitor File
+NYAM105W
+6.14.27.0
+AMD SMBUS Driver
+R2UMS04W
+2.0.0.23
+AMD Micro NPU_MEP Driver
+R2UNF05W
+32.2.0.0/32.0.203.304
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+AMD PMF_8000Series Driver
+R2UP804W
+25.5.27.0
+AMD Micro PEP Driver
+R2UPE03W
+1.0.46.0
+AMD PPM Settings Package
+R2UPK05W
+8.0.0.56
+AMD PSP Driver
+R2UPP05W
+5.40.0.0
+Realtek PCIe GBE Family Controller Software
+R2URR04W
+1166.27.50.0919
+Alcor SmartCard Reader Driver
+NYCSQ02W
+1.10.7.1001
+ELAN TrackPoint Device Driver
+NYATE07W
+31.21.60.1
+MTK MT7925 Wireless LAN Driver
+NYCWS04W
+26.30.3.61
+Lenovo Base Utility Package
+r18vu73w
+10.17.2603.3
+Lenovo Intelligent Thermal Solution Driver
+n4bdy62w
+2.1.52.53
+Lenovo Power Management Driver
+n4bku13w
+1.69.168.0
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Lenovo View Driver
+r2slf18w
+4.3.0.3
+Lenovo Adaptive ICC Profile
+n3yfz29w
+2.0.1.12
+Lenovo MEP Opt-in Driver
+n41me31w
+1.0.19.0
+ThinkPad USB 3.0 LAN Driver for Docka and Adapters
+u3etn16w2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Quectel is a registered trademark of Quectel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Elan is a registered trademark of ELAN Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+* AMD is a registered trademark of AMD Corporation.
+* Qualcomm is a registered trademark of Qualcomm Corporation.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

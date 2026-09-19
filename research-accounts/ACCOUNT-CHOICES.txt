@@ -1,0 +1,42 @@
+WINDOWS 11 ACCOUNT CHOICE
+Research date: September 18, 2026
+
+At USB startup, choose Local account or Microsoft account. You choose the
+username and password yourself during Windows setup; this USB has neither.
+
+LOCAL ACCOUNT
+Keep Ethernet disconnected and do not connect to Wi-Fi until the desktop.
+The selected answer file asks Windows to display local account creation.
+Connect to the internet after reaching the desktop to obtain updates.
+
+MICROSOFT ACCOUNT
+Connect Ethernet, or choose Wi-Fi when Windows setup asks. Use the ordinary
+Microsoft sign-in screen. The USB does not collect your cloud credentials.
+
+You can change account type later under Settings > Accounts > Your info.
+You still choose the installation disk and partitions in Windows Setup.
+
+E485 COMPATIBILITY
+E485 processors are outside Microsoft's supported Windows 11 CPU list.
+If Windows Setup displays a hardware eligibility block, the optional
+Enable-E485-Compatibility.cmd file can be run from its command prompt.
+It changes only Setup checks; it does not turn off TPM or Secure Boot.
+It cannot guarantee support or bypass missing CPU instruction requirements.
+
+VALIDATION STATUS
+On September 18, 2026, isolated VM tests of the prepared media passed:
+Windows 11 Home, offline local account, through the desktop (account type
+confirmed Local, Secure Boot enabled); Windows 11 Pro, connected Microsoft
+account, through its sign-in form. No Microsoft credentials were entered.
+These tests do not establish physical Lenovo Wi-Fi/Ethernet/firmware support.
+Account setup can change with later builds and online OOBE updates.
+
+PRIMARY REFERENCES
+Current generator's interactive local-account implementation:
+https://github.com/cschneegans/unattend-generator/blob/master/modifier/Users.cs
+Microsoft answer-file account-screen setting (older documentation):
+https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hideonlineaccountscreens
+Rufus 4.15 implementation, June 30, 2026:
+https://github.com/pbatard/rufus/blob/v4.15/src/wue.c
+Microsoft account conversion:
+https://support.microsoft.com/en-US/accounts-billing/manage/change-from-a-local-account-to-a-microsoft-account-in-windows

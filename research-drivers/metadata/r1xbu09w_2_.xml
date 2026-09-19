@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="BT_R1XBU" id="r1xbu09w" version="2.0.0.895" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Qualcomm NFA765/Qualcomm NFA725 Bluetooth Filter Driver - 11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_0CF3&PID_E600]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9108]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9109]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9208]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9209]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9308]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9309]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9408]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9409]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9508]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9509]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9608]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9609]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_10AB&PID_9F09]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3022]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0C7]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0C9]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0CC]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0CE]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0CA]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0CB]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0D0]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0D6]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0DE]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0DF]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0E1]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0E3]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0EA]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_0489&PID_E0EC]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3023]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3024]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3A22]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3A24]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3A26]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_04CA&PID_3A27]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_0CF3&PID_E600]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9108]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9109]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9208]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9209]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9308]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9309]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9408]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9409]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9508]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9509]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9608]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9609]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_10AB&PID_9F09]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3022]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0C7]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0C9]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0CC]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0CE]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0CA]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0CB]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0D0]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0D6]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0DE]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0DF]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0E1]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0E3]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0EA]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_0489&PID_E0EC]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3023]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3024]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3A22]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3A24]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3A26]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_04CA&PID_3A27]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1xbu09w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-07-26</ReleaseDate>
+  <DiskSpaceNeeded>3328580</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1xbu09w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1xbu09w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\VID_0CF3&PID_E600]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9108]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9109]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9208]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9209]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9308]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9309]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9408]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9409]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9508]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9509]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9608]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9609]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_10AB&PID_9F09]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3022]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0C7]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0C9]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0CC]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0CE]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0CA]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0CB]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0D0]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0D6]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0DE]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0DF]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0E1]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0E3]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0EA]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_0489&PID_E0EC]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3023]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3024]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3A22]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3A24]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3A26]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_04CA&PID_3A27]]></HardwareID>
+      <Date>2023-02-19</Date>
+      <Version>2.0.0.895^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_OS>
+        <OS>WIN11</OS>
+      </_OS>
+      <_WindowsBuildVersion>
+        <Version>22000^</Version>
+      </_WindowsBuildVersion>
+      <Or>
+        <_PnPID><![CDATA[USB\VID_0CF3&PID_E600]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9108]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9109]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9208]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9209]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9308]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9309]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9408]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9409]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9508]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9509]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9608]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9609]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_10AB&PID_9F09]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3022]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0C7]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0C9]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0CC]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0CE]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0CA]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0CB]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0D0]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0D6]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0DE]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0DF]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0E1]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0E3]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0EA]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_0489&PID_E0EC]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3023]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3024]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3A22]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3A24]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3A26]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_04CA&PID_3A27]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R1XET*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1xbu09w.exe</Name>
+        <CRC>D190542E4AAB8346714E1447668B0E945F055CAB899BB2D29CE0FFE31F18C68E</CRC>
+        <Size>1367208</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1xbu09w.txt</Name>
+        <CRC>FE8948C0AEEBB857F927045E71A72B7862074B0D67F430975D96F5891A9AAA45</CRC>
+        <Size>7449</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sU+xEeR2KVr/8FifiqkIu7eZCLg=</DigestValue></Reference></SignedInfo><SignatureValue>SwUkEUC7wT+agni9vZ1SsjJMF5yOivMF3okqxyeiUiA1JOm1FrlJQk1g+vRz0yr86EtWL7Rn0SO+BtPpJVXGT5qyfKwmoZ59nyoEve9+zZ8Q8+sLD1fE64+O0ropxpOJfB+Ymv2gn8xTadYvOLyV7iUifOufmyBcrHtWLUh6dh3jLp98X8yufjV5i/bQJ+O/gAhWw+LRxIcOnGBgtGtQ2RuwvOjlkMdZg10XBfyTLJKBc50pcIt9f4JDwkaBTeWWZPVVm9V5bJI+f91JmCmHi/uIS3FWSFr8JksXFeddBFjtwZLBxRf5ngBixRZ2//jUw1goKUUjF0wQhDKu36vELtdiax87G8UXR1X1dpoPRbi0M2x5TVkjHyLMs4LvC9LYAXU/AuAI5bIVSWWffVB1kHAZGDYeXtI1x2Cm5r/EfYVf30A3jDOiUtD4FEPH05Dr9By8HNjaBQFOPd21rahAbQkBynnobSm4PMkzS0GfA0qRKau3mPx/3Ub53lXJy/I9</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

@@ -1,0 +1,526 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package for Windows 11 Version 25H2- for no WWAN
+Support Models
+ThinkPad L14 Gen 7 (Type 21X2, 21X3) Laptop
+ThinkPad L16 Gen 3 (Type 21X8, 21X9) Laptop
+View Less Models
+Operating Systems
+Windows 11 (25H2)
+Version
+02
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.
+Changes in This Release
+Package 02 01 2026/06/29
+Software name
+BuildID
+Version_Number
+Status
+Intel Graphics Driver
+R3ED207W
+32.0.101.8517
+Updated
+Lenovo Base Utility
+R18VU73W
+10.17.2603.3
+Updated
+Lenovo Power Management Driver
+N4BKU13W
+1.69.168.0
+Updated
+Lenovo Intelligent Sensing Driver
+N4OST48W
+2.3.8.0
+Updated
+Lenovo Adaptive ICC Profile
+N3YFZ32W
+2.0.1.14
+Updated
+Lenovo MEP Opt-in Driver
+N41ME31W
+1.0.19.0
+Updated
+Dependency
+Not Applicable
+Important Notice
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+- The SCCM match Server Winpe version 10.1.26100.2454
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Software name
+BuildID
+Version_Number
+Realtek Audio Features
+R3EA308W
+20.43.12622.0(Intel ISST), 6.0.9951.1(Realtek Audio)
+Intel BE211/BE213 Bluetooth Driver
+R3EBF05W
+24.20.0.3
+Integrated Camera Driver_Integrated IR Camera Driver
+R3EC405W
+realtek:10.0.22000.20398
+Sunplus:5.0.18.296
+Sonix:10.13.26100.13
+Intel Graphics Driver
+R3ED207W
+32.0.101.8517
+Round Power Button Fingerprint Reader Driver
+R3EGN01W
+6.0.62.1136(Synaptics)
+3.4.51.2010(Goodix)
+Intel HID Event Filter Driver
+R3EHD02W
+2.2.2.17
+Intel Chipset Driver
+R3EIA02W
+10.1.56.27
+Intel Dynamic Tuning Technology Driver
+R3EIF03W
+IPF: 2.3.20201.4882
+DTT: 9.1.10003.555
+PPM: 1.0.0.200
+ThinkPad Monitor File
+R3EM102W
+6.14.29.0
+Intel Management Engine 16.0 Software
+R3EMK03W
+MEI     : 2552.8.10.0
+SOL     : 2516.8.0.0
+ISSEI   : 2517.8.1.0
+LMS     : 2549.8.14.0
+WiMan   : 2543.98.178.0
+WMI     : 2544.8.3.0
+NXP NFC Driver
+R3ENP02W
+12.0.6.0
+Intel Platm Monitoring Technology(PMT)
+R3EPT02W
+7.3.10.3
+Intel LAN Adapter Software
+R3ERC03W
+20.0.3.24
+Intel Serial IO Driver
+R3ESJ01W
+30.100.2534.18
+Alcor SmartCard Reader Driver
+R3ESQ01W
+1.10.7.1001
+Touchpad Custom Settings Driver
+R3ET203W
+42.21.22.0 (Elan)
+19.5.19.116(Synaptics)
+2.4.2.0(Goodix)
+ELAN TrackPoint Device Driver
+R3ETE02W
+TrackPoint Device            31.21.57.1
+TrackPoint Component         31.21.57.1
+ETD HSA Device               31.21.57.1
+Intel(R) Total Storage Encryption(TSE)
+R3ETS01W
+1.5.0.1043
+Intel(R) TXT Authenticated Code Module
+R3ETX03W
+1.21.17.0
+Intel Vision Processing Unit driver
+R3EVP06W
+32.0.100.4509
+Intel BE211/BE213 Wireless LAN Driver
+R3EWG05W
+24.30.1.1
+Lenovo Base Utility
+R18VU73W
+10.17.2603.3
+Lenovo Intelligent Thermal Solution Driver (UMA)
+N4ODY09W
+2.2.102.4
+Lenovo Power Management Driver
+N4BKU13W
+1.69.168.0
+Lenovo Smart Standby
+N25BY28W
+4.3.13.0 (Component INF)
+Lenovo Intelligent Sensing Driver
+N4OST48W
+2.3.8.0
+Lenovo Adaptive ICC Profile
+N3YFZ32W
+2.0.1.14
+Lenovo MEP Opt-in Driver
+N41ME31W
+1.0.19.0
+ThinkPad USB 3.0 LAN Driver for Docka and Adapters
+U3ETN16W2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Version Information
+The following versions have been released to date.
+Package
+Rev.
+Issue Date
+02
+01
+2026/07/02
+01
+01
+2026/05/12
+Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+software version. There is no need to upgrade this software when the revision number changes.
+Package 02 01 2026/06/29
+Software name
+BuildID
+Version_Number
+Intel Graphics Driver
+R3ED207W
+32.0.101.8517
+Lenovo Base Utility
+R18VU73W
+10.17.2603.3
+Lenovo Power Management Driver
+N4BKU13W
+1.69.168.0
+Lenovo Intelligent Sensing Driver
+N4OST48W
+2.3.8.0
+Lenovo Adaptive ICC Profile
+N3YFZ32W
+2.0.1.14
+Lenovo MEP Opt-in Driver
+N41ME31W
+1.0.19.0
+Package 01 01 2026/05/07 Initial Released
+Software name
+BuildID
+Version_Number
+Realtek Audio Features
+R3EA308W
+20.43.12622.0(Intel ISST), 6.0.9951.1(Realtek Audio)
+Intel BE211/BE213 Bluetooth Driver
+R3EBF05W
+24.20.0.3
+Integrated Camera Driver_Integrated IR Camera Driver
+R3EC405W
+realtek:10.0.22000.20398
+Sunplus:5.0.18.296
+Sonix:10.13.26100.13
+Intel Graphics Driver
+R3ED206W
+32.0.101.8509
+Round Power Button Fingerprint Reader Driver
+R3EGN01W
+6.0.62.1136(Synaptics)
+3.4.51.2010(Goodix)
+Intel HID Event Filter Driver
+R3EHD02W
+2.2.2.17
+Intel Chipset Driver
+R3EIA02W
+10.1.56.27
+Intel Dynamic Tuning Technology Driver
+R3EIF03W
+IPF: 2.3.20201.4882
+DTT: 9.1.10003.555
+PPM: 1.0.0.200
+ThinkPad Monitor File
+R3EM102W
+6.14.29.0
+Intel Management Engine 16.0 Software
+R3EMK03W
+MEI     : 2552.8.10.0
+SOL     : 2516.8.0.0
+ISSEI   : 2517.8.1.0
+LMS     : 2549.8.14.0
+WiMan   : 2543.98.178.0
+WMI     : 2544.8.3.0
+NXP NFC Driver
+R3ENP02W
+12.0.6.0
+Intel Platm Monitoring Technology(PMT)
+R3EPT02W
+7.3.10.3
+Intel LAN Adapter Software
+R3ERC03W
+20.0.3.24
+Intel Serial IO Driver
+R3ESJ01W
+30.100.2534.18
+Alcor SmartCard Reader Driver
+R3ESQ01W
+1.10.7.1001
+Touchpad Custom Settings Driver
+R3ET203W
+42.21.22.0 (Elan)
+19.5.19.116(Synaptics)
+2.4.2.0(Goodix)
+ELAN TrackPoint Device Driver
+R3ETE02W
+TrackPoint Device            31.21.57.1
+TrackPoint Component         31.21.57.1
+ETD HSA Device               31.21.57.1
+Intel(R) Total Storage Encryption(TSE)
+R3ETS01W
+1.5.0.1043
+Intel(R) TXT Authenticated Code Module
+R3ETX03W
+1.21.17.0
+Intel Vision Processing Unit driver
+R3EVP06W
+32.0.100.4509
+Intel BE211/BE213 Wireless LAN Driver
+R3EWG05W
+24.30.1.1
+Lenovo Base Utility
+R18VU70W
+10.15.2511.2
+Lenovo Intelligent Thermal Solution Driver (UMA)
+N4ODY09W
+2.2.102.4
+Lenovo Power Management Driver
+N4BKU11W
+1.69.132.0
+Lenovo Smart Standby
+N25BY28W
+4.3.13.0 (Component INF)
+Lenovo Intelligent Sensing Driver
+N4OST47W
+2.3.7.0
+Lenovo Adaptive ICC Profile
+N3YFZ29W
+2.0.1.12
+Lenovo MEP Opt-in Driver
+N41ME28W
+1.0.16.7
+ThinkPad USB 3.0 LAN Driver for Docka and Adapters
+U3ETN16W2
+1153.21.1009.2025(1Gbps)
+1156.21.1009.2025(2.5Gbps)
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Quectel is a registered trademark of Quectel Semiconductor Corp.
+* Elan is a registered trademark of ELAN Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

@@ -1,0 +1,437 @@
+[
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n2idg13w_p_2_.xml",
+    "metadata_sha256": "46263792621ea0d95d2d04eb381cbeee3332556e533e8edfc613c4ae1b5355e2",
+    "category": "Storage",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n2idg13w_p",
+    "title": "Intel Rapid Storage Technology Driver Include TG Optane Memory - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2021-12-20",
+    "version": "17.11.0.1000",
+    "extract_command": "n2idg13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n2idg13w.exe",
+        "name": "n2idg13w.exe",
+        "sha256": "8243BF6B309C77EC510D97168436671D2A44B91FCFC2488E0A67F4200CD206EB",
+        "size": 3472784
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n4ody12w_w10w11_2_.xml",
+    "metadata_sha256": "2d2a6c31c5b08e9e73523300cd5c8684e39236d37311c751dfa21ae04a876806",
+    "category": "Software and Utilities",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n4ody12w_w10w11",
+    "title": "Lenovo Intelligent Thermal Solution Driver - 10 (1607 or Later)/11",
+    "date": "2026-06-09",
+    "version": "2.2.111.0",
+    "extract_command": "n4ody12w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n4ody12w.exe",
+        "name": "n4ody12w.exe",
+        "sha256": "A424D8C0F2EF3727C08714C61EF55563F8CD85BB6D6B0C68F0BF718E2E6FBB6C",
+        "size": 1920968
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30ta05w_2_.xml",
+    "metadata_sha256": "cd89031716b97f751ff014c8d55b1ae84f49c28488a0ce1c86d54c0b487a3423",
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30ta05w",
+    "title": "Intel Thunderbolt Software - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2021-12-07",
+    "version": "1.41.1193.0",
+    "extract_command": "n30ta05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30ta05w.exe",
+        "name": "n30ta05w.exe",
+        "sha256": "CB68E2E23FD025915B976CF07FB70A7042ED0EB12F7EB3912FF9F1CFE7A74D1F",
+        "size": 1971056
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30hd03w_2_.xml",
+    "metadata_sha256": "068fc49b4dfb405a8a63b1c7c6fa8971be9464872c3a5ce3cbc3f6368dbef6dc",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30hd03w",
+    "title": "Intel Dynamic Tuning Technology Driver - 10 (1809 or later)/11(21H2 or later)",
+    "date": "2022-03-22",
+    "version": "8.7.10600.20700",
+    "extract_command": "n30hd03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30hd03w.exe",
+        "name": "n30hd03w.exe",
+        "sha256": "0DD2AD1E20176D4703E3BCD8F2D4BA97FB529F2EEFB929443CAD8B37D1E64734",
+        "size": 13712512
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30ch02w_2_.xml",
+    "metadata_sha256": "3d592375f21ccde5b3cf4707fba51ba08a9f2c3c7f1ed7a2aae2ddbe8895466a",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30ch02w",
+    "title": "Intel Chipset Device Software - 10 (1809 or later)/11 (21H2 or later)",
+    "date": "2022-03-22",
+    "version": "10.1.31.2",
+    "extract_command": "n30ch02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30ch02w.exe",
+        "name": "n30ch02w.exe",
+        "sha256": "122B13423979149AF3B9BB0E8F0313889F058C2070CE2F40B7095BD1A396FFB0",
+        "size": 1023192
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30tr02w_2_.xml",
+    "metadata_sha256": "80bee7c4f155336903066c209cb85be99843fa9585f51244ab8bbad12c883d9c",
+    "category": "Display and Video Graphics",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30tr02w",
+    "title": "TI Power Delivery Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-11-14",
+    "version": "1.0.2.27",
+    "extract_command": "n30tr02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30tr02w.exe",
+        "name": "n30tr02w.exe",
+        "sha256": "C5BDF8D1326DC9211D4F20448FF0FCADC04FBF53995D75D356F9C2AE00E6AC2C",
+        "size": 1274808
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30ac02w_2_.xml",
+    "metadata_sha256": "04b3740d70754aca7865cc303fae85f1b5c0b3fbd1048f74373e2b1e9d93d289",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30ac02w",
+    "title": "Intel TXT Authenticated Code Module Driver- 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2022-11-16",
+    "version": "1.8.0.0",
+    "extract_command": "n30ac02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30ac02w.exe",
+        "name": "n30ac02w.exe",
+        "sha256": "A16182B99617872EDB30182BB742C065AC45F72FA4DCACD7FDE087318ED5F323",
+        "size": 1270584
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n2xst13w_2_.xml",
+    "metadata_sha256": "34474a9c280ebcdbffedc2bbde1d1765c60c729c0b1bf43a25b3c866279b0cea",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n2xst13w",
+    "title": "Synaptics ThinkPad UltraNav Driver - 10(1809 or later)/11(21H2 or later)",
+    "date": "2022-12-13",
+    "version": "19.5.19.95",
+    "extract_command": "n2xst13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n2xst13w.exe",
+        "name": "n2xst13w.exe",
+        "sha256": "4F98902D2916D2CCE8AB4C19EAA57C49AC337EF4904D9F7E1CF6953C7593174B",
+        "size": 6780944
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30wb04w_2_.xml",
+    "metadata_sha256": "1d4684edfd51813101bef036df9eca467b82961a7699172f301901a63776f332",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30wb04w",
+    "title": "WinTab Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2023-09-13",
+    "version": "7.7.2.66",
+    "extract_command": "n30wb04w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30wb04w.exe",
+        "name": "n30wb04w.exe",
+        "sha256": "8290F4B12989C14F6FF1CC2C3BE65F9747F141F481072C54CD6B9E05EEBD4CC5",
+        "size": 4568768
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n2ita11w_2_.xml",
+    "metadata_sha256": "7cef8394be9106e17dea9f1ca5be2641fad7b034c2bb6040c603a740e662ec33",
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n2ita11w",
+    "title": "Intel Thunderbolt Software - 10 (1709 or Later)/11 (21H2 or Later)",
+    "date": "2023-11-02",
+    "version": "1.41.1353.0",
+    "extract_command": "n2ita11w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n2ita11w.exe",
+        "name": "n2ita11w.exe",
+        "sha256": "0EFD4F6C275B0CEED4008B62A743055AA7884D3007669743DA8736930AEA4137",
+        "size": 2049144
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30rw03w_2_.xml",
+    "metadata_sha256": "37bb91b03e12ee49265ba240a950155258b59c85a355e98199d825836ad873f5",
+    "category": "Networking LAN Ethernet",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30rw03w",
+    "title": "Intel PRO1000 LAN Adapter Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-01-08",
+    "version": "12.19.2.62",
+    "extract_command": "n30rw03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30rw03w.exe",
+        "name": "n30rw03w.exe",
+        "sha256": "D215AE753367C8CF87982A17C8F30CE94625C8F6D595C0C464AE324EDFA30017",
+        "size": 1363320
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz7w809w_2_.xml",
+    "metadata_sha256": "594d1357e1375419df118885cf4f15e58220de233f99d48d2c9dcd7e10da25c3",
+    "category": "Networking Wireless LAN",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "nz7w809w",
+    "title": "Intel Wireless LAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-05-22",
+    "version": "23.110.0.5",
+    "extract_command": "nz7w809w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz7w809w.exe",
+        "name": "nz7w809w.exe",
+        "sha256": "A9264F0B9873BBCC3EB222B43D3D7C312084843B5BB1CD3DAFAF1D764A085B35",
+        "size": 13148712
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n30md15w_2_.xml",
+    "metadata_sha256": "c87407ec8352dd156beb030dfb5cd82b967d35351802a2b78750b9ee4dfeb560",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n30md15w",
+    "title": "Intel Management Engine Software - 10 (1809 or Later)/11 (21H2 or Later)",
+    "date": "2025-07-09",
+    "version": "2512.7.3.0",
+    "extract_command": "n30md15w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n30md15w.exe",
+        "name": "n30md15w.exe",
+        "sha256": "B2B196FC3B09CD1C46F601AB60ED95E0D88F10CC152F26AD1B08BF309C100AF3",
+        "size": 82987304
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n1fupa7w_w10w11_2_.xml",
+    "metadata_sha256": "ff7d7e58602093c3c118f4d0e1271f05c77d2583ceb67c0a2031aa84e856f4a5",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n1fupa7w_w10w11",
+    "title": "Lenovo Power and Battery Driver - 10 (1703 or Later)/11",
+    "date": "2026-05-20",
+    "version": "10.2.4.15",
+    "extract_command": "n1fupa7w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n1fupa7w.exe",
+        "name": "n1fupa7w.exe",
+        "sha256": "864A6508AAFB046FC1F60382E6EFA8589DF66A0A5C93954A8A5B33F37F0C26CA",
+        "size": 6320160
+      }
+    ]
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n4bku13w_w10w11_2_.xml",
+    "metadata_sha256": "5675bff545eccf090cd5e7f4e4277eee5e7fe2459e1045de13f923bb3c16aa65",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad T15g Gen 1 Intel"
+    ],
+    "types": [
+      "20UR",
+      "20US"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ur_Win11.xml",
+      "https://download.lenovo.com/catalog/20us_Win11.xml"
+    ],
+    "id": "n4bku13w_w10w11",
+    "title": "Lenovo Power Management Driver - 10 (1607 or Later)/11",
+    "date": "2026-06-23",
+    "version": "1.69.168.0",
+    "extract_command": "n4bku13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n4bku13w.exe",
+        "name": "n4bku13w.exe",
+        "sha256": "B00D5E1BD0B990E14B3D3EEEDEC0CFC458721A2C23AAC1268BEE754D7A056FBB",
+        "size": 1494704
+      }
+    ]
+  }
+]

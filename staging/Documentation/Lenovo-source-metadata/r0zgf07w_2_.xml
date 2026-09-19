@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="FP_R0ZGF" id="r0zgf07w" version="3.1.55.640" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Goodix FingerPrint Driver - 10 (1809 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\Vid_27C6&Pid_5584]]></_PnPID>
+    <_PnPID><![CDATA[USB\Vid_27C6&Pid_55B4]]></_PnPID>
+    <_PnPID><![CDATA[USB\Vid_0BDA&Pid_5811]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\Vid_27C6&Pid_5584]]></HardwareID>
+        <HardwareID><![CDATA[USB\Vid_27C6&Pid_55B4]]></HardwareID>
+        <HardwareID><![CDATA[USB\Vid_0BDA&Pid_5811]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r0zgf07w.exe /verysilent /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-03-22</ReleaseDate>
+  <DiskSpaceNeeded>9442377</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r0zgf07w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r0zgf07w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\Vid_27C6&Pid_5584]]></HardwareID>
+      <HardwareID><![CDATA[USB\Vid_27C6&Pid_55B4]]></HardwareID>
+      <HardwareID><![CDATA[USB\Vid_0BDA&Pid_5811]]></HardwareID>
+      <Date>2022-11-29</Date>
+      <Version>3.1.55.640^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[USB\Vid_27C6&Pid_5584]]></_PnPID>
+        <_PnPID><![CDATA[USB\Vid_27C6&Pid_55B4]]></_PnPID>
+        <_PnPID><![CDATA[USB\Vid_0BDA&Pid_5811]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R0ZET*</Level>
+        <Level>R17ET*</Level>
+        <Level>R0YET*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r0zgf07w.exe</Name>
+        <CRC>DB26B741AD7262A3E4BF3399326DFC00812AA3DE322AE801C4DD79A341209287</CRC>
+        <Size>2419776</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r0zgf07w.txt</Name>
+        <CRC>A7A84C4BD90CDBC5C223564E49FC7EEFCB8F9451BD935140207B3E3F3FAA8F17</CRC>
+        <Size>8714</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+yKGP64XAnxHPWLl27PylyvaiaI=</DigestValue></Reference></SignedInfo><SignatureValue>a7rSEX0UY530iVJVQdF9crPMuVClaZcv0IW+r0Gl4gbQFqe9GKy70Svq8gjgDqLDC7nOS599q2YRpaRhWJz2VkDtrdJmGwGpAbgVRWaXkZQUACUcEJsZt5Ag2X5xJO9q4X3Zz0ba7YijQHYF+DgnwKKcicXQgTXPdYaBuCkOlGvnNE98Gd7W1IPKvgVSncCll+9ORUj3wQXgIwhIY/xdmGZoYLOiiD4vzBeKh29eQ2blNxUcGh1JpratFjCcENk3lAZCVT8b27cZTARzgRmA20wnxju1lmluw+AotxFSH07+lbAITl7QNButhC9MXHfvFNMpyRTtHPcnxDlfLC7CzL/xeV7I9uAuYjnUakJYPOZkN6251wfTNWkn3pvKYlbtgC0fsEd7trTQFAb5ie/p69hLpqakhry7Qz1jrPrWNCY6kF+tpnWQEQbgT4RoH+1wKbdYYb2fkfIKnUVM3hoGpDqu7I4kBUaJKmhRBXI+U4RTyrJbRVWdMS2/6UOAr437</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

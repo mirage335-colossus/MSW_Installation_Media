@@ -1,0 +1,60 @@
+
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=C.UTF-8 Threads:12 OPEN_MAX:524288, ASM
+
+Scanning the drive for archives:
+1 file, 8471603200 bytes (8080 MiB)
+
+Extracting archive: /home/user/Documents/ChatGPT/MSW11 Installation Media/downloads/Win11_25H2_English_x64_v2.iso
+--
+Path = /home/user/Documents/ChatGPT/MSW11 Installation Media/downloads/Win11_25H2_English_x64_v2.iso
+Type = Udf
+Physical Size = 8471603200
+Version = 1.02
+Cluster Size = 2048
+Sector Size = 2048
+Created = 2026-03-07 19:00:00.000000
+Modified = 2026-03-07 19:00:00.000000
+Comment = 
+{
+Primary Volumes:
+  PrimaryVolumeDescriptorNumber: 0
+  VolumeSequenceNumber: 1
+  VolumeId: UDF Volume
+  VolumeSetId: 81c48000MS UDFBridge
+  ApplicationId: 
+  ImplementationId: *Microsoft CDIMAGE UDF::Windows NT
+Partitions:
+  PartitionIndex: 0
+  PartitionNumber: 2989
+  ContentsId: +NSR02
+  ImplementationId: *Microsoft CDIMAGE UDF::Windows NT
+  AccessType: Read-Only
+  Size: 8470980608
+  Pos: 622592
+Logical Volumes:
+  Id: CCCOMA_X64FRE_EN-US_DV9
+  BlockSize: 2048
+  DomainId: *OSTA UDF Compliant::1.02
+  ImplementationId: *Microsoft CDIMAGE UDF::Windows NT
+  Partition Maps:
+    PartitionMap: 0
+    Type: 1
+    VolumeSequenceNumber: 1
+    PartitionNumber: 2989
+  File Sets:
+    FileSetNumber: 0
+    FileSetDescNumber: 0
+    LogicalVolumeId: CCCOMA_X64FRE_EN-US_DV9
+    Id: CCCOMA_X64FRE_E
+    CopyrightId: 
+    AbstractId: 
+    DomainId: *OSTA UDF Compliant::1.02
+}
+
+Everything is Ok
+
+Folders: 94
+Files: 976
+Size:       8465957864
+Compressed: 8471603200

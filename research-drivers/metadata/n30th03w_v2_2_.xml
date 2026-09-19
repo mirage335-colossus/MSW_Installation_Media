@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="FWU_INTE_N30TH" id="n30th03w_v2" version="20.23.04.10-N30TF11W_V2" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Intel Titan Ridge Thunderbolt Firmware - 10 (20H1 or Later)/ 11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="File" show="False">
+    <File>%WINDOWS%\explorer.exe</File>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n30th03w_v2.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-11-02</ReleaseDate>
+  <DiskSpaceNeeded>3354642</DiskSpaceNeeded>
+  <Reboot type="5" />
+  <Brand type="2" />
+  <PackageType type="4" />
+  <Install rc="0" rccancel="20" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\tbtupdatetool30_dch.exe 1 -s</Cmdline>
+  </Install>
+  <Uninstall />
+  <DetectInstall />
+  <Dependencies>
+    <And>
+      <_ExternalDetection rc="0">%PACKAGEPATH%\tbtfwdetect30_dch.exe 11</_ExternalDetection>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_15EB]]></HardwareID>
+        <Version>1.41.1353.0^</Version>
+      </_Driver>
+      <_Driver>
+        <HardwareID><![CDATA[ACPI\LEN0268]]></HardwareID>
+        <Version>1.68.30.0^</Version>
+      </_Driver>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19041^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n30th03w_v2.exe</Name>
+        <CRC>E2A023EDD8E76F1E1B5B7C55126947B3309465C5FE855C3E943D665521FEF96B</CRC>
+        <Size>1674664</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n30th03w.txt</Name>
+        <CRC>7364BCB9CCDE5D6612A9573968F74BBF65CC2F325A53F6B0DE591A60FECC7444</CRC>
+        <Size>7499</Size>
+      </File>
+    </Readme>
+    <External>
+      <File>
+        <Name>tbtfwdetectcmd28_dch.exe</Name>
+        <CRC>26B92A4FAEE7230DFBCBC4163C127D73A2CC905A8AC61899AD88597A022C3B22</CRC>
+        <Size>338976</Size>
+      </File>
+      <File>
+        <Name>tbtfwdetect30_dch.exe</Name>
+        <CRC>E6A66CCBB384E8812AF9FF4B5F2F898FBFC80C0BA180F4EBC04BBB26588193B2</CRC>
+        <Size>26640</Size>
+      </File>
+    </External>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JxtJACFZIuqhgoP3LlkVU/hkqmE=</DigestValue></Reference></SignedInfo><SignatureValue>IFcXWhgHYgVnent/0B9FxOkLs+2IZK/QwI9i8PnqVZaxY7X15svxVHJW2IKX9422uFowiOn207o3tzAudQmZtI91zroJaFyDF6ytP4Xi+LRYu4rmsBVC4A5ZsVcIfbdRvLlqTpGmlueLG9Rpa2ygJP3MFiKZzbNU+sHzMBxfaYWcZ1vtjCIgB1rAWwjvyor6MfmV57179asYkmOCE6RDQVtWHAPvLIJ2Ax//xVCtgdPLUcjNoRClW24R8IGPNp6pD44MYalNOv8P6206b12HlRnDJdF6pSGEDTYSp0E+gY8vDbZ+x8hCNTZ0qK+ZEIfqkws1nnW4nt3YW1IP6C1DsYBasOZ1zKFdYlFzebP0ViUYNGq8JCM4+weVbgHwZYuVbSGLvXE+kquP1ECMtGWxcot0IfyAywbL8bF1qXk+lt1GHhS7gpKuustUPdK3EnxvhKP8+F6V6tRnyLyLd3dfRFnCwkBmMSOdG8DY1uMY1u/xEg4zlaNM6tKmFgom4F3B</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

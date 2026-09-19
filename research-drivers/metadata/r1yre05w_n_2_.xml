@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="PCLE_R1YRE_N" id="r1yre05w_n" version="1168.3.1022.2021" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Realtek PCIe GBE Family Controller Driver - 11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Inf" show="False">
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_8168&SUBSYS_50AE17AA&REV_15]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_8168&SUBSYS_50AE17AA&REV_15]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1yre05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2022-08-29</ReleaseDate>
+  <DiskSpaceNeeded>10012286</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1yre05w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1yre05w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_8168&SUBSYS_50AE17AA&REV_15]]></HardwareID>
+      <Date>2021-10-22</Date>
+      <Version>1168.3.1022.2021^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_OS>
+        <OS>WIN11</OS>
+      </_OS>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_8168&SUBSYS_50AE17AA&REV_15]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>R1YET*</Level>
+        <Level>*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1yre05w.exe</Name>
+        <CRC>EFB905C69475DA552ED6D04BF39DE1B09CBAF5A0C1A9BA1D7DE7822D350AECDD</CRC>
+        <Size>1779576</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1yre05w.txt</Name>
+        <CRC>5F87DA7F19342DC3D3241EBFED1413A368ED4FC3526192A7E68045E5B93639C0</CRC>
+        <Size>7700</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YtDXsVocKPj0wOu/H2DsuI1sbsw=</DigestValue></Reference></SignedInfo><SignatureValue>Su/OaRDPUwccrxZ8EYGwd4wQ7x7wPKZ1sTTC3MW1FGXaHye6RcO9E4Zt+FQULPQcPcvYZky2pMKeS05qQjI/9vr/D/TVAsfEGSXS7e23osih0SKBVHGcOLQEDaVj9yBvwYkwdrwxecpZYDyl9CsnD8rhvZkfIlXXIp7utyxn7HSZTRsiRMwp9KH/1ANZeuM6x95jbvEzE1YmlCfuTQXV7YpIAT8tLGxioZc8W7rOc3fsMWdLp/iqYvy5W3EBZJfFB1m+c0+Tf96ZGxbYR155mmvTRxn7GC4fVJh/zjmOA51M5neAXnhYQyZoIyMBqshekfPX40IWV9rP5M57mMQ2FiSHvTe7M2JwpCRNm4bzKlt1llKddC+VSHzZF0Q68RNF/OmU9wkd3D3ioRpXpuIgQfI+rn68aVJZXiro/6DfplNA+Tfu+W4NQY8KJaOlmYBPx8apAyT+lgN7tyRJToS9wBZ09DfTb2BQ5YA3QZyqR+gYu1PSYhqMZoB3iqFJu+k/</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIG5zCCBM+gAwIBAgIQBohr1xVe0Mix854PiyVBvTANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJVUzEXMBUGA1UEChMORGlnaUNlcnQsIEluYy4xQTA/BgNVBAMTOERpZ2lDZXJ0IFRydXN0ZWQgRzQgQ29kZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0ExMB4XDTIxMTIwOTAwMDAwMFoXDTIyMTIwNzIzNTk1OVowbDELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQHEwtNb3JyaXN2aWxsZTEPMA0GA1UEChMGTGVub3ZvMQwwCgYDVQQLEwNHMDkxDzANBgNVBAMTBkxlbm92bzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAK6NIhVFUy7qN9KkJhzhvfqlwBYQsz4uJ2q2ARANKDGSP25rPSudV5pmVdSYcBgEdHKnjIanrDFTWc30RjbkhLFJWnXJgPHSlxpYyrtIxcWvswBAJuTWpfqKsSKdtpgVRqPK27uPbe3uN1w5tyLhMXdU3yT1OBJJ6PBCTYpPV1RL03LYXS2cP7iMOoN0rdtCj69yILJoaA4t56eCgbQsbfPd8tsIkRY8EMXLT+i+urw6N40+J+D4ng0oPupTbmiMQ2gU4hJ+XsyEMabp7vVKfplHEgB67Hdpwj7ZqwcUDMRMTzlvegHrlkkXjyL1Afao2JXw4dRo4ONdJQWmh3/zXIkkjT4R9T7Z4Gm/i0KJMuas7mflcB5loODaiOgZI+v0UVduiYCRrCwHqhb34bWfcXhlbI1sngDE5cg6pePF/E+XMV6YsJQpSj41A61PXShX3liZIQq1sMLoEK0dAPx40TXOoX91eK8+WWHFlXf7SviVanfMKsVl3tb8wnjtw6PFSQIDAQABo4ICBjCCAgIwHwYDVR0jBBgwFoAUaDfg67Y7+F8Rhvv+YXsIiGX0TkIwHQYDVR0OBBYEFBcw37skLw/lUJoNtJH7KUecydkPMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzCBtQYDVR0fBIGtMIGqMFOgUaBPhk1odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUcnVzdGVkRzRDb2RlU2lnbmluZ1JTQTQwOTZTSEEzODQyMDIxQ0ExLmNybDBToFGgT4ZNaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VHJ1c3RlZEc0Q29kZVNpZ25pbmdSU0E0MDk2U0hBMzg0MjAyMUNBMS5jcmwwPgYDVR0gBDcwNTAzBgZngQwBBAEwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMIGUBggrBgEFBQcBAQSBhzCBhDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFwGCCsGAQUFBzAChlBodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRUcnVzdGVkRzRDb2RlU2lnbmluZ1JTQTQwOTZTSEEzODQyMDIxQ0ExLmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQCBy8tFXzK6yLPl7s+TFUwFAcPE2zwUSoXMEl1dIR0xvn0nWalaMiG2KgFDhjQpFBP+QtnTBmc98Lc5FHJftkwSYT+oO6eWQBTCtRBj82i3GiPNmvUHyfPDYnbDoHoMO6OHlN4TiKrSul6ebwHk53NhEUVBbRSUmLWR2ofFh6MtACcwLDDPsVrDRpBjj38mrskpWBVIVSc478F7GnYY5ATXFWcaz/pmDkO/rcPjLSJAo7cBUvDh9UhhPBNHKW5/mjZamdh9TWCz2JyIYKEb9PN5wiQQa6dPP5YC4xsD5x1QYNoSHOjc9Ntx9OQg0AylOcIo2/SHhv0B3t8jDtQULJW4+IeazIb+ueVKSGnnQvKO4Unt6lDRbpGuckDOHNCCzl6N4SR2BhRi585b5wApDxoG3iz5oL3KQV0b7Fyr/4teeJec9rXRObqhwiRnS4o9BVccWg7BYeKOJxDRc18x1X0ucLKhqjDJPr9AxzMkITl7zwQlv0yQMLFKxkb4Rg2D3FK96cVrt3GbnjNmSlwCP4xX0sNVb29DSYk5j+RwxGiVGmb2ePIPeG+op3M+iOM2jZZYygwLKYkYFVZkrZVoqdjaFODNC+MymwcjAIKJg3sL9OH2eLYHb1MBUkaiTZXv9gXhhIesGvBK+wXy3E7Blop2NpC3chu1l87qEvzEWX0x0w==</X509Certificate></X509Data></KeyInfo></Signature></Package>

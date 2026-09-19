@@ -1,0 +1,3330 @@
+[
+    {
+        "Driver":  "oem0.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_a373aefeac1931df\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1537858800000)\/",
+        "Version":  "4.9.0.0"
+    },
+    {
+        "Driver":  "oem1.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\smbusamd.inf_amd64_b7226fd004b08dae\\smbusamd.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1537858800000)\/",
+        "Version":  "5.12.0.38"
+    },
+    {
+        "Driver":  "oem10.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synservice.inf_amd64_3921fd2e02b7e858\\synservice.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem100.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synhidmini.inf_amd64_284ffdf0a718eb99\\synhidmini.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem101.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synpd.inf_amd64_cc7a19af0aabace5\\synpd.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem102.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synuwpcomponent.inf_amd64_f7f43f3c9270d297\\synuwpcomponent.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem103.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synrawpdo.inf_amd64_34874dea61499aee\\synrawpdo.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "System",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem104.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synsmbdrv.inf_amd64_9857e63d98f13c26\\synsmbdrv.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "System",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem105.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synservice.inf_amd64_d9d7f0dc82923959\\synservice.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1647414000000)\/",
+        "Version":  "19.5.19.91"
+    },
+    {
+        "Driver":  "oem106.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemnorthpeak.inf_amd64_cf44dbeeb31f4277\\cannonlake-lpsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.6"
+    },
+    {
+        "Driver":  "oem107.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsdhost.inf_amd64_c1f8b52d3f84f048\\cannonlake-hsdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.7"
+    },
+    {
+        "Driver":  "oem108.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystem.inf_amd64_2e141eedb6982ebb\\cannonlake-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.7"
+    },
+    {
+        "Driver":  "oem109.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemlpss.inf_amd64_4b6d4d1298f23723\\cannonlake-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.7"
+    },
+    {
+        "Driver":  "oem11.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ibmpmdrv.inf_amd64_317aadafb86018c3\\ibmpmdrv.inf",
+        "ProviderName":  "Lenovo",
+        "ClassName":  "System",
+        "Date":  "\/Date(1771228800000)\/",
+        "Version":  "1.69.168.0"
+    },
+    {
+        "Driver":  "oem110.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemnorthpeak.inf_amd64_0ef44ea4a0705ae1\\cannonlake-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.7"
+    },
+    {
+        "Driver":  "oem111.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemthermal.inf_amd64_c98b90538310250a\\cannonlake-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.7"
+    },
+    {
+        "Driver":  "oem112.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsdhost.inf_amd64_f260830ca190e299\\cannonlake-lpsdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.6"
+    },
+    {
+        "Driver":  "oem113.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystem.inf_amd64_d89af679d59551b5\\cannonlake-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.6"
+    },
+    {
+        "Driver":  "oem114.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemlpss.inf_amd64_afd4e36a06030742\\cannonlake-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.6"
+    },
+    {
+        "Driver":  "oem115.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-lpdmasecextension.inf_amd64_37a8fb3645946f29\\cometlakepch-lpdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.27.4"
+    },
+    {
+        "Driver":  "oem116.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemthermal.inf_amd64_3e2b12e65436056a\\cannonlake-lpsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.6"
+    },
+    {
+        "Driver":  "oem117.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\coffeelakesystem.inf_amd64_e332dbefa69fd95b\\coffeelakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.14.8"
+    },
+    {
+        "Driver":  "oem118.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-hsystem.inf_amd64_cec2641df6169032\\cometlakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.31.2"
+    },
+    {
+        "Driver":  "oem119.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-hsystemlpss.inf_amd64_22d06c9c84227dd3\\cometlakepch-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.31.2"
+    },
+    {
+        "Driver":  "oem12.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd.inf_amd64_1bb0d903787c82ad\\epd.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1773990000000)\/",
+        "Version":  "31.21.60.1"
+    },
+    {
+        "Driver":  "oem120.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-hsystemthermal.inf_amd64_4edfab76b66317e0\\cometlakepch-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.31.2"
+    },
+    {
+        "Driver":  "oem121.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-lpsystemnorthpeak.inf_amd64_d6b316e40892791d\\cometlakepch-lpsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.27.4"
+    },
+    {
+        "Driver":  "oem122.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-lpsystem.inf_amd64_fc3171efa1c345e6\\cometlakepch-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.27.4"
+    },
+    {
+        "Driver":  "oem123.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakesystemgmm.inf_amd64_d0cfa8fb52eef542\\kabylakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.10.5"
+    },
+    {
+        "Driver":  "oem124.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-lpsystemthermal.inf_amd64_90626726aa4e768b\\cometlakepch-lpsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.27.4"
+    },
+    {
+        "Driver":  "oem125.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystem.inf_amd64_c565a97f2205b2be\\cometlakepch-vsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.3"
+    },
+    {
+        "Driver":  "oem126.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemlpss.inf_amd64_13e9a03b660d0b53\\cometlakepch-vsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.3"
+    },
+    {
+        "Driver":  "oem127.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemnorthpeak.inf_amd64_4a8d827410092438\\cometlakepch-vsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.3"
+    },
+    {
+        "Driver":  "oem128.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemthermal.inf_amd64_af035f62030fee45\\cometlakepch-vsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.3"
+    },
+    {
+        "Driver":  "oem129.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakesystem.inf_amd64_18aab72bd08752aa\\cometlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.30.3"
+    },
+    {
+        "Driver":  "oem13.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd_component.inf_amd64_2118a16d4039f1f0\\epd_component.inf",
+        "ProviderName":  "ELAN Input Device",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1773990000000)\/",
+        "Version":  "31.21.60.1"
+    },
+    {
+        "Driver":  "oem130.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystem.inf_amd64_f6688c404f17eb9a\\geminilakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.3"
+    },
+    {
+        "Driver":  "oem131.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemgmm.inf_amd64_f1af1c4d81175fe8\\geminilakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.3"
+    },
+    {
+        "Driver":  "oem132.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemlpss.inf_amd64_9e12f4606841614d\\geminilakesystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.3"
+    },
+    {
+        "Driver":  "oem133.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemnorthpeak.inf_amd64_be194fc67212a56b\\geminilakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.3"
+    },
+    {
+        "Driver":  "oem134.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-lpsystem.inf_amd64_b6f393c97caba67a\\icelakepch-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.12.3"
+    },
+    {
+        "Driver":  "oem135.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-lpsystemlpss.inf_amd64_897bf32b9e72ceb4\\icelakepch-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.12.3"
+    },
+    {
+        "Driver":  "oem136.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-lpsystemnorthpeak.inf_amd64_0135728da74899dc\\icelakepch-lpsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.12.3"
+    },
+    {
+        "Driver":  "oem137.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-nsystem.inf_amd64_a59d6e4b42b8fd70\\icelakepch-nsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.22.3"
+    },
+    {
+        "Driver":  "oem138.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-nsystemlpss.inf_amd64_cc1f67cc5eda1f96\\icelakepch-nsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.22.3"
+    },
+    {
+        "Driver":  "oem139.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakesystemthermal.inf_amd64_a26965b441d75fc9\\icelakesystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.20.3"
+    },
+    {
+        "Driver":  "oem14.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\etdhsa.inf_amd64_fff9f764d45793ba\\etdhsa.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1773990000000)\/",
+        "Version":  "31.21.60.1"
+    },
+    {
+        "Driver":  "oem140.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakeusbfunctioncontroller.inf_amd64_7818299326fe34ff\\icelakeusbfunctioncontroller.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "USBFunctionController",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.20.3"
+    },
+    {
+        "Driver":  "oem141.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystem.inf_amd64_a5046aab4ba27930\\kabylakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.4"
+    },
+    {
+        "Driver":  "oem142.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemlpss.inf_amd64_497e553fa45d3580\\kabylakepch-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.4"
+    },
+    {
+        "Driver":  "oem143.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemnorthpeak.inf_amd64_9dcb1959b5ba7423\\kabylakepch-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.4"
+    },
+    {
+        "Driver":  "oem144.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemthermal.inf_amd64_a803ec86c2bc12bb\\kabylakepch-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.4"
+    },
+    {
+        "Driver":  "oem145.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakesystem.inf_amd64_42856509e73752bb\\kabylakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.10.5"
+    },
+    {
+        "Driver":  "oem146.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lakefieldsystem.inf_amd64_038da6a27794f8f7\\lakefieldsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.28.2"
+    },
+    {
+        "Driver":  "oem147.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-lpsystemnorthpeak.inf_amd64_e8abb62db32c7e7c\\sunrisepoint-lpsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.5.3"
+    },
+    {
+        "Driver":  "oem148.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lakefieldsystemlpss.inf_amd64_db9abb34abd81c23\\lakefieldsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.28.2"
+    },
+    {
+        "Driver":  "oem149.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lakefieldsystemnorthpeak.inf_amd64_0f2a322c2e28f9a4\\lakefieldsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.28.2"
+    },
+    {
+        "Driver":  "oem15.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwl6ex.inf_amd64_093510c7d44691fb\\mtkwl6ex.inf",
+        "ProviderName":  "MediaTek, Inc.ti",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1779087600000)\/",
+        "Version":  "26.40.2.587"
+    },
+    {
+        "Driver":  "oem150.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystem.inf_amd64_ffa760c0292cb078\\skylakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.3"
+    },
+    {
+        "Driver":  "oem151.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystemgmm.inf_amd64_947a88324fec008d\\skylakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.3"
+    },
+    {
+        "Driver":  "oem152.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystemthermal.inf_amd64_0f4ead02fd7cc5ed\\skylakesystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.3"
+    },
+    {
+        "Driver":  "oem153.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystem.inf_amd64_faabe6f8021d363e\\sunrisepoint-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.2"
+    },
+    {
+        "Driver":  "oem154.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystemlpss.inf_amd64_c9d037bd4e88d627\\sunrisepoint-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.2"
+    },
+    {
+        "Driver":  "oem155.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystemthermal.inf_amd64_68cbe289aa2b5014\\sunrisepoint-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.2"
+    },
+    {
+        "Driver":  "oem156.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-lpsdhost.inf_amd64_f63816e76bc5b503\\sunrisepoint-lpsdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.5.3"
+    },
+    {
+        "Driver":  "oem157.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-lpsystem.inf_amd64_3f329cdb9ca0ee45\\sunrisepoint-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.5.3"
+    },
+    {
+        "Driver":  "oem158.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-lpsystemlpss.inf_amd64_d740dd5821107592\\sunrisepoint-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.5.3"
+    },
+    {
+        "Driver":  "oem159.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-lpsystemthermal.inf_amd64_69d67dea5b7151f8\\sunrisepoint-lpsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.5.3"
+    },
+    {
+        "Driver":  "oem16.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\hideventfilter.inf_amd64_fe647780965d118d\\hideventfilter.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1763539200000)\/",
+        "Version":  "2.2.2.18"
+    },
+    {
+        "Driver":  "oem160.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_acpi.inf_amd64_d1c42ae92fd1696b\\dptf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1615536000000)\/",
+        "Version":  "8.7.10600.20700"
+    },
+    {
+        "Driver":  "oem161.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_1da48d5885266bb7\\dptf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1615536000000)\/",
+        "Version":  "8.7.10600.20700"
+    },
+    {
+        "Driver":  "oem162.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_c5cafafa69376f0c\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1735804800000)\/",
+        "Version":  "23.110.0.5"
+    },
+    {
+        "Driver":  "oem163.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_14f5374e2f00286a\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1735804800000)\/",
+        "Version":  "23.110.0.5"
+    },
+    {
+        "Driver":  "oem164.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_6b6e8cc42a3d1f09\\heci.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1707379200000)\/",
+        "Version":  "2406.5.5.0"
+    },
+    {
+        "Driver":  "oem165.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mesrl.inf_amd64_fa86dc6409a1f761\\mesrl.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Ports",
+        "Date":  "\/Date(1681801200000)\/",
+        "Version":  "2316.5.0.0"
+    },
+    {
+        "Driver":  "oem166.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_b4ad878dc01a7e41\\iclsclient.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1709884800000)\/",
+        "Version":  "1.72.189.0"
+    },
+    {
+        "Driver":  "oem167.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_af50fdb80983f7bc\\dal.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1689058800000)\/",
+        "Version":  "1.44.2023.710"
+    },
+    {
+        "Driver":  "oem168.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_a55aa2cd52a3429d\\lms.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1708502400000)\/",
+        "Version":  "2316.5.1.12"
+    },
+    {
+        "Driver":  "oem169.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sollmsextension.inf_amd64_d2f685b212b4b7f8\\sollmsextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1681801200000)\/",
+        "Version":  "2316.5.0.0"
+    },
+    {
+        "Driver":  "oem17.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_ext.inf_amd64_7582bf8493e4a2df\\dtt_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1745564400000)\/",
+        "Version":  "9.0.11909.60720"
+    },
+    {
+        "Driver":  "oem170.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\mewmiprov.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1708502400000)\/",
+        "Version":  "2408.5.4.0"
+    },
+    {
+        "Driver":  "oem171.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman.inf_amd64_c1ac61211c357751\\wiman.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1711090800000)\/",
+        "Version":  "2412.80.252.0"
+    },
+    {
+        "Driver":  "oem172.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman_wlan_extension.inf_amd64_0a6d66712cec4148\\wiman_wlan_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1711090800000)\/",
+        "Version":  "2412.80.252.0"
+    },
+    {
+        "Driver":  "oem173.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwl6ex.inf_amd64_d96220d92628de31\\mtkwl6ex.inf",
+        "ProviderName":  "MediaTek, Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1729926000000)\/",
+        "Version":  "24.40.2.575"
+    },
+    {
+        "Driver":  "oem174.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netrtwlane6.inf_amd64_26dd3a2a8641d07a\\netrtwlane6.inf",
+        "ProviderName":  "Realtek Semiconductor Corp.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1671696000000)\/",
+        "Version":  "6001.10.353.0"
+    },
+    {
+        "Driver":  "oem175.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\e1d.inf_amd64_dded470da430edc1\\e1d.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1714892400000)\/",
+        "Version":  "12.19.2.61"
+    },
+    {
+        "Driver":  "oem176.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\smbusamd.inf_amd64_83e4fc8bd4e55010\\smbusamd.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1622790000000)\/",
+        "Version":  "5.12.0.38"
+    },
+    {
+        "Driver":  "oem177.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdi2c.inf_amd64_6b72e53d477756aa\\amdi2c.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1610352000000)\/",
+        "Version":  "1.2.0.118"
+    },
+    {
+        "Driver":  "oem178.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt640x64.inf_amd64_8518dd32c6a29daa\\rt640x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1620716400000)\/",
+        "Version":  "10.50.511.2021"
+    },
+    {
+        "Driver":  "oem179.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtvdevw10x64.inf_amd64_99950c25068f844f\\rtvdevw10x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "RealManage",
+        "Date":  "\/Date(1620630000000)\/",
+        "Version":  "10.5.510.2021"
+    },
+    {
+        "Driver":  "oem18.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_5ecafabf5082a9c7\\dtt_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1745564400000)\/",
+        "Version":  "9.0.11909.60720"
+    },
+    {
+        "Driver":  "oem180.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdgpio2.inf_amd64_c975b90bce2ba551\\amdgpio2.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1623222000000)\/",
+        "Version":  "2.2.0.130"
+    },
+    {
+        "Driver":  "oem181.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_3d8eba6178a9a15e\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1623394800000)\/",
+        "Version":  "5.17.0.0"
+    },
+    {
+        "Driver":  "oem182.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netrtwlane6.inf_amd64_6f3d3386ff9b24b5\\netrtwlane6.inf",
+        "ProviderName":  "Realtek Semiconductor Corp.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1703232000000)\/",
+        "Version":  "6001.10.356.0"
+    },
+    {
+        "Driver":  "oem183.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intelacm_tgl_pw_1.14.39.0.inf_amd64_f31c352784503efe\\intelacm_tgl_pw_1.14.39.0.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(1639468800000)\/",
+        "Version":  "1.14.39.0"
+    },
+    {
+        "Driver":  "oem184.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemnorthpeak.inf_amd64_ee66a8d322716f1a\\cannonlake-lpsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.7"
+    },
+    {
+        "Driver":  "oem185.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\apollolakesystem.inf_amd64_d47959a1b48d3063\\apollolakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.17.1"
+    },
+    {
+        "Driver":  "oem186.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsdhost.inf_amd64_7585e757930877d7\\cannonlake-hsdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.8"
+    },
+    {
+        "Driver":  "oem187.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystem.inf_amd64_22f53879fd35d50f\\cannonlake-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.8"
+    },
+    {
+        "Driver":  "oem188.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemlpss.inf_amd64_07c09eb709f05559\\cannonlake-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.8"
+    },
+    {
+        "Driver":  "oem189.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemnorthpeak.inf_amd64_e601295a7f1f64fe\\cannonlake-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.8"
+    },
+    {
+        "Driver":  "oem19.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icst_extension.inf_amd64_1e0562e495ff43e4\\icst_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1725951600000)\/",
+        "Version":  "2.1.10500.7"
+    },
+    {
+        "Driver":  "oem190.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-hsystemthermal.inf_amd64_0df2612d09b904c3\\cannonlake-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.16.8"
+    },
+    {
+        "Driver":  "oem191.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsdhost.inf_amd64_c7474213ded08985\\cannonlake-lpsdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.7"
+    },
+    {
+        "Driver":  "oem192.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystem.inf_amd64_f33d0569bd2fa287\\cannonlake-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.7"
+    },
+    {
+        "Driver":  "oem193.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemlpss.inf_amd64_148f50a05e5bc234\\cannonlake-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.7"
+    },
+    {
+        "Driver":  "oem194.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cannonlake-lpsystemthermal.inf_amd64_b937931c2f8af6b7\\cannonlake-lpsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.15.7"
+    },
+    {
+        "Driver":  "oem195.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystem.inf_amd64_5ed9e5716d6db7f6\\cometlakepch-vsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.5"
+    },
+    {
+        "Driver":  "oem196.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemlpss.inf_amd64_15c157a24ffabf7c\\cometlakepch-vsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.5"
+    },
+    {
+        "Driver":  "oem197.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemnorthpeak.inf_amd64_b8b09c2ab4a312e5\\cometlakepch-vsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.5"
+    },
+    {
+        "Driver":  "oem198.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakepch-vsystemthermal.inf_amd64_9d323373d250b836\\cometlakepch-vsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.33.5"
+    },
+    {
+        "Driver":  "oem199.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystem.inf_amd64_956ab779c7a9a41d\\elkhartlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.5"
+    },
+    {
+        "Driver":  "oem2.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\powermgr.inf_amd64_dbd148612f40377d\\powermgr.inf",
+        "ProviderName":  "Lenovo",
+        "ClassName":  "System",
+        "Date":  "\/Date(1770192000000)\/",
+        "Version":  "10.2.4.15"
+    },
+    {
+        "Driver":  "oem20.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icst_service.inf_amd64_f498e59a9fa69db3\\icst_service.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1725951600000)\/",
+        "Version":  "2.1.10500.7"
+    },
+    {
+        "Driver":  "oem200.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystemgmm.inf_amd64_9a2f07880900022e\\elkhartlakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.5"
+    },
+    {
+        "Driver":  "oem201.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystemlpss.inf_amd64_b6a0e11f5636bfda\\elkhartlakesystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.5"
+    },
+    {
+        "Driver":  "oem202.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\jasperlake+system.inf_amd64_f6bb21ea42d19e1d\\jasperlake+system.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.29.4"
+    },
+    {
+        "Driver":  "oem203.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\jasperlake+systemnorthpeak.inf_amd64_1d24a34355f848b3\\jasperlake+systemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.29.4"
+    },
+    {
+        "Driver":  "oem204.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\jasperlakepch-nsystem.inf_amd64_6ee776b78730ccd8\\jasperlakepch-nsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.32.3"
+    },
+    {
+        "Driver":  "oem205.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\jasperlakepch-nsystemlpss.inf_amd64_1d924260f4b5b20f\\jasperlakepch-nsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.32.3"
+    },
+    {
+        "Driver":  "oem206.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\jasperlakepch-nsystemnorthpeak.inf_amd64_adf7c9508124570b\\jasperlakepch-nsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.32.3"
+    },
+    {
+        "Driver":  "oem207.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lewisburgsystem.inf_amd64_426a281c9fc96c8b\\lewisburgsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.9.3"
+    },
+    {
+        "Driver":  "oem208.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rocketlakesystem.inf_amd64_72203900995a90b2\\rocketlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.41.5"
+    },
+    {
+        "Driver":  "oem209.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\server_commonsystem.inf_amd64_9ddc649afe4989f5\\server_commonsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.42.8"
+    },
+    {
+        "Driver":  "oem21.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_acpi.inf_amd64_c6eee0207705bc06\\ipf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1747292400000)\/",
+        "Version":  "2.2.10205.3620"
+    },
+    {
+        "Driver":  "oem210.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystem.inf_amd64_08fa7b2b687c2cdf\\skylakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.4"
+    },
+    {
+        "Driver":  "oem211.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystemgmm.inf_amd64_6bb566673a722c38\\skylakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.4"
+    },
+    {
+        "Driver":  "oem212.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\skylakesystemthermal.inf_amd64_a691a6509ef43a01\\skylakesystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.7.4"
+    },
+    {
+        "Driver":  "oem213.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hdmasecextension.inf_amd64_8ea8f5f86ffbd161\\tigerlakepch-hdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem214.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystem.inf_amd64_8bdebf21bdac1606\\tigerlakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem215.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemish.inf_amd64_b15a310c9d896fb4\\tigerlakepch-hsystemish.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem216.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemlpss.inf_amd64_7631001483b551a3\\tigerlakepch-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem217.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemnorthpeak.inf_amd64_dd0840191599af28\\tigerlakepch-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem218.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemthermal.inf_amd64_38511bd8785db5d2\\tigerlakepch-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.10"
+    },
+    {
+        "Driver":  "oem219.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpdmasecextension.inf_amd64_fb3a470c5bbb59b6\\tigerlakepch-lpdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.6"
+    },
+    {
+        "Driver":  "oem22.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_049e38a37c46edc4\\ipf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1747292400000)\/",
+        "Version":  "2.2.10205.3620"
+    },
+    {
+        "Driver":  "oem220.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakedmasecextension.inf_amd64_39b34b96675a690e\\tigerlakedmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.43.5"
+    },
+    {
+        "Driver":  "oem221.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpsystem.inf_amd64_4dee61c27bbc67d2\\tigerlakepch-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.6"
+    },
+    {
+        "Driver":  "oem222.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpsystemlpss.inf_amd64_f9b8005a3b5524d8\\tigerlakepch-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.6"
+    },
+    {
+        "Driver":  "oem223.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakesystem.inf_amd64_745c67c4f68dfd5a\\tigerlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.43.5"
+    },
+    {
+        "Driver":  "oem224.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpusbfunctioncontroller.inf_amd64_41298b28061f99f2\\tigerlakepch-lpusbfunctioncontroller.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "USBFunctionController",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.6"
+    },
+    {
+        "Driver":  "oem225.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_acpi.inf_amd64_ec9dc29e11676412\\dptf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1627023600000)\/",
+        "Version":  "8.7.10700.22502"
+    },
+    {
+        "Driver":  "oem226.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_897ea327b3fe52f7\\dptf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1627023600000)\/",
+        "Version":  "8.7.10700.22502"
+    },
+    {
+        "Driver":  "oem227.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\hideventfilter.inf_amd64_ec4254e9855fb7ff\\hideventfilter.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1706774400000)\/",
+        "Version":  "2.2.2.9"
+    },
+    {
+        "Driver":  "oem228.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_fcb86739d9219d5d\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "23.170.0.1"
+    },
+    {
+        "Driver":  "oem229.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_ee761166daec7794\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "23.170.0.1"
+    },
+    {
+        "Driver":  "oem23.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_smbus.inf_amd64_bda08cb5125f8410\\ipf_smbus.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1747292400000)\/",
+        "Version":  "2.2.10205.3620"
+    },
+    {
+        "Driver":  "oem230.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_tgl.inf_amd64_2546dafe2183e972\\ialpss2_gpio2_tgl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1626159600000)\/",
+        "Version":  "30.100.2129.8"
+    },
+    {
+        "Driver":  "oem231.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_tgl.inf_amd64_1308f85f1b0adf27\\ialpss2_i2c_tgl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1626159600000)\/",
+        "Version":  "30.100.2129.8"
+    },
+    {
+        "Driver":  "oem232.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_tgl.inf_amd64_fc1ed3a5a1d514f2\\ialpss2_spi_tgl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1626159600000)\/",
+        "Version":  "30.100.2129.8"
+    },
+    {
+        "Driver":  "oem233.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_tgl.inf_amd64_cd8c3a141c1b1284\\ialpss2_uart2_tgl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1626159600000)\/",
+        "Version":  "30.100.2129.8"
+    },
+    {
+        "Driver":  "oem234.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385\\dal.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1711868400000)\/",
+        "Version":  "1.46.2024.221"
+    },
+    {
+        "Driver":  "oem235.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_e0e9fcf6c047b9a7\\heci.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1742454000000)\/",
+        "Version":  "2512.7.3.0"
+    },
+    {
+        "Driver":  "oem236.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_2c17521ca0d3f79c\\mewmiprov.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1742281200000)\/",
+        "Version":  "2512.7.1.0"
+    },
+    {
+        "Driver":  "oem237.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_923747d9c137105b\\lms.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1743404400000)\/",
+        "Version":  "2514.7.7.0"
+    },
+    {
+        "Driver":  "oem238.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mesrl.inf_amd64_cc92e5f6545b3d49\\mesrl.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Ports",
+        "Date":  "\/Date(1728370800000)\/",
+        "Version":  "2441.7.0.0"
+    },
+    {
+        "Driver":  "oem239.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sollmsextension.inf_amd64_27c9c6159912c7ba\\sollmsextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1728370800000)\/",
+        "Version":  "2441.7.0.0"
+    },
+    {
+        "Driver":  "oem24.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ndmasecextension.inf_amd64_c1a7e34728e428a8\\alderlakepch-ndmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.50.8"
+    },
+    {
+        "Driver":  "oem240.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman.inf_amd64_ee164cf790078967\\wiman.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1738224000000)\/",
+        "Version":  "255.91.103.0"
+    },
+    {
+        "Driver":  "oem241.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman_wlan_extension.inf_amd64_213f8db724a19809\\wiman_wlan_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1738224000000)\/",
+        "Version":  "255.91.103.0"
+    },
+    {
+        "Driver":  "oem242.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwl6ex.inf_amd64_522121ef28644f42\\mtkwl6ex.inf",
+        "ProviderName":  "MediaTek, Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1747292400000)\/",
+        "Version":  "25.40.2.579"
+    },
+    {
+        "Driver":  "oem243.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tbthostcontrollerextension.inf_amd64_7d76c55097917eeb\\tbthostcontrollerextension.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1733040000000)\/",
+        "Version":  "1.41.1423.0"
+    },
+    {
+        "Driver":  "oem244.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tbthostcontroller.inf_amd64_45551dab4434a790\\tbthostcontroller.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1733040000000)\/",
+        "Version":  "1.41.1423.0"
+    },
+    {
+        "Driver":  "oem245.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tbtp2pndisdrv.inf_amd64_a4cb2aa372d0e204\\tbtp2pndisdrv.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1733040000000)\/",
+        "Version":  "1.41.1423.0"
+    },
+    {
+        "Driver":  "oem246.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tbthostcontrollertoastcomponent.inf_amd64_c6c87e7074440d17\\tbthostcontrollertoastcomponent.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1733040000000)\/",
+        "Version":  "1.41.1423.0"
+    },
+    {
+        "Driver":  "oem247.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tbthostcontrollerhsacomponent.inf_amd64_24f45d6590ee1b89\\tbthostcontrollerhsacomponent.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1733040000000)\/",
+        "Version":  "1.41.1423.0"
+    },
+    {
+        "Driver":  "oem248.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amddrtm.inf_amd64_4e770d5298e89b51\\amddrtm.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1625036400000)\/",
+        "Version":  "1.0.14.2"
+    },
+    {
+        "Driver":  "oem249.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdmicropep.inf_amd64_125ce57d6c2a901c\\amdmicropep.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1625727600000)\/",
+        "Version":  "1.0.29.0"
+    },
+    {
+        "Driver":  "oem25.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakedmasecextension.inf_amd64_f0d7eea44ed4e421\\alderlakedmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.9"
+    },
+    {
+        "Driver":  "oem250.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdgpio2.inf_amd64_a3ca1407d6201def\\amdgpio2.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1724137200000)\/",
+        "Version":  "2.2.0.134"
+    },
+    {
+        "Driver":  "oem251.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwl6ex.inf_amd64_03045be9dbfcd03a\\mtkwl6ex.inf",
+        "ProviderName":  "MediaTek, Inc.ti",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1764921600000)\/",
+        "Version":  "25.40.2.585"
+    },
+    {
+        "Driver":  "oem252.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtvdevx64_ext.inf_amd64_2aad0c349fe15dd6\\rtvdevx64_ext.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1586847600000)\/",
+        "Version":  "1.1.414.2020"
+    },
+    {
+        "Driver":  "oem253.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netrtwlane6.inf_amd64_8347b64c7ceaef7c\\netrtwlane6.inf",
+        "ProviderName":  "Realtek Semiconductor Corp.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1686812400000)\/",
+        "Version":  "6001.10.354.300"
+    },
+    {
+        "Driver":  "oem254.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_9de0a09ad1d2bd32\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1753686000000)\/",
+        "Version":  "5.40.0.0"
+    },
+    {
+        "Driver":  "oem255.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\qcwlan64.inf_amd64_54e19303c8ff0e5a\\qcwlan64.inf",
+        "ProviderName":  "Qualcomm Communications Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1763452800000)\/",
+        "Version":  "2.0.0.1326"
+    },
+    {
+        "Driver":  "oem256.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_db1a75487683e237\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1770883200000)\/",
+        "Version":  "24.20.2.1"
+    },
+    {
+        "Driver":  "oem257.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_25f0650d769624eb\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1770883200000)\/",
+        "Version":  "24.20.2.1"
+    },
+    {
+        "Driver":  "oem258.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\hideventfilter.inf_amd64_11ad2b4276308b53\\hideventfilter.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1642752000000)\/",
+        "Version":  "2.2.2.1"
+    },
+    {
+        "Driver":  "oem259.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\cometlakesystem.inf_amd64_2336b5cf6c2e78cc\\cometlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.30.4"
+    },
+    {
+        "Driver":  "oem26.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-nsystemnorthpeak.inf_amd64_5300f2fe1668d958\\alderlakepch-nsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.50.8"
+    },
+    {
+        "Driver":  "oem260.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystem.inf_amd64_53f94e0d263859df\\elkhartlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.6"
+    },
+    {
+        "Driver":  "oem261.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystemgmm.inf_amd64_21c976758d494831\\elkhartlakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.6"
+    },
+    {
+        "Driver":  "oem262.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\elkhartlakesystemlpss.inf_amd64_9d6547e3255e2d2e\\elkhartlakesystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.25.6"
+    },
+    {
+        "Driver":  "oem263.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\emmitsburgsystem.inf_amd64_1866b540328ccff1\\emmitsburgsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.40.5"
+    },
+    {
+        "Driver":  "oem264.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\emmitsburgsystemlpss.inf_amd64_38745ad18dc67044\\emmitsburgsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.40.5"
+    },
+    {
+        "Driver":  "oem265.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\server_commonsystemnorthpeak.inf_amd64_8ba4880b25a6e4cd\\server_commonsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.42.11"
+    },
+    {
+        "Driver":  "oem266.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakepch-ssystem.inf_amd64_8155b85580014d4f\\raptorlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.46.3"
+    },
+    {
+        "Driver":  "oem267.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakepch-ssystemlpss.inf_amd64_9dec7e65a237382a\\raptorlakepch-ssystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.46.3"
+    },
+    {
+        "Driver":  "oem268.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakesystem.inf_amd64_d7202be55e42c570\\raptorlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.49.9"
+    },
+    {
+        "Driver":  "oem269.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sapphirerapidssystem.inf_amd64_d7bcc66a5e473f8b\\sapphirerapidssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.39.8"
+    },
+    {
+        "Driver":  "oem27.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-nsystem.inf_amd64_23100d9890c77cd8\\alderlakepch-nsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.50.8"
+    },
+    {
+        "Driver":  "oem270.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\server_commonsystem.inf_amd64_a241081d3e26f35d\\server_commonsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.42.11"
+    },
+    {
+        "Driver":  "oem271.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hdmasecextension.inf_amd64_b1898451bf82f465\\tigerlakepch-hdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem272.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystem.inf_amd64_cef306a739575d10\\tigerlakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem273.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemish.inf_amd64_7635a2d81b755ab7\\tigerlakepch-hsystemish.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem274.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemlpss.inf_amd64_db5e392e0b761338\\tigerlakepch-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem275.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemnorthpeak.inf_amd64_00f1a51683f1c7c3\\tigerlakepch-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem276.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-hsystemthermal.inf_amd64_9d9759712fc0e43b\\tigerlakepch-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.34.13"
+    },
+    {
+        "Driver":  "oem277.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_ext.inf_amd64_0a204eb735cbfb3b\\dtt_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1681110000000)\/",
+        "Version":  "9.0.11203.34112"
+    },
+    {
+        "Driver":  "oem278.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_fe21a1d446afa67d\\dtt_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1681110000000)\/",
+        "Version":  "9.0.11203.34112"
+    },
+    {
+        "Driver":  "oem279.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_acpi.inf_amd64_3e77ea8ce8c01463\\ipf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1681110000000)\/",
+        "Version":  "1.0.11203.34112"
+    },
+    {
+        "Driver":  "oem28.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-pdmasecextension.inf_amd64_c26ba4a8cd64b537\\alderlakepch-pdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.36.7"
+    },
+    {
+        "Driver":  "oem280.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_a232fd65d8604eb5\\ipf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1681110000000)\/",
+        "Version":  "1.0.11203.34112"
+    },
+    {
+        "Driver":  "oem281.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_6467379f0b0f181f\\heci.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1657782000000)\/",
+        "Version":  "2229.3.2.0"
+    },
+    {
+        "Driver":  "oem282.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mesrl.inf_amd64_a01d9a3edaa5b58c\\mesrl.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Ports",
+        "Date":  "\/Date(1651474800000)\/",
+        "Version":  "2219.3.0.0"
+    },
+    {
+        "Driver":  "oem283.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_b5484efd38adbe8d\\dal.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1611216000000)\/",
+        "Version":  "1.41.2021.121"
+    },
+    {
+        "Driver":  "oem284.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_41ce6847bba3daa2\\lms.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1657609200000)\/",
+        "Version":  "2227.3.3.2"
+    },
+    {
+        "Driver":  "oem285.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sollmsextension.inf_amd64_9c8ca59e31c5d204\\sollmsextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1651474800000)\/",
+        "Version":  "2219.3.0.0"
+    },
+    {
+        "Driver":  "oem286.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_21e0cf0737fd48af\\mewmiprov.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1651474800000)\/",
+        "Version":  "2219.3.0.0"
+    },
+    {
+        "Driver":  "oem287.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman.inf_amd64_39b0d69e31702623\\wiman.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1657436400000)\/",
+        "Version":  "2229.71.56.0"
+    },
+    {
+        "Driver":  "oem288.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman_wlan_extension.inf_amd64_67cb4aa29b65ea2d\\wiman_wlan_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1657436400000)\/",
+        "Version":  "2229.71.56.0"
+    },
+    {
+        "Driver":  "oem289.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt640x64.inf_amd64_aec16144510577f4\\rt640x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1636617600000)\/",
+        "Version":  "10.54.1111.2021"
+    },
+    {
+        "Driver":  "oem29.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-psystem.inf_amd64_c27bc8858e991c72\\alderlakepch-psystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.36.7"
+    },
+    {
+        "Driver":  "oem290.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\e1d68x64.inf_amd64_b32d0891eb98aee4\\e1d68x64.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1624345200000)\/",
+        "Version":  "12.19.1.37"
+    },
+    {
+        "Driver":  "oem291.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_adl.inf_amd64_302e75596cffa74a\\ialpss2_gpio2_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1662447600000)\/",
+        "Version":  "30.100.2237.26"
+    },
+    {
+        "Driver":  "oem292.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_adl.inf_amd64_e736c048ca307ed2\\ialpss2_i2c_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1662447600000)\/",
+        "Version":  "30.100.2237.26"
+    },
+    {
+        "Driver":  "oem293.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_adl.inf_amd64_334c460fea9b11a4\\ialpss2_spi_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1662447600000)\/",
+        "Version":  "30.100.2237.26"
+    },
+    {
+        "Driver":  "oem294.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_adl.inf_amd64_43d5df63d19fde70\\ialpss2_uart2_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1662447600000)\/",
+        "Version":  "30.100.2237.26"
+    },
+    {
+        "Driver":  "oem295.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd.inf_amd64_3da716d6ebb3a027\\epd.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1667199600000)\/",
+        "Version":  "31.21.28.2"
+    },
+    {
+        "Driver":  "oem296.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd_component.inf_amd64_cfb7af5fee7ddf34\\epd_component.inf",
+        "ProviderName":  "ELAN Input Device",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1659337200000)\/",
+        "Version":  "31.21.0.3"
+    },
+    {
+        "Driver":  "oem297.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\etdhsa.inf_amd64_2538d3093391ce2a\\etdhsa.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1657004400000)\/",
+        "Version":  "31.21.0.4"
+    },
+    {
+        "Driver":  "oem298.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intelacm_adl_pw_1.18.11.0.inf_amd64_d46e0c0cb0ca9056\\intelacm_adl_pw_1.18.11.0.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(1654153200000)\/",
+        "Version":  "1.18.11.0"
+    },
+    {
+        "Driver":  "oem299.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\qcwlan64.inf_amd64_473963fc2a3480b2\\qcwlan64.inf",
+        "ProviderName":  "Qualcomm Communications Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1676793600000)\/",
+        "Version":  "2.0.0.895"
+    },
+    {
+        "Driver":  "oem3.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\powermgrextension.inf_amd64_d00d3049e8078bb2\\powermgrextension.inf",
+        "ProviderName":  "Lenovo",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1638432000000)\/",
+        "Version":  "1.0.3.0"
+    },
+    {
+        "Driver":  "oem30.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-psystemlpss.inf_amd64_0e6561d312fa21bf\\alderlakepch-psystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.36.7"
+    },
+    {
+        "Driver":  "oem300.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amddrtm.inf_amd64_7b502b99ff391b2f\\amddrtm.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1630566000000)\/",
+        "Version":  "1.0.15.0"
+    },
+    {
+        "Driver":  "oem301.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdmicropep.inf_amd64_2be43e89a1c39100\\amdmicropep.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1673337600000)\/",
+        "Version":  "1.0.40.1"
+    },
+    {
+        "Driver":  "oem302.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68cx21x64.inf_amd64_6529f85d5400fb66\\rt68cx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1634886000000)\/",
+        "Version":  "1168.3.1022.2021"
+    },
+    {
+        "Driver":  "oem303.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68dcx21x64.inf_amd64_32c90dad0b5670cc\\rt68dcx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1655190000000)\/",
+        "Version":  "1166.9.614.2022"
+    },
+    {
+        "Driver":  "oem304.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd.inf_amd64_4f7bf231535d9ce8\\epd.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1631170800000)\/",
+        "Version":  "31.21.19.2"
+    },
+    {
+        "Driver":  "oem305.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd_component.inf_amd64_76023be43b33f32d\\epd_component.inf",
+        "ProviderName":  "ELAN Input Device",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1559026800000)\/",
+        "Version":  "31.21.0.1"
+    },
+    {
+        "Driver":  "oem306.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\etdhsa.inf_amd64_1ebd3e3ed020bfb1\\etdhsa.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1626159600000)\/",
+        "Version":  "31.21.0.3"
+    },
+    {
+        "Driver":  "oem307.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwl6ex.inf_amd64_cc6fc6ce292eb2db\\mtkwl6ex.inf",
+        "ProviderName":  "MediaTek, Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1714806000000)\/",
+        "Version":  "24.34.2.570"
+    },
+    {
+        "Driver":  "oem308.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\qcwlan64.inf_amd64_3176c38be71f86e3\\qcwlan64.inf",
+        "ProviderName":  "Qualcomm Communications Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1665471600000)\/",
+        "Version":  "2.0.0.775"
+    },
+    {
+        "Driver":  "oem309.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\e1d.inf_amd64_9aec23fc8b7cff7c\\e1d.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1763280000000)\/",
+        "Version":  "12.19.2.66"
+    },
+    {
+        "Driver":  "oem31.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-psystemnorthpeak.inf_amd64_b199b2eb5b8a3f6d\\alderlakepch-psystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.36.7"
+    },
+    {
+        "Driver":  "oem310.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dynamic_dp_bw_extension.inf_amd64_d07ecf8f13b40181\\dynamic_dp_bw_extension.inf",
+        "ProviderName":  "Lenovo",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1689750000000)\/",
+        "Version":  "1.1.0.0"
+    },
+    {
+        "Driver":  "oem311.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdi2c.inf_amd64_f424405ae72b528e\\amdi2c.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1711436400000)\/",
+        "Version":  "1.2.0.124"
+    },
+    {
+        "Driver":  "oem312.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amddrtm.inf_amd64_8b8eca36d7c65da7\\amddrtm.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1724137200000)\/",
+        "Version":  "1.0.18.4"
+    },
+    {
+        "Driver":  "oem313.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdgpio2.inf_amd64_573c186b1abc7b65\\amdgpio2.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1712300400000)\/",
+        "Version":  "2.2.0.133"
+    },
+    {
+        "Driver":  "oem314.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\smbusamd.inf_amd64_5633178178ba68f8\\smbusamd.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1711436400000)\/",
+        "Version":  "5.12.0.44"
+    },
+    {
+        "Driver":  "oem315.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdmicropep.inf_amd64_0569298671d6eb76\\amdmicropep.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1711522800000)\/",
+        "Version":  "1.0.43.1"
+    },
+    {
+        "Driver":  "oem316.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_3b892c5c6e1e305c\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1714460400000)\/",
+        "Version":  "5.28.0.0"
+    },
+    {
+        "Driver":  "oem317.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68cx21x64.inf_amd64_0f3a2b5f72186666\\rt68cx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1682319600000)\/",
+        "Version":  "1168.13.424.2023"
+    },
+    {
+        "Driver":  "oem318.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68dcx21x64.inf_amd64_169751a66471f99e\\rt68dcx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1658386800000)\/",
+        "Version":  "1166.10.720.2022"
+    },
+    {
+        "Driver":  "oem319.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netrtwlane602.inf_amd64_02aa9ea6d6c6ec3f\\netrtwlane602.inf",
+        "ProviderName":  "Realtek Semiconductor Corp.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1736236800000)\/",
+        "Version":  "6001.16.126.328"
+    },
+    {
+        "Driver":  "oem32.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystem.inf_amd64_2d3c87d4553e8e1f\\alderlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.7"
+    },
+    {
+        "Driver":  "oem320.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\server_commonsystemnorthpeak.inf_amd64_920ede89c625bd1e\\server_commonsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.42.12"
+    },
+    {
+        "Driver":  "oem321.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\server_commonsystem.inf_amd64_149bf260ae371a7a\\server_commonsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.42.12"
+    },
+    {
+        "Driver":  "oem322.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\e1dn.inf_amd64_ec1ace84bb3bcb4d\\e1dn.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1764576000000)\/",
+        "Version":  "20.0.3.24"
+    },
+    {
+        "Driver":  "oem323.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw04.inf_amd64_c06849015b048ab0\\netwtw04.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1699344000000)\/",
+        "Version":  "19.51.50.2"
+    },
+    {
+        "Driver":  "oem324.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_d1fb214bf327c0a9\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1701244800000)\/",
+        "Version":  "23.20.0.4"
+    },
+    {
+        "Driver":  "oem325.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_676bed065e3f9992\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1701244800000)\/",
+        "Version":  "23.20.0.4"
+    },
+    {
+        "Driver":  "oem326.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amddrtm.inf_amd64_c319febfdd3d9e11\\amddrtm.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1772524800000)\/",
+        "Version":  "1.0.19.4"
+    },
+    {
+        "Driver":  "oem327.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdppmpf.inf_amd64_67b3f171a470711e\\amdppmpf.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714460400000)\/",
+        "Version":  "8.0.0.32"
+    },
+    {
+        "Driver":  "oem328.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68cx21x64.inf_amd64_fd79c26dfafbe776\\rt68cx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1720076400000)\/",
+        "Version":  "1168.19.704.2024"
+    },
+    {
+        "Driver":  "oem329.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68dcx21x64.inf_amd64_26679da25d88b89d\\rt68dcx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1720076400000)\/",
+        "Version":  "1166.19.704.2024"
+    },
+    {
+        "Driver":  "oem33.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystemlpss.inf_amd64_83277bd8dd9068fb\\alderlakepch-ssystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.7"
+    },
+    {
+        "Driver":  "oem330.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\qcwlan64.inf_amd64_5c1a13c6591fa896\\qcwlan64.inf",
+        "ProviderName":  "Qualcomm Communications Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1769500800000)\/",
+        "Version":  "2.0.0.1339"
+    },
+    {
+        "Driver":  "oem331.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_mtl.inf_amd64_de92054d4f0ad831\\ialpss2_gpio2_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714374000000)\/",
+        "Version":  "30.100.2418.12"
+    },
+    {
+        "Driver":  "oem332.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_mtl.inf_amd64_f8676b4713eb4df0\\ialpss2_i2c_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714374000000)\/",
+        "Version":  "30.100.2418.12"
+    },
+    {
+        "Driver":  "oem333.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i3c_mtl.inf_amd64_ec8ccba7d9f2bf42\\ialpss2_i3c_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714374000000)\/",
+        "Version":  "30.100.2418.12"
+    },
+    {
+        "Driver":  "oem334.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_mtl.inf_amd64_c428e61080c2c375\\ialpss2_spi_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714374000000)\/",
+        "Version":  "30.100.2418.12"
+    },
+    {
+        "Driver":  "oem335.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_mtl.inf_amd64_84e21ebc08a5cf90\\ialpss2_uart2_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1714374000000)\/",
+        "Version":  "30.100.2418.12"
+    },
+    {
+        "Driver":  "oem336.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_e198dbb9fb101a00\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1738828800000)\/",
+        "Version":  "23.120.0.3"
+    },
+    {
+        "Driver":  "oem337.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_70d493b22a8d309e\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1738828800000)\/",
+        "Version":  "23.120.0.3"
+    },
+    {
+        "Driver":  "oem338.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdi2c.inf_amd64_fdec99701aa315af\\amdi2c.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "1.2.0.126"
+    },
+    {
+        "Driver":  "oem339.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ams-mailboxdrv.inf_amd64_245aa1fe4b4072de\\ams-mailboxdrv.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756364400000)\/",
+        "Version":  "5.0.0.1075"
+    },
+    {
+        "Driver":  "oem34.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystemnorthpeak.inf_amd64_28ea92119865f1be\\alderlakepch-ssystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.7"
+    },
+    {
+        "Driver":  "oem340.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amddrtm.inf_amd64_7f9c40f330015c8f\\amddrtm.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1762243200000)\/",
+        "Version":  "1.0.19.3"
+    },
+    {
+        "Driver":  "oem341.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdgpio2.inf_amd64_2c4b58e27c1b707a\\amdgpio2.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "2.2.0.134"
+    },
+    {
+        "Driver":  "oem342.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdinterface.inf_amd64_31edaafbed031f81\\amdinterface.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "2.0.0.23"
+    },
+    {
+        "Driver":  "oem343.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpmf.inf_amd64_0af410afb791668c\\amdpmf.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1779865200000)\/",
+        "Version":  "26.10.12.0"
+    },
+    {
+        "Driver":  "oem344.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdmicropep.inf_amd64_4139c27b15448ae4\\amdmicropep.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756105200000)\/",
+        "Version":  "1.0.46.0"
+    },
+    {
+        "Driver":  "oem345.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdppkg.inf_amd64_6b71afde72a0e813\\amdppkg.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756969200000)\/",
+        "Version":  "8.0.0.56"
+    },
+    {
+        "Driver":  "oem346.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_6e4aeaa8a1e9f51c\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1757401200000)\/",
+        "Version":  "5.40.0.0"
+    },
+    {
+        "Driver":  "oem347.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68cx21x64.inf_amd64_52296ae27e2c1372\\rt68cx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1758265200000)\/",
+        "Version":  "1168.27.50.919"
+    },
+    {
+        "Driver":  "oem348.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt68dcx21x64.inf_amd64_4db4e8097c775459\\rt68dcx21x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1758265200000)\/",
+        "Version":  "1166.27.50.919"
+    },
+    {
+        "Driver":  "oem349.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwecx.inf_amd64_ba4716c6f31cfb2a\\mtkwecx.inf",
+        "ProviderName":  "MediaTek, Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1785481200000)\/",
+        "Version":  "26.40.3.67"
+    },
+    {
+        "Driver":  "oem35.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakesystem.inf_amd64_0565e3956cec3231\\alderlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.9"
+    },
+    {
+        "Driver":  "oem350.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpmf.inf_amd64_0c28663a80f84457\\amdpmf.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1778223600000)\/",
+        "Version":  "26.10.11.0"
+    },
+    {
+        "Driver":  "oem351.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\hideventfilter.inf_amd64_ccf8d4bd300fba25\\hideventfilter.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1749020400000)\/",
+        "Version":  "2.2.2.17"
+    },
+    {
+        "Driver":  "oem352.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\apollolakesdhost.inf_amd64_8395000214bc3e0d\\apollolakesdhost.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "SDHost",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.17.4"
+    },
+    {
+        "Driver":  "oem353.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\apollolakesystem.inf_amd64_870d919b6247aafd\\apollolakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.17.4"
+    },
+    {
+        "Driver":  "oem354.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\emmitsburgsystem.inf_amd64_f92c48b0ccd55ec3\\emmitsburgsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.40.6"
+    },
+    {
+        "Driver":  "oem355.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\emmitsburgsystemlpss.inf_amd64_89312daa62e8a76d\\emmitsburgsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.40.6"
+    },
+    {
+        "Driver":  "oem356.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystem.inf_amd64_07e5fb7ac7b69fd3\\geminilakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.4"
+    },
+    {
+        "Driver":  "oem357.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemgmm.inf_amd64_605b3f830c82c9d6\\geminilakesystemgmm.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.4"
+    },
+    {
+        "Driver":  "oem358.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemlpss.inf_amd64_f78470a71ec25cf1\\geminilakesystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.4"
+    },
+    {
+        "Driver":  "oem359.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\geminilakesystemnorthpeak.inf_amd64_2d3069db48beaee1\\geminilakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.13.4"
+    },
+    {
+        "Driver":  "oem36.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakesystemnorthpeak.inf_amd64_97aaa5270d91ce72\\alderlakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.9"
+    },
+    {
+        "Driver":  "oem360.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\graniterapidssystem.inf_amd64_77042d3d76762a9a\\graniterapidssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.52.14"
+    },
+    {
+        "Driver":  "oem361.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-nsystem.inf_amd64_384816a5f75a35a9\\icelakepch-nsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.22.4"
+    },
+    {
+        "Driver":  "oem362.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakepch-nsystemlpss.inf_amd64_071c97bf1ccc12a2\\icelakepch-nsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.22.4"
+    },
+    {
+        "Driver":  "oem363.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakesystemthermal.inf_amd64_c22d60f55f5745ef\\icelakesystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.20.5"
+    },
+    {
+        "Driver":  "oem364.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icelakeusbfunctioncontroller.inf_amd64_522c485d9a86f98c\\icelakeusbfunctioncontroller.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "USBFunctionController",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.20.5"
+    },
+    {
+        "Driver":  "oem365.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystem.inf_amd64_6aa59c9be6b2cec5\\kabylakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.5"
+    },
+    {
+        "Driver":  "oem366.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemlpss.inf_amd64_d6476325e097b8f4\\kabylakepch-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.5"
+    },
+    {
+        "Driver":  "oem367.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemnorthpeak.inf_amd64_06ef4adda29f3216\\kabylakepch-hsystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.5"
+    },
+    {
+        "Driver":  "oem368.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kabylakepch-hsystemthermal.inf_amd64_8d9cbc4f1496eb4f\\kabylakepch-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.11.5"
+    },
+    {
+        "Driver":  "oem369.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\pantherlakesystem.inf_amd64_0921de5fa14fbbf4\\pantherlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.56.27"
+    },
+    {
+        "Driver":  "oem37.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\meteorlakepch-hsystem.inf_amd64_c9fc3d4ea68621ca\\meteorlakepch-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.55.3"
+    },
+    {
+        "Driver":  "oem370.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\pantherlakesystemnorthpeak.inf_amd64_f72beb67f84c71d4\\pantherlakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.56.27"
+    },
+    {
+        "Driver":  "oem371.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sapphirerapidssystem.inf_amd64_bcfb945adf3da22c\\sapphirerapidssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.39.10"
+    },
+    {
+        "Driver":  "oem372.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystem.inf_amd64_67d2eeb38de507c7\\sunrisepoint-hsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.3"
+    },
+    {
+        "Driver":  "oem373.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystemlpss.inf_amd64_6c94d7dee6204de0\\sunrisepoint-hsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.3"
+    },
+    {
+        "Driver":  "oem374.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sunrisepoint-hsystemthermal.inf_amd64_85186eb5873a697a\\sunrisepoint-hsystemthermal.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.6.3"
+    },
+    {
+        "Driver":  "oem375.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpdmasecextension.inf_amd64_c2a4fac78bd51106\\tigerlakepch-lpdmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.7"
+    },
+    {
+        "Driver":  "oem376.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpsystem.inf_amd64_beea29ab1247f6e5\\tigerlakepch-lpsystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.7"
+    },
+    {
+        "Driver":  "oem377.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpsystemlpss.inf_amd64_3a4035d122556b16\\tigerlakepch-lpsystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.7"
+    },
+    {
+        "Driver":  "oem378.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\tigerlakepch-lpusbfunctioncontroller.inf_amd64_1ca70e2215b76619\\tigerlakepch-lpusbfunctioncontroller.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "USBFunctionController",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.24.7"
+    },
+    {
+        "Driver":  "oem379.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_ext.inf_amd64_e22c5bf93558c658\\dtt_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1763366400000)\/",
+        "Version":  "9.1.10003.555"
+    },
+    {
+        "Driver":  "oem38.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\meteorlakepch-ssystem.inf_amd64_533eaff1e6025468\\meteorlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.51.8"
+    },
+    {
+        "Driver":  "oem380.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_27c1316661666cc3\\dtt_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1763366400000)\/",
+        "Version":  "9.1.10003.555"
+    },
+    {
+        "Driver":  "oem381.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kpe_apo_ext.inf_amd64_53230371b96440b7\\kpe_apo_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1763366400000)\/",
+        "Version":  "9.1.10003.555"
+    },
+    {
+        "Driver":  "oem382.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kpe_apo_win.inf_amd64_12e75a70c00e6b33\\kpe_apo_win.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1763366400000)\/",
+        "Version":  "9.1.10003.555"
+    },
+    {
+        "Driver":  "oem383.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_acpi.inf_amd64_e6bcef47213c66a8\\ipf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1760338800000)\/",
+        "Version":  "2.3.20201.4882"
+    },
+    {
+        "Driver":  "oem384.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_39a837658d091e72\\ipf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1760338800000)\/",
+        "Version":  "2.3.20201.4882"
+    },
+    {
+        "Driver":  "oem385.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_smbus.inf_amd64_747ffb93e35f25d0\\ipf_smbus.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1760338800000)\/",
+        "Version":  "2.3.20201.4882"
+    },
+    {
+        "Driver":  "oem386.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipfppm_sw.inf_amd64_87702afa6055d5a8\\ipfppm_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1763625600000)\/",
+        "Version":  "1.0.0.200"
+    },
+    {
+        "Driver":  "oem387.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_fcdb547e01928a85\\heci.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1766476800000)\/",
+        "Version":  "2552.8.10.0"
+    },
+    {
+        "Driver":  "oem388.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mesrl.inf_amd64_53cb7906c14a9864\\mesrl.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Ports",
+        "Date":  "\/Date(1744614000000)\/",
+        "Version":  "2516.8.0.0"
+    },
+    {
+        "Driver":  "oem389.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\issei.inf_amd64_09767aead1052429\\issei.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1745305200000)\/",
+        "Version":  "2517.8.1.0"
+    },
+    {
+        "Driver":  "oem39.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\meteorlakesystem.inf_amd64_ff69daa6884130e3\\meteorlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.47.12"
+    },
+    {
+        "Driver":  "oem390.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_a47ded124d2e2d3a\\lms.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1764748800000)\/",
+        "Version":  "2549.8.14.0"
+    },
+    {
+        "Driver":  "oem391.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sollmsextension.inf_amd64_5c9ba817e90598a8\\sollmsextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1744614000000)\/",
+        "Version":  "2516.8.0.0"
+    },
+    {
+        "Driver":  "oem392.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_47b9a82f73e9dad8\\mewmiprov.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1761634800000)\/",
+        "Version":  "2544.8.3.0"
+    },
+    {
+        "Driver":  "oem393.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman.inf_amd64_1d81bc4f31bf65c7\\wiman.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1760943600000)\/",
+        "Version":  "2543.98.178.0"
+    },
+    {
+        "Driver":  "oem394.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman_wlan_extension.inf_amd64_9b80378253ec43a5\\wiman_wlan_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1760943600000)\/",
+        "Version":  "2543.98.178.0"
+    },
+    {
+        "Driver":  "oem395.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcpmt.inf_amd64_9ee9d6c0d166cdf0\\intcpmt.inf",
+        "ProviderName":  "Intel(R) Platform Monitoring Technology (PMT) Device",
+        "ClassName":  "System",
+        "Date":  "\/Date(1758092400000)\/",
+        "Version":  "7.3.10.3"
+    },
+    {
+        "Driver":  "oem396.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_ptl.inf_amd64_b521add5cca5cd14\\ialpss2_gpio2_ptl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1755500400000)\/",
+        "Version":  "30.100.2534.18"
+    },
+    {
+        "Driver":  "oem397.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_ptl.inf_amd64_fec443de9e1c5416\\ialpss2_i2c_ptl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1755500400000)\/",
+        "Version":  "30.100.2534.18"
+    },
+    {
+        "Driver":  "oem398.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i3c_ptl.inf_amd64_340f3d5d38246a28\\ialpss2_i3c_ptl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1755500400000)\/",
+        "Version":  "30.100.2534.18"
+    },
+    {
+        "Driver":  "oem399.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_ptl.inf_amd64_e85b7879f97712be\\ialpss2_spi_ptl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1755500400000)\/",
+        "Version":  "30.100.2534.18"
+    },
+    {
+        "Driver":  "oem4.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synamdsmbdrv.inf_amd64_8344c82cb82d74cb\\synamdsmbdrv.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "System",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem40.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\meteorlakesystemnorthpeak.inf_amd64_c07f51edbae50a75\\meteorlakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.47.12"
+    },
+    {
+        "Driver":  "oem400.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_ptl.inf_amd64_f68e53f025b664d5\\ialpss2_uart2_ptl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1755500400000)\/",
+        "Version":  "30.100.2534.18"
+    },
+    {
+        "Driver":  "oem401.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd.inf_amd64_ae677c66f6c8cc4f\\epd.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1770019200000)\/",
+        "Version":  "31.21.57.1"
+    },
+    {
+        "Driver":  "oem402.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\epd_component.inf_amd64_0ce42338a662cd60\\epd_component.inf",
+        "ProviderName":  "ELAN Input Device",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1770019200000)\/",
+        "Version":  "31.21.57.1"
+    },
+    {
+        "Driver":  "oem403.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\etdhsa.inf_amd64_7c37f9ae8176fc11\\etdhsa.inf",
+        "ProviderName":  "ELAN",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1770019200000)\/",
+        "Version":  "31.21.57.1"
+    },
+    {
+        "Driver":  "oem404.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intelacm_ptl_pw_1.21.17.0.inf_amd64_384095c33136f9d7\\intelacm_ptl_pw_1.21.17.0.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(1760598000000)\/",
+        "Version":  "1.21.17.0"
+    },
+    {
+        "Driver":  "oem405.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_485d2cdacc9913cf\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1772524800000)\/",
+        "Version":  "24.30.1.1"
+    },
+    {
+        "Driver":  "oem406.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_b0dac78beff3ae84\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1772524800000)\/",
+        "Version":  "24.30.1.1"
+    },
+    {
+        "Driver":  "oem407.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ams-mailboxdrv.inf_amd64_03ecbae5b2f6bf61\\ams-mailboxdrv.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1759993200000)\/",
+        "Version":  "5.1.0.1373"
+    },
+    {
+        "Driver":  "oem408.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdgpio2.inf_amd64_e3ba65168b9dbb29\\amdgpio2.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1762761600000)\/",
+        "Version":  "2.2.0.136"
+    },
+    {
+        "Driver":  "oem409.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdinterface.inf_amd64_a99a2f05b8c87abc\\amdinterface.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc",
+        "ClassName":  "System",
+        "Date":  "\/Date(1764835200000)\/",
+        "Version":  "2.0.0.26"
+    },
+    {
+        "Driver":  "oem41.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakepch-ssystem.inf_amd64_c36c648d94a510c9\\raptorlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.46.5"
+    },
+    {
+        "Driver":  "oem410.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpmf.inf_amd64_7a6a202739ee5d05\\amdpmf.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1765267200000)\/",
+        "Version":  "25.9.16.0"
+    },
+    {
+        "Driver":  "oem411.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdmicropep.inf_amd64_d02a19e7b54e0764\\amdmicropep.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1762416000000)\/",
+        "Version":  "1.0.47.0"
+    },
+    {
+        "Driver":  "oem412.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdppkg.inf_amd64_f57cfc457aa3e60b\\amdppkg.inf",
+        "ProviderName":  "Advanced Micro Devices, Inc.",
+        "ClassName":  "System",
+        "Date":  "\/Date(1765180800000)\/",
+        "Version":  "8.0.0.61"
+    },
+    {
+        "Driver":  "oem413.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdpsp.inf_amd64_bdc708d2e6de2f42\\amdpsp.inf",
+        "ProviderName":  "Advanced Micro Devices Inc.",
+        "ClassName":  "SecurityDevices",
+        "Date":  "\/Date(1761548400000)\/",
+        "Version":  "5.42.0.0"
+    },
+    {
+        "Driver":  "oem414.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mtkwecx.inf_amd64_19a2e38eebd41f22\\mtkwecx.inf",
+        "ProviderName":  "MediaTek, Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1765440000000)\/",
+        "Version":  "25.30.3.59"
+    },
+    {
+        "Driver":  "oem415.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\prnms009.inf_amd64_8cdc889b3f73e3da\\prnms009.inf",
+        "ProviderName":  "Microsoft",
+        "ClassName":  "Printer",
+        "Date":  "\/Date(1150873200000)\/",
+        "Version":  "10.0.26100.4484"
+    },
+    {
+        "Driver":  "oem42.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakesystem.inf_amd64_53911bfa89a28e84\\raptorlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.49.10"
+    },
+    {
+        "Driver":  "oem43.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\gna.inf_amd64_8e2f374849f1eba9\\gna.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1699948800000)\/",
+        "Version":  "3.5.0.1578"
+    },
+    {
+        "Driver":  "oem44.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intelacm_adl_pw_1.18.18.0.inf_amd64_ec11db5dd54c1bd0\\intelacm_adl_pw_1.18.18.0.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(1716447600000)\/",
+        "Version":  "1.18.18.0"
+    },
+    {
+        "Driver":  "oem45.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_adl.inf_amd64_6f8ae740d22247ce\\ialpss2_gpio2_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1713942000000)\/",
+        "Version":  "30.100.2417.30"
+    },
+    {
+        "Driver":  "oem46.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_adl.inf_amd64_563fbcd35feb69a6\\ialpss2_i2c_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1713942000000)\/",
+        "Version":  "30.100.2417.30"
+    },
+    {
+        "Driver":  "oem47.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_adl.inf_amd64_bdfb46f9ce8fefd9\\ialpss2_spi_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1713942000000)\/",
+        "Version":  "30.100.2417.30"
+    },
+    {
+        "Driver":  "oem48.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_adl.inf_amd64_cf101fc7906bfd11\\ialpss2_uart2_adl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1713942000000)\/",
+        "Version":  "30.100.2417.30"
+    },
+    {
+        "Driver":  "oem49.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_2cf34ae32801c8e6\\heci.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1768291200000)\/",
+        "Version":  "2603.9.4.0"
+    },
+    {
+        "Driver":  "oem5.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synhidmini.inf_amd64_08fb4dd371334c31\\synhidmini.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "HIDClass",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem50.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mesrl.inf_amd64_2e1e6bcbbde9314c\\mesrl.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Ports",
+        "Date":  "\/Date(1761116400000)\/",
+        "Version":  "2543.9.0.0"
+    },
+    {
+        "Driver":  "oem51.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\imsshsaextension.inf_amd64_3fbe8750ef14d4c6\\imsshsaextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1761116400000)\/",
+        "Version":  "2543.9.0.0"
+    },
+    {
+        "Driver":  "oem52.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_84c8651a9ebb25c9\\lms.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1774249200000)\/",
+        "Version":  "2613.9.7.0"
+    },
+    {
+        "Driver":  "oem53.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\sollmsextension.inf_amd64_27c2e7470a731af7\\sollmsextension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1761116400000)\/",
+        "Version":  "2543.9.0.0"
+    },
+    {
+        "Driver":  "oem54.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_92a56761ef7ba712\\mewmiprov.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1763020800000)\/",
+        "Version":  "2546.9.2.0"
+    },
+    {
+        "Driver":  "oem55.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman.inf_amd64_1bb2c76cfbc82913\\wiman.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1770796800000)\/",
+        "Version":  "267.102.85.0"
+    },
+    {
+        "Driver":  "oem56.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wiman_wlan_extension.inf_amd64_0725f77e4ab8e3be\\wiman_wlan_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1770796800000)\/",
+        "Version":  "267.102.85.0"
+    },
+    {
+        "Driver":  "oem57.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_0c7d714f8502b568\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1776063600000)\/",
+        "Version":  "24.40.0.4"
+    },
+    {
+        "Driver":  "oem58.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_1dcc048ae0ea02f8\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1776063600000)\/",
+        "Version":  "24.40.0.4"
+    },
+    {
+        "Driver":  "oem59.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_ext.inf_amd64_3c7ef3d0fe9c31f8\\dtt_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1759129200000)\/",
+        "Version":  "9.1.10001.173"
+    },
+    {
+        "Driver":  "oem6.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synpd.inf_amd64_beb953ad716ede4b\\synpd.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "Mouse",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem60.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_6f0f80b4eb56d588\\dtt_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1759129200000)\/",
+        "Version":  "9.1.10001.173"
+    },
+    {
+        "Driver":  "oem61.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kpe_apo_ext.inf_amd64_8deedb513267cca9\\kpe_apo_ext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1759129200000)\/",
+        "Version":  "9.1.10001.173"
+    },
+    {
+        "Driver":  "oem62.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\kpe_apo_win.inf_amd64_8e7912866fe4bb59\\kpe_apo_win.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1759129200000)\/",
+        "Version":  "9.1.10001.173"
+    },
+    {
+        "Driver":  "oem63.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icst_extension.inf_amd64_eab76160599777e1\\icst_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1761462000000)\/",
+        "Version":  "2.1.10501.1"
+    },
+    {
+        "Driver":  "oem64.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icst_service.inf_amd64_86ab4cbec1a331e1\\icst_service.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1761462000000)\/",
+        "Version":  "2.1.10501.1"
+    },
+    {
+        "Driver":  "oem65.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_acpi.inf_amd64_741faa404ec5212c\\ipf_acpi.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756450800000)\/",
+        "Version":  "2.3.20200.4422"
+    },
+    {
+        "Driver":  "oem66.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_09022c71eac15532\\ipf_cpu.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756450800000)\/",
+        "Version":  "2.3.20200.4422"
+    },
+    {
+        "Driver":  "oem67.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_smbus.inf_amd64_d3b50c9a038b383a\\ipf_smbus.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "System",
+        "Date":  "\/Date(1756450800000)\/",
+        "Version":  "2.3.20200.4422"
+    },
+    {
+        "Driver":  "oem68.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakedmasecextension.inf_amd64_7e546e571e207762\\alderlakedmasecextension.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.10"
+    },
+    {
+        "Driver":  "oem69.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystem.inf_amd64_67f3aed19245cf77\\alderlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.5"
+    },
+    {
+        "Driver":  "oem7.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synuwpcomponent.inf_amd64_5b6bb1a8c34e23c1\\synuwpcomponent.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem70.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystemlpss.inf_amd64_d5de325abd8a32f6\\alderlakepch-ssystemlpss.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.5"
+    },
+    {
+        "Driver":  "oem71.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystemnorthpeak.inf_amd64_664fa468f97f3602\\alderlakepch-ssystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.37.5"
+    },
+    {
+        "Driver":  "oem72.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakesystem.inf_amd64_453df4f61faa9f59\\alderlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.10"
+    },
+    {
+        "Driver":  "oem73.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakesystemnorthpeak.inf_amd64_cb0217f4016d6a40\\alderlakesystemnorthpeak.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.45.10"
+    },
+    {
+        "Driver":  "oem74.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\arrowlakesystem.inf_amd64_91da500f1e31745b\\arrowlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.57.6"
+    },
+    {
+        "Driver":  "oem75.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lunarlakesystem.inf_amd64_1920a84e616fb18a\\lunarlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.48.18"
+    },
+    {
+        "Driver":  "oem76.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\meteorlakepch-ssystem.inf_amd64_2aebace25c54c49e\\meteorlakepch-ssystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.51.10"
+    },
+    {
+        "Driver":  "oem77.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\raptorlakesystem.inf_amd64_4504d8f88360a771\\raptorlakesystem.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(-45939600000)\/",
+        "Version":  "10.1.49.12"
+    },
+    {
+        "Driver":  "oem78.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intelacm_lnc_mtl_pw_20.22.19.28.inf_amd64_39d894f6f5127d27\\intelacm_lnc_mtl_pw_20.22.19.28.inf",
+        "ProviderName":  "INTEL",
+        "ClassName":  "System",
+        "Date":  "\/Date(1746601200000)\/",
+        "Version":  "20.22.19.28"
+    },
+    {
+        "Driver":  "oem79.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_mtl.inf_amd64_c08e1077091ea765\\ialpss2_gpio2_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1751526000000)\/",
+        "Version":  "30.100.2527.40"
+    },
+    {
+        "Driver":  "oem8.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synrawpdo.inf_amd64_98decfc348965f7f\\synrawpdo.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "System",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem80.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_mtl.inf_amd64_5a68757fc3557794\\ialpss2_i2c_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1751526000000)\/",
+        "Version":  "30.100.2527.40"
+    },
+    {
+        "Driver":  "oem81.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i3c_mtl.inf_amd64_2e6dcf2b7d056d5f\\ialpss2_i3c_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1751526000000)\/",
+        "Version":  "30.100.2527.40"
+    },
+    {
+        "Driver":  "oem82.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_spi_mtl.inf_amd64_6642fd3ab134e7f0\\ialpss2_spi_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1751526000000)\/",
+        "Version":  "30.100.2527.40"
+    },
+    {
+        "Driver":  "oem83.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_uart2_mtl.inf_amd64_66a584e7eeddf08d\\ialpss2_uart2_mtl.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1751526000000)\/",
+        "Version":  "30.100.2527.40"
+    },
+    {
+        "Driver":  "oem84.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcpmt.inf_amd64_253b08e8cf330776\\intcpmt.inf",
+        "ProviderName":  "Intel(R) Platform Monitoring Technology (PMT) Device",
+        "ClassName":  "System",
+        "Date":  "\/Date(1771228800000)\/",
+        "Version":  "3.2.0.22"
+    },
+    {
+        "Driver":  "oem85.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw08.inf_amd64_7d404936069a9b78\\netwtw08.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1779260400000)\/",
+        "Version":  "24.50.0.4"
+    },
+    {
+        "Driver":  "oem86.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netwtw6e.inf_amd64_bd0a3abded73be0b\\netwtw6e.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "net",
+        "Date":  "\/Date(1779260400000)\/",
+        "Version":  "24.50.0.4"
+    },
+    {
+        "Driver":  "oem87.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\icst_extension.inf_amd64_dde4959c0d948894\\icst_extension.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1761462000000)\/",
+        "Version":  "2.1.10501.1"
+    },
+    {
+        "Driver":  "oem88.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipfppm_sw.inf_amd64_f19279dbfe2eecef\\ipfppm_sw.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1772697600000)\/",
+        "Version":  "1.0.0.248"
+    },
+    {
+        "Driver":  "oem89.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\smartscalingext.inf_amd64_52253eaf6493ae3e\\smartscalingext.inf",
+        "ProviderName":  "Intel",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1773903600000)\/",
+        "Version":  "1.9.300.0"
+    },
+    {
+        "Driver":  "oem9.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\synsmbdrv.inf_amd64_af078f4131a847e3\\synsmbdrv.inf",
+        "ProviderName":  "Synaptics",
+        "ClassName":  "System",
+        "Date":  "\/Date(1666508400000)\/",
+        "Version":  "19.5.19.95"
+    },
+    {
+        "Driver":  "oem90.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\smartscalingsw.inf_amd64_775e7c0c9123b44a\\smartscalingsw.inf",
+        "ProviderName":  "Intel(R) Corporation",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1773903600000)\/",
+        "Version":  "1.9.300.0"
+    },
+    {
+        "Driver":  "oem91.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\issei.inf_amd64_bfcce09c0c6cc496\\issei.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "System",
+        "Date":  "\/Date(1761116400000)\/",
+        "Version":  "2543.9.0.0"
+    },
+    {
+        "Driver":  "oem92.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netathr10x.inf_amd64_8df47f8f43450002\\netathr10x.inf",
+        "ProviderName":  "Qualcomm Atheros Communications Inc.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1626073200000)\/",
+        "Version":  "12.0.0.1159"
+    },
+    {
+        "Driver":  "oem93.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rt640x64.inf_amd64_add297f76af4afc3\\rt640x64.inf",
+        "ProviderName":  "Realtek",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1572246000000)\/",
+        "Version":  "10.37.1028.2019"
+    },
+    {
+        "Driver":  "oem94.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\netrtwlane.inf_amd64_778f1895dee08219\\netrtwlane.inf",
+        "ProviderName":  "Realtek Semiconductor Corp.",
+        "ClassName":  "Net",
+        "Date":  "\/Date(1629356400000)\/",
+        "Version":  "2024.0.8.133"
+    },
+    {
+        "Driver":  "oem95.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iaahcic.inf_amd64_40a6933be1524ded\\iaahcic.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "HDC",
+        "Date":  "\/Date(1639382400000)\/",
+        "Version":  "18.37.0.1002"
+    },
+    {
+        "Driver":  "oem96.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorac.inf_amd64_bddd44fd5abde920\\iastorac.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "SCSIAdapter",
+        "Date":  "\/Date(1639382400000)\/",
+        "Version":  "18.37.0.1002"
+    },
+    {
+        "Driver":  "oem97.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorhsacomponent.inf_amd64_9b95a5649a94bb8f\\iastorhsacomponent.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1639382400000)\/",
+        "Version":  "18.7.0.1002"
+    },
+    {
+        "Driver":  "oem98.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorhsa_ext.inf_amd64_912247f5837913e2\\iastorhsa_ext.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "Extension",
+        "Date":  "\/Date(1639382400000)\/",
+        "Version":  "18.7.0.1002"
+    },
+    {
+        "Driver":  "oem99.inf",
+        "OriginalFileName":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorpinningcomponent.inf_amd64_c1175609f74fb701\\iastorpinningcomponent.inf",
+        "ProviderName":  "Intel Corporation",
+        "ClassName":  "SoftwareComponent",
+        "Date":  "\/Date(1639382400000)\/",
+        "Version":  "18.7.0.1002"
+    }
+]

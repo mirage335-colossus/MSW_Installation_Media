@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="RTKWIFI_R1JRE" id="r1jre11w" version="6001.10.353.0" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Realtek Wireless Driver - 10 (1903 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_8852]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_A852]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_A85A]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_8852]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_A852]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_A85A]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1jre11w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-03-09</ReleaseDate>
+  <DiskSpaceNeeded>8954162</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1jre11w.exe /VERYSILENT /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1jre11w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_8852]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_A852]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_A85A]]></HardwareID>
+      <Date>2022-12-22</Date>
+      <Version>6001.10.353.0^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>18362^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_8852]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_A852]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_A85A]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R1JET*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1jre11w.exe</Name>
+        <CRC>C3A8D411921D87E6C881D16796678A5AA178911E093FB62B63FCCABAD6C69D86</CRC>
+        <Size>2767448</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1jre11w.txt</Name>
+        <CRC>C65911BE073D0967218AF1F9A039A0DC65DABFF8B3AD3B7A44C727B27CAEF903</CRC>
+        <Size>7731</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oJ5Hs1/oms9+NWlR5h/cT+sgeBo=</DigestValue></Reference></SignedInfo><SignatureValue>eG3UxkCyIC/nQcvDH1WYbm63v+p8OrnLYc1r5CC+6b3taZVyuYntKY96FeHPiQ4Sbj8O++mK8o7aKGnIqOT9r64lVe5WoR/MoRTzOECZsHYVqu0r3uQCLx8JUFr8qTk9310YuM5O1eWghyuMP3rDeYLlPWwi8hnQoywWE6cqcrn1o7B1fTD7ek6yYy43KzdsLd3xJtNjaienubWTcAvov1wdWkcBkhFqsE+RPtdwvFmuP3NIFZ7uTb9bjr4qFlTaGC+YpuiQ9VTwHjx91+o/WRMUcntpBPhYbez29h7NIg+fZSKMFuVH2qM1HR/MX4sX2f7LexPQNwVbut/8g2mnAbMCuSwA6KkfW42NeLwqEHfaqlulANaF6gl3LdAiuGwp+RSioSLoRJ4jaJsG1vNByCtyy8ZGQentHRHRoe9fiPWutDjkbaM1PtNsecH3qcWcnlBKFvAwcuHW6eZtcnXc6A4r+K21Dsbj4UXcN3QLf3g0FNgUR6hz3EJbFlCbRR4R</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

@@ -1,0 +1,302 @@
+{
+  "nodes": [
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 540672,
+        "filename": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd",
+        "format": "raw",
+        "actual-size": 540672,
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": false,
+      "node-name": "#block300",
+      "backing_file_depth": 0,
+      "drv": "raw",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd"
+    },
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 540672,
+        "filename": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd",
+        "format": "file",
+        "actual-size": 540672,
+        "format-specific": {
+          "type": "file",
+          "data": {}
+        },
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": false,
+      "node-name": "#block250",
+      "backing_file_depth": 0,
+      "drv": "file",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd"
+    },
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 3653632,
+        "filename": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd",
+        "format": "raw",
+        "actual-size": 3653632,
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": true,
+      "node-name": "#block144",
+      "backing_file_depth": 0,
+      "drv": "raw",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd"
+    },
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 3653632,
+        "filename": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd",
+        "format": "file",
+        "actual-size": 3653632,
+        "format-specific": {
+          "type": "file",
+          "data": {}
+        },
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": true,
+      "node-name": "#block029",
+      "backing_file_depth": 0,
+      "drv": "file",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd"
+    },
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 61991813120,
+        "filename": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0",
+        "format": "raw",
+        "actual-size": 0,
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": true,
+      "node-name": "physical_usb",
+      "backing_file_depth": 0,
+      "drv": "raw",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0"
+    },
+    {
+      "iops_rd": 0,
+      "detect_zeroes": "off",
+      "active": true,
+      "image": {
+        "virtual-size": 61991813120,
+        "filename": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0",
+        "format": "host_device",
+        "actual-size": 0,
+        "format-specific": {
+          "type": "file",
+          "data": {}
+        },
+        "dirty-flag": false
+      },
+      "iops_wr": 0,
+      "ro": true,
+      "node-name": "physical_usb_host",
+      "backing_file_depth": 0,
+      "drv": "host_device",
+      "iops": 0,
+      "bps_wr": 0,
+      "write_threshold": 0,
+      "encrypted": false,
+      "bps": 0,
+      "bps_rd": 0,
+      "cache": {
+        "no-flush": false,
+        "direct": false,
+        "writeback": true
+      },
+      "file": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0"
+    }
+  ],
+  "blocks": [
+    {
+      "device": "pflash0",
+      "locked": false,
+      "removable": false,
+      "inserted": {
+        "iops_rd": 0,
+        "detect_zeroes": "off",
+        "active": true,
+        "image": {
+          "virtual-size": 3653632,
+          "filename": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd",
+          "format": "raw",
+          "actual-size": 3653632,
+          "dirty-flag": false
+        },
+        "iops_wr": 0,
+        "ro": true,
+        "node-name": "#block144",
+        "backing_file_depth": 0,
+        "drv": "raw",
+        "iops": 0,
+        "bps_wr": 0,
+        "write_threshold": 0,
+        "encrypted": false,
+        "bps": 0,
+        "bps_rd": 0,
+        "cache": {
+          "no-flush": false,
+          "direct": false,
+          "writeback": true
+        },
+        "file": "/usr/share/OVMF/OVMF_CODE_4M.ms.fd"
+      },
+      "qdev": "/machine/system.flash0",
+      "type": "unknown"
+    },
+    {
+      "device": "pflash1",
+      "locked": false,
+      "removable": false,
+      "inserted": {
+        "iops_rd": 0,
+        "detect_zeroes": "off",
+        "active": true,
+        "image": {
+          "virtual-size": 540672,
+          "filename": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd",
+          "format": "raw",
+          "actual-size": 540672,
+          "dirty-flag": false
+        },
+        "iops_wr": 0,
+        "ro": false,
+        "node-name": "#block300",
+        "backing_file_depth": 0,
+        "drv": "raw",
+        "iops": 0,
+        "bps_wr": 0,
+        "write_threshold": 0,
+        "encrypted": false,
+        "bps": 0,
+        "bps_rd": 0,
+        "cache": {
+          "no-flush": false,
+          "direct": false,
+          "writeback": true
+        },
+        "file": "/home/user/Documents/ChatGPT/MSW11 Installation Media/verification/physical-boot/vars.fd"
+      },
+      "qdev": "/machine/system.flash1",
+      "type": "unknown"
+    },
+    {
+      "io-status": "ok",
+      "device": "",
+      "locked": false,
+      "removable": true,
+      "inserted": {
+        "iops_rd": 0,
+        "detect_zeroes": "off",
+        "active": true,
+        "image": {
+          "virtual-size": 61991813120,
+          "filename": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0",
+          "format": "raw",
+          "actual-size": 0,
+          "dirty-flag": false
+        },
+        "iops_wr": 0,
+        "ro": true,
+        "node-name": "physical_usb",
+        "backing_file_depth": 0,
+        "drv": "raw",
+        "iops": 0,
+        "bps_wr": 0,
+        "write_threshold": 0,
+        "encrypted": false,
+        "bps": 0,
+        "bps_rd": 0,
+        "cache": {
+          "no-flush": false,
+          "direct": false,
+          "writeback": true
+        },
+        "file": "/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0"
+      },
+      "qdev": "/machine/peripheral/physical-installer/physical-installer.0/legacy[0]",
+      "tray_open": false,
+      "type": "unknown"
+    }
+  ]
+}

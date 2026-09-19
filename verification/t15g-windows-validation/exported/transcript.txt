@@ -1,0 +1,400 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260918203823
+Username: DESKTOP-QO2BTEI\MediaTest
+RunAs User: DESKTOP-QO2BTEI\MediaTest
+Configuration Name: 
+Machine: DESKTOP-QO2BTEI (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\Validate.ps1
+Process ID: 2368
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is E:\transcript.txt
+Microsoft PnP Utility
+
+Adding driver package:  n2idg13w_p\iaAHCIC.inf
+Driver package added successfully.
+Published Name:         oem416.inf
+
+Adding driver package:  n2idg13w_p\iaStorAC.inf
+Driver package added successfully.
+Published Name:         oem417.inf
+
+Adding driver package:  n2idg13w_p\iaStorHsaComponent.inf
+Driver package added successfully.
+Published Name:         oem418.inf
+
+Adding driver package:  n2idg13w_p\iaStorHsa_Ext.inf
+Driver package added successfully.
+Published Name:         oem419.inf
+
+Adding driver package:  n2idg13w_p\iaStorPinningComponent.inf
+Driver package added successfully.
+Published Name:         oem420.inf
+
+Adding driver package:  n4ody12w_w10w11\LITSDrv.inf
+Driver package added successfully.
+Published Name:         oem421.inf
+
+Adding driver package:  n30ta05w\Source\ThunderboltApplicationLauncherSetup\TbtHostControllerExtension.inf
+Driver package added successfully.
+Published Name:         oem422.inf
+
+Adding driver package:  n30ta05w\Source\ThunderboltWindowsDchSetup\TbtHostController.inf
+Driver package added successfully.
+Published Name:         oem423.inf
+Driver package added successfully.
+Published Name:         oem426.inf
+Driver package added successfully.
+Published Name:         oem425.inf
+Driver package added successfully.
+Published Name:         oem424.inf
+
+Adding driver package:  n30ta05w\Source\ThunderboltWindowsDchSetup\TbtHostControllerHsaComponent.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem426.inf
+
+Adding driver package:  n30ta05w\Source\ThunderboltWindowsDchSetup\TbtHostControllerToastComponent.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem425.inf
+
+Adding driver package:  n30ta05w\Source\ThunderboltWindowsDchSetup\TbtP2pNdisDrv.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem424.inf
+
+Adding driver package:  n30hd03w\dptf_acpi.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem160.inf
+
+Adding driver package:  n30hd03w\dptf_cpu.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem161.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-HSDHost.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem107.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-HSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem108.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-HSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem109.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-HSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem110.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-HSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem111.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-LPSDHost.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem112.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-LPSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem113.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-LPSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem114.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-LPSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem106.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CannonLake-LPSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem116.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CoffeelakeSystem.inf
+Driver package added successfully.
+Published Name:         oem427.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-HSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem118.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-HSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem119.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-HSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem120.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-LPSystem.inf
+Driver package added successfully.
+Published Name:         oem428.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-LPSystemNorthpeak.inf
+Driver package added successfully.
+Published Name:         oem429.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-LPSystemThermal.inf
+Driver package added successfully.
+Published Name:         oem430.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-VSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem125.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-VSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem126.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-VSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem127.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakePCH-VSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem128.inf
+
+Adding driver package:  n30ch02w\DriverFiles\CometLakeSystem.inf
+Driver package added successfully.
+Published Name:         oem431.inf
+
+Adding driver package:  n30ch02w\DriverFiles\DenvertonPorts.inf
+Driver package added successfully.
+Published Name:         oem432.inf
+
+Adding driver package:  n30ch02w\DriverFiles\DenvertonSystem.inf
+Driver package added successfully.
+Published Name:         oem433.inf
+
+Adding driver package:  n30ch02w\DriverFiles\GeminilakeSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem130.inf
+
+Adding driver package:  n30ch02w\DriverFiles\GeminilakeSystemGMM.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem131.inf
+
+Adding driver package:  n30ch02w\DriverFiles\GeminilakeSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem132.inf
+
+Adding driver package:  n30ch02w\DriverFiles\GeminilakeSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem133.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakePCH-LPSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem134.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakePCH-LPSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem135.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakePCH-LPSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem136.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakePCH-NSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem137.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakePCH-NSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem138.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakeSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem139.inf
+
+Adding driver package:  n30ch02w\DriverFiles\IceLakeUSBFunctionController.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem140.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabyLakePCH-HSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem141.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabyLakePCH-HSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem142.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabyLakePCH-HSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem143.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabyLakePCH-HSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem144.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabylakeSystem.inf
+Driver package added successfully.
+Published Name:         oem434.inf
+
+Adding driver package:  n30ch02w\DriverFiles\KabylakeSystemGMM.inf
+Driver package added successfully.
+Published Name:         oem435.inf
+
+Adding driver package:  n30ch02w\DriverFiles\LewisburgSystem.inf
+Driver package added successfully.
+Published Name:         oem436.inf
+
+Adding driver package:  n30ch02w\DriverFiles\NULL_HECISystem.inf
+Driver package added successfully.
+Published Name:         oem437.inf
+
+Adding driver package:  n30ch02w\DriverFiles\Skylake-ESystem.inf
+Driver package added successfully.
+Published Name:         oem438.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SkylakeSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem150.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SkylakeSystemGMM.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem151.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SkylakeSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem152.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-HSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem153.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-HSystemLPSS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem154.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-HSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem155.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-LPSDHost.inf
+Driver package added successfully.
+Published Name:         oem439.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-LPSystem.inf
+Driver package added successfully.
+Published Name:         oem440.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-LPSystemLPSS.inf
+Driver package added successfully.
+Published Name:         oem441.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-LPSystemNorthpeak.inf
+Driver package added successfully.
+Published Name:         oem442.inf
+
+Adding driver package:  n30ch02w\DriverFiles\SunrisePoint-LPSystemThermal.inf
+Driver package added successfully.
+Published Name:         oem443.inf
+
+Adding driver package:  n30tr02w\TPS65988.inf
+Driver package added successfully.
+Published Name:         oem444.inf
+
+Adding driver package:  n30ac02w\IntelACM_CFL_PW_1.8.0.0.INF
+Driver package added successfully.
+Published Name:         oem445.inf
+
+Adding driver package:  n30wb04w\WacHIDRouterISDF.inf
+Driver package added successfully.
+Published Name:         oem446.inf
+
+Adding driver package:  n30wb04w\WacHIDRouterISDU.inf
+Driver package added successfully.
+Published Name:         oem447.inf
+
+Adding driver package:  n30wb04w\WTabletServiceISD.inf
+Driver package added successfully.
+Published Name:         oem448.inf
+
+Adding driver package:  n2ita11w\Source\TbtHostController.inf
+Driver package added successfully.
+Published Name:         oem449.inf
+Driver package added successfully.
+Published Name:         oem452.inf
+Driver package added successfully.
+Published Name:         oem450.inf
+Driver package added successfully.
+Published Name:         oem451.inf
+
+Adding driver package:  n2ita11w\Source\TbtHostControllerExtension.inf
+Driver package added successfully.
+Published Name:         oem453.inf
+
+Adding driver package:  n2ita11w\Source\TbtHostControllerHsaComponent.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem452.inf
+
+Adding driver package:  n2ita11w\Source\TbtHostControllerToastComponent.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem451.inf
+
+Adding driver package:  n2ita11w\Source\TbtP2pNdisDrv.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem450.inf
+
+Adding driver package:  n30rw03w\Source\e1d.inf
+Driver package added successfully.
+Published Name:         oem454.inf
+
+Adding driver package:  nz7w809w\Drivers\Netwtw08.INF
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem162.inf
+
+Adding driver package:  nz7w809w\Drivers\Netwtw6e.INF
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem163.inf
+
+Adding driver package:  n30md15w\MEI_SOL_Drivers\MEI\win10\heci.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem235.inf
+
+Adding driver package:  n30md15w\MEI_SOL_Drivers\SOL\mesrl.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem238.inf
+
+Adding driver package:  n30md15w\MESW_Components\ICLS\iclsClient.inf
+Driver package added successfully.
+Published Name:         oem455.inf
+
+Adding driver package:  n30md15w\MESW_Components\JHI\DAL.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem234.inf
+
+Adding driver package:  n30md15w\MESW_Components\LMS\LMS.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem237.inf
+
+Adding driver package:  n30md15w\MESW_Components\SOL_LMS_Extension\SOLLMSExtension.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem239.inf
+
+Adding driver package:  n30md15w\MESW_Components\WiMan\WiMan.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem240.inf
+
+Adding driver package:  n30md15w\MESW_Components\wiman_wlan_extension\wiman_wlan_extension.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem241.inf
+
+Adding driver package:  n30md15w\MESW_Components\WMIProvider\MEWMIProv.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem236.inf
+
+Total driver packages:  90
+Added driver packages:  90
+T15G VALIDATION COMPLETE. Exit code: 0. Drivers before: 416; after: 456. Secure Boot: True
+**********************
+Windows PowerShell transcript end
+End time: 20260918203944
+**********************

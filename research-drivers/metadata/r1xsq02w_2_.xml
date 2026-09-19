@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="CRD_R1XSQ" id="r1xsq02w" version="1.9.17.2318" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Alcor SmartCard Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_058F&PID_9520]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_058F&PID_9540]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_2CE3&PID_9563]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_2CE3&PID_9571]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_2CE3&PID_9573&MI_00]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_2CE3&PID_9573&MI_01]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_058F&PID_9520]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_058F&PID_9540]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_2CE3&PID_9563]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_2CE3&PID_9571]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_2CE3&PID_9573&MI_00]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_2CE3&PID_9573&MI_01]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1xsq02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-11-13</ReleaseDate>
+  <DiskSpaceNeeded>5149785</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,1" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\dpinst.exe /s</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\dpinst.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\VID_058F&PID_9520]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_058F&PID_9540]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_2CE3&PID_9563]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_2CE3&PID_9571]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_2CE3&PID_9573&MI_00]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_2CE3&PID_9573&MI_01]]></HardwareID>
+      <Date>2023-02-13</Date>
+      <Version>1.9.17.2318^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R1XET*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19042^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <And>
+          <_OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>22000^</Version>
+          </_WindowsBuildVersion>
+        </And>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[USB\VID_058F&PID_9520]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_058F&PID_9540]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_2CE3&PID_9563]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_2CE3&PID_9571]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_2CE3&PID_9573&MI_00]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_2CE3&PID_9573&MI_01]]></_PnPID>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1xsq02w.exe</Name>
+        <CRC>D3448E6BF48BB31DE91CEC117EF89C62E36061F2322C07C2C9038A23794D704C</CRC>
+        <Size>1395256</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1xsq02w.txt</Name>
+        <CRC>9EE10CD6ABBDAE543D8A0DE3DEF0FE988BB2FFD7B1D1895843F35E88F6C53DA8</CRC>
+        <Size>7708</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lXE3svwatiZ/sCygf7ta3blr68Q=</DigestValue></Reference></SignedInfo><SignatureValue>NhY7nhArY3YDtc5amUVpdLdq+7ytnqhYwiDCxIc1k8WCI6KBKFtNPtTNOmA8NZBZrgvRcav3p8ja9odnSS4UNHZVo/tbyD6tKpJEmAF31F/Zf16ohl0ENSGe9wpP/blNSFLOZEf9g7it+SJEivCoC1pfAEU1MUrvV3IwJH25fOMWKYvlQzb10hReYDSbaFn7usTXTUMLXmnIBrbkwlqe4UVZEuo2WNdB7E2+1MujMnGStTmkDP2rZ0kw9o2c2a3Xz6nETRei+TJlRXLxls4rtWi7ZG4EshiBc6g20YogfzZ7c1vaPcJTNAHA9S/nIozdiMt2bR9Ck8bmGK4uGG9k7JXAusuB2gATgrsKdWr86U8AsuFddowWNSxgN9mSoOugRWpxe9LLL8Dl4iFAxrNQu8vwX0HSmS3UV8Q/wXWAVBXh9YoRLa6mqNdODrEV+vwm4IYlZm+z6Dz9KliZDSnYvtz6/yjfMk0R2HBAtbT+hWj2WqtJqcJku8vjprTJM4j9</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIG1jCCBL6gAwIBAgIQD+ienOZ34YPsic7fe9ObcTANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJVUzEXMBUGA1UEChMORGlnaUNlcnQsIEluYy4xQTA/BgNVBAMTOERpZ2lDZXJ0IFRydXN0ZWQgRzQgQ29kZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0ExMB4XDTIzMDUwODAwMDAwMFoXDTI0MDUwODIzNTk1OVowXjELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQHEwtNb3JyaXN2aWxsZTEPMA0GA1UEChMGTGVub3ZvMQ8wDQYDVQQDEwZMZW5vdm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDBo6XTLhaFAxDbqrm9w/Y8ngsm/F92ACZmslckvL4etdEBqzYbjVDvaJl7oDOkZg0DPi7x9u/R5hgWAPa0U+Qo1n1wSfEewV9c3LLiDvf1ONNA31nl37Oce3fcxCnFIp3Sl+u1hOViB4Gm3Lo41qUZI6TJ4yayV+2VwusXtsyVQa83h2pXUJKZ1gJTmDOl8CK3JqsWuHHV2Yp2RYhswaoPIepXeVeMwjg5hVIYlug2l4RJlDtNqybVUvBODgA0u3iC/+dJ0VniFuDlvkTsMUVetqndVk9oDV/qQ+0AOqlUvZoNuam9AHS/TsHSXTD8jTuwBz1asy08DhG8cPdP842JKje1nTy65wQ+Wb8V75xAhZYE+nstMiLwXaC6RKJT14eNTtqp5huOuSkPJFDaaR0BTZm3EW0mLv1Os5Jr0NxY07amwdT/9Iu075lf6tlKtnjDzjOxqAs5P5BQ1K3BPmdW9VZNrJ2lh5ecvVXuUsajiwcjSEqQW1FKeqL4auJPYGMCAwEAAaOCAgMwggH/MB8GA1UdIwQYMBaAFGg34Ou2O/hfEYb7/mF7CIhl9E5CMB0GA1UdDgQWBBTiNJyYTP9O4UE+2j+UFsbLae4THDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwgbUGA1UdHwSBrTCBqjBToFGgT4ZNaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VHJ1c3RlZEc0Q29kZVNpZ25pbmdSU0E0MDk2U0hBMzg0MjAyMUNBMS5jcmwwU6BRoE+GTWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRydXN0ZWRHNENvZGVTaWduaW5nUlNBNDA5NlNIQTM4NDIwMjFDQTEuY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQQBMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzCBlAYIKwYBBQUHAQEEgYcwgYQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBcBggrBgEFBQcwAoZQaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VHJ1c3RlZEc0Q29kZVNpZ25pbmdSU0E0MDk2U0hBMzg0MjAyMUNBMS5jcnQwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAgEARm+TeD1bllg/BfuUpxfxmkBjvHIM0m/OpbP+lxurHVQYi4F4gVgRlaLOfTup2lVYWyOPEnD8YrSr81PDQ+o7yoTExuAKj8oU80azpJZT+wAon+hiHjGdmvH9CDVlaR4kK08CjziC5emgGqY3RKAXbws0qndzzzja5z0HMfJd+Gy4J10HAjtdCJBm8ZCewZEV7/b2ZLohdok3Q4RkxCJMN10vlS0IWysDMmtgjGzUQDDWAZsfOKm8MfWsYSFHABvXlL5+EnUU5KFQyCuZ3sZ8i7LwmNGCByo1Mjffc+HRFnwU/B7e535tWjjXSh0RclkgrTAk9ie2rBoUTq46/SPK4r0LycWtIGxOyj1SNmSwhqBSrJx3NZ2kNjJyM6LhA3ehT1fJNTCNkVCN9t79o0aAVzquALNAB5auMA8N4LdD3Gogpe7ZAxSrCGl87ZddqwSGR6PQqYl8JKcaYXpgXRONEe3iGwzjGMXKe0w1lSwMNs17KgjuzfcJMX74B6uz1Z63n92bhHG05tUD0N5mipFWnbPhNOSxRFqX2u3/sAV90UIUD1J9jAZ2TOLV05TyQWZRTcznyXGSdLwDwYG9UFWY2lLpMy35xePvKA0HCXoQsL76uMjJxN7w638O7cCEIR5veIIwHNYT2soCtjCdxKwVMdQt1eqYRc102mNNyH52V4s=</X509Certificate></X509Data></KeyInfo></Signature></Package>

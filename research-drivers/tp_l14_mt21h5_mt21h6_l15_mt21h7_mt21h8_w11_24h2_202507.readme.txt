@@ -1,0 +1,668 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package For Windows 11 Version 24H2
+Support Models
+ThinkPad L14 Gen 4 (Type 21H5, 21H6) Laptops
+ThinkPad L15 Gen 4 (Type 21H7, 21H8) Laptops
+View Less Models
+Operating Systems
+Windows 11 (24H2)
+Version
+03
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.
+Changes in This Release
+Package 03        01    2025/07/30
+Software name
+BuildID
+Version_Number
+Status
+MTK AMD RZ616 Bluetooth Filter Driver
+NYABS07W
+25.40.2.217
+Updated
+Realtek Bluetooth Filter Driver
+R25B107W
+2.10.1072.3005
+Updated
+MTK AMD RZ616 Wireless LAN Driver
+NYAWS07W
+25.40.2.576
+Updated
+Realtek Wireless LAN Driver
+R25W111W
+6001.16.126.328
+Updated
+Integrated Camera Driver_Integrated IR
+Camera Driver
+NY3C405W
+realtek:10.0.22000.20371 Sunplus:5.0.18.270 Sonix:10.13.22621.32
+Updated
+AMD Graphics Driver
+R25D718W
+31.0.21916.8004
+Updated
+ELAN TrackPoint Device Driver
+NYATE05W
+31.21.49.1(Driver Version)
+ELAN TrackPoint Device31.21.49.1
+Elan TrackPoint Component31.21.0.6
+ETD HSA Device31.21.0.5
+Updated
+Quectel EM05-CN Wireless WAN Drive
+NYAFR06W
+1.0.0.18  (Driver Package Version)
+30.0.0.8  (Quectel USB Composition Device)
+5.0.0.28  (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11  (Quectel GNSS Sensor Device)
+20.0.71.6 ( Quectel USB Device for Legacy Serial Communication)
+Updated
+Quectel EM05-G Wireless WAN Drive
+NYAFU08W
+1.0.0.37 (Driver Package Version)
+1.0.2.12 (Quectel GNSS Sensor Device)
+5.0.7.28 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Updated
+Round Power Button Fingerprint Reader Driver
+R25GN09W
+6.0.56.1136(Synaptics) 3.4.51.1065(Goodix)
+Updated
+ThinkPad Monitor File
+NYAM104W
+6.14.26.0
+Updated
+Lenovo Base Utility Package
+r18vu65w
+10.13.2.1
+Updated
+Lenovo Settings Power Base Module
+n1fupa4w
+10.2.1.22
+Updated
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W2
+1153.17.1029.2024(1Gbps)
+1156.17.1029.2024(2.5Gbps)
+Updated
+Dependency
+Not Applicable
+Important Notice
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+- The SCCM match Server Winpe version 10.0.26100.1
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Software name
+BuildID
+Version_Number
+AMD I2C Driver
+R25AI05W
+1.2.0.124
+AMD GPIO Driver
+R25GG03W
+2.2.0.133
+AMD Micro PEP Driver
+R25PE07W
+1.0.43.1
+AMD PSP Drive
+R25PP06W
+5.28.0.0
+AMD SMBUS Driver
+R25MS03W
+5.12.0.44
+MTK AMD RZ616 Bluetooth Filter Driver
+NYABS07W
+25.40.2.217
+Realtek Bluetooth Filter Driver
+R25B107W
+2.10.1072.3005
+MTK AMD RZ616 Wireless LAN Driver
+NYAWS07W
+25.40.2.576
+Realtek Wireless LAN Driver
+R25W111W
+6001.16.126.328
+Alcor SmartCard Reader Drive
+NYASQ03W
+1.9.17.2325
+Genesys Logic Card Reader Drive
+R25S503W
+1.1.49.0
+Realtek Media Card Reader Driver
+R25Q604W
+10.0.26100.21373
+Realtek PCIe GBE Family Controller Software
+R25RE03W
+1G:1166.010.0720.2022(Dash)1168.013.0424.2023(Non Dash)
+BayHubTech Flash Memory Card
+R25BR02W
+2.1.101.10700
+Integrated Camera Driver_Integrated IR
+Camera Driver
+NY3C405W
+realtek:10.0.22000.20371 Sunplus:5.0.18.270 Sonix:10.13.22621.32
+AMD Graphics Driver
+R25D718W
+31.0.21916.8004
+ELAN TrackPoint Device Driver
+NYATE05W
+31.21.49.1(Driver Version)
+ELAN TrackPoint Device31.21.49.1
+Elan TrackPoint Component31.21.0.6
+ETD HSA Device31.21.0.5
+Realtek Audio Features
+R25A313W
+6.0.9694.1(Realtek Audio), 6.0.0.91(AMD ACP)
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+Fibocom Wireless WAN L860-GL-16 Driver
+NYAFG05W
+3.8.0.3044 (Driver Package Version)
+0.5.100.883(Intel XMM 7560 LTE-Advanced Pro)
+0.5.100.883(ModemControl Device)
+4.19042.7.2 (Fibocom GNSS Sensor)
+18601.5906.1730.2(FWUpdateDriver Device)
+Quectel EM05-CN Wireless WAN Drive
+NYAFR06W
+1.0.0.18  (Driver Package Version)
+30.0.0.8  (Quectel USB Composition Device)
+5.0.0.28  (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11  (Quectel GNSS Sensor Device)
+20.0.71.6 ( Quectel USB Device for Legacy Serial Communication)
+Quectel EM05-G Wireless WAN Drive
+NYAFU08W
+1.0.0.37 (Driver Package Version)
+1.0.2.12 (Quectel GNSS Sensor Device)
+5.0.7.28 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Round Power Button Fingerprint Reader Driver
+R25GN09W
+6.0.56.1136(Synaptics) 3.4.51.1065(Goodix)
+ThinkPad Monitor File
+NYAM104W
+6.14.26.0
+AMD DRTM Boot Driver
+R25DT05W
+1.0.18.4
+Lenovo Base Utility Package
+r18vu65w
+10.13.2.1
+Lenovo Intelligent Thermal Solution Driver
+N4BDY05W
+2.1.38.5
+Lenovo Power Management Driver
+n3yku05w
+1.69.15.1
+Lenovo Smart Standby
+n25by27w
+4.3.11.0
+Lenovo View Driver
+N3XLF09W
+3.1.32.201
+Lenovo Settings Power Base Module
+n1fupa4w
+10.2.1.22
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W2
+1153.17.1029.2024(1Gbps)
+1156.17.1029.2024(2.5Gbps)
+Version Information
+Package
+Rev.
+Issue Date
+03
+01
+2025/07/31
+02
+01
+2025/05/14
+01
+01
+2025/01/22
+Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+software version. There is no need to upgrade this software when the revision number changes.
+Package 03        01    2025/07/30
+Software name
+BuildID
+Version_Number
+MTK AMD RZ616 Bluetooth Filter Driver
+NYABS07W
+25.40.2.217
+Realtek Bluetooth Filter Driver
+R25B107W
+2.10.1072.3005
+MTK AMD RZ616 Wireless LAN Driver
+NYAWS07W
+25.40.2.576
+Realtek Wireless LAN Driver
+R25W111W
+6001.16.126.328
+Integrated Camera Driver_Integrated IR
+NY3C405W
+realtek:10.0.22000.20371 Sunplus:5.0.18.270 Sonix:10.13.22621.32
+Camera Driver
+AMD Graphics Driver
+R25D718W
+31.0.21916.8004
+ELAN TrackPoint Device Driver
+NYATE05W
+31.21.49.1(Driver Version)
+ELAN TrackPoint Device31.21.49.1
+Elan TrackPoint Component31.21.0.6
+ETD HSA Device31.21.0.5
+Quectel EM05-CN Wireless WAN Drive
+NYAFR06W
+1.0.0.18  (Driver Package Version)
+30.0.0.8  (Quectel USB Composition Device)
+5.0.0.28  (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11  (Quectel GNSS Sensor Device)
+20.0.71.6 ( Quectel USB Device for Legacy Serial Communication)
+Quectel EM05-G Wireless WAN Drive
+NYAFU08W
+1.0.0.37 (Driver Package Version)
+1.0.2.12 (Quectel GNSS Sensor Device)
+5.0.7.28 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Round Power Button Fingerprint Reader Driver
+R25GN09W
+6.0.56.1136(Synaptics) 3.4.51.1065(Goodix)
+ThinkPad Monitor File
+NYAM104W
+6.14.26.0
+Lenovo Base Utility Package
+r18vu65w
+10.13.2.1
+Lenovo Settings Power Base Module
+n1fupa4w
+10.2.1.22
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W2
+1153.17.1029.2024(1Gbps)
+1156.17.1029.2024(2.5Gbps)
+Package 02        01    2025/03/24
+Software name
+BuildID
+Version_Number
+Realtek Wireless LAN Driver
+R25W110W
+6001.16.126.323
+Integrated Camera Driver_Integrated IR
+NY3C402W
+realtek:10.0.22000.20356 Sunplus:5.0.18.247 Sonix:10.13.22621.32
+Camera Driver
+Fibocom Wireless WAN L860-GL-16 Driver
+NYAFG05W
+3.8.0.3044 (Driver Package Version)
+0.5.100.883(Intel XMM 7560 LTE-Advanced Pro)
+0.5.100.883(ModemControl Device)
+4.19042.7.2 (Fibocom GNSS Sensor)
+18601.5906.1730.2(FWUpdateDriver Device)
+Quectel EM05-CN Wireless WAN Drive
+NYAFR05W
+1.0.0.16  (Driver Package Version)
+30.0.0.8  (Quectel USB Composition Device)
+5.0.0.27  (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11  (Quectel GNSS Sensor Device)
+20.0.71.6 ( Quectel USB Device for Legacy Serial Communication)
+Quectel EM05-G Wireless WAN Drive
+NYAFU07W
+1.0.0.36 (Driver Package Version)
+1.0.2.12 (Quectel GNSS Sensor Device)
+5.0.7.27 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Lenovo Base Utility Package
+r18vu62w
+10.12.0.5
+Lenovo View Driver
+N3XLF09W
+3.1.32.201
+Lenovo Settings Power Base Module
+n1fupa3w
+10.1.10.0
+Package 01        01    2025/01/15
+Software name
+BuildID
+Version_Number
+AMD I2C Driver
+R25AI05W
+1.2.0.124
+AMD GPIO Driver
+R25GG03W
+2.2.0.133
+AMD Micro PEP Driver
+R25PE07W
+1.0.43.1
+AMD PSP Drive
+R25PP06W
+5.28.0.0
+AMD SMBUS Driver
+R25MS03W
+5.12.0.44
+MTK AMD RZ616 Bluetooth Filter Driver
+NYABS06W
+24.40.2.215
+Realtek Bluetooth Filter Driver
+R25B106W
+2.10.1061.3015
+MTK AMD RZ616 Wireless LAN Driver
+NYAWS06W
+24.40.2.574
+Realtek Wireless LAN Driver
+R25W108W
+6001.16.126.317
+Alcor SmartCard Reader Drive
+NYASQ03W
+1.9.17.2325
+Genesys Logic Card Reader Drive
+R25S503W
+1.1.49.0
+Realtek Media Card Reader Driver
+R25Q604W
+10.0.26100.21373
+Realtek PCIe GBE Family Controller Software
+R25RE03W
+1G:1166.010.0720.2022(Dash)1168.013.0424.2023(Non Dash)
+BayHubTech Flash Memory Card
+R25BR02W
+2.1.101.10700
+Integrated Camera Driver_Integrated IR
+NYAC403W
+realtek:10.0.22000.20315 Sunplus:5.0.18.222 Sonix:10.13.22621.20
+Camera Driver
+AMD Graphics Driver
+R25D715W
+31.0.21914.59
+ELAN TrackPoint Device Driver
+NYATE04W
+31.21.45.1(Driver Version)
+ELAN TrackPoint Device31.21.45.1
+Elan TrackPoint Component31.21.0.5
+ETD HSA Device31.21.0.6
+Realtek Audio Features
+R25A313W
+6.0.9694.1(Realtek Audio), 6.0.0.91(AMD ACP)
+NXP NFC Driver
+NYANP01W
+12.0.6.0
+Fibocom Wireless WAN L860-GL-16 Driver
+NYAFG04W
+3.8.00.3039 (Driver Package Version)
+0.5.100.884(Intel XMM 7560 LTE-Advanced Pro)
+0.5.100.884(ModemControl Device)
+4.19042.7.2 (Fibocom GNSS Sensor)
+18601.5906.1730.4(FWUpdateDriver Device)
+Quectel EM05-CN Wireless WAN Drive
+NYAFR04W
+1.0.0.15  (Driver Package Version)
+30.0.0.8  (Quectel USB Composition Device)
+5.0.0.26  (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11  (Quectel GNSS Sensor Device)
+20.0.71.6 ( Quectel USB Device for Legacy Serial Communication)
+Quectel EM05-G Wireless WAN Drive
+NYAFU06W
+1.0.0.33 (Driver Package Version)
+1.0.2.11 (Quectel GNSS Sensor Device)
+5.0.7.24 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.8 (Quectel USB Composition device)
+Round Power Button Fingerprint Reader Driver
+R25GN07W
+6.0.51.1136(Synaptics) 3.4.51.1010(Goodix)
+ThinkPad Monitor File
+NYAM103W
+6.14.22.0
+AMD DRTM Boot Driver
+R25DT05W
+1.0.18.4
+Lenovo Base Utility Package
+r18vu60w
+10.11.0.10
+Lenovo Intelligent Thermal Solution Driver
+N4BDY05W
+2.1.38.5
+Lenovo Power Management Driver
+n3yku05w
+1.69.15.1
+Lenovo Smart Standby
+n25by27w
+4.3.11.0
+Lenovo View Driver
+N3XLF08W
+3.1.31.201
+Lenovo Settings Power Base Module
+n1fupa1w
+10.1.7.0
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN10W2
+1153.13.0420.2023
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Elan is a registered trademark of ELAN Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+* AMD is a registered trademark of AMD Corporation.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

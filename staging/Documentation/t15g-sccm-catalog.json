@@ -1,0 +1,122 @@
+[
+  {
+    "model": {
+      "name": "ThinkPad T15G Gen 1 Type 20UR 20US",
+      "arch": "Intel"
+    },
+    "types": [
+      "20US",
+      "20UR"
+    ],
+    "packages": [
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "1809",
+        "date": "2023-12-14",
+        "crc": "4f394c2446c482d23b2d186df367c16e2adb0cd99f465b5fa94d8817bb8f6a72",
+        "md5": "dc7ebaa7f9e4f5ab38a6bed82a91bf86",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_p17_w1064_1809_202012.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "1903",
+        "date": "2023-12-14",
+        "crc": "3e69662d67ff26d767bbf78d3e3941f61a597dacf68213d799867b704ed72524",
+        "md5": "17f050302b50c834a39c8b8e19075a8d",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_p17_w1064_1903_202012.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "1909",
+        "date": "2023-12-14",
+        "crc": "b9659ac116d14cdf63afe472913e94a885054f7429b2ac2e34f43c5eadbf1992",
+        "md5": "256dd106d09843bd43670604a799b1ac",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_p17_w1064_1909_202012.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "2004",
+        "date": "2023-12-14",
+        "crc": "86d3e9a06fb7a59c56d2e2d70262bc85dbac62f89dc40ff2237d7283d0b7c285",
+        "md5": "84937e5188d468377f2decdee53b5126",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w1064_2004_202109.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "20H2",
+        "date": "2023-12-14",
+        "crc": "c241ea5e30bd86a3c90acd8709631403ed69e5494050f1d8a4fb16b0dd2fded6",
+        "md5": "1e46fc79d86e1b7d8613df200705aa3d",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w1064_20h2_202109.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "21H1",
+        "date": "2023-12-14",
+        "crc": "583fc725b7e0b8f51e9e481ee2711fa41fed4052126dae5e018d02852f80b7f8",
+        "md5": "0a30461d65ca727d52b5a2d9186c37fe",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w1064_21h1_202109.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "21H2",
+        "date": "2023-12-14",
+        "crc": "08fade203770839d32cb03530f90b061723b9c38e1dd40c321c9c5136d129278",
+        "md5": "2964c2416c53ba5f5e35366a02b0508b",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w1064_21h2_202201.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win10",
+        "version": "22H2",
+        "date": "2023-12-14",
+        "crc": "1ec273a5bb8e1d25bee34c0ed46558dcdd3f9751c7b97cb7acedb7c18cebb9ad",
+        "md5": "5c0a3f4c9d31e9f41446e9c7c7fc1628",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w1064_22h2_202302.exe"
+      },
+      {
+        "kind": "SCCM",
+        "os": "win11",
+        "version": "22H2",
+        "date": "2023-12-14",
+        "crc": "deee1200ad1c64fcd9d9248e60ed1eac15440b6cc49abd18db0a4e05126cae6e",
+        "md5": "b90ba2d4812e59f55480780f8061febf",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_w11_22_202310.exe"
+      },
+      {
+        "kind": "HSA",
+        "os": "win10",
+        "version": "2004",
+        "date": "2021-10-22",
+        "crc": "db9ee54e8c33c8fe16e1c35182cdfe9425b9e4105fd8802694f7a64f94781500",
+        "md5": "bcacc15f414f0664a98544e437ea1d4c",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_hsa_2004_202009.exe"
+      },
+      {
+        "kind": "HSA",
+        "os": "win10",
+        "version": "20H2",
+        "date": "2021-10-22",
+        "crc": "b1cb8227ed9e2165443f4358e68146aef19e713218b36949947860b2ab037adc",
+        "md5": "4a961420b7caff6c2769f604966235e8",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_hsa_20h2_202101.exe"
+      },
+      {
+        "kind": "HSA",
+        "os": "win10",
+        "version": "21H1",
+        "date": "2021-10-22",
+        "crc": "374b576bcac36931c5d3777e015178b51ca88c580771fc94acefb781713f89d6",
+        "md5": "bbd2e0206439978b66a34871ec143ff5",
+        "url": "https://download.lenovo.com/pccbbs/mobiles/tp_p15_mt20st-20su-p17_mt20sn-20sq-t15g_mt20ur-20us_hsa_21h1_202109.exe"
+      }
+    ]
+  }
+]

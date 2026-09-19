@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="AID_R1KAQ" id="r1kaq05w" version="1.2.0.118" hide="False">
+  <Title default="EN">
+    <Desc id="EN">AMD I2C Driver - 10 (1909 or later)/11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[ACPI\VEN_AMDI&DEV_0010]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[ACPI\VEN_AMDI&DEV_0010]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1kaq05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2022-01-06</ReleaseDate>
+  <DiskSpaceNeeded>1096175</DiskSpaceNeeded>
+  <Reboot type="0" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1kaq05w.exe  /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1kaq05w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[ACPI\VEN_AMDI&DEV_0010]]></HardwareID>
+      <Date>2021-01-11</Date>
+      <Version>1.2.0.118^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <_PnPID><![CDATA[ACPI\VEN_AMDI&DEV_0010]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>R1KET*</Level>
+        <Level>*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>18363^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1kaq05w.exe</Name>
+        <CRC>E981C024EB803D3CDB1968180D3EAF5CD5C79AAF8EAC27AA01BD2190C646162E</CRC>
+        <Size>1124440</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1kaq05w.txt</Name>
+        <CRC>43458B074A43828FCA20AFCB0D5836C82FA67C23FAA215FE9F859FF80AEBAEAC</CRC>
+        <Size>6878</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>88hPfVsWMsTsdNQKQPxr/4aAM4s=</DigestValue></Reference></SignedInfo><SignatureValue>VxbXZ/2Mh2i7RqFsFWPBoC5v9h/4nji2VWe2kbE2y8Is8VyAdS07T1Hr6hjKVbwosSnRUV2Zm7duJWY05p3lE7z4ZlJnX0IsCdYostSmajTMFzlGk85U7L14GP7QbA3Ezy+exx1Ua9egHXokv/ZxyNdNEcU0nYViWFV6A49d3Z2I0bB7aunXZx5zknT2n9IpCqGwvvRLzl2+vTGIytKirlDI50gXqn1U5VQBCwPLOxKGCGWHoDbTbLALyzw7E94URDQE+QdRrpbjeeAuRx52xwl8scXTF1tROl5E+A3CyGmDJrmnJqLsYwX6RQbBTPBePojowd48JgQ1BfxeU7fZo7qVZCNCYC7ZT5+IhkAnajbT6bGjkSREFAruRTdh0ENfnzXGgC4yEHJySdDsweuf+1gmDFo6JYheA5LvQ2Q07E7DCYTxTOC0O0ycjH+8vftXdQaOKFQX/QX/xQN0+oqAvGdVpBpOGANlCUAsp1W831t29Dvkq37i5+Hp8y1kuehk</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

@@ -1,0 +1,158 @@
+                                                                                                Package 02
+----------------------------------------------------------------------------------------------------------
+Software name      SCCM package for Windows 11 22H2
+
+Support models     ThinkPad L14 Gen 1 (Machine types: 20U1, 20U2)
+                   ThinkPad L15 Gen 1 (Machine types: 20U3, 20U4)
+
+Operating System   Microsoft Windows 11 22H2 
+
+Revision           01
+
+
+----------------------------------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+  deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+  drivers.  INF file will be available after executing the downloaded self-extracting EXE package.
+
+
+----------------------------------------------------------------------------------------------------------
+NOTES
+
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+  computer first.
+
+
+----------------------------------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package   Rev.  Issue Date
+  -------   ----  ----------
+  02        01    2023/11/29
+  01        01    2022/11/08
+
+
+Version List
+
+  Software name                               Build ID       Version number
+  ------------------------------------------  --------       --------------
+  CS18 Docking Station Audio Driver           N20PE10W       6.3.9600.2299
+  Realtek Audio driver                        R17A114W       6.0.9354.1
+  Mediatek MT7921 Bluetooth Driver            R17MB13W       22.30.1.154
+  Realtek 8852AE Bluetooth Driver             R17RB06W       1.10.1058.3002
+  Intel Bluetooth Driver                      R17IB11W       22.220.0.3
+  Integrated Camera driver                    R17CM33W       Sonix v10.13.19041.28
+                                                             RTK v10.0.22000.20272
+                                                             Sunplus v5.0.18.168
+  Realtek Mutlicard Reader                    R17X803W       Realtek:10.0.19041.21334
+                                                             Bayhub:1.1.101.1035
+  Alcor Smart Card Reader                     N2XSR05W       1.9.17.2318
+  Intel Chipset Driver                        R17CH03W       10.1.27.4
+  Intel(R) Dynamic Tuning Technology          R17HD04W       8.7.10600.20700
+  Intel Management Engine 14.0 Software       R17MD10W       2229.3.2.0
+  Intel SerialIO Driver                       R17LI03W       30.100.2020.7
+  Thinkpad Monitor file                       R17OI03W       6.14.8.0
+  Intel PRO 1000 LAN Software                 R17RW03W       12.19.2.50
+  Synaptcis Clickpad Driver                   N2XST13W       19.5.19.95
+  Base utility driver                         R18VU52W       10.7.2.0
+  Lenovo Power Management Driver              N3AKU13W       1.68.30.0
+  Lenovo ITS Driver                           N3ADY18W       2.0.424.3
+  Intel(R) Rapid Storage Technology Driver    R0ZRS09W       18.37.0.1002
+  Intel TXT Authenticated Code Module driver  R17AC03W       1.8.0.0
+  Synaptics FingerPrint Driver for FM3462     R17FP04W       6.0.42.1105
+  Synaptics FingerPrint Driver for FM3463     R17FQ02W       6.0.38.1104
+  Goodix Fingerprint Driver                   R0ZGF07W       3.1.55.640
+  Intel(R) SGX Device and Software            R0ZSI09W       Software v2.17.100.2
+                                                             Device v2.14.101.1
+  Intel UHD Graphics                          R17IV14W       30.0.101.1122
+  AMD VGA Driver                              R17AV04W       27.20.15026.0
+  Fibocom L850 WWAN software                  R17WJ13W       2.0.1.111
+  Mediatek MT7921 Wireless LAN Driver         R17MW13W       22.30.1.1339
+  Realtek 8852AE WLAN Driver                  R17RC07W       6001.10.353.0
+  Intel Wireless Lan Driver                   R17IW18W       22.240.0.6
+  NXP NFC Driver                              R17WA03W       12.0.6.0
+
+
+----------------------------------------------------------------------------------------------------------
+LIMITATIONS
+
+
+
+----------------------------------------------------------------------------------------------------------
+SUMMARY OF CHANGES
+
+
+Package 02    Rev 01    2023/11/21  Update some driver fix issue Package for Windows 11 22H2 & MayCI
+
+  Software name                               Build ID       Version number
+  ------------------------------------------  --------       --------------
+  Realtek 8852AE Bluetooth Driver             R17RB06W       1.10.1058.3002            (Updated)
+  Intel Bluetooth Driver                      R17IB11W       22.220.0.3                (Updated)
+  Integrated Camera driver                    R17CM33W       Sonix v10.13.19041.28     (Updated)
+                                                             RTK v10.0.22000.20272     (Updated)
+                                                             Sunplus v5.0.18.168       (Updated)
+  Base utility driver                         R18VU52W       10.7.2.0                  (Updated)
+  Lenovo ITS Driver                           N3ADY18W       2.0.424.3                 (Updated)
+  Goodix Fingerprint Driver                   R0ZGF07W       3.1.55.640                (Updated)
+  Realtek 8852AE WLAN Driver                  R17RC07W       6001.10.353.0             (Updated)
+  Intel Wireless Lan Driver                   R17IW18W       22.240.0.6                (Updated)
+
+  
+Package 01    Rev 01    2022/10/15  initial Package for Windows 11 22H2
+
+  Software name                               Build ID       Version number
+  ------------------------------------------  --------       --------------
+  CS18 Docking Station Audio Driver           N20PE10W       6.3.9600.2299             (Added)
+  Realtek Audio driver                        R17A114W       6.0.9354.1                (Added)
+  Mediatek MT7921 Bluetooth Driver            R17MB13W       22.30.1.154               (Added)
+  Realtek 8852AE Bluetooth Driver             R17RB05W       1.9.1038.3002             (Added)
+  Intel Bluetooth Driver                      R17IB09W       22.120.0.3                (Added)
+  Integrated Camera driver                    R17CM31W       Sonix v10.13.19041.28     (Added)
+                                                             RTK v10.0.22000.20242     (Added)
+                                                             Sunplus v5.0.18.128       (Added)
+  Realtek Mutlicard Reader                    R17X804W       Realtek:10.0.22621.21359  (Added)
+                                                             Bayhub:2.1.101.10630      (Added)
+  Alcor Smart Card Reader                     N2XSR04W       1.9.14.2300               (Added)
+  Intel Chipset Driver                        R17CH03W       10.1.27.4                 (Added)
+  Intel(R) Dynamic Tuning Technology          R17HD04W       8.7.10600.20700           (Added)
+  Intel Management Engine 14.0 Software       R17MD09W       2120.100.0.1085           (Added)
+  Intel SerialIO Driver                       R17LI03W       30.100.2020.7             (Added)
+  Thinkpad Monitor file                       R17OI03W       6.14.8.0                  (Added)
+  Intel PRO 1000 LAN Software                 Inbox          12.19.1.32                (Added)
+  Synaptcis Clickpad Driver                   N2XST12W       19.5.19.91                (Added)
+  Base utility driver                         R18VU39W       10.5.3.0                  (Added)
+  Lenovo Power Management Driver              N3AKU13W       1.68.30.0                 (Added)
+  Lenovo ITS Driver                           N3ADY17W       2.0.424.2                 (Added)
+  Intel(R) Rapid Storage Technology Driver    R0ZRS09W       18.37.0.1002              (Added)
+  Intel TXT Authenticated Code Module driver  R17AC03W       1.8.0.0                   (Added)
+  Synaptics FingerPrint Driver for FM3462     R17FP04W       6.0.42.1105               (Added)
+  Synaptics FingerPrint Driver for FM3463     R17FQ02W       6.0.38.1104               (Added)
+  Goodix Fingerprint Driver                   R17GF03W       3.1.55.620                (Added)
+  Intel(R) SGX Device and Software            R0ZSI08W       Software v2.16.100.3      (Added)
+                                                             Device v2.14.101.1        (Added)
+  Intel UHD Graphics                          R17IV14W       30.0.101.1122             (Added)
+  AMD VGA Driver                              R17AV04W       27.20.15026.0             (Added)
+  Fibocom L850 WWAN software                  R17WJ13W       2.0.1.111                 (Added)
+  Mediatek MT7921 Wireless LAN Driver         R17MW13W       22.30.1.1339              (Added)
+  Realtek 8852AE WLAN Driver                  R17RC06W       6001.10.351.0             (Added)
+  Intel Wireless Lan Driver                   R17IW15W       22.120.0.3                (Added)
+  NXP NFC Driver                              R17WA03W       12.0.6.0                  (Added)
+
+
+----------------------------------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Sunplus is a registered trademark of Sunplus Innovation Technology Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="DOCK_AUDIO_N20PE" id="n20pe10w" version="6.3.9600.2299" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Realtek USB Audio for Docking Station - 10/11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_17EF&PID_306F&MI_00]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_17EF&PID_306F&MI_00]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n20pe10w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2021-12-16</ReleaseDate>
+  <DiskSpaceNeeded>45965666</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n20pe10w.exe /verysilent /DIR=%PACKAGEPATH%\tmp</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n20pe10w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\VID_17EF&PID_306F&MI_00]]></HardwareID>
+      <Date>2021-08-18</Date>
+      <Version>6.3.9600.2299^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[USB\VID_17EF&PID_306F&MI_00]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>N20ET*</Level>
+        <Level>N27ET*</Level>
+        <Level>N23ET*</Level>
+        <Level>N24ET*</Level>
+        <Level>R0XET*</Level>
+        <Level>R0WET</Level>
+        <Level>N2IET*</Level>
+        <Level>N2JET*</Level>
+        <Level>N2LET*</Level>
+        <Level>R0ZET*</Level>
+        <Level>R12ET*</Level>
+        <Level>R13ET</Level>
+        <Level>*</Level>
+        <Level>N2UET*</Level>
+        <Level>R17ET*</Level>
+        <Level>N2XET*</Level>
+        <Level>N2YET*</Level>
+        <Level>R19ET*</Level>
+        <Level>R1FET*</Level>
+        <Level>R1JET*</Level>
+        <Level>R1PET*</Level>
+        <Level>N34ET*</Level>
+        <Level>R1KET*</Level>
+        <Level>R1MET*</Level>
+        <Level>R1QET*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n20pe10w.exe</Name>
+        <CRC>D0F6400D5539DA41E7F932CE00687185376341EE8DFD6415C4C11841E7F420C6</CRC>
+        <Size>9866352</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n20pe10w.txt</Name>
+        <CRC>C432992319FEE7F2A063DADD20DCF30BD6D3B32436B1D28BA105C30985AE9999</CRC>
+        <Size>12404</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dnYuVD1s1O6wKYgi5J+eGFW0JQ0=</DigestValue></Reference></SignedInfo><SignatureValue>p6SbQa/WSZHBDsX7o2Rt/x3eDhwVfM7Yk2443arWZEzuWnX1qWiy/U/QqZUPfO40ZKHBOqdCDfRA+wyADOUD8hZ+JbAr26zbwoKwAxcNJWFuxiWGTeHjEX6AGn9B7L5JEIWELogbYGKh3oDo0QIvmyzNhBGNkCCx39iN2+n6aznotwtSd8AxfJ7wRAGV5u+87uXtWHHdINzmZB799PEuDpNHFMnwJicfwKtMKP07j7Msd8v8VrLMnXb1UeQf6yfVhKALuIat0u/b48nQm7YlT/7noOYlE2Mnkw7babAJ5KU86iZVUR0qXktSELbErtEMrsTwSBWFJLSZzgx3UIMOfo/dmkzj3lex4FstGlfkBxC0NlUlWF6/U2vfOUXjqjlBlWP3Zup3ISke74/gGWQ1dz0s7kDbv4o3inuQaB3L7we5F0E2zmOIWNA/Zi0LAADrdS1O1XomClxPhuH27aQTwNMSUaSwHneuQjsHhN9d0FsyA+mFvxRsZAFt+zzbpSM1</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

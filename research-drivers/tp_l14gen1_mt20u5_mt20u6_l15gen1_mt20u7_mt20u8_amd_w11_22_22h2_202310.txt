@@ -1,0 +1,133 @@
+                                                                                                Package 01
+----------------------------------------------------------------------------------------------------------
+Software name      SCCM package for Windows 11 22H2
+
+Support models     ThinkPad L14 Gen 1 (Machine types: 20U5, 20U6)
+                   ThinkPad L15 Gen 1 (Machine types: 20U7, 20U8)
+
+Operating System   Microsoft Windows 11 22H2
+
+Revision           01
+
+
+----------------------------------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+  deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+  drivers.  INF file will be available after executing the downloaded self-extracting EXE package.
+
+
+----------------------------------------------------------------------------------------------------------
+NOTES
+
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+  computer first.
+
+
+----------------------------------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package   Rev.  Issue Date
+  -------   ----  ----------
+   01        01   2023/11/07
+ 
+
+Version List
+
+  Software name                             Build ID       Version number
+  ----------------------------------------  --------       --------------
+  CS18 Docking Station Audio Driver	    N20PE10W	   6.3.9600.2299
+  Realtek Audio Driver			    R19RB03W	   6.0.9247.1
+  Mediatek MT7921 Bluetooth driver          R1AMB13W       22.30.1.156
+  Realtek 8852AE Bluetooth driver           R1ARD07W       1.9.1051.3009
+  Intel Bluetooth driver	            R19IB12W	   22.220.0.3
+  Camera Driver				    R17CM33W	   Sonix:10.13.19041.28
+					                   RTK:10.0.22000.20272
+					                   Sunplus:5.0.18.168
+  Intergrated card reader driver            R19BR02W       RTK:10.0.22000.21350
+                                                           BayHub:2.1.101.10540
+  Alcor Smart Card Reader	            N2XSR05W	   1.9.17.2318
+  AMD SMBus Driver			    R19AP02W	   5.12.0.38
+  AMD I2C Driver			    R19AQ03W	   1.2.0.118
+  AMD GPIO Driver			    R19GG03W	   2.2.0.130
+  AMD PSP Driver			    R19SB02W	   5.17.0.0
+  ThinkPad Monitor File			    R19OI04W	   6.14.11.0
+  Realtek Ethernet Driver		    R19ER05W	   Controller: 10.050.0511.2021
+					                   Virtual device: 10.005.0510.2021
+  Synaptics Ultranav Driver		    N2XST13W	   19.5.19.95
+  Base utility driver			    R18VU52W	   10.7.2.0
+  Lenovo Power Management Driver	    N3AKU13W	   1.68.30.0
+  Lenovo ITS Driver			    N3ADY18W	   2.0.424.3
+  Synaptics FingerPrint FM3463 Driver	    R19FP02W	   6.0.33.1104
+  Goodix FingerPrint Driver		    R19GF02W	   3.1.55.600  
+  AMD Video Driver			    R19AV23W	   VGA:30.0.13040.5001
+					                   ACP::6.0.0.31
+				                           HDMI:10.0.1.21
+  Fibocom L850 WWAN driver package	    R17WJ13W	   2.0.1.111
+  Mediatek MT7921 WLAN driver               R1AMW14W       22.30.1.1341
+  Realtek 8852AE WLAN driver                R1ARE09W       6001.10.355.1
+  Intel WLan driver 		            R19IW16W	   22.240.0.6
+
+
+----------------------------------------------------------------------------------------------------------
+LIMITATIONS
+
+
+
+----------------------------------------------------------------------------------------------------------
+SUMMARY OF CHANGES
+
+Package 01    Rev 01    2023/10/27  initial Package for Windows 11 22H2 MayCI
+                       
+  Software name                             Build ID       Version number
+  ----------------------------------------  --------       --------------
+  CS18 Docking Station Audio Driver	    N20PE10W	   6.3.9600.2299                       (Added)
+  Realtek Audio Driver			    R19RB03W	   6.0.9247.1                          (Added)
+  Mediatek MT7921 Bluetooth driver          R1AMB13W       22.30.1.156                         (Added)
+  Realtek 8852AE Bluetooth driver           R1ARD07W       1.9.1051.3009                       (Added)
+  Intel Bluetooth driver	            R19IB12W	   22.220.0.3                          (Added)
+  Camera Driver				    R17CM33W	   Sonix:10.13.19041.28                (Added)
+					                   RTK:10.0.22000.20272                (Added)
+					                   Sunplus:5.0.18.168                  (Added)
+  Intergrated card reader driver            R19BR02W       RTK:10.0.22000.21350                (Added)
+                                                           BayHub:2.1.101.10540                (Added)
+  Alcor Smart Card Reader	            N2XSR05W	   1.9.17.2318                         (Added)
+  AMD SMBus Driver			    R19AP02W	   5.12.0.38                           (Added)
+  AMD I2C Driver			    R19AQ03W	   1.2.0.118                           (Added)
+  AMD GPIO Driver			    R19GG03W	   2.2.0.130                           (Added)
+  AMD PSP Driver			    R19SB02W	   5.17.0.0                            (Added)
+  ThinkPad Monitor File			    R19OI04W	   6.14.11.0                           (Added)
+  Realtek Ethernet Driver		    R19ER05W	   Controller: 10.050.0511.2021        (Added)
+					                   Virtual device: 10.005.0510.2021    (Added)
+  Synaptics Ultranav Driver		    N2XST13W	   19.5.19.95                          (Added)
+  Base utility driver			    R18VU52W	   10.7.2.0                            (Added)
+  Lenovo Power Management Driver	    N3AKU13W	   1.68.30.0                           (Added)
+  Lenovo ITS Driver			    N3ADY18W	   2.0.424.3                           (Added)
+  Synaptics FingerPrint FM3463 Driver	    R19FP02W	   6.0.33.1104                         (Added)
+  Goodix FingerPrint Driver		    R19GF02W	   3.1.55.600                          (Added)
+  AMD Video Driver			    R19AV23W	   VGA:30.0.13040.5001                 (Added)
+					                   ACP::6.0.0.31                       (Added)
+				                           HDMI:10.0.1.21                      (Added)
+  Fibocom L850 WWAN driver package	    R17WJ13W	   2.0.1.111                           (Added)
+  Mediatek MT7921 WLAN driver               R1AMW14W       22.30.1.1341                        (Added)
+  Realtek 8852AE WLAN driver                R1ARE09W       6001.10.355.1                       (Added)
+  Intel WLan driver 		            R19IW16W	   22.240.0.6                          (Added)
+
+
+
+----------------------------------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Sunplus is a registered trademark of Sunplus Innovation Technology Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.

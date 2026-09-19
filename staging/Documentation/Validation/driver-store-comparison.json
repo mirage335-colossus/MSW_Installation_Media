@@ -1,0 +1,23 @@
+{
+  "baseline_source_INF_paths": 786,
+  "baseline_unique_INF_sha256": 415,
+  "installed_third_party_entries": 416,
+  "additional_inbox_Microsoft_printer_entry": "prnms009.inf",
+  "driver_class_counts_match_baseline_unique_INFs": true,
+  "class_counts": {
+    "securitydevices": 6,
+    "system": 249,
+    "extension": 36,
+    "hidclass": 10,
+    "mouse": 6,
+    "softwarecomponent": 40,
+    "net": 50,
+    "ports": 5,
+    "hdc": 1,
+    "scsiadapter": 1,
+    "sdhost": 6,
+    "usbfunctioncontroller": 4,
+    "realmanage": 1
+  },
+  "scope": "Baseline159packages before T15g addition; class-count equality is not a physical device functionality test."
+}

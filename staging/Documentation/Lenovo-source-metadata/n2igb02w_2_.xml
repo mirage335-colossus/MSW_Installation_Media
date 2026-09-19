@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="TPAD_N2IGB0" id="n2igb02w" version="3972349" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Synaptics Touchpad Firmware - 10 (1809 or Later)/ 11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="File" show="False">
+    <File>%WINDOWS%\explorer.exe</File>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n2igb02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-01-09</ReleaseDate>
+  <DiskSpaceNeeded>3620384</DiskSpaceNeeded>
+  <Reboot type="1" />
+  <Brand type="2" />
+  <PackageType type="4" />
+  <Install rc="0" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\synreflash.exe /f 3 /s 1 /y /i PR3972349-TM-03471-020.img</Cmdline>
+  </Install>
+  <Uninstall />
+  <DetectInstall />
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+      <_ExternalDetection rc="0">getpackratinfo_n2igb02w.exe /i 2868036;2845158;2867793;2909640;3584089;2909641;3482795;2828878;2840677;2868036;2845158;3372064</_ExternalDetection>
+      <_Driver>
+        <HardwareID><![CDATA[ACPI\LEN001E]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN005F]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0072]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0073]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN007B]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN008D]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN008E]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0099]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2043]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2044]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2045]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2046]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2049]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2047]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2048]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2050]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2051]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2056]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2057]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2058]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2059]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN205A]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN205B]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN205C]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN205D]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2060]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2061]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2062]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2063]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2064]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2065]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2066]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2067]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2068]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2069]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2070]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2071]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2072]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2073]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2078]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2079]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0402]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0405]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0406]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0400]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0401]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN040B]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN040C]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN040D]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN040E]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN040F]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0410]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0411]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0415]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0416]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0417]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0418]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN0419]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN041A]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN041B]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN041C]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2149]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2161]]></HardwareID>
+        <HardwareID><![CDATA[ACPI\LEN2162]]></HardwareID>
+        <Version>19.5.19.91^</Version>
+      </_Driver>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n2igb02w.exe</Name>
+        <CRC>6F2ECDE17370FE70F2F62F15569BB011B99E9008B8CED4F8B62150926BCCBE26</CRC>
+        <Size>1504304</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n2igb02w.txt</Name>
+        <CRC>1A4BC3533F690B941C82EDE529F86A443A691B9D562210A3D9F76E38A07CBBC5</CRC>
+        <Size>7571</Size>
+      </File>
+    </Readme>
+    <External>
+      <File>
+        <Name>synaptics_n2igb02w.dshid.dll</Name>
+        <CRC>506DD82C855B16B5EE20692ED230AF1A285CCA97E3BB05B3C7B4F657164B411E</CRC>
+        <Size>409384</Size>
+      </File>
+      <File>
+        <Name>getpackratinfo_n2igb02w.exe</Name>
+        <CRC>831EE0B632B1A590BB5A7D5E174800819DEBA58F589AD53DA99BA330D500FE18</CRC>
+        <Size>297760</Size>
+      </File>
+    </External>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2QplVoKb44/Ug+ssN6Lf3c0mu9U=</DigestValue></Reference></SignedInfo><SignatureValue>CMnahP4x3E5U1rUEOUSYxeRUBktIl0/J1+xya5I6PTrZ2zdQApsUf0A0dkFDnU8OAiOqOLejJH4paKnSiYazCW02F4s5kqnTBY3eMehAo3OPsxYOpSfr1kR8Q9bpk2t7YGyw0w0UBQ5wCL7cHSxgbB8P6IAoMVtTo4uYzUf0g5rbJzXUeb0/t4ogeUa+AexzQgSxwgGbo82xuUqToXwhjPzeZKpinVPJUCSp5DKEZsghrnrWH8b+6K6FmSOF07drc0UWY+82+rh8hD/2u15wOCn8jNuvMbBaDrZFaarpvVVzLSAeL4W6AwV0uAKq9Xh0xXGxqzYBk+KEg05GvINT+S6TyPl1FwVA5Z3UeAmoLTYIUkMuP8WLK//1LSgfSB2C4R7BH/fbiN1Ftvg5RDk03MENj20R7oHnVY4k4f6To+2IWSTysiG7XG9M1NQ6CJKnlkytOkFqOJVHiHCkZAjTb1G546PTFK2xNV7KdjZucqhMv1y7uoCtj1wRNLrd/Tk8</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

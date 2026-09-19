@@ -1,0 +1,65 @@
+WIM Information:
+----------------
+Path:           /home/user/Documents/ChatGPT/MSW11 Installation Media/staging/sources/boot.wim
+GUID:           0x1f734bbafcd10c40b86a560cbddd66cd
+Version:        68864
+Image Count:    2
+Compression:    LZX
+Chunk Size:     32768 bytes
+Part Number:    1/1
+Boot Index:     2
+Size:           614809152 bytes
+Attributes:     Relative path junction
+
+Available Images:
+-----------------
+Index:                  1
+Name:                   Microsoft Windows PE (amd64)
+Description:            Microsoft Windows PE (amd64)
+Directory Count:        5410
+File Count:             20701
+Total Bytes:            2443850942
+Hard Link Bytes:        1092398411
+Creation Time:          Mon Apr 01 07:48:54 2024 UTC
+Last Modification Time: Sat Mar 07 00:53:28 2026 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     8037
+Service Pack Level:     0
+Flags:                  9
+WIMBoot compatible:     no
+
+Index:                  2
+Name:                   Microsoft Windows Setup (amd64)
+Description:            Microsoft Windows Setup (amd64)
+Directory Count:        5458
+File Count:             21213
+Total Bytes:            2553566174
+Hard Link Bytes:        1144973391
+Creation Time:          Mon Apr 01 07:49:14 2024 UTC
+Last Modification Time: Sat Mar 07 00:53:29 2026 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     8037
+Service Pack Level:     0
+Flags:                  2
+WIMBoot compatible:     no
+

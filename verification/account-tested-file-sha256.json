@@ -1,0 +1,10 @@
+{
+  "sources/boot.wim": "ceedec430e07515da29302e4c982c9b9e50b1d704d4f124de8d0b22be7ad3b92",
+  "sources/install.swm": "6ceb5533a06c5f408e3e513fcb7c7f923dd6733469ddf76d9ed257993de8704e",
+  "sources/install2.swm": "f7c908d55d7acf789eb0adfb53d3d031f2b2803ace762649688a7a52e79aa536",
+  "sources/install3.swm": "d8e0c841266508fe6e3d9868251d8071598923d4f459a7230597150073d7d54b",
+  "efi/boot/bootx64.efi": "32b233afb2a8b4c517003796d435358dcad78e421a3ed386b8ee275a6957dbd0",
+  "profiles/local.xml": "44c50ab36020d61c61130d45413c4b823fe6dacd677a3bb5f64ea2fbe5848eab",
+  "profiles/microsoft.xml": "68f9f1658c284747b3adaa3c905a33debc8f9c56b4ec0bc1da8eaa2ebbeb6f9d",
+  "MSW11-MEDIA.ID": "645403659f7721077e8c83d0336474cf040e05b66f59dfb10f1fa8f85b785034"
+}

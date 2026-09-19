@@ -1,0 +1,3 @@
+﻿2026-09-18 19:46:01, Error      [0x060126] IBS    CallBack_ImageWasSelectedInUi: An error occurred while removing the MultiEdition key from the blackboard.[gle=0x00000490]
+2026-09-18 20:04:09, Error      [0x064230] IBSLIB BFSVC: USE_EX_BINS flag is specified, but 2023 cert is not in db
+2026-09-18 20:10:25, Error                        [setup.exe] System disks found

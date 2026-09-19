@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="NVIDIA_GF_R24DG02" id="r24dg02w" version="3.26.0.154" hide="False">
+  <Title default="EN">
+    <Desc id="EN">NVIDIA GFE(GN18-S5) App - 10/11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Registry">
+    <Registry>
+      <Key>HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\Global\GFExperience</Key>
+      <ValueName>Version</ValueName>
+    </Registry>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <SeverityOverride type="3" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r24dg02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-08-04</ReleaseDate>
+  <DiskSpaceNeeded>990714925</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="1" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\setup.exe -s</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\setup.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_RegistryKeyValue type="REG_SZ">
+      <Key>HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\Global\GFExperience</Key>
+      <KeyName>Version</KeyName>
+      <Version>3.26.0.154^</Version>
+    </_RegistryKeyValue>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19044^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <And>
+          <_OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>22000^</Version>
+          </_WindowsBuildVersion>
+        </And>
+      </Or>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_174D]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1C8C]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1C91]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1C94]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1D11]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1D12]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1D13]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1D16]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1ED0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1ED1]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1ED3]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F11]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F12]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F15]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F50]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F51]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F54]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F55]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F91]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F95]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F97]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F98]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F99]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F9C]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F9D]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1F9F]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_1FDD]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2191]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2192]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2460]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_24DC]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_24DD]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_24E0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2520]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2560]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2563]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25A0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25A2]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25A5]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25A6]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25A9]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25AB]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25AC]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25AD]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25E0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25E2]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25E5]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25EC]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_25ED]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2757]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_27E0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_2860]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_28A1]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_28E0]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10DE&DEV_28E1]]></HardwareID>
+        <Date>2022-12-21</Date>
+        <Version>31.0.15.2799^</Version>
+      </_Driver>
+      <_Bios>
+        <Level>R24ET*</Level>
+        <Level>*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r24dg02w.exe</Name>
+        <CRC>76E38F55831BEFEA76474F55170D23BC2DAEAC372D9214A30206780ECB51BD23</CRC>
+        <Size>164498856</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r24dg02w.txt</Name>
+        <CRC>18FD06076F57BF9B8E83039FB9104433BB0014E10A2C72A48533190139B6D27D</CRC>
+        <Size>7525</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>r8+9qW0fPccA8MBi308hLkQZDxU=</DigestValue></Reference></SignedInfo><SignatureValue>d6lFMa3/mKGqthHiooOiwRmY/Nr3STfiNebQ33O1bTRYV3l1E/KRr8LEucmHCGFyj0JDl2zDDybGc60LR3NnY6xeaq7LepganSizQC8mlCELWqfIV8Gk9fP27UrF4X15g+sCUOnUli2iwU4VNs+grljfgxgXZKAuLZ+jP6/RKGhv9hm3zH1MyBZJ8vfQNcnpZbX3pNlyuyFP6DBAZQZvmTj1k5Ygn/I4NbENKPzqtUQID322YjNjCGmsg9fWeh6ChwebACHjEcOVypNv7sIbG/Ll0nEue/8v8YzXbhUf4rKgzs8E5SjmEc3f4yDLAIb8rcdYOkeHObbTpyhfWDMDoAm655qTA7Tr+IHHirAo8jcCejUJ13B82zT7loblhOGyjLa6jdRZ4mympFg3wOSq5Foag39jarM5XLZsz6FYSruELICIKScyaR1yw6J5f7CfwxdW9jgMjFoQsRt8oRm8fYQQ/7WBR8iutpCm25VKSq4Z1NzwW2FuEB5iEL9Q6nDW</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

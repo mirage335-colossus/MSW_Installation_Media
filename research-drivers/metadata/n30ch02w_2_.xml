@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="CHIP_N30CH" id="n30ch02w" version="10.1.31.2" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Intel Chipset Device Software - 10 (1809 or later)/11 (21H2 or later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_06A4]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n30ch02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2022-03-22</ReleaseDate>
+  <DiskSpaceNeeded>1989348</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n30ch02w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n30ch02w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_06A4]]></HardwareID>
+      <Version>10.1.31.2^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_Bios>
+        <Level>N30ET*</Level>
+        <Level>*</Level>
+      </_Bios>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_06A4]]></_PnPID>
+      </Or>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n30ch02w.exe</Name>
+        <CRC>122B13423979149AF3B9BB0E8F0313889F058C2070CE2F40B7095BD1A396FFB0</CRC>
+        <Size>1023192</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n30ch02w.txt</Name>
+        <CRC>D8039C3A0A1B367251C50F57FA5E48B3837B617B9A35B0BA6DAEAAE3379E3F6B</CRC>
+        <Size>7554</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gabkuE1s/HJFw8oGpMgiIqeNOtk=</DigestValue></Reference></SignedInfo><SignatureValue>FusFzxbNWYSAOckdcaIgFu3Fq+CVb7xGWHF6PmIPGZHpyMo+svU97OAOcz8+bBg7tnT5qlakST5KTNXgCR0WO1lF/5zwl1m1rEnFSqUYSC2teGhm8hxSeUiVJKYMbkeEQbFtBy16KlR+ehc/X0h/LEGpjNpya/NOUnhr5M6DlG/HCzNaHuoW9Ls1hYgmU0qPNAR9RtXWJbY2FnnuYKcwN7OrBJk1OI+5/oFNTiG1CtzF8WXqIFb+PBmlsdA5jdqAgokPCFXea6ldxEoyINdzZ7dvIlOfSh1FUogjnvUqttiUYG3+3Sdiw0CkcOAdjtxAxJrWsABatD6V/x8andYr8KWHMH7Diyyt0UeUHc8hjHMBWrfh0fnFxdz2vAVGG87HPwh0XQHeu45zdu4AqZyLKCFnOImWqI4eMvlhfRN8kvZFO0qgS1xctDGoFGfq2EFcP1fbU4EO/8Wu3Xhn32qT+G/qGQjg0XOtsghk+0VPpnvs7z+9cyAWUGRrSosERlIV</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

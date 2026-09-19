@@ -1,0 +1,704 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package for Windows 11 Version 25H2
+Support Models
+ThinkPad E14 Gen 7 (Type 21T9, 21TA) Laptops
+ThinkPad E16 Gen 3 (Type 21TF, 21TG) Laptops
+ThinkPad L14p Gen 6 (Type 21UB) Laptops
+View Less Models
+Operating Systems
+Windows 11 (24H2)
+Windows 11 (25H2)
+Version
+07
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.  INF file will be available after executing the downloaded self-extracting EXE package.
+Changes in This Release
+Package 07    Rev 01
+Component Name
+Build ID
+Driver Version
+Status
+Senary Audio Driver
+R2YSA10W
+3.48.97.18
+Update
+Intel ISST driver
+R2YIR06W
+10.29.00.12635
+Update
+Intel AX203 Bluetooth Driver
+NZCWY05W
+24.40.0.3
+Update
+Intel AX211 Bluetooth Driver
+NZAWW14W
+24.40.0.3
+Update
+Integrated Camera Driver
+R2YCD07W
+Sunplu 5.0.18.294_Realtek 10.0.22000.20397_Sonix 10.13.26100.12
+Update
+Intel management engine Driver
+NZCRA05W
+2603.9.4.0
+Update
+Lenovo Base Utility
+R18vu73w
+10.17.2603.3
+Update
+Elan Trackpoint driver
+NZCG203W
+31.21.60.1
+Update
+Intel HID Event Filter Driver
+nzaef06w
+2.2.2.18
+Update
+Lenovo Power Management Driver
+N4BKU13W
+1.69.168.0
+Update
+ELAN MOC FingerPrint Driver
+r2yef04w
+3.4.12404.14007
+Update
+Intel VGA driver
+R2YIV07W
+32.0.101.7085
+Update
+Realtek Wireless Driver
+R2JRW14W
+6001.16.126.343(8852CE)
+6001.15.123.359(8852BE)
+Update
+Intel AX203 Wireless Lan Driver
+NZCWM06W
+24.40.0.4
+Update
+Intel AX211 Wireless Lan Driver
+NZCWL06W
+24.40.0.4
+Update
+Package 06    Rev 01
+2026/04/24
+Component Name
+Build ID
+Driver Version
+Status
+Intel management engine Driver
+NZCRA04W
+2552.9.3.0
+Updated
+USB 3.0 Ethernet adapter Driver
+U3ETN16W
+1153.21.1009.2025 (1Gbps)
+1156.21. 1009.2025(2.5Gbps)
+Added
+Lenovo Intelligent Thermal Solution Driver (UMA)
+N4BDY62W
+2.1.52.53
+Updated
+Intel AX203 Wireless Lan Driver
+NZCWM05W
+24.20.2.1
+Updated
+Intel AX211 Wireless Lan Driver
+NZCWL05W
+24.20.2.1
+Updated
+Package 05    Rev 01
+2026/03/12
+Component Name
+Build ID
+Driver Version
+Status
+Lenovo Base Utility
+R18VU70W
+10.15.2511.2
+Updated
+Lenovo Power Management Driver
+N4BKU11W
+1.69.132.0
+Updated
+Lenovo Smart Standby
+N25BY28W
+4.3.13.0
+Updated
+Integrated Camera Driver
+R2YCD07W
+5.0.18.294
+10.0.22000.20397
+10.13.26100.12
+Updated
+Realtek Wireless Driver
+R2JRW13W
+6001.16.126.342(8852CE)
+6001.15.123.355(8852BE)
+Updated
+Elan Trackpoint driver
+NZCG202W
+31.21.51.2
+Updated
+Intel VGA driver
+R2YIV06W
+32.0.101.7082
+Updated
+Monitor INF
+NZBOI02W
+6.14.27.0
+Updated
+Intel Chipset Driver
+NZBIC02W
+10.1.36.7
+Updated
+Intel management engine Driver
+NZCRA03W
+2546.8.9.0
+Updated
+Package 04    Rev 01
+2026/01/15
+Component Name
+Build ID
+Driver Version
+Status
+Lenovo Base Utility
+r18vu68w
+10.15.2509.1
+Update
+Lenovo Power Management Driver
+N4BKU10W
+1.69.70.0
+Update
+Integrated Camera Driver
+R2YCD06W
+5.0.18.277
+10.0.22000.20385
+10.13.26100.5
+Update
+Goodix MOC FingerPrint Driver
+R2YGF04W
+3.4.52.1012
+Update
+ELAN MOC FingerPrint Driver
+R2YEF03W
+3.4.12404.14001
+Update
+Intel ISST driver
+r2yir05w
+10.29.00.12181
+Update
+Intel management engine Driver
+NZCRA02W
+2517.8.1.0
+Update
+Intel AX203 Wireless Lan Driver
+NZCWM03W
+23.170.0.1
+Update
+Intel AX211 Wireless Lan Driver
+NZCWL03W
+23.170.0.1
+Update
+Intel AX203 Bluetooth Driver
+NZCWY03W
+23.170.0.3
+Update
+Intel AX211 Bluetooth Driver
+NZAWW12W
+23.170.0.3
+Update
+Package 03    Rev 01
+2025/11/05
+Component Name
+Build ID
+Driver Version
+Status
+Lenovo Intelligent Thermal Solution Driver (UMA)
+N4BDY58W
+2.1.52.20
+Updated
+Integrated Camera Driver
+R2YCD04W
+5.0.18.254
+10.0.22000.20361
+10.13.26100.2
+Updated
+Realtek Wireless Driver
+R2YRW08W
+6001.16.126.338(8852CE)6001.15.123.348(8852BE)
+Updated
+Goodix MOC FingerPrint Driver
+R2YGF03W
+3.4.52.870
+Updated
+ELAN MOC FingerPrint Driver
+R2YEF02W
+3.4.12404.13034
+Updated
+Intel HID Event Filter Driver
+NZAEF05W
+2.2.2.17
+Updated
+Intel VGA driver
+NZCDR02W
+32.0.101.7026
+Updated
+Intel management engine Driver
+NZCRA01W
+2517.8.1.0
+Updated
+Intel AX203 Wireless Lan Driver
+NZCWM02W
+23.160.0.4
+Updated
+Intel AX211 Wireless Lan Driver
+NZCWL02W
+23.160.0.4
+Updated
+Intel AX203 Bluetooth Driver
+NZCWY02W
+23.160.0.9
+Updated
+Intel AX211 Bluetooth Driver
+NZAWW11W
+23.160.0.9
+Updated
+Package 02    Rev 01   2026/10/14
+Component Name
+Build ID
+Driver Version
+Lenovo Base Utility
+10.15.2508.4
+Update
+Lenovo Power Management Driver
+N4BKU08W
+1.69.34.0
+Update
+Integrated Camera Driver
+R2YCD05W
+5.0.18.277_
+10.0.22000.20380
+10.13.26100.5
+Update
+Realtek Wireless Driver
+R2YRW07W
+6001.16.126.335(8852CE)6001.15.123.348(8852BE)
+Update
+Senary Audio Driver
+R2YSA09W
+3.48.66.0
+Update
+Elan Trackpoint driver
+NZCG201W
+31.21.49.1
+Update
+Intel Serial IO
+NZALI02W
+30.100.2417.30
+Update
+Intel HID Event Filter Driver
+NZAEF04W
+2.2.2.12
+Update
+Intel GNA Driver
+NZAJG03W
+03.05.00.1578
+Update
+Intel VGA driver
+NZCDR01W
+32.0.101.6913
+Update
+Monitor INF
+NZBOI01W
+6.14.26.0
+Update
+Intel Chipset Driver
+NZBIC01W
+10.1.36.7
+Update
+Intel AX203 Wireless Lan Driver
+NZCWM01W
+23.140.2.1
+Update
+Intel AX211 Wireless Lan Driver
+NZCWL01W
+23.140.2.1
+Update
+Intel AX203 Bluetooth Driver
+NZCWY01W
+23.140.0.5
+Update
+Intel AX211 Bluetooth Driver
+NZAWW10W
+23.140.0.5
+Update
+Package 01    Rev 01
+2025/06/06
+-Updates for Windows.
+Driver/Utility Name
+Build ID
+VersionNo
+Status
+Lenovo Base Utility
+R18VU64W
+10.13.1.11
+Update
+Senary Audio Driver
+R2YSA08W
+3.48.60.11
+Update
+Elan Trackpoint driver
+R2YER04W
+31.21.49.1
+Update
+Dependency
+1.Need to install  Intel Dynamic Platform and Thermal Framework Driver before Intel Platform Monitoring Technology Driver installed.
+2.Need to install ISST driver before Senary Audio driver installed.
+Important Notice
+Not Applicable
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+The following versions have been released to date.
+Package
+Rev
+Issue Date
+07
+01
+2026/07/08
+06
+01
+2026/05/06
+05
+01
+2026/03/12
+04
+01
+2026/01/15
+03
+01
+2025/11/05
+02
+01
+2025/10/14
+01
+02
+2025/06/06
+01
+01
+2025/04/21
+Component Name
+Build ID
+Driver Version
+Senary Audio Driver
+R2YSA10W
+3.48.97.18
+Intel ISST driver
+R2YIR06W
+10.29.00.12635
+Intel GNA Driver
+NZAJG03W
+03.05.00.1578
+Realtek BT Driver
+R2YRB02W
+2.10.1072.3005
+Intel AX203 Bluetooth Driver
+NZCWY05W
+24.40.0.3
+Intel AX211 Bluetooth Driver
+NZAWW14W
+24.40.0.3
+Integrated Camera Driver
+R2YCD07W
+Sunplu 5.0.18.294_Realtek 10.0.22000.20397_Sonix 10.13.26100.12
+Intel Serial IO
+NZALI02W
+30.100.2417.30
+Intel(R) Innovation Platform Framework Processor Participant Driver
+R2YID01W
+2.2.10000.20
+Intel Chipset Driver
+NZBIC02W
+10.1.36.7
+Intel management engine Driver
+NZCRA05W
+2603.9.4.0
+Monitor INF
+NZBOI02W
+6.14.27.0
+Intel Ethernet Driver
+R2YIE03W
+12.19.2.57
+USB 3.0 Ethernet adapter Driver
+U3ETN16W
+1153.21.1009.2025 For Win 11 Intel and AMD(1Gbps)
+1156.21. 1009.2025 For Win 11 Intel and AMD(2.5Gbps)
+Lenovo Base Utility
+R18vu73w
+10.17.2603.3
+Elan Trackpoint driver
+NZCG203W
+31.21.60.1
+Intel HID Event Filter Driver
+nzaef06w
+2.2.2.18
+Lenovo Power Management Driver
+N4BKU13W
+1.69.168.0
+Lenovo Intelligent Thermal Solution Driver (UMA)
+N4BDY62W
+2.1.52.53
+Lenovo Smart Standby
+N25BY28W
+4.3.13.0
+Goodix MOC FingerPrint Driver
+R2YGF04W
+3.4.52.1012
+ELAN MOC FingerPrint Driver
+r2yef04w
+3.4.12404.14007
+Intel VGA driver
+R2YIV07W
+32.0.101.7085
+Realtek Wireless Driver
+R2JRW14W
+6001.16.126.343(8852CE)
+6001.15.123.359(8852BE)
+Intel AX203 Wireless Lan Driver
+NZCWM06W
+24.40.0.4
+Intel AX211 Wireless Lan Driver
+NZCWL06W
+24.40.0.4
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Senary is a registered trademark of Senary Semiconductor Corp.
+* Elan is a registered trademark of Elan Inc.
+* Goodix is a registered trademark of Goodix Inc.
+* Realtek is a registered trademark of Realtek Corporation.
+* Sunplus is a registered trademark of Sunplus Corporation.
+* Sonix is a registered trademark of Sonix Corporation.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

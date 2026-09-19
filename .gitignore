@@ -1,0 +1,68 @@
+# Keep developed scripts (including research-drivers and verification), account
+# profiles, documentation, provenance, manifests, and recorded validation evidence.
+# Git cannot ignore by file size; exclude known payloads and image formats instead.
+
+# Windows installation media and VM/USB disk images, wherever they are created.
+# Companion files such as .iso.sha256 remain eligible for version control.
+*.[iI][sS][oO]
+*.[wW][iI][mM]
+*.[sS][wW][mM]
+*.[eE][sS][dD]
+*.[iI][mM][gG]
+*.qcow
+*.qcow2
+*.vhd
+*.vhdx
+*.vdi
+*.vmdk
+
+# Downloaded Lenovo installers and extracted/copied vendor driver trees.
+# The Python tools and metadata beside these directories are project inputs.
+/research-drivers/*.[eE][xX][eE]
+/research-drivers/packages/
+/research-drivers/extracted/
+/research-drivers/bootstrap-drivers/
+
+# Microsoft/vendor content in the assembled USB tree. Keep the custom root
+# scripts, profiles/, Documentation/, README.txt, marker, and checksum manifest.
+/staging/$WinPEDriver$/
+/staging/boot/
+/staging/efi/
+/staging/sources/
+/staging/support/
+/staging/autorun.inf
+/staging/bootmgr
+/staging/bootmgr.efi
+/staging/bootmgfw.efi
+/staging/setup.exe
+
+# Downloaded reference code and page captures; retain the acquisition notes.
+/research/iso-acquisition/Fido-reference.ps1
+/research/iso-acquisition/ms-tags.html
+/research/iso-acquisition/ms-mdt.js
+/research/iso-acquisition/ms-reply.html
+
+# Extracted boot binaries and local mount points, which can expose entire disks.
+/verification/original-boot-files/
+/verification/secureboot/efi-ex/
+/verification/test-usb-mount/
+/verification/physical-usb-mount/
+
+# Mutable QEMU/swtpm state. Preserve screenshots, exported logs, reports, and
+# validation scripts rather than ignoring verification/ or all *.log files.
+/verification/**/tpm/
+/verification/**/*.fd
+/verification/**/*.sock
+/verification/**/*.pid
+/verification/**/qemu.log
+
+# Incomplete downloads, Python caches, and host filesystem metadata.
+*.part
+*.crdownload
+__pycache__/
+*.py[cod]
+.venv/
+System Volume Information/
+.DS_Store
+Thumbs.db
+desktop.ini

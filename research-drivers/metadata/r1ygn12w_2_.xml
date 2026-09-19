@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="FP_R1YGN" id="r1ygn12w" version="6.0.41.1136/3.4.51.660" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Round Power Button Fingerprint Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00F9]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00FB]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00FC]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0126]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0129]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_016D]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_27C6&PID_6594]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <Or>
+        <_Driver>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_00F9]]></HardwareID>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_00FB]]></HardwareID>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_00FC]]></HardwareID>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_0126]]></HardwareID>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_0129]]></HardwareID>
+          <HardwareID><![CDATA[USB\VID_06CB&PID_016D]]></HardwareID>
+          <Version>0.1^</Version>
+        </_Driver>
+        <_Driver>
+          <HardwareID><![CDATA[USB\VID_27C6&PID_6594]]></HardwareID>
+          <Version>0.1^</Version>
+        </_Driver>
+      </Or>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1ygn12w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2024-01-19</ReleaseDate>
+  <DiskSpaceNeeded>30692178</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1ygn12w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1ygn12w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <Or>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00F9]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00FB]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00FC]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0126]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0129]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_016D]]></HardwareID>
+        <Date>2023-10-31</Date>
+        <Version>6.0.41.1136^</Version>
+      </_Driver>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_27C6&PID_6594]]></HardwareID>
+        <Date>2023-04-19</Date>
+        <Version>3.4.51.660^</Version>
+      </_Driver>
+    </Or>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19042^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <And>
+          <_OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>22000^</Version>
+          </_WindowsBuildVersion>
+        </And>
+      </Or>
+      <Or>
+        <Or>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00F9]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00FB]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00FC]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_0126]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_0129]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_016D]]></_PnPID>
+        </Or>
+        <Or>
+          <_PnPID><![CDATA[USB\VID_27C6&PID_6594]]></_PnPID>
+        </Or>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R1YET*</Level>
+      </_Bios>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1ygn12w.exe</Name>
+        <CRC>200E0017C9A878C93F2857C8DF5E11F3B9DC303C5DE2F2280090BB93B3C70062</CRC>
+        <Size>4742472</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1ygn12w.txt</Name>
+        <CRC>5529686C0A81F5A4E8BC07C3C6E3D3EB4A7022751764CE7082F82BC7DB999AFB</CRC>
+        <Size>7311</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nRsyNqwFBj6n34e/y9VnJOUx5AQ=</DigestValue></Reference></SignedInfo><SignatureValue>Shpq1bffAc4N1Er2PBckB7b9x5pHSO5HRcuQqQXB3CaYAn4mQDVO6xnqNTlU8EnyRctgwYsulO1HHc0lfYq9KuUsIpNRtS+QSqL7VaJyMEc899GdDu4J/aeKDv7eq1aOjRTpHS/ejVlRY0v5jbglLhFjYO/nejvev+QvjmX+a4D9GB54GJWZ/qBrernYiXRJ2ZzQhjCj2p7d2aulkRaiTHmJT5wLBPpiyo+heIJMw0hZBIeP00qNnUyBv+nMIygqjT2+jsPvS8zLD2raYZCf9XMxtJH3V4eBFQHkZpDneQGsLj4SzrbgMDl/tFsClh2ceEjeFq55ZhKmZWORcU+nX6WvyntaBcH7SGZNfyGRvY4dNAy57HOGX+BkjhvgyFDHjepKnSlGSPTg0A2eAPIXTrsnB+PE9KSga3AQuXShzXs07ODQZqyJfPEb3eb2P/NXmrPaf0IQh6gmCsyfNoOIG8AwihqRMWWL7MSRv/zYBhY2LgWrrqJh0j1G4qQyQgUp</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

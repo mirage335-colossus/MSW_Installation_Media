@@ -1,0 +1,221 @@
+                                                                   Revision : 01
+--------------------------------------------------------------------------------
+Software name      Realtek WLAN Driver for Windows 10 Version 1709 or Later
+
+Support models     ThinkPad E485 (Machine Type: 20KU (Tx))
+                   ThinkPad E585 (Machine Type: 20KV (Tx))
+                   
+Operating Systems  Microsoft Windows 10 64-bit (1709 or later)
+                  
+	           Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Versions           2024.0.8.133
+
+Support device     Realtek 8821CE WLAN 
+                   Realtek 8822BE WLAN
+                                         
+                							 
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package installs the software (Realtek WLAN Driver) to enable the
+  following device.
+  
+  Device name                    Device name in the Device Manager
+  -------------------            ----------------------------------------------
+  Realtek 8821CE WLAN            Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+  Realtek 8822BE WLAN            Realtek 8822BE Wireless LAN 802.11ac PCI-E NIC
+ 
+  Refer to marketing materials to find out what computer models support which
+  devices.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+   Versions 2024.0.8.133
+
+[Important updates]
+   Nothing.
+
+[New functions or enhancements]
+   Nothing.
+
+[Problem fixes]
+ - Fixed security issue.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+
+ [Windows 10]
+
+  1. Select Start.
+  2. Right-click/Press and hold Computer, and then select Properties.
+  3. At the left pane, select Device Manager.
+  4. Double-tap Network adapters.
+  5. Double-tap either of the following devices.
+               Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+               Realtek 8822BE Wireless LAN 802.11ac PCI-E NIC
+  6. Select the Driver tab.
+  7. Check Driver Version.
+
+
+--------------------------------------------------------------------------------
+NOTES
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+
+Note:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the software. To determine if you should update the software, refer to the
+  Version Information section.
+
+
+Manual Install
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading file
+  1. Select the underlined file name. Once this is done, some pop-up windows
+     will appear.
+  2. Follow the instructions on the screen.
+  3. In the window to choose Run or Save, select Save.
+  4. Choose the folder you would like to download the file to, and select Save.
+     A different window will appear and the download will begin and complete.
+     Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting file
+  5. Make sure to be logged on with an administrator account.
+  6. Locate the folder where the file was downloaded.
+  7. Locate the file that was downloaded and double-click/double-tap it.
+  8. Follow the instructions on the screen.
+  9. In Extract or Install? window, select "Install", click Next, and move to
+     step 13 to contiue installation.
+     Or, select "Extract only" and click Next to extract and keep the files on 
+     the specified folder.
+ 10. In the Select Destination Location window, select Extract. If you would like
+     to select a different folder, select Browse.
+ 11. All the necessary files will be extracted to the folder selected in the
+     step 10.
+ 12. Click Finish.
+
+
+  Installing files
+ 13. In the Ready to Install window, click Install. All the necessary files will
+     be extracted to the temporally folder. And extracted files will be deleted
+     after installation.
+ 14. Click Finish.
+ 15. Follow the instructions on the screen to complete installation and restart
+     the computer.
+
+
+Unattended Install
+
+  This is for system administrators' use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+  2. At the command line, execute Pnputil.exe with the inf file.
+     Example: [Path where the files were extracted]\pnputil.exe /i /a *.inf
+
+
+--------------------------------------------------------------------------------
+UNINSTALLATION INSTRUCTIONS
+
+
+Manual Uninstall
+
+
+ [Windows 10]
+
+  1. Start Windows and logon with an administrator account.
+  2. Select Start, then select Control Panel.
+  3. Select Device Manager with Windows Administrative Tools>Computer Management
+  4. Right-click/Press Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC or Realtek
+     8822BE Wireless LAN 802.11ac PCI-E NIC Driver. Select Uninstall device and 
+     checked "Delete the device software for the device"
+  5. Follow the instructions on the screen to complete uninstallation and
+     restart the computer.
+
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Version           Build ID    Rev.  Issue Date
+  ----------------  --------    ----  ----------
+  2024.0.8.133      R0URW12W    01    2021/12/20
+  2024.0.8.108      R0URW11W    02    2020/05/13
+  2024.0.8.108      R0URW11W    01    2019/08/30
+  2024.0.5.103      R0URW10W    01    2019/01/22
+  2023.79.601.2018  R0URW07W    01    2018/09/25
+  2023.70.213.2018  R0URW05W    01    2018/05/24
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+
+Summary of Changes
+
+  Where: <   >        Driver version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<2024.0.8.133> (R0URW12W)
+ -(Fix) Fixed security issue.
+
+<2024.0.8.108> (R0URW11W)
+ -[Important] Addressed security vulnerability issues CVE-2019-6173 
+              and CVE-2019-6196.
+
+<2024.0.8.108> (R0URW11W)
+ -(Fix) Fixed an issue that WiFi intermittent disconnect and automatic 
+        connect when playback online video.
+
+<2024.0.5.103> (R0URW10W)
+ -(Fix) Fixed an issue that WLAN disconnect during playing online video.
+
+<2023.79.601.2018> (R0URW07W)
+ -(New) Update for RS4 WHQL
+
+<2023.70.213.2018> (R0URW05W)
+ -(New) First release for ThinkPad E485, E585
+
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo, ThinkPad, ThinkVantage, TrackPoint and UltraNav are registered
+  trademarks of Lenovo.
+
+* Microsoft, Internet Explorer and Windows are registered trademarks of
+  Microsoft Corporation.
+* Realtek are registered trademarks of Realtek Corporation.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.

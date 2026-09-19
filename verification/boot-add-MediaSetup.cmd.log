@@ -1,0 +1,9 @@
+Scanning "/home/user/Documents/ChatGPT/MSW11 Installation Media/research-accounts/MediaSetup.cmd" (loading as WIM path: "/Windows/System32/MediaSetup.cmd")...
+
+4123 bytes scanned (1 files, 0 directories)    
+4123 bytes scanned (1 files, 0 directories)    
+Updating "/Windows/System32/MediaSetup.cmd" in WIM image
+Using LZX compression with 1 thread
+
+Archiving file data: 0 bytes of 4123 bytes (0%) done
+Archiving file data: 4123 bytes of 4123 bytes (100%) done

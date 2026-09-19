@@ -1,0 +1,53 @@
+{
+  "completed_at_utc": "2026-09-18T21:03:09.161873+00:00",
+  "target": {
+    "path": "/dev/sda",
+    "size": 61991813120,
+    "model": "DataTraveler 3.0",
+    "serial": "4CEDFB74A32C1A70790301C3",
+    "tran": "usb",
+    "rm": true,
+    "type": "disk",
+    "mountpoints": [],
+    "children": [
+      {
+        "path": "/dev/sda1",
+        "size": 61990764544,
+        "model": null,
+        "serial": null,
+        "tran": null,
+        "rm": true,
+        "type": "part",
+        "mountpoints": []
+      }
+    ]
+  },
+  "source_windows": "Windows 11 25H2 US English x64, Microsoft ISO build 26200.8037",
+  "payload_files_verified": 6633,
+  "checksum_manifest_also_verified": true,
+  "filesystem_check_passed": true,
+  "physical_usb_uefi_boot_menu_passed": true,
+  "boot_test_physical_usb_read_only": true,
+  "boot_test_no_installation_destination": true,
+  "local_home_desktop_passed": true,
+  "local_account_PrincipalSource": "Local",
+  "secure_boot_in_local_test": true,
+  "cloud_pro_signin_form_passed": true,
+  "cloud_credentials_used": false,
+  "driver_packages": 171,
+  "driver_INF_paths": 876,
+  "network_INF_paths": 73,
+  "machine_types": 49,
+  "T15g_added_INF_inputs_accepted_by_Windows": 90,
+  "physical_Lenovo_device_functionality_tested": false,
+  "usb_unmounted": true,
+  "temporary_vm_files_removed": [
+    "test-usb.img",
+    "local/system.qcow2",
+    "cloud/system.qcow2",
+    "local/logs.img",
+    "t15g-windows-validation/input.img",
+    "t15g-windows-validation/output.img"
+  ],
+  "temporary_allocated_bytes_released": 75546464256
+}

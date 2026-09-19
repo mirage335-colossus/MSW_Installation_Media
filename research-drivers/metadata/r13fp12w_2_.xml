@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="SYN_FP_R13FP" id="r13fp12w" version="6.0.64.1105" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Synaptics FingerPrint Driver - 10 (1803 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00BD]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00C2]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0123]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00BD]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00C2]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0123]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r13fp12w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2023-12-13</ReleaseDate>
+  <DiskSpaceNeeded>16346062</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r13fp12w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r13fp12w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_00BD]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_00C2]]></HardwareID>
+      <HardwareID><![CDATA[USB\VID_06CB&PID_0123]]></HardwareID>
+      <Date>2023-08-13</Date>
+      <Version>6.0.64.1105^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <Or>
+        <And>
+          <_Bios>
+            <Level>R12ET*</Level>
+            <Level>R13ET*</Level>
+          </_Bios>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>17134^</Version>
+          </_WindowsBuildVersion>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+        </And>
+        <And>
+          <_Bios>
+            <Level>R1KET*</Level>
+          </_Bios>
+          <Or>
+            <And>
+              <_OS>
+                <OS>WIN10</OS>
+                <OS>WIN10.*</OS>
+                <OS>WIN10-ENT</OS>
+                <OS>WIN10-ENT.*</OS>
+                <OS>WIN10-PRO</OS>
+                <OS>WIN10-PRO.*</OS>
+              </_OS>
+              <_WindowsBuildVersion>
+                <Version>18363^</Version>
+              </_WindowsBuildVersion>
+              <_CPUAddressWidth>
+                <AddressWidth>64</AddressWidth>
+              </_CPUAddressWidth>
+            </And>
+            <And>
+              <_OS>
+                <OS>WIN11</OS>
+              </_OS>
+              <_WindowsBuildVersion>
+                <Version>22000^</Version>
+              </_WindowsBuildVersion>
+            </And>
+          </Or>
+        </And>
+      </Or>
+      <Or>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_00BD]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_00C2]]></_PnPID>
+        <_PnPID><![CDATA[USB\VID_06CB&PID_0123]]></_PnPID>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r13fp12w.exe</Name>
+        <CRC>BFB94FA4AE5B87554FE0474B9B09B7FF791055282267B8650F7741C43496DFE2</CRC>
+        <Size>2691520</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r13fp12w.txt</Name>
+        <CRC>9291A265DE9BDCEB627CB0771E6C37C125EFF2AF685B62B9FE831318311B59B9</CRC>
+        <Size>9073</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BRL7QCA4bAEXAybXhYn3Q8DotvU=</DigestValue></Reference></SignedInfo><SignatureValue>PMDP3iP3t8tJTqzl24hsHKgD9WDsBWNAKIgV2ssFXhwJWmMCcRfnKVNmtWYYitIZMI5WxWOKhR7aPJsEPs4qTrgGc6vPU069jycau4Iod62zbWtYYqSERDLLlc4PYSN80WxzIuBP0A9sw8xHU883Zoml1lRwOCbFYDRO/iqON3CEcqmXf4gYhn5Ch9vJ30TJgAYVlMuRB/b1Jf8jdW9lMizskIJ5rUArceyUEYtcOvH6WvupUfhZiBgAoQmX4IbWuK/Pbe0GrdEcyaGF7XHCU2eVg77cWxCSd9lTkbcgzU48AQGmdnjxCEOULiCvJaHMiHe9naP5I8B8IwSNmgSFkDbcDZSgbBQcQajMf6ePagX2r0ZrNdfPOejHQL8jH5hibiDgiVDXrC/pLxlPa00Kj/9FsdMd/371EU9SV7VefRDRMqaxD958GpZT6q2TIvVzK0MgkUgss75Uli3idXm/SJXqFJrjoBWugeRk9vNOSuOSwGjy0p1xNLquv/xZ0Rdw</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

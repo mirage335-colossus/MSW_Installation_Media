@@ -1,0 +1,15 @@
+{
+    "NetworkAdapterPresent":  false,
+    "AfterThirdPartyDriverCount":  456,
+    "PnpUtilExitCode":  0,
+    "RunAt":  "2026-09-18T20:39:44.4291538-07:00",
+    "SecureBoot":  true,
+    "InstallFlagUsed":  false,
+    "Command":  "pnputil.exe /add-driver \u003cinput\u003e\\Drivers\\*.inf /subdirs",
+    "BeforeThirdPartyDriverCount":  416,
+    "User":  {
+                 "Name":  "MediaTest",
+                 "Enabled":  true,
+                 "PrincipalSource":  1
+             }
+}

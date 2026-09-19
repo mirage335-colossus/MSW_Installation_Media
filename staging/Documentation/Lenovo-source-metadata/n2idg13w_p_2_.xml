@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="IRST_N2IDGP" id="n2idg13w_p" version="17.11.0.1000" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Intel Rapid Storage Technology Driver Include TG Optane Memory - 10 (1809 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_9DD3]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_02D3]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_282A]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_0975]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_A352]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_A353]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_2822]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_06D6]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_8086&DEV_06D7]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_9DD3]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_02D3]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_282A]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_0975]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_A352]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_A353]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_2822]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_06D6]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_8086&DEV_06D7]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>n2idg13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2021-12-20</ReleaseDate>
+  <DiskSpaceNeeded>3325072</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n2idg13w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\n2idg13w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_9DD3]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_02D3]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_282A]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_0975]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_A352]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_A353]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_2822]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_06D6]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_8086&DEV_06D7]]></HardwareID>
+      <Date>2021-09-30</Date>
+      <Version>17.11.0.1000^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_CPUAddressWidth>
+        <AddressWidth>64</AddressWidth>
+      </_CPUAddressWidth>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_9DD3]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_282A]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_0975]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_02D3]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_A352]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_A353]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_2822]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_06D6]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_8086&DEV_06D7]]></_PnPID>
+      </Or>
+      <_Bios>
+        <Level>*</Level>
+        <Level>N30ET*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>17763^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <_OS>
+          <OS>WIN11</OS>
+        </_OS>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>n2idg13w.exe</Name>
+        <CRC>8243BF6B309C77EC510D97168436671D2A44B91FCFC2488E0A67F4200CD206EB</CRC>
+        <Size>3472784</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>n2idg13w.txt</Name>
+        <CRC>B28AC1429DEC93E0038AD5B224FD78438029389B482703BC0B7DB284B443B6BF</CRC>
+        <Size>12206</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6e0351x4hvKMGBDgIKEVoua53a0=</DigestValue></Reference></SignedInfo><SignatureValue>XrC8d62JhyZ9t1HIr6amRC/FNebbFxYAK7MfWCl4fxugJQ2Lkd+bri3+5kkylMYt/RNZyNPcunQeBBLbElTnJoMRdXiYktW8G6kFmUqONgnosit0dcDmkR46MlEI5Yspwj9zZVGGyFZvekL/UXXdUS2znxhLf/8npcGmea7Gnu8rDx7iaVyARgd/B9bDbNCzs3mtxkVl4U0YwNftJZe93RKJvLW5HXfRoq0LlOn5Cl4W3UtBETJ/QOi5AtvUVI/p/elt2Mwpa3qbUVZrREhb8QssZ2LfnZm/IFYyPtoqNM5GFthh07XAY6jKlx/T1mDZWMeEzBgMORF9yCeLRlRDAk9qzDkxeBUqO+mdBHxq+BhI71G+IG66U/n8G5q4ex45YkMUJrtjMdxmE95Ri6fJuY7WwIieMn2Unb7YnwKvL1R5RmNisz9aRM9ZPiECUFH5ONv/atcpCM+6pc90Nc2rodSWixI4c8Aa0shZZkSuVoVIgDKHKBiBocJ1sejOOjCv</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIG5zCCBM+gAwIBAgIQBohr1xVe0Mix854PiyVBvTANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJVUzEXMBUGA1UEChMORGlnaUNlcnQsIEluYy4xQTA/BgNVBAMTOERpZ2lDZXJ0IFRydXN0ZWQgRzQgQ29kZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0ExMB4XDTIxMTIwOTAwMDAwMFoXDTIyMTIwNzIzNTk1OVowbDELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQHEwtNb3JyaXN2aWxsZTEPMA0GA1UEChMGTGVub3ZvMQwwCgYDVQQLEwNHMDkxDzANBgNVBAMTBkxlbm92bzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAK6NIhVFUy7qN9KkJhzhvfqlwBYQsz4uJ2q2ARANKDGSP25rPSudV5pmVdSYcBgEdHKnjIanrDFTWc30RjbkhLFJWnXJgPHSlxpYyrtIxcWvswBAJuTWpfqKsSKdtpgVRqPK27uPbe3uN1w5tyLhMXdU3yT1OBJJ6PBCTYpPV1RL03LYXS2cP7iMOoN0rdtCj69yILJoaA4t56eCgbQsbfPd8tsIkRY8EMXLT+i+urw6N40+J+D4ng0oPupTbmiMQ2gU4hJ+XsyEMabp7vVKfplHEgB67Hdpwj7ZqwcUDMRMTzlvegHrlkkXjyL1Afao2JXw4dRo4ONdJQWmh3/zXIkkjT4R9T7Z4Gm/i0KJMuas7mflcB5loODaiOgZI+v0UVduiYCRrCwHqhb34bWfcXhlbI1sngDE5cg6pePF/E+XMV6YsJQpSj41A61PXShX3liZIQq1sMLoEK0dAPx40TXOoX91eK8+WWHFlXf7SviVanfMKsVl3tb8wnjtw6PFSQIDAQABo4ICBjCCAgIwHwYDVR0jBBgwFoAUaDfg67Y7+F8Rhvv+YXsIiGX0TkIwHQYDVR0OBBYEFBcw37skLw/lUJoNtJH7KUecydkPMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzCBtQYDVR0fBIGtMIGqMFOgUaBPhk1odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUcnVzdGVkRzRDb2RlU2lnbmluZ1JTQTQwOTZTSEEzODQyMDIxQ0ExLmNybDBToFGgT4ZNaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VHJ1c3RlZEc0Q29kZVNpZ25pbmdSU0E0MDk2U0hBMzg0MjAyMUNBMS5jcmwwPgYDVR0gBDcwNTAzBgZngQwBBAEwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMIGUBggrBgEFBQcBAQSBhzCBhDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFwGCCsGAQUFBzAChlBodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRUcnVzdGVkRzRDb2RlU2lnbmluZ1JTQTQwOTZTSEEzODQyMDIxQ0ExLmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQCBy8tFXzK6yLPl7s+TFUwFAcPE2zwUSoXMEl1dIR0xvn0nWalaMiG2KgFDhjQpFBP+QtnTBmc98Lc5FHJftkwSYT+oO6eWQBTCtRBj82i3GiPNmvUHyfPDYnbDoHoMO6OHlN4TiKrSul6ebwHk53NhEUVBbRSUmLWR2ofFh6MtACcwLDDPsVrDRpBjj38mrskpWBVIVSc478F7GnYY5ATXFWcaz/pmDkO/rcPjLSJAo7cBUvDh9UhhPBNHKW5/mjZamdh9TWCz2JyIYKEb9PN5wiQQa6dPP5YC4xsD5x1QYNoSHOjc9Ntx9OQg0AylOcIo2/SHhv0B3t8jDtQULJW4+IeazIb+ueVKSGnnQvKO4Unt6lDRbpGuckDOHNCCzl6N4SR2BhRi585b5wApDxoG3iz5oL3KQV0b7Fyr/4teeJec9rXRObqhwiRnS4o9BVccWg7BYeKOJxDRc18x1X0ucLKhqjDJPr9AxzMkITl7zwQlv0yQMLFKxkb4Rg2D3FK96cVrt3GbnjNmSlwCP4xX0sNVb29DSYk5j+RwxGiVGmb2ePIPeG+op3M+iOM2jZZYygwLKYkYFVZkrZVoqdjaFODNC+MymwcjAIKJg3sL9OH2eLYHb1MBUkaiTZXv9gXhhIesGvBK+wXy3E7Blop2NpC3chu1l87qEvzEWX0x0w==</X509Certificate></X509Data></KeyInfo></Signature></Package>

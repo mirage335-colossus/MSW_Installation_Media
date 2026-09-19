@@ -1,0 +1,19 @@
+{
+  "input_packages": 12,
+  "input_infs": 90,
+  "unique_input_inf_sha256": 90,
+  "new_distinct_inf_sha256_vs_baseline": 40,
+  "already_present_inf_hashes": 50,
+  "expected_after_count": 456,
+  "new_unique_class_counts": {
+    "hdc": 1,
+    "scsiadapter": 1,
+    "softwarecomponent": 8,
+    "extension": 3,
+    "system": 20,
+    "net": 3,
+    "ports": 1,
+    "sdhost": 1,
+    "hidclass": 2
+  }
+}

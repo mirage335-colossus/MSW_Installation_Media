@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <title>ReadMe</title>
+          <base href="/">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+          <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">      
+          
+
+          <style>
+                @import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                </style>
+    </head><body>
+    <div id="readmeContent">
+    
+      <div class="nav-breadcumb">
+        <div class="navbar-title-bar">
+          <img width="120" height="40" src="data:image/png;base64,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" alt="error" class="lenovoIcon" />
+        </div>
+    </div>
+    <div class="container htmlContainer">
+      <div class="heading">
+        SCCM package for Windows 11 version 23H2
+      </div>
+
+      <div class="topSection">
+    <div class="topSectionHeading">Support Models</div>
+    <div class="topSectionContent">
+        <p class="topList">ThinkPad L14 Gen 3 (type 21C5, 21C6) Laptops</p><p class="topList">ThinkPad L15 Gen 3 (type 21C7, 21C8) Laptops</p>
+        
+        
+          <span id="remainingItems" style="display: none">
+        
+          <div id="viewLess" style="margin-top: 12px">
+            <a class="viewMoreLink"  onclick="showLessModels()">View Less Models</a>
+          </div>
+        </span>
+
+    </div>
+</div>
+
+      <div class="topSection">
+            <div class="topSectionHeading">Operating Systems</div>
+            <div class="topSectionContent">
+            <p class="topList">Windows 11 (23H2)</p>
+            </div>
+        </div>
+
+        <div class="topSection">
+        <div class="topSectionHeading">Version</div>
+        <div class="topSectionContent">
+            <p class="topList">01</p>
+        </div>
+    </div>
+
+    <div class="topSection">
+            <div class="topSectionHeading">Support Device</div>
+            <div class="topSectionContent">
+                <p class="topList">
+                    SCCM
+                </p>
+            </div>
+        </div>
+        <div class="topSection">
+            <div class="topSectionHeading">Revision</div>
+            <div class="topSectionContent">
+                <p class="topList">
+                    1
+                </p>
+            </div>
+        </div>
+      
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample" >
+      What This Package Does <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+          <p>  This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to</p><p>  deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device</p><p>  drivers.</p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="true" aria-controls="collapseExample">
+            Changes in This Release <i class="gg-chevron"></i>
+        </button>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body"><p>Package 01        01    2024/05/10  Initial Released</p><p><br></p><p>  Software name                               Build ID      Version number</p><p>  -------------------------------------       --------      --------------</p><p>  AMD I2C Driver                               R1YAI01W      1.2.0.118                                 (Added)</p><p>  AMD GPIO Driver                              R1YGG01W      2.2.0.130                                 (Added)</p><p>  AMD Micro PEP Driver                         R1YPE04W      1.0.40.1                                  (Added)</p><p>  AMD PSP Drive                                R1YPP01W      5.17.0.0                                  (Added)</p><p>  AMD SMBUS Driver                             R1YMS01W      5.12.0.38                                 (Added)</p><p>  MTK AMD RZ616 Bluetooth Filter Driver        R1YBS05W      22.31.2.186(Device manager)               (Added)</p><p>  MTK AMD RZ616 Wireless LAN Driver            R1YWS06W      22.31.2.545                               (Added)</p><p>  Qualcomm NFA765 Bluetooth Filter Driver      R1YBU09W      2.0.0.775(Device manager)                 (Added) </p><p>  Qualcomm NFA765 Wireless LAN Driver          R1YWU09W      2.0.0.775(Device manager)                 (Added)</p><p>  Alcor SmartCard Reader Drive                 R1YSQ03W      1.9.17.2313                               (Added)</p><p>  Genesys Logic Card Reader Drive              R1YS502W      1.1.25.0                                  (Added)</p><p>  Realtek PCIe GBE Family Controller Software  R1YRE05W      1G:1166.009.0614.2022(Dash)               (Added)</p><p>                                                            1168.3.1022.2021(Non Dash)</p><p>                                                            2.5G:10.54.1111.2021</p><p>  BayHubTech Flash Memory Card                 R1YBR02W      2.1.101.10530                             (Added)</p><p>  Integrated Camera Driver_Integrated IR </p><p>  Camera Driver                                R1YC408W      realtek:10.0.22000.20255                  (Added)</p><p>                                                            sonix:10.13.22000.6 </p><p>                                                            Sunplus:5.0.18.149</p><p>  AMD Graphics Driver                          R1YD720W      31.0.14084.5                              (Added)</p><p>  ELAN TrackPoint Device Driver                R1YTE02W      31.21.19.2 (Driver)                       (Added)</p><p>  Realtek Audio Features                       R1YA311W      6.0.9481.1(Realtek Audio)                 (Added)</p><p>                                                            6.0.0.51(AMD ACP)</p><p>  NXP NFC Driver                               R1YNP02W      12.0.6.0(NxpNfcClientDriver)              (Added)</p><p>  Fibocom Wireless WAN L860-GL-16 Driver       R1YFG07W      4.19041.5.7(Fibocom GNSS Sensor)          (Added)</p><p>                                                            0.5.100.800(Intel XMM 7560 LTE-Advanced Pro)   </p><p>                                                            0.5.100.800(ModemControl Device)                   </p><p>  Quectel EM05-CE Wireless WAN Driver          R1YFQ03W      1.0.2.2  (Quectel GNSS Sensor Device)     (Added)</p><p>                                                            5.0.0.3  (Quectel MBIHV Mobile Broadband Firmware)</p><p>  Quectel EM05-G Wireless WAN Drive            NZ8WL04W      30.0.0.8(Quectel USB Composition Device) (Added)</p><p>                                                            5.0.7.23(Quectel MBIHV Mobile Broadband Firmware)</p><p>                                                            1.0.2.11(Quectel GNSS Sensor Device)</p><p>  Round Power Button Fingerprint Reader Driver R1YGN12W      6.0.41.1136(Synaptics)                    (Added)</p><p>                                                            3.4.51.660(Goodix)                       </p><p>  ThinkPad Monitor File                        R1YM103W      6.14.12.0                                 (Added)</p><p>  AMD UMDF Sensor Properties                   R1YSS01W      1.0.0.316                                 (Added)</p><p>  AMD DRTM Boot Driver                         R1YDT02W      1.0.15.0                                  (Added)</p><p>  Lenovo Base Utility Package                  r18vu56w      10.8.1.4                                  (Added)</p><p>  Lenovo Intelligent Thermal Solution Driver   N3YDY51W      2.1.14.0                                  (Added)</p><p>  Lenovo Power Management Driver               n3yku02w      1.69.15.0                                 (Added)</p><p>  Lenovo Smart Standby                         N25BY25W      4.2.54.0                                  (Added)</p><p>  Lenovo View Driver                           N3ALD43W      2.3.19.1                                  (Added)</p><p>  ThinkPad USB-C Docks Audio Driver            U3ETN10W2     1153.13.0420.2023                         (Added)</p><p>  Lenovo Settings Power Base Module            N1FUPA1W      10.1.7.0                                  (Added) </p></div>
+        </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Dependency <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p><span style="font-family: &quot;Lucida Console&quot;; font-size: 11pt;">Not Applicable</span></p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Important Notice <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p>- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the</p><p>  computer first.</p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Determining Which Version Is Installed <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p><span style="font-family: &quot;Lucida Console&quot;; font-size: 11pt;">Not Applicable</span></p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Determining Operating System Version <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p><span style="font-family: &quot;Lucida Console&quot;; font-size: 11pt;">Not Applicable</span></p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Installation Instructions / How To Use This Software <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p><span style="font-family: &quot;Lucida Console&quot;; font-size: 11pt;">Not Applicable</span></p> <br/>
+              <p><span style="font-family: &quot;Lucida Console&quot;; font-size: 11pt;">Not Applicable</span></p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Version Information <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p>Version List</p><p>  </p><p>  Software name                               Build ID      Version number</p><p>  -------------------------------------       --------      --------------</p><p>  AMD I2C Driver                              R1YAI01W           1.2.0.118</p><p>  AMD GPIO Driver                             R1YGG01W           2.2.0.130</p><p>  AMD Micro PEP Driver                        R1YPE04W           1.0.40.1</p><p>  AMD PSP Drive                               R1YPP01W           5.17.0.0</p><p>  AMD SMBUS Driver                            R1YMS01W           5.12.0.38</p><p>  MTK AMD RZ616 Bluetooth Filter Driver       R1YBS05W      22.31.2.186(Device manager)</p><p>  MTK AMD RZ616 Wireless LAN Driver           R1YWS06W           22.31.2.545</p><p>  Qualcomm NFA765 Bluetooth Filter Driver     R1YBU09W           2.0.0.775(Device manager)       </p><p>  Qualcomm NFA765 Wireless LAN Driver         R1YWU09W           2.0.0.775(Device manager)</p><p>  Alcor SmartCard Reader Drive                R1YSQ03W           1.9.17.2313</p><p>  Genesys Logic Card Reader Drive             R1YS502W           1.1.25.0  </p><p>  Realtek PCIe GBE Family Controller Software R1YRE05W            1G:1166.009.0614.2022(Dash)1168.3.1022.2021(Non Dash)2.5G:10.54.1111.2021</p><p>  BayHubTech Flash Memory Card                R1YBR02W           2.1.101.10530 </p><p>  Integrated Camera Driver_Integrated IR </p><p>  Camera Driver                               R1YC408W      realtek:10.0.22000.20255 sonix:10.13.22000.6 Sunplus:5.0.18.149</p><p>  AMD Graphics Driver                         R1YD720W           31.0.14084.5</p><p>  ELAN TrackPoint Device Driver               R1YTE02W           31.21.19.2 (Driver)</p><p>  Realtek Audio Features                      R1YA311W           6.0.9481.1(Realtek Audio)</p><p>                                                            6.0.0.51(AMD ACP)</p><p>  NXP NFC Driver                              R1YNP02W           12.0.6.0(NxpNfcClientDriver)</p><p>  Fibocom Wireless WAN L860-GL-16 Driver      R1YFG07W      4.19041.5.7(Fibocom GNSS Sensor)  0.5.100.800(Intel XMM 7560 LTE-Advanced Pro)   </p><p>                                                     0.5.100.800(ModemControl Device)                   </p><p>  Quectel EM05-CE Wireless WAN Driver         R1YFQ03W      1.0.2.2  (Quectel GNSS Sensor Device)5.0.0.3  (Quectel MBIHV Mobile Broadband Firmware Device)</p><p>  Quectel EM05-G Wireless WAN Drive           NZ8WL04W      30.0.0.8   (Quectel USB Composition Device)</p><p>                                                            5.0.7.23   (Quectel MBIHV Mobile Broadband Firmware Device)</p><p>                                                            1.0.2.11   (Quectel GNSS Sensor Device)</p><p>  Round Power Button Fingerprint Reader DriverR1YGN12W           6.0.41.1136(Synaptics)</p><p>                                                            3.4.51.660(Goodix)                       </p><p>  ThinkPad Monitor File                       R1YM103W           6.14.12.0</p><p>  AMD UMDF Sensor Properties                  R1YSS01W           1.0.0.316</p><p>  AMD DRTM Boot Driver                        R1YDT02W      1.0.15.0</p><p>  Lenovo Base Utility Package                 r18vu56w      10.8.1.4  </p><p>  Lenovo Intelligent Thermal Solution Driver  N3YDY51W      2.1.14.0</p><p>  Lenovo Power Management Driver             n3yku02w      1.69.15.0</p><p>  Lenovo Smart Standby                        N25BY25W      4.2.54.0</p><p>  Lenovo View Driver                          N3ALD43W      2.3.19.1</p><p>  ThinkPad USB-C Docks Audio Driver           U3ETN10W2     1153.13.0420.2023</p><p>  Lenovo Settings Power Base Module           N1FUPA1W            10.1.7.0   </p><p><br></p><p>  The following versions have been released to date.</p><p><br></p><p>  Package   Rev.  Issue Date</p><p>  -------   ----  ----------</p><p>  01        01    2024/06/13</p><p><br></p><p>  Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to</p><p>        software version. There is no need to upgrade this software when the revision number changes.</p><p>  </p><p>  Software name                               Build ID      Version number</p><p>  -------------------------------------       --------      --------------</p><p>  AMD I2C Driver                              R1YAI01W           1.2.0.118                                 (Added)</p><p>  AMD GPIO Driver                             R1YGG01W           2.2.0.130                                 (Added)</p><p>  AMD Micro PEP Driver                        R1YPE04W           1.0.40.1                                  (Added)</p><p>  AMD PSP Drive                               R1YPP01W           5.17.0.0                                  (Added)</p><p>  AMD SMBUS Driver                            R1YMS01W           5.12.0.38                                 (Added)</p><p>  MTK AMD RZ616 Bluetooth Filter Driver       R1YBS05W      22.31.2.186(Device manager)               (Added)</p><p>  MTK AMD RZ616 Wireless LAN Driver           R1YWS06W           22.31.2.545                               (Added)</p><p>  Qualcomm NFA765 Bluetooth Filter Driver     R1YBU09W           2.0.0.775(Device manager)                 (Added) </p><p>  Qualcomm NFA765 Wireless LAN Driver         R1YWU09W           2.0.0.775(Device manager)                 (Added)</p><p>  Alcor SmartCard Reader Drive                R1YSQ03W           1.9.17.2313                               (Added)</p><p>  Genesys Logic Card Reader Drive             R1YS502W           1.1.25.0                                  (Added)</p><p>  Realtek PCIe GBE Family Controller Software R1YRE05W            1G:1166.009.0614.2022(Dash)               (Added)</p><p>                                                            1168.3.1022.2021(Non Dash)</p><p>                                                            2.5G:10.54.1111.2021</p><p>  BayHubTech Flash Memory Card                R1YBR02W           2.1.101.10530                             (Added)</p><p>  Integrated Camera Driver_Integrated IR </p><p>  Camera Driver                               R1YC408W      realtek:10.0.22000.20255                  (Added)</p><p>                                                            sonix:10.13.22000.6 </p><p>                                                            Sunplus:5.0.18.149</p><p>  AMD Graphics Driver                         R1YD720W           31.0.14084.5                              (Added)</p><p>  ELAN TrackPoint Device Driver               R1YTE02W           31.21.19.2 (Driver)                       (Added)</p><p>  Realtek Audio Features                      R1YA311W           6.0.9481.1(Realtek Audio)                 (Added)</p><p>                                                            6.0.0.51(AMD ACP)</p><p>  NXP NFC Driver                              R1YNP02W           12.0.6.0(NxpNfcClientDriver)              (Added)</p><p>  Fibocom Wireless WAN L860-GL-16 Driver      R1YFG07W      4.19041.5.7(Fibocom GNSS Sensor)          (Added)</p><p>                                                            0.5.100.800(Intel XMM 7560 LTE-Advanced Pro)   </p><p>                                                     0.5.100.800(ModemControl Device)                   </p><p>  Quectel EM05-CE Wireless WAN Driver         R1YFQ03W      1.0.2.2  (Quectel GNSS Sensor Device)     (Added)</p><p>                                                            5.0.0.3  (Quectel MBIHV Mobile Broadband Firmware)</p><p>  Quectel EM05-G Wireless WAN Drive           NZ8WL04W      30.0.0.8(Quectel USB Composition Device) (Added)</p><p>                                                            5.0.7.23(Quectel MBIHV Mobile Broadband Firmware)</p><p>                                                            1.0.2.11(Quectel GNSS Sensor Device)</p><p>  Round Power Button Fingerprint Reader DriverR1YGN12W           6.0.41.1136(Synaptics)                    (Added)</p><p>                                                            3.4.51.660(Goodix)                       </p><p>  ThinkPad Monitor File                       R1YM103W           6.14.12.0                                 (Added)</p><p>  AMD UMDF Sensor Properties                  R1YSS01W           1.0.0.316                                 (Added)</p><p>  AMD DRTM Boot Driver                        R1YDT02W      1.0.15.0                                  (Added)</p><p>  Lenovo Base Utility Package                 r18vu56w      10.8.1.4                                  (Added)</p><p>  Lenovo Intelligent Thermal Solution Driver  N3YDY51W      2.1.14.0                                  (Added)</p><p>  Lenovo Power Management Driver             n3yku02w      1.69.15.0                                 (Added)</p><p>  Lenovo Smart Standby                        N25BY25W      4.2.54.0                                  (Added)</p><p>  Lenovo View Driver                          N3ALD43W      2.3.19.1                                  (Added)</p><p>  ThinkPad USB-C Docks Audio Driver           U3ETN10W2     1153.13.0420.2023                         (Added)</p><p>  Lenovo Settings Power Base Module           N1FUPA1W            10.1.7.0                                  (Added) </p>
+          </div>
+      </div>
+      
+      <button class="collapsible" type="button" data-toggle="collapse" 
+      data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      Trademarks <i class="gg-chevron"></i>
+      </button>
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+              <p>* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.</p><p><br></p><p>* Quectel is a registered trademark of Quectel Corporation.</p><p>* Microsoft and Windows are registered trademarks of Microsoft Corporation.</p><p>* Realtek is a registered trademark of Realtek Semiconductor Corp.</p><p>* Elan is a registered trademark of ELAN Inc.</p><p>* Synaptics is a registered trademark of Synaptics Inc.</p><p>* AMD is a registered trademark of AMD Corporation.</p><p>* Qualcomm is a registered trademark of Qualcomm Corporation.</p><p><br></p><p>Other company, product, and service names may be registered trademarks, trademarks or service marks of</p><p>others.</p>
+          </div>
+      </div>
+
+    </div>
+    </div><script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }
+    </script>
+    
+    </body>
+    </html>
+    

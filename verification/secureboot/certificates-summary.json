@@ -1,0 +1,72 @@
+[
+  {
+    "path": "staging/efi/boot/bootx64.efi",
+    "sha256": "32b233afb2a8b4c517003796d435358dcad78e421a3ed386b8ee275a6957dbd0",
+    "certificates": [
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011",
+      "Not Before: Jun 19 18:11:43 2025 GMT",
+      "Not After : Jun 17 18:11:43 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows",
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010",
+      "Not Before: Oct 19 18:41:42 2011 GMT",
+      "Not After : Oct 19 18:51:42 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011"
+    ]
+  },
+  {
+    "path": "staging/bootmgfw.efi",
+    "sha256": "32b233afb2a8b4c517003796d435358dcad78e421a3ed386b8ee275a6957dbd0",
+    "certificates": [
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011",
+      "Not Before: Jun 19 18:11:43 2025 GMT",
+      "Not After : Jun 17 18:11:43 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows",
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010",
+      "Not Before: Oct 19 18:41:42 2011 GMT",
+      "Not After : Oct 19 18:51:42 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011"
+    ]
+  },
+  {
+    "path": "staging/bootmgr.efi",
+    "sha256": "3c00a666849681d5e6a3142b314d8a77b3dd8c03211a214bcc9ff744de42375c",
+    "certificates": [
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011",
+      "Not Before: Jun 19 18:11:44 2025 GMT",
+      "Not After : Jun 17 18:11:44 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows",
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010",
+      "Not Before: Oct 19 18:41:42 2011 GMT",
+      "Not After : Oct 19 18:51:42 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011"
+    ]
+  },
+  {
+    "path": "verification/secureboot/efi-ex/bootmgr_EX.efi",
+    "sha256": "3c00a666849681d5e6a3142b314d8a77b3dd8c03211a214bcc9ff744de42375c",
+    "certificates": [
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011",
+      "Not Before: Jun 19 18:11:44 2025 GMT",
+      "Not After : Jun 17 18:11:44 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows",
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010",
+      "Not Before: Oct 19 18:41:42 2011 GMT",
+      "Not After : Oct 19 18:51:42 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Production PCA 2011"
+    ]
+  },
+  {
+    "path": "verification/secureboot/efi-ex/bootmgfw_EX.efi",
+    "sha256": "d15b56f8800fa95efeeb63fb7b0891176fd40e447c10e44c3619e079487cd599",
+    "certificates": [
+      "Issuer: C=US, O=Microsoft Corporation, CN=Windows UEFI CA 2023",
+      "Not Before: May 15 19:23:59 2025 GMT",
+      "Not After : May 15 19:23:59 2026 GMT",
+      "Subject: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows",
+      "Issuer: C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010",
+      "Not Before: Jun 13 18:58:29 2023 GMT",
+      "Not After : Jun 13 19:08:29 2035 GMT",
+      "Subject: C=US, O=Microsoft Corporation, CN=Windows UEFI CA 2023"
+    ]
+  }
+]

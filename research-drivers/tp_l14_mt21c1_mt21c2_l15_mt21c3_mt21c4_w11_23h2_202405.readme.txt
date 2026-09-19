@@ -1,0 +1,407 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+SCCM package for Windows 11 version 23H2
+Support Models
+ThinkPad L14 Gen 3 (type 21C1, 21C2) Laptops
+ThinkPad L15 Gen 3 (type 21C3, 21C4) Laptops
+View Less Models
+Operating Systems
+Windows 11 (23H2)
+Version
+01
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.
+Changes in This Release
+Package 01        01    2024/05/10  Initial Released for ThinkPad L14 Gen 3        (Machine Types:21C1, 21C2)
+ThinkPad L15 Gen 3        (Machine Types:21C3, 21C4)
+Software name                               Build ID      Version number
+-------------------------------------       --------      --------------
+Integrated Camera Driver                    R1XC410W      Realtek:10.0.22000.20279                 (Added)
+Sonix:10.13.22621.10
+Sunplus:5.0.18.190
+BayHubTech Flash Memory Card                R1XBR03W      2.1.101.10650                            (Added)
+Genesys Logic Card Reader                   R1XS503W      1.1.41.0                                 (Added)
+Intel Integrated Sensor Solution            R1XIA04W      10.1.36.7                                (Added)
+Intel Dynamic Tuning Technology Driver      R1XIF07W      1.0.11203.34112(Base driver)             (Added)
+9.0.11203.34112(Component Extension)
+Intel Management Engine 16.0 Software       R1XMK04W1     MEI:2229.3.2.0                           (Added)
+DAL:1.41.2021.121
+WMI:2219.3.0.0                         (N-Vpro)
+Intel Management Engine 16.0 Software       R1XMK04W2     MEI:2229.3.2.0                           (Added)
+SOL:2219.3.0.0
+DAL:1.41.2021.121
+LMS: 2227.3.3.2
+Wiman:2229.71.56.0
+WMI:2219.3.0.0                               (Vpro)
+Intel Graphics Driver                       R1XD219W      31.0.101.4255                            (Added)
+Alcor SmartCard Reader Driver               R1XSQ02W      1.9.17.2318                              (Added)
+ELAN TrackPoint Device Driver               R1XTE03W      ELAN TrackPoint Device 31.21.28.2        (Added)
+Elan TrackPoint Component 31.21.0.3
+ETD HSA Device 31.21.0.4
+Qualcomm NFA765/725 Bluetooth Driver        R1XBU09W      2.0.0.895                                (Added)
+Qualcomm NFA765/725 Wireless LAN Driver     R1XWU10W      2.0.0.895                                (Added)
+NVIDIA Video Features(GN18-S5 Optimus)      R1XD906W      31.0.15.3779   (SWG only)                (Added)
+Realtek Audio Features                      R1XA311W      6.0.9559.1(Realtek Audio)                (Added)
+10.29.00.9677(Intel SST)
+Round Power Button Fingerprint Reader       R1XGN13W      6 6.0.41.1136(Synaptics)                 (Added)
+3.4.51.660(Goodix)
+3.4.51.661(Goodix ESS off ext)
+Intel PRO/1000 LAN Adapter Software         R1XRC01W      12.19.1.37                               (Added)
+ThinkPad Monitor File                       R1XM103W      6.14.16.0                                (Added)
+Intel Serial IO Driver                      R1XSI04W      30.100.2237.26                           (Added)
+NXP NFC Driver                              R1XNP03W      12.0.6.0                                 (Added)
+Intel HID Event Filter Driver               R1XHD03W      2.2.2.1                                  (Added)
+Fibocom Wireless WAN L860-GL-16 Software    R1XFG05W      3.8.00.3034(Driver Package Version)      (Added)
+0.5.100.871(Intel XMM 7560 LTE-Advanced Pro)
+0.5.100.871(ModemControl Device)
+4.19042.7.2(Fibocom GNSS Sensor)
+18601.5906.1709.03(FWAddedDriver Device)
+Quectel EM05-CE Wireless WAN Driver         NZ8WR02W      2.0.0.19(Driver)                         (Added)
+30.0.0.2(Quectel USB Composition Device)
+1.0.2.3(Quectel GNSS Sensor Device)
+5.0.0.5(Quectel MBIHV Mobile Broadband Firmware)
+Quectel EM05-G Wireless WAN Driver          NZ8WL04W      30.0.0.8(Quectel USB Composition Device) (Added)
+5.0.7.23(Quectel MBIHV Mobile Broadband Firmware)
+1.0.2.11(Quectel GNSS Sensor Device)
+Intel(R) TXT Authenticated Code Module      R1XTX04W      1.18.11.0                                (Added)
+Intel Bluetooth Driver                      R1XBE05W      22.150.0.6                               (Added)
+Intel Wireless LAN Driver                   R1XWG04W      22.200.2.1                               (Added)
+Realtek PCIe 2.5GBE Family Controller       R1XRE02W      1125.009.0614.2022                       (Added)
+Lenovo Base Utility Package                 r18vu56w      10.8.1.4                                 (Added)
+Lenovo Intelligent Thermal Solution Driver  N3YDY51W      2.1.14.0                                 (Added)
+Lenovo Power Management Driver              n3yku02w      1.69.15.0                                (Added)
+Lenovo Smart Standby                        N25BY25W      4.2.54.0                                 (Added)
+Lenovo View Driver                          N3ALD43W      2.3.19.1                                 (Added)
+Lenovo PCIe LAN Driver                      PCIEETH04W    1.1.3.34                                 (Added)
+ThinkPad USB-C Docks Audio Driver           U3ETN10W2     1153.13.0420.2023                        (Added)
+Lenovo Settings Power Base Module           N1FUPA1W      10.1.7.0                                 (Added)
+Dependency
+Not Applicable
+Important Notice
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Version List
+Software name                               Build ID      Version number
+-------------------------------------       --------      --------------
+Integrated Camera Driver                    R1XC410W      Realtek:10.0.22000.20279
+Sonix:10.13.22621.10
+Sunplus:5.0.18.190
+BayHubTech Flash Memory Card                R1XBR03W      2.1.101.10650
+Genesys Logic Card Reader                   R1XS503W      1.1.41.0
+Intel Integrated Sensor Solution            R1XIA04W      10.1.36.7
+Intel Dynamic Tuning Technology Driver      R1XIF07W      1.0.11203.34112(Base driver)
+9.0.11203.34112(Component Extension)
+Intel Management Engine 16.0 Software       R1XMK04W1     MEI:2229.3.2.0/DAL:1.41.2021.121/WMI:2219.3.0.0                         (N-Vpro)
+Intel Management Engine 16.0 Software       R1XMK04W2     MEI:2229.3.2.0/SOL:2219.3.0.0/DAL:1.41.2021.121/LMS: 2227.3.3.2
+Wiman:2229.71.56.0/WMI:2219.3.0.0                                         (Vpro)
+Intel Graphics Driver                       R1XD219W      31.0.101.4255
+Alcor SmartCard Reader Driver               R1XSQ02W      1.9.17.2318
+ELAN TrackPoint Device Driver               R1XTE03W      ELAN TrackPoint Device 31.21.28.2
+Elan TrackPoint Component 31.21.0.3
+ETD HSA Device 31.21.0.4
+Qualcomm NFA765/725 Bluetooth Driver        R1XBU09W      2.0.0.895
+Qualcomm NFA765/725 Wireless LAN Driver     R1XWU10W      2.0.0.895
+NVIDIA Video Features(GN18-S5 Optimus)      R1XD906W      31.0.15.3779   (SWG only)
+Realtek Audio Features                      R1XA311W      6.0.9559.1(Realtek Audio), 10.29.00.9677(Intel SST)
+Round Power Button Fingerprint Reader       R1XGN13W      6 6.0.41.1136(Synaptics)
+3.4.51.660(Goodix)
+3.4.51.661(Goodix ESS off ext)
+Intel PRO/1000 LAN Adapter Software         R1XRC01W      12.19.1.37
+ThinkPad Monitor File                       R1XM103W      6.14.16.0
+Intel Serial IO Driver                      R1XSI04W      30.100.2237.26
+NXP NFC Driver                              R1XNP03W      12.0.6.0
+Intel HID Event Filter Driver               R1XHD03W      2.2.2.1
+Fibocom Wireless WAN L860-GL-16 Software    R1XFG05W      3.8.00.3034(Driver Package Version)0.5.100.871(Intel XMM 7560 LTE-Advanced Pro)0.5.100.871                                                                  (ModemControl Device)4.19042.7.2(Fibocom GNSS Sensor)18601.5906.1709.03(FWAddedDriver Device)
+Quectel EM05-CE Wireless WAN Driver         NZ8WR02W      2.0.0.19(Driver)
+30.0.0.2(Quectel USB Composition Device)
+1.0.2.3(Quectel GNSS Sensor Device)
+5.0.0.5(Quectel MBIHV Mobile Broadband Firmware Device)
+Quectel EM05-G Wireless WAN Driver          NZ8WL04W      30.0.0.8   (Quectel USB Composition Device)
+5.0.7.23   (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11   (Quectel GNSS Sensor Device)
+Intel(R) TXT Authenticated Code Module      R1XTX04W      1.18.11.0
+Intel Bluetooth Driver                      R1XBE05W      22.150.0.6
+Intel Wireless LAN Driver                   R1XWG04W      22.200.2.1
+Realtek PCIe 2.5GBE Family Controller       R1XRE02W      1125.009.0614.2022
+Lenovo Base Utility Package                 r18vu56w      10.8.1.4
+Lenovo Intelligent Thermal Solution Driver  N3YDY51W      2.1.14.0
+Lenovo Power Management Driver              n3yku02w      1.69.15.0
+Lenovo Smart Standby                        N25BY25W      4.2.54.0
+Lenovo View Driver                          N3ALD43W      2.3.19.1
+Lenovo PCIe LAN Driver                      PCIEETH04W    1.1.3.34
+ThinkPad USB-C Docks Audio Driver           U3ETN10W2     1153.13.0420.2023
+Lenovo Settings Power Base Module           N1FUPA1W      10.1.7.0
+The following versions have been released to date.
+Package   Rev.  Issue Date
+-------   ----  ----------
+01        01    2024/06/07
+Note: Revision number (Rev.) is for administrative purpose of this README document and is not related to
+software version. There is no need to upgrade this software when the revision number changes.
+Package 01        01    2024/05/10  Initial Released for ThinkPad L14 Gen 3        (Machine Types:21C1, 21C2)
+ThinkPad L15 Gen 3        (Machine Types:21C3, 21C4)
+Software name                               Build ID      Version number
+-------------------------------------       --------      --------------
+Integrated Camera Driver                    R1XC410W      Realtek:10.0.22000.20279                 (Added)
+Sonix:10.13.22621.10
+Sunplus:5.0.18.190
+BayHubTech Flash Memory Card                R1XBR03W      2.1.101.10650                            (Added)
+Genesys Logic Card Reader                   R1XS503W      1.1.41.0                                 (Added)
+Intel Integrated Sensor Solution            R1XIA04W      10.1.36.7                                (Added)
+Intel Dynamic Tuning Technology Driver      R1XIF07W      1.0.11203.34112(Base driver)             (Added)
+9.0.11203.34112(Component Extension)
+Intel Management Engine 16.0 Software       R1XMK04W1     MEI:2229.3.2.0                           (Added)
+DAL:1.41.2021.121
+WMI:2219.3.0.0                         (N-Vpro)
+Intel Management Engine 16.0 Software       R1XMK04W2     MEI:2229.3.2.0                           (Added)
+SOL:2219.3.0.0
+DAL:1.41.2021.121
+LMS: 2227.3.3.2
+Wiman:2229.71.56.0
+WMI:2219.3.0.0                               (Vpro)
+Intel Graphics Driver                       R1XD219W      31.0.101.4255                            (Added)
+Alcor SmartCard Reader Driver               R1XSQ02W      1.9.17.2318                              (Added)
+ELAN TrackPoint Device Driver               R1XTE03W      ELAN TrackPoint Device 31.21.28.2        (Added)
+Elan TrackPoint Component 31.21.0.3
+ETD HSA Device 31.21.0.4
+Qualcomm NFA765/725 Bluetooth Driver        R1XBU09W      2.0.0.895                                (Added)
+Qualcomm NFA765/725 Wireless LAN Driver     R1XWU10W      2.0.0.895                                (Added)
+NVIDIA Video Features(GN18-S5 Optimus)      R1XD906W      31.0.15.3779   (SWG only)                (Added)
+Realtek Audio Features                      R1XA311W      6.0.9559.1(Realtek Audio)                (Added)
+10.29.00.9677(Intel SST)
+Round Power Button Fingerprint Reader       R1XGN13W      6 6.0.41.1136(Synaptics)                 (Added)
+3.4.51.660(Goodix)
+3.4.51.661(Goodix ESS off ext)
+Intel PRO/1000 LAN Adapter Software         R1XRC01W      12.19.1.37                               (Added)
+ThinkPad Monitor File                       R1XM103W      6.14.16.0                                (Added)
+Intel Serial IO Driver                      R1XSI04W      30.100.2237.26                           (Added)
+NXP NFC Driver                              R1XNP03W      12.0.6.0                                 (Added)
+Intel HID Event Filter Driver               R1XHD03W      2.2.2.1                                  (Added)
+Fibocom Wireless WAN L860-GL-16 Software    R1XFG05W      3.8.00.3034(Driver Package Version)      (Added)
+0.5.100.871(Intel XMM 7560 LTE-Advanced Pro)
+0.5.100.871(ModemControl Device)
+4.19042.7.2(Fibocom GNSS Sensor)
+18601.5906.1709.03(FWAddedDriver Device)
+Quectel EM05-CE Wireless WAN Driver         NZ8WR02W      2.0.0.19(Driver)                         (Added)
+30.0.0.2(Quectel USB Composition Device)
+1.0.2.3(Quectel GNSS Sensor Device)
+5.0.0.5(Quectel MBIHV Mobile Broadband Firmware)
+Quectel EM05-G Wireless WAN Driver          NZ8WL04W      30.0.0.8(Quectel USB Composition Device) (Added)
+5.0.7.23(Quectel MBIHV Mobile Broadband Firmware)
+1.0.2.11(Quectel GNSS Sensor Device)
+Intel(R) TXT Authenticated Code Module      R1XTX04W      1.18.11.0                                (Added)
+Intel Bluetooth Driver                      R1XBE05W      22.150.0.6                               (Added)
+Intel Wireless LAN Driver                   R1XWG04W      22.200.2.1                               (Added)
+Realtek PCIe 2.5GBE Family Controller       R1XRE02W      1125.009.0614.2022                       (Added)
+Lenovo Base Utility Package                 r18vu56w      10.8.1.4                                 (Added)
+Lenovo Intelligent Thermal Solution Driver  N3YDY51W      2.1.14.0                                 (Added)
+Lenovo Power Management Driver             n3yku02w      1.69.15.0                                (Added)
+Lenovo Smart Standby                        N25BY25W      4.2.54.0                                 (Added)
+Lenovo View Driver                          N3ALD43W      2.3.19.1                                 (Added)
+Lenovo PCIe LAN Driver                    PCIEETH04W    1.1.3.34                                 (Added)
+ThinkPad USB-C Docks Audio Driver           U3ETN10W2     1153.13.0420.2023                        (Added)
+Lenovo Settings Power Base Module           N1FUPA1W            10.1.7.0                                 (Added)
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Quectel is a registered trademark of Quectel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Elan is a registered trademark of ELAN Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+* AMD is a registered trademark of AMD Corporation.
+* Qualcomm is a registered trademark of Qualcomm Corporation.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

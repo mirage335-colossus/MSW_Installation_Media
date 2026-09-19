@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="WLAN_R0URW" id="r0urw12w" version="2024.0.8.133" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Realtek WLAN Driver (Windows 10 Version 1709 or Later) - 10 [64]</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02317AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02417AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02517AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02617AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02717AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02617AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02817AA]]></_PnPID>
+    <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02917AA]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="1" />
+  <SeverityOverride type="2">
+    <Not>
+      <_Driver>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02317AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02417AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02517AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02617AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02717AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02617AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02817AA]]></HardwareID>
+        <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02917AA]]></HardwareID>
+        <Version>0.1^</Version>
+      </_Driver>
+    </Not>
+  </SeverityOverride>
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r0urw12w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2021-12-23</ReleaseDate>
+  <DiskSpaceNeeded>17558248</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,1" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\dpinst.exe /q /se</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\dpinst.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <_Driver>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02317AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02417AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02517AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02617AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02717AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02617AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02817AA]]></HardwareID>
+      <HardwareID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02917AA]]></HardwareID>
+      <Date>2021-08-19</Date>
+      <Version>2024.0.8.133^</Version>
+    </_Driver>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_OS>
+        <OS>WIN10</OS>
+        <OS>WIN10.*</OS>
+        <OS>WIN10-ENT</OS>
+        <OS>WIN10-ENT.*</OS>
+        <OS>WIN10-PRO</OS>
+        <OS>WIN10-PRO.*</OS>
+      </_OS>
+      <_CPUAddressWidth>
+        <AddressWidth>64</AddressWidth>
+      </_CPUAddressWidth>
+      <Or>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02317AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02417AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02517AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02617AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_B822&SUBSYS_B02717AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02617AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02817AA]]></_PnPID>
+        <_PnPID><![CDATA[PCI\VEN_10EC&DEV_C821&SUBSYS_C02917AA]]></_PnPID>
+      </Or>
+      <_WindowsBuildVersion>
+        <Version>16299^</Version>
+      </_WindowsBuildVersion>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r0urw12w.exe</Name>
+        <CRC>E18044D6AD53DF2BBFAFE77BF0991878C1F14308675C9C8C0C518BA2A2DC778D</CRC>
+        <Size>3974448</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r0urw12w.txt</Name>
+        <CRC>89BBE27CC47A0238F1B13DC39E1DA4EA1610803873EEA1F59802FF52113B0BFB</CRC>
+        <Size>7801</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JggnuqgWbP6p019RsYcHpLHwGk8=</DigestValue></Reference></SignedInfo><SignatureValue>Ca1FFXgKw22Ak5SS0Z2jEpdIfyWDHmZl7kSG968FZ8b6nI0vf3VkMPIbQ1km1iANOVBtyRRI1fnG03ho2sYz6b76IBolGacUdCQp2MOaY2ATjR3fI05Sfzu0oFvG6Yf3PVVfZ4BuKWWCGVlG1kA4LVMqvFHUGTgDV4Y/hSVTO+GEohHdodYr5V7qQmjzkE8PRLPrwtag3WGdNZFlrnC18/Z5rQltMNfTG+E2Wbb26gk19c2WaCtr/EPi3HNi6k0QGvGOw50ul5jLK+SJK4tU9vMyAAr/IOKznvPdqzxuqkVDjhzKZlejMIsrD29Sm0ukD7ERsYLdrcSzwf/rG7ONKzbjiwE7u6a3c7iiQyqlstlOCEB4B+AeNK1sVIGPz84c4ZCz1BurteFyPKfP7W2suchZ3GjCsgcBeLiie7wxcmwukPdHbFhsMO5sxV6JlOzp8q6nr4Ho8/wOKODySzUCyaTulkrYuWxd17zVMlKPNO1WRU8Bzl62S7rUBmFcwV/u</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

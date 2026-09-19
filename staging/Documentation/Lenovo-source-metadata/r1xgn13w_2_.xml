@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?pcdDescriptor version="0230"?>
+<Package name="PBFR_R1XGN" id="r1xgn13w" version="3.4.51.660/6.0.41.1136" hide="False">
+  <Title default="EN">
+    <Desc id="EN">Round Power Button Fingerprint Reader Driver - 10 (20H2 or Later)/11 (21H2 or Later)</Desc>
+  </Title>
+  <DetectVersion type="Inf">
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00F9]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00FB]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_00FC]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0126]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_0129]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_06CB&PID_016D]]></_PnPID>
+    <_PnPID><![CDATA[USB\VID_27C6&PID_6594]]></_PnPID>
+  </DetectVersion>
+  <Summary default="EN" />
+  <Severity type="2" />
+  <Vendor>Lenovo</Vendor>
+  <ExtractCommand>r1xgn13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT="YES"</ExtractCommand>
+  <ReleaseDate>2024-01-24</ReleaseDate>
+  <DiskSpaceNeeded>30717535</DiskSpaceNeeded>
+  <Reboot type="3" />
+  <Brand type="2" />
+  <PackageType type="2" />
+  <Install rc="0,259,3010" type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1xgn13w.exe /verysilent /DIR=%PACKAGEPATH%\TMP</Cmdline>
+  </Install>
+  <ManualInstall type="cmd" default="EN">
+    <Cmdline id="EN">%PACKAGEPATH%\r1xgn13w.exe</Cmdline>
+  </ManualInstall>
+  <Uninstall />
+  <DetectInstall>
+    <Or>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_27C6&PID_6594]]></HardwareID>
+        <Date>2023-04-19</Date>
+        <Version>3.4.51.660^</Version>
+      </_Driver>
+      <_Driver>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00F9]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00FB]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_00FC]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0126]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_0129]]></HardwareID>
+        <HardwareID><![CDATA[USB\VID_06CB&PID_016D]]></HardwareID>
+        <Date>2023-10-31</Date>
+        <Version>6.0.41.1136^</Version>
+      </_Driver>
+    </Or>
+  </DetectInstall>
+  <Dependencies>
+    <And>
+      <_Bios>
+        <Level>*</Level>
+        <Level>R1XET*</Level>
+      </_Bios>
+      <Or>
+        <And>
+          <_OS>
+            <OS>WIN10</OS>
+            <OS>WIN10.*</OS>
+            <OS>WIN10-ENT</OS>
+            <OS>WIN10-ENT.*</OS>
+            <OS>WIN10-PRO</OS>
+            <OS>WIN10-PRO.*</OS>
+          </_OS>
+          <_CPUAddressWidth>
+            <AddressWidth>64</AddressWidth>
+          </_CPUAddressWidth>
+          <_WindowsBuildVersion>
+            <Version>19042^</Version>
+          </_WindowsBuildVersion>
+        </And>
+        <And>
+          <_OS>
+            <OS>WIN11</OS>
+          </_OS>
+          <_WindowsBuildVersion>
+            <Version>22000^</Version>
+          </_WindowsBuildVersion>
+        </And>
+      </Or>
+      <Or>
+        <Or>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00F9]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00FB]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_00FC]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_0126]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_0129]]></_PnPID>
+          <_PnPID><![CDATA[USB\VID_06CB&PID_016D]]></_PnPID>
+        </Or>
+        <Or>
+          <_PnPID><![CDATA[USB\VID_27C6&PID_6594]]></_PnPID>
+        </Or>
+      </Or>
+    </And>
+  </Dependencies>
+  <Files>
+    <Installer>
+      <File>
+        <Name>r1xgn13w.exe</Name>
+        <CRC>1B23DFCF14FE51ED30907152F3329BF043B0EAE8E14232E23E53B0769EDAF4A5</CRC>
+        <Size>4745648</Size>
+      </File>
+    </Installer>
+    <Readme default="EN">
+      <File id="EN">
+        <Name>r1xgn13w.txt</Name>
+        <CRC>32B06983634E42EB858C97C907457449092103904C57388FEE0AA392C234DA92</CRC>
+        <Size>7941</Size>
+      </File>
+    </Readme>
+  </Files>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QP9n5Mt55Z4OO+rmBkJLE0nqKs8=</DigestValue></Reference></SignedInfo><SignatureValue>DWm5yfiP7h+NBboRIvOHXNyqqYU/Euu765qGQJpNRDTHtubPq07S4CjpWPmDlGX6PegAafAmwmEquLK8RFMC2oiywoT9NZU0oONawkHUMXOrq4keLv10/ZEs2bf7X8YHAZATWpfeL5ORET83EdEHG1xoBylyCBbJph2EWnnK7prXoRaFZsfQ5cAsD3qBHeE9gXM+wqKMLqQmuh4Dk7TvcC0+iMFrq5psCv7BAVLAOWjNDKZ3MsD4p14Il5tHH0Nlt5LbL+OLfFwljKHVfiUjjWGOBJ+6uQG2EMwhv7iJEIcHf0wTJRUy09jkRKYXq+Yd9VGcq35G/AJNQsNbXJ4tng7RKzPUkhq2ICuBjTI0+FcQWrkTEskMNGf7SrZv1Co4UN2tGWMMlRCRKMmp2bSbBjqtGRIEsuwtBFo5d9zn8RSp0xIhVMuqBRAThS0Xw4anlV31AVgY7OOjhL+2joe1oEwznl+XRhkCAw9d5LTPoKcpN5/IOLihaXPZm4FT+4Nq</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Package>

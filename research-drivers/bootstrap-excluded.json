@@ -1,0 +1,1844 @@
+[
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/fwnva70_2_.xml",
+    "metadata_sha256": "fe234069ddfd7daf979cf0ab6fda906d12f51f0bd837ed6ddeb8daab384e01c5",
+    "category": "Storage",
+    "models": [
+      "ThinkPad E485 Type20KU AMD",
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel",
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD",
+      "ThinkPad L14 Type 20U1 20U2 Intel",
+      "ThinkPad L14 Type 20U5 20U6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD",
+      "ThinkPad L15 Type 20U3 20U4 Intel",
+      "ThinkPad L15 Type 20U7 20U8 AMD"
+    ],
+    "types": [
+      "20KU",
+      "20U1",
+      "20U2",
+      "20U3",
+      "20U4",
+      "20U5",
+      "20U6",
+      "20U7",
+      "20U8",
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4",
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8",
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4",
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8",
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4",
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8",
+      "21L1",
+      "21L2",
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20ku_Win10.xml",
+      "https://download.lenovo.com/catalog/20u1_Win11.xml",
+      "https://download.lenovo.com/catalog/20u5_Win11.xml",
+      "https://download.lenovo.com/catalog/20x1_Win11.xml",
+      "https://download.lenovo.com/catalog/20x6_Win11.xml",
+      "https://download.lenovo.com/catalog/21c2_Win11.xml",
+      "https://download.lenovo.com/catalog/21c6_Win11.xml",
+      "https://download.lenovo.com/catalog/21h1_Win11.xml",
+      "https://download.lenovo.com/catalog/21h8_Win11.xml",
+      "https://download.lenovo.com/catalog/21l1_Win11.xml",
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "fwnva70",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 10 (21H1 or Later)/11 (21H2 or Later)",
+    "version": "70.0",
+    "date": "2025-08-15",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/fwnva70.exe",
+        "name": "fwnva70.exe",
+        "sha256": "C030171D1BB5E65B8F9B9BCD0234BA0D805F2635F6E96A5951B78064347F9A90",
+        "size": 105941544
+      }
+    ],
+    "extract_command": "fwnva70.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r17wj13w_2_.xml",
+    "metadata_sha256": "db92d86f3a7611c00f6146947c5400371dcd6f7dd1b32daa7801da5e1a1e9736",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Type 20U1 20U2 Intel",
+      "ThinkPad L14 Type 20U5 20U6 AMD",
+      "ThinkPad L15 Type 20U3 20U4 Intel",
+      "ThinkPad L15 Type 20U7 20U8 AMD"
+    ],
+    "types": [
+      "20U1",
+      "20U2",
+      "20U3",
+      "20U4",
+      "20U5",
+      "20U6",
+      "20U7",
+      "20U8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20u1_Win11.xml",
+      "https://download.lenovo.com/catalog/20u5_Win11.xml"
+    ],
+    "id": "r17wj13w",
+    "title": "Fibocom L850 Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "version": "2.0.1.111",
+    "date": "2022-08-11",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r17wj13w.exe",
+        "name": "r17wj13w.exe",
+        "sha256": "1AE93A51356BBD5D04608137A3A3C5968092DC4F128717394102BF9948CFA669",
+        "size": 80496368
+      }
+    ],
+    "extract_command": "r17wj13w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n2igb02w_2_.xml",
+    "metadata_sha256": "66e8c585efa66c0769a45aa881df874eac4b585c2b8c39b4ee584633c72ba75b",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad L14 Type 20U1 20U2 Intel",
+      "ThinkPad L14 Type 20U5 20U6 AMD",
+      "ThinkPad L15 Type 20U3 20U4 Intel",
+      "ThinkPad L15 Type 20U7 20U8 AMD"
+    ],
+    "types": [
+      "20U1",
+      "20U2",
+      "20U3",
+      "20U4",
+      "20U5",
+      "20U6",
+      "20U7",
+      "20U8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20u1_Win11.xml",
+      "https://download.lenovo.com/catalog/20u5_Win11.xml"
+    ],
+    "id": "n2igb02w",
+    "title": "Synaptics Touchpad Firmware - 10 (1809 or Later)/ 11 (21H2 or Later)",
+    "version": "3972349",
+    "date": "2023-01-09",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n2igb02w.exe",
+        "name": "n2igb02w.exe",
+        "sha256": "6F2ECDE17370FE70F2F62F15569BB011B99E9008B8CED4F8B62150926BCCBE26",
+        "size": 1504304
+      }
+    ],
+    "extract_command": "n2igb02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r17mg16w_2_.xml",
+    "metadata_sha256": "7453e39b4786a08a2a39a435413390c56c5bfe0cd14f30dc62d444120d90580f",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Type 20U1 20U2 Intel",
+      "ThinkPad L15 Type 20U3 20U4 Intel"
+    ],
+    "types": [
+      "20U1",
+      "20U2",
+      "20U3",
+      "20U4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20u1_Win11.xml"
+    ],
+    "id": "r17mg16w",
+    "title": "Intel Management Engine Firmware - 10/11",
+    "version": "14.1.77.2497",
+    "date": "2025-10-14",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r17mg16w.exe",
+        "name": "r17mg16w.exe",
+        "sha256": "99324B706E7476CB0227B36CB1510BD5FB3E422A118FD2E1E93E97FFE6ABE4FD",
+        "size": 7888216
+      }
+    ],
+    "extract_command": "r17mg16w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1jbb02w_2_.xml",
+    "metadata_sha256": "61da0b483a52792c93d688ca734901f1d850af3db2aa2d8b8cd210c58f7bccbc",
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml"
+    ],
+    "id": "r1jbb02w",
+    "title": "Intel Thunderbolt Retimer Firmware - 10 (1903 or Later)/11 (21H2 or Later)",
+    "version": "1.2.28.0",
+    "date": "2022-07-01",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1jbb02w.exe",
+        "name": "r1jbb02w.exe",
+        "sha256": "3817E332A91CBD6340A291E4648FB151888E0BE71C20DF5A87D28AE295CC836B",
+        "size": 1242936
+      }
+    ],
+    "extract_command": "r1jbb02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1jgb01w_2_.xml",
+    "metadata_sha256": "a643551a907344e4827cd1b1e5bd372e4200b8b641af11bcdc21a168ac482c0c",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4",
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml",
+      "https://download.lenovo.com/catalog/20x6_Win11.xml"
+    ],
+    "id": "r1jgb01w",
+    "title": "Synaptics Touchpad Firmware Update Tool - 10 (1809 or Later)/11 (21H2 or Later)",
+    "version": "3972352",
+    "date": "2022-12-29",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1jgb01w.exe",
+        "name": "r1jgb01w.exe",
+        "sha256": "2A10ED8EDDBA145B913BEEA12FA7F9DF18F0F749545757941B669E9908656FB7",
+        "size": 1504248
+      }
+    ],
+    "extract_command": "r1jgb01w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1jsp06w_2_.xml",
+    "metadata_sha256": "be698a3d071d79fb6acbbe556a63637d3ec96055086ff2b09e9b713b6ca5842c",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4",
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml",
+      "https://download.lenovo.com/catalog/20x6_Win11.xml"
+    ],
+    "id": "r1jsp06w",
+    "title": "Static Power Reduction Utility - 10 (1903 or Later)/11 (21H2 or Later)",
+    "version": "1.0.0.4",
+    "date": "2022-12-30",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1jsp06w.exe",
+        "name": "r1jsp06w.exe",
+        "sha256": "9EADA8263080A77601BE41B49D62F044B2FBE15464ACED89FF59D975880368D3",
+        "size": 1663192
+      }
+    ],
+    "extract_command": "r1jsp06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz7wp11w_2_.xml",
+    "metadata_sha256": "6b1dd9c3459ef0178dc180f669c7db13bc2ecc0cecaa42f8a09a007ba921a758",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml"
+    ],
+    "id": "nz7wp11w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "version": "2.0.0.22",
+    "date": "2024-08-20",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz7wp11w.exe",
+        "name": "nz7wp11w.exe",
+        "sha256": "94873C0E840627B9CDFF0EB9445151E40AFD8157744EF2E5781FC49834DAA49D",
+        "size": 53973776
+      }
+    ],
+    "extract_command": "nz7wp11w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1jmg21w_2_.xml",
+    "metadata_sha256": "b415fb1450899bf3f83975bf46546b4f7b3e23c98d49f98633927dbaa77531e5",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml"
+    ],
+    "id": "r1jmg21w",
+    "title": "Intel Management Engine Firmware - 10 (1809 or Later)/11",
+    "version": "15.0.55.2751",
+    "date": "2026-07-09",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1jmg21w.exe",
+        "name": "r1jmg21w.exe",
+        "sha256": "853A4B3BEC2FA177BD16C6E893DE008A033EB4D24C1C176D72082534BEB235D4",
+        "size": 9584080
+      }
+    ],
+    "extract_command": "r1jmg21w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz7wj19w_2_.xml",
+    "metadata_sha256": "03f15d16a7c5d25c5ffc3d364e79cf1d72e5ae88355a4972e995d7dfc8c5dd40",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4",
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml",
+      "https://download.lenovo.com/catalog/20x6_Win11.xml"
+    ],
+    "id": "nz7wj19w",
+    "title": "Quectel EM120R-GL Wireless WAN Driver - 10 (1809 or Later)/11",
+    "version": "1.0.0.45",
+    "date": "2026-08-17",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz7wj19w.exe",
+        "name": "nz7wj19w.exe",
+        "sha256": "98C4C56DF06F4BB4FA0658509371C77BE1E08B88BEB1EA8A660135216A3E1AC0",
+        "size": 295218320
+      }
+    ],
+    "extract_command": "nz7wj19w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwx79_2_.xml",
+    "metadata_sha256": "50a7f28dd7a001adf88654f1739a9c685de440a4643b6b8e06ae2bdc77c16872",
+    "category": "Storage",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel",
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X3",
+      "20X4",
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8",
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4",
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8",
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4",
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8",
+      "21L1",
+      "21L2",
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x1_Win11.xml",
+      "https://download.lenovo.com/catalog/20x6_Win11.xml",
+      "https://download.lenovo.com/catalog/21c2_Win11.xml",
+      "https://download.lenovo.com/catalog/21c6_Win11.xml",
+      "https://download.lenovo.com/catalog/21h1_Win11.xml",
+      "https://download.lenovo.com/catalog/21h8_Win11.xml",
+      "https://download.lenovo.com/catalog/21l1_Win11.xml",
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "fwsdwx79",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 10 (21H1 or Later)/11",
+    "version": "79.0",
+    "date": "2026-08-12",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwx79.exe",
+        "name": "fwsdwx79.exe",
+        "sha256": "A97841424DC0AABD26AC1544800F2E5AA060A0F3657EF67260A4758C4A10FFD5",
+        "size": 37089112
+      }
+    ],
+    "extract_command": "fwsdwx79.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1yfq03w_2_.xml",
+    "metadata_sha256": "5ec637d9dd35759cc3df9795c15c72dbc4240a7fde41fe8d608abff6fc91f117",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c6_Win11.xml"
+    ],
+    "id": "r1yfq03w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (20H2 or later)/11 (21H2 or later)",
+    "version": "2.0.0.17",
+    "date": "2022-12-29",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1yfq03w.exe",
+        "name": "r1yfq03w.exe",
+        "sha256": "840AE255BA9C0147F97CB5D10829B4887E19B747CAE2F82FFF0D66147FB8B43D",
+        "size": 52035280
+      }
+    ],
+    "extract_command": "r1yfq03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj04w_2_.xml",
+    "metadata_sha256": "cf9ae16dedd6b4c25e09a8e3eb50105f829f3a1445dd953a0c69954cf0bef499",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4",
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c2_Win11.xml",
+      "https://download.lenovo.com/catalog/21c6_Win11.xml"
+    ],
+    "id": "nz8wj04w",
+    "title": "Fibocom L860-GL-16 Software - 10 (20H2 or Later)/11 (21H2)",
+    "version": "3.8.00.3037",
+    "date": "2025-02-20",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj04w.exe",
+        "name": "nz8wj04w.exe",
+        "sha256": "D627505DDC6735DC6D3F7F991BC7CB552DA24272F2C471AD70A2428C1851A169",
+        "size": 37726424
+      }
+    ],
+    "extract_command": "nz8wj04w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz8wl08w_2_.xml",
+    "metadata_sha256": "1e78ef106a463d3ed3c4972ade18d3eb282a0175ab5cfa20e91760f26950f0a5",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4",
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c2_Win11.xml",
+      "https://download.lenovo.com/catalog/21c6_Win11.xml"
+    ],
+    "id": "nz8wl08w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (1809 or Later)/11",
+    "version": "1.0.0.40",
+    "date": "2026-05-18",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wl08w.exe",
+        "name": "nz8wl08w.exe",
+        "sha256": "0026EE13087C8BA868FA7F4AE430D87855384D53EE41B5A69B3201D7265DB4C5",
+        "size": 57413752
+      }
+    ],
+    "extract_command": "nz8wl08w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj06w_2_.xml",
+    "metadata_sha256": "e35d57ddacec3521f4b991d6195e6cb4e0f9baaf4f6d42404fe31c011612eafb",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4",
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c2_Win11.xml",
+      "https://download.lenovo.com/catalog/21c6_Win11.xml"
+    ],
+    "id": "nz8wj06w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "version": "3.8.00.3046",
+    "date": "2026-05-21",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wj06w.exe",
+        "name": "nz8wj06w.exe",
+        "sha256": "17E7208A45AF4DB22314C98AD7403CD3D0767F5126B236649830147AF21D7C61",
+        "size": 37660096
+      }
+    ],
+    "extract_command": "nz8wj06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nz8wr04w_2_.xml",
+    "metadata_sha256": "19346e0f15c3e8a837e5ee1afab3a9a159882ece61e83f36ac8b81fa58a0a8a3",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel"
+    ],
+    "types": [
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c2_Win11.xml"
+    ],
+    "id": "nz8wr04w",
+    "title": "Quectel EM05-CE Wireless WAN Driver - 10 (1809 or Later)/11 (21H2 or Later)",
+    "version": "2.0.0.22",
+    "date": "2024-08-22",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nz8wr04w.exe",
+        "name": "nz8wr04w.exe",
+        "sha256": "CBC6614B22AF65C576BD965D1BC74AB06136F918FDA04C246C1B0682880F0AA8",
+        "size": 53973752
+      }
+    ],
+    "extract_command": "nz8wr04w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1xrg05w_2_.xml",
+    "metadata_sha256": "81811546e5a2c88e2d5f582be774057adda2c5898e0eaff6bf38538a10821d3d",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel"
+    ],
+    "types": [
+      "21C1",
+      "21C2",
+      "21C3",
+      "21C4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c2_Win11.xml"
+    ],
+    "id": "r1xrg05w",
+    "title": "Intel Management Engine Firmware - 10 (1903 or Later)/11",
+    "version": "16.1.42.2872",
+    "date": "2026-08-11",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1xrg05w.exe",
+        "name": "r1xrg05w.exe",
+        "sha256": "B8334D54FE3F99D3354E9D8C27F1A602E024B1EBA08573DE070BA32A8DB5A02D",
+        "size": 10012928
+      }
+    ],
+    "extract_command": "r1xrg05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nyafr07w_2_.xml",
+    "metadata_sha256": "45eb77064833f38b6751db263dc59694e3a037dc18a60df0077654738438c02a",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD"
+    ],
+    "types": [
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h8_Win11.xml"
+    ],
+    "id": "nyafr07w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (21H2 or Later)/11",
+    "version": "1.0.0.20",
+    "date": "2026-03-12",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nyafr07w.exe",
+        "name": "nyafr07w.exe",
+        "sha256": "B4C82A5C7C68F79D6E8B2C92F03DF7388E1FDFE15524BD1245BA88D013E2E5B8",
+        "size": 54632432
+      }
+    ],
+    "extract_command": "nyafr07w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nyafj02w_2_.xml",
+    "metadata_sha256": "4c71052e4e8b5dc1870199ec130d3b59ca0ef5e9732692be341d00ddd55d0798",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD"
+    ],
+    "types": [
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h8_Win11.xml"
+    ],
+    "id": "nyafj02w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "version": "3.8.00.3046",
+    "date": "2026-03-17",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nyafj02w.exe",
+        "name": "nyafj02w.exe",
+        "sha256": "7241E9A4234307D574B755A6F727E83147D991EC38135F892C6E48D102694D82",
+        "size": 39238272
+      }
+    ],
+    "extract_command": "nyafj02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nyafg05w_2_.xml",
+    "metadata_sha256": "f2dcb3a57d611b1b5c2fe5804aa404896134c74cbc51472e9580cda778be83dc",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD"
+    ],
+    "types": [
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h8_Win11.xml"
+    ],
+    "id": "nyafg05w",
+    "title": "Fibocom L860-GL-16 Software - 10 (21H2 or Later)/11 (21H2)",
+    "version": "3.8.00.3044",
+    "date": "2024-12-11",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nyafg05w.exe",
+        "name": "nyafg05w.exe",
+        "sha256": "75D86558F8EF4FA56110D5BB3BD6450F949EDB740CB3C35000FA02C5A1BF244A",
+        "size": 37847912
+      }
+    ],
+    "extract_command": "nyafg05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nyafu10w_2_.xml",
+    "metadata_sha256": "9538f63afee758584c46753260f892529bac2acf7a9d2adb6e6c63bbee5e78f4",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD",
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD"
+    ],
+    "types": [
+      "21H5",
+      "21H6",
+      "21H7",
+      "21H8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h8_Win11.xml"
+    ],
+    "id": "nyafu10w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (21H2 or Later)/11",
+    "version": "1.0.0.40",
+    "date": "2026-05-06",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nyafu10w.exe",
+        "name": "nyafu10w.exe",
+        "sha256": "30834F1E8CB19E1026B34411BBF273C7CD1D54899686C4151CC5EF038EC2D240",
+        "size": 57411768
+      }
+    ],
+    "extract_command": "nyafu10w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzawr08w_2_.xml",
+    "metadata_sha256": "82c7ec0062db45bdeebfffe8106f49e61804486849d8ed0b2f43102cb73d20f9",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h1_Win11.xml"
+    ],
+    "id": "nzawr08w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (21H1 or Later)/11",
+    "version": "1.0.0.20",
+    "date": "2025-12-03",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzawr08w.exe",
+        "name": "nzawr08w.exe",
+        "sha256": "18AA8F6DFEED2C8E0D7934BA6954FE14887976AC67C6D68F0D3789254CA97AEE",
+        "size": 54519624
+      }
+    ],
+    "extract_command": "nzawr08w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzawi02w_2_.xml",
+    "metadata_sha256": "9def5becf40afbf5aae3544dac4291a007872e1fd7aa6ee27faf1c9b5d7216ce",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h1_Win11.xml"
+    ],
+    "id": "nzawi02w",
+    "title": "Fibocom L860-GL-16 Software - 11 (22H2 or Later)",
+    "version": "3.8.00.3046",
+    "date": "2026-02-09",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzawi02w.exe",
+        "name": "nzawi02w.exe",
+        "sha256": "FEF4E5235D08744A28B7711112B7037FA11C8998366800E622BAD8634C189606",
+        "size": 37660080
+      }
+    ],
+    "extract_command": "nzawi02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r24rg02w_2_.xml",
+    "metadata_sha256": "6f991d8cdd6cb62f547f3b34ffe20498f666bd6c3889e4b5d81963087dba73f8",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h1_Win11.xml"
+    ],
+    "id": "r24rg02w",
+    "title": "Intel Management Engine Firmware - 10(21H2 or later)/11(21H2 or later)",
+    "version": "16.1.32.2418",
+    "date": "2025-05-13",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r24rg02w.exe",
+        "name": "r24rg02w.exe",
+        "sha256": "7A39A469107EFD47E585A010F7B94BFE439CB6D51E21FCD400D89537C936BC58",
+        "size": 9821648
+      }
+    ],
+    "extract_command": "r24rg02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r24rg06w_2_.xml",
+    "metadata_sha256": "fa2d08bc5e30a12d0dbf799e67ce0e4904a41e079f62ed604e3df30ecc6abf8a",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h1_Win11.xml"
+    ],
+    "id": "r24rg06w",
+    "title": "Intel Management Engine Firmware - 10 (21H2 or Later)/11",
+    "version": "16.1.42.2872",
+    "date": "2026-07-29",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r24rg06w.exe",
+        "name": "r24rg06w.exe",
+        "sha256": "4387C7C5F06E88C3E531193F00B53B1E43D7C72235D30A9D70E0DD8074DD772A",
+        "size": 9811904
+      }
+    ],
+    "extract_command": "r24rg06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzaws08w_2_.xml",
+    "metadata_sha256": "894dcd889ae9a0d3c4abeb3f250de71d96931133618b637d2380e2ababfdadd8",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21h1_Win11.xml"
+    ],
+    "id": "nzaws08w",
+    "title": "Quectel EM05-G Wireless WAN Driver - 10 (20H2 or Later)/11",
+    "version": "1.0.0.40",
+    "date": "2026-04-01",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzaws08w.exe",
+        "name": "nzaws08w.exe",
+        "sha256": "5E15C2B491139EE7190D61BC5912854DBA61B7ACF3803766610540B39847611B",
+        "size": 57411696
+      }
+    ],
+    "extract_command": "nzaws08w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2igb01w_2_.xml",
+    "metadata_sha256": "f990e66a32bffc43f4a6cf52d5597f673d772eae8f200032f72b4db15ceb5aba",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD"
+    ],
+    "types": [
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "r2igb01w",
+    "title": "Synaptics TrackPad Firmware - 10/11",
+    "version": "4450801",
+    "date": "2025-08-27",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2igb01w.exe",
+        "name": "r2igb01w.exe",
+        "sha256": "082A514CC006D0AED512E3FCAA23A62933D382D6B48F2DD4BB5BE9FF1FE29630",
+        "size": 1128744
+      }
+    ],
+    "extract_command": "r2igb01w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2ifx06w_2_.xml",
+    "metadata_sha256": "8e923474441040e25c2b4937482b3a92ddc35c37279ab09edb0a79604dd649cc",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD"
+    ],
+    "types": [
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "r2ifx06w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "version": "2.1.0.28",
+    "date": "2026-09-10",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifx06w.exe",
+        "name": "r2ifx06w.exe",
+        "sha256": "948E8FAB90739CE0DE1EF0E1AC091E2C8C6115302064B16ACC2FAAE0DC7A346C",
+        "size": 88295664
+      }
+    ],
+    "extract_command": "r2ifx06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2ifv05w_2_.xml",
+    "metadata_sha256": "44438b08f12ab05f2276cdac69b7151ff298527461f9ef7aad0efa0d2fbb96e3",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD"
+    ],
+    "types": [
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "r2ifv05w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "version": "1.2.0.30",
+    "date": "2026-09-10",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifv05w.exe",
+        "name": "r2ifv05w.exe",
+        "sha256": "19A993E6977B45DEA996D5D20F6DA897C345F58C67B4E752D07FF82B66F1BC92",
+        "size": 199480384
+      }
+    ],
+    "extract_command": "r2ifv05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzbwr05w_2_.xml",
+    "metadata_sha256": "ae1f45f035d5a7b55e9780d3ab5705f665bb9ae9c9ca6ec664418d271f8d283e",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml"
+    ],
+    "id": "nzbwr05w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "version": "1.0.0.20",
+    "date": "2025-12-04",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzbwr05w.exe",
+        "name": "nzbwr05w.exe",
+        "sha256": "1703E4CDCA8D95F036E2368A6D3322005A240ACC87D032B04B69A5304DD02C2B",
+        "size": 54519664
+      }
+    ],
+    "extract_command": "nzbwr05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzbwh10w_2_.xml",
+    "metadata_sha256": "b9f3dcd9ee5a9968a6673c3c2da3a2db0b61cf76709f117651d0ea105bbb6b5b",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml"
+    ],
+    "id": "nzbwh10w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (22H2 or Later)/11 (22H2 or Later)",
+    "version": "1.2.0.30",
+    "date": "2026-07-31",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzbwh10w.exe",
+        "name": "nzbwh10w.exe",
+        "sha256": "394D594AA41387CD2DB527BC999E063A3BF6BD3033A25A2F7E1E4F822AD6FF04",
+        "size": 198621912
+      }
+    ],
+    "extract_command": "nzbwh10w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2hrg03w_2_.xml",
+    "metadata_sha256": "8ba98400c2255da5b60ef717e96a2c86754aa746952eb371f30a5dcc7d2abf07",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml"
+    ],
+    "id": "r2hrg03w",
+    "title": "Intel Management Engine Firmware - 10 (22H2 or Later)/11 (23H2 or Later)",
+    "version": "18.0.15.2515",
+    "date": "2025-03-24",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2hrg03w.exe",
+        "name": "r2hrg03w.exe",
+        "sha256": "57EF7FC6FBCE4AB0C58657C0E05C6CAC29823ABCB54DA9F27C5A44DCB0C80CDF",
+        "size": 10314880
+      }
+    ],
+    "extract_command": "r2hrg03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2hfx11w_2_.xml",
+    "metadata_sha256": "d28162e59133b566420a74457a576096f11be7cb9e06010487da681508554a4d",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml"
+    ],
+    "id": "r2hfx11w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "version": "2.1.0.28",
+    "date": "2026-08-13",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2hfx11w.exe",
+        "name": "r2hfx11w.exe",
+        "sha256": "1548BAE913289F54FD8C48BEA397B848C17B75CABD218FD20441263B90A61747",
+        "size": 87685280
+      }
+    ],
+    "extract_command": "r2hfx11w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzbnp10w_2_.xml",
+    "metadata_sha256": "b03bd2815b0729656d6c0b07a71d884b1daf3f416b70af29a0490e9b77979be3",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel",
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2",
+      "21S6",
+      "21S7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml",
+      "https://download.lenovo.com/catalog/21s6_Win11.xml"
+    ],
+    "id": "nzbnp10w",
+    "title": "Intel Neural Processing Unit Driver - 11",
+    "version": "32.0.100.4778",
+    "date": "2026-09-01",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzbnp10w.exe",
+        "name": "nzbnp10w.exe",
+        "sha256": "D0FFDDCC5FF836C2B669E96BD465ECFA463F2DE8B4ABA70FD3CF5A85F867BD53",
+        "size": 22028128
+      }
+    ],
+    "extract_command": "nzbnp10w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2hpd02w_2_.xml",
+    "metadata_sha256": "0625f98048b103e99d0e7ca3112d9d671aa5b16a9c34d42f6fb51af11da2507d",
+    "category": "USB Device FireWire IEEE 1394 Thunderbolt",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l1_Win11.xml"
+    ],
+    "id": "r2hpd02w",
+    "title": "Type C PD Firmware - 10 (21H1 or Later)/11",
+    "version": "3.27.01",
+    "date": "2025-12-02",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2hpd02w.exe",
+        "name": "r2hpd02w.exe",
+        "sha256": "A4D4C2CEC61DD2B701D0F10AA58271561BA3318E443EE2E7F006F40EE954CACE",
+        "size": 1052288
+      }
+    ],
+    "extract_command": "r2hpd02w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzcwr01w_2_.xml",
+    "metadata_sha256": "7046c5e5de97025b33e57e652742e371f438d59fc662b54bc701db26784ef50b",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel"
+    ],
+    "types": [
+      "21S6",
+      "21S7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s6_Win11.xml"
+    ],
+    "id": "nzcwr01w",
+    "title": "Quectel EM05-CN Wireless WAN Driver - 11 (23H2 or Later)",
+    "version": "1.0.0.20",
+    "date": "2025-12-18",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzcwr01w.exe",
+        "name": "nzcwr01w.exe",
+        "sha256": "558FF9B674D8A3FFCB86BD413DAB53407B13768FFD64091AD4D4B8E5E8119A0F",
+        "size": 54519760
+      }
+    ],
+    "extract_command": "nzcwr01w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/n25by28w_w11_2_.xml",
+    "metadata_sha256": "f85174b6ceed54c401e1ab2300805f3bb1ad28417c82f195ab66eb176b442642",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel",
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD",
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel",
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21S6",
+      "21S7",
+      "21S8",
+      "21S9",
+      "21X2",
+      "21X3",
+      "21X6",
+      "21X7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s6_Win11.xml",
+      "https://download.lenovo.com/catalog/21s8_Win11.xml",
+      "https://download.lenovo.com/catalog/21x2_Win11.xml",
+      "https://download.lenovo.com/catalog/21x6_Win11.xml"
+    ],
+    "id": "n25by28w_w11",
+    "title": "Lenovo Smart Standby - 11 (21H2 or Later)",
+    "version": "4.3.13.0",
+    "date": "2026-07-03",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/n25by28w.exe",
+        "name": "n25by28w.exe",
+        "sha256": "CBF44C974790E287A5EBFE04E96DBF7CB9673130394895FB622BC89563F5AFBA",
+        "size": 1304400
+      }
+    ],
+    "extract_command": "n25by28w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2sfx05w_2_.xml",
+    "metadata_sha256": "2672dc381044ba7a3173fc8c4c6b31dfff3c05fd91616c42e6c66a336f0aa520",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel"
+    ],
+    "types": [
+      "21S6",
+      "21S7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s6_Win11.xml"
+    ],
+    "id": "r2sfx05w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 11 (23H2 or Later)",
+    "version": "2.1.0.28",
+    "date": "2026-08-12",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2sfx05w.exe",
+        "name": "r2sfx05w.exe",
+        "sha256": "9B82FD4A4EAB974895B8AA84EE5D5E671BEDDAD3DB25AC532363ACDEDD7840C4",
+        "size": 87685288
+      }
+    ],
+    "extract_command": "r2sfx05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwy80_2_.xml",
+    "metadata_sha256": "204d5b48c71a0792aca8fa05950f39628de34a4ea297105f637e6ca9eb0ad3bb",
+    "category": "Storage",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel",
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD",
+      "ThinkPad L14 Gen 6 Type 21SE 21SF AMD"
+    ],
+    "types": [
+      "21S6",
+      "21S7",
+      "21S8",
+      "21S9",
+      "21SE",
+      "21SF"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s6_Win11.xml",
+      "https://download.lenovo.com/catalog/21s8_Win11.xml",
+      "https://download.lenovo.com/catalog/21sf_Win11.xml"
+    ],
+    "id": "fwsdwy80",
+    "title": "Lenovo NVMe Solid State Drive Firmware Update Utility - 11 (22H2 or Later)",
+    "version": "80.0",
+    "date": "2026-08-31",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/fwsdwy80.exe",
+        "name": "fwsdwy80.exe",
+        "sha256": "3AF1CA721ADB1BB4960ACE7CE499D87795FB5A0E5B9A04F30C36B97826EDD7CB",
+        "size": 36564056
+      }
+    ],
+    "extract_command": "fwsdwy80.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nzcw104w_2_.xml",
+    "metadata_sha256": "2c50d84ccd7aa0ca109d14f82194278816a3f306fe492854d7131d59c006ec24",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel"
+    ],
+    "types": [
+      "21S6",
+      "21S7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s6_Win11.xml"
+    ],
+    "id": "nzcw104w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 11 (23H2 or Later)",
+    "version": "1.2.0.30",
+    "date": "2026-08-04",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nzcw104w.exe",
+        "name": "nzcw104w.exe",
+        "sha256": "893A51F08E906D516888789334622D3AA8B25DB984EA918FD420928DDD4C43E5",
+        "size": 198621744
+      }
+    ],
+    "extract_command": "nzcw104w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2ug301w_2_.xml",
+    "metadata_sha256": "71396815c270c04cc4a14cd2160b0be488bafe68e42b75c2a02c68693fd79364",
+    "category": "Mouse Pen and Keyboard",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD"
+    ],
+    "types": [
+      "21S8",
+      "21S9"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s8_Win11.xml"
+    ],
+    "id": "r2ug301w",
+    "title": "JYT TrackPoint Firmware - 11 (24H2)",
+    "version": "41.71.2.15",
+    "date": "2025-06-03",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2ug301w.exe",
+        "name": "r2ug301w.exe",
+        "sha256": "3B18725222D326F5095AADF986E6CCF57E87A32A4A5D0D34C92B87D6E085FA22",
+        "size": 1033656
+      }
+    ],
+    "extract_command": "r2ug301w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2unf05w_2_.xml",
+    "metadata_sha256": "aeb804f4f84da4c646413e5809e94177a230be55c27f1a4f81f78a006e8540f8",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD"
+    ],
+    "types": [
+      "21S8",
+      "21S9"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s8_Win11.xml"
+    ],
+    "id": "r2unf05w",
+    "title": "AMD NPU Driver - 11 (23H2 or Later)",
+    "version": "32.00.0203.304",
+    "date": "2026-01-16",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2unf05w.exe",
+        "name": "r2unf05w.exe",
+        "sha256": "09BBD51C1654529EE0A2EA0640106D3BEADEE1D1D97D5B1149A710BA55EDF797",
+        "size": 38864352
+      }
+    ],
+    "extract_command": "r2unf05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nycwt03w_2_.xml",
+    "metadata_sha256": "c218dc27f35cb480d33caf586ea211bd0348947627899c83cc90967655710e53",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD",
+      "ThinkPad L14 Gen 6 Type 21SE 21SF AMD"
+    ],
+    "types": [
+      "21S8",
+      "21S9",
+      "21SE",
+      "21SF"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21s8_Win11.xml",
+      "https://download.lenovo.com/catalog/21sf_Win11.xml"
+    ],
+    "id": "nycwt03w",
+    "title": "Quectel EM061K-GL Wireless WAN Driver - 11 (23H2 or Later)",
+    "version": "2.1.0.27",
+    "date": "2026-09-14",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nycwt03w.exe",
+        "name": "nycwt03w.exe",
+        "sha256": "94CF08950C69D74AA31C92A56FA16C9796E803E75D949A92AF9E3369B39CBDBF",
+        "size": 87216024
+      }
+    ],
+    "extract_command": "nycwt03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2vnf05w_2_.xml",
+    "metadata_sha256": "e70e8aa962dac2b5b297ea58d79c80683588a0bac87a6bcb907ec8aa2d3e7a7a",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21SE 21SF AMD"
+    ],
+    "types": [
+      "21SE",
+      "21SF"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21sf_Win11.xml"
+    ],
+    "id": "r2vnf05w",
+    "title": "AMD NPU Driver - 11 (23H2 or Later)",
+    "version": "32.2.0.0/32.00.0203.314",
+    "date": "2026-03-13",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2vnf05w.exe",
+        "name": "r2vnf05w.exe",
+        "sha256": "304B47AB0F63A6FF6916AF3F9C5248E44FB9634B2A0A39F8C1EEC9F21AC728BE",
+        "size": 38887200
+      }
+    ],
+    "extract_command": "r2vnf05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/nybwh08w_2_.xml",
+    "metadata_sha256": "78227e92788b6c2d8b57e508bfb933c6dca7c4e1a06f9e931465481377f95564",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21SE 21SF AMD"
+    ],
+    "types": [
+      "21SE",
+      "21SF"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21sf_Win11.xml"
+    ],
+    "id": "nybwh08w",
+    "title": "Quectel EM160R-GL Gen2 Wireless WAN Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "version": "1.2.0.28",
+    "date": "2026-09-14",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/nybwh08w.exe",
+        "name": "nybwh08w.exe",
+        "sha256": "1D334502A9CBBD3A9106725AC3EA6202C5736AAB306448BE1A2FC986E65B1A7E",
+        "size": 198729944
+      }
+    ],
+    "extract_command": "nybwh08w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3gd709w_2_.xml",
+    "metadata_sha256": "de9c292e9c8d144b8cb64e89e329afa3ba4cd7cccfa2e161597775eb2d014f2b",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21X6",
+      "21X7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x6_Win11.xml"
+    ],
+    "id": "r3gd709w",
+    "title": "AMD Graphics Driver - 11 (24H2 or Later)",
+    "version": "32.0.22054.1006",
+    "date": "2026-04-22",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3gd709w.exe",
+        "name": "r3gd709w.exe",
+        "sha256": "7170A414F0C3131C4304B24DCADFE9B734C179C89EF709B1135AD6632F76E6AE",
+        "size": 411214632
+      }
+    ],
+    "extract_command": "r3gd709w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3gnf03w_2_.xml",
+    "metadata_sha256": "846a6581305f1398cecb64f6659c1a3dd2351b2195ad7d4db04de9d744591fb2",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21X6",
+      "21X7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x6_Win11.xml"
+    ],
+    "id": "r3gnf03w",
+    "title": "AMD NPU Driver - 11 (24H2 or Later)",
+    "version": "32.00.0203.314",
+    "date": "2026-04-21",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3gnf03w.exe",
+        "name": "r3gnf03w.exe",
+        "sha256": "375CB1DCC4A8950A603579E6A8843D3024F274C1357C721A265A3CBF372DECD3",
+        "size": 15191568
+      }
+    ],
+    "extract_command": "r3gnf03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3grw06w_2_.xml",
+    "metadata_sha256": "161162a5a9db19a44a689ba90ff9a7e38fae9d9d281c95b6198fb7ac3ee3da38",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21X6",
+      "21X7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x6_Win11.xml"
+    ],
+    "id": "r3grw06w",
+    "title": "Snapdragon X12 4G Cat6 Modem WWAN Software - 11 (24H2 or Later)",
+    "version": "3.1.0.36",
+    "date": "2026-06-22",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3grw06w.exe",
+        "name": "r3grw06w.exe",
+        "sha256": "0FA1EF0AB9E9B6E38344006704B856A23337909F04A2638DF201AF427077C3A0",
+        "size": 79625368
+      }
+    ],
+    "extract_command": "r3grw06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3gwr08w_2_.xml",
+    "metadata_sha256": "692f60143e3674218cf1066a074e1e6ed96f2692851f2cd63628b0c5887dce4a",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21X6",
+      "21X7"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x6_Win11.xml"
+    ],
+    "id": "r3gwr08w",
+    "title": "Snapdragon X12 4G Cat12 Modem WWAN Software - 11 (24H2 or Later)",
+    "version": "3.12.0.14",
+    "date": "2026-06-22",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3gwr08w.exe",
+        "name": "r3gwr08w.exe",
+        "sha256": "ED720C776D3F2FB8063B5B1F7EB45C47346EFA9E9EEB3976D5ECEECF380FA2CD",
+        "size": 97708784
+      }
+    ],
+    "extract_command": "r3gwr08w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3evp06w_2_.xml",
+    "metadata_sha256": "40c6fd5cca68862ec117d7167ff5e74eb75fadcc5bf6a3f13f5d261df1801a73",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel"
+    ],
+    "types": [
+      "21X2",
+      "21X3"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x2_Win11.xml"
+    ],
+    "id": "r3evp06w",
+    "title": "Intel Neural Processing Unit Driver - 11 (24H2 or Later)",
+    "version": "32.0.100.4509",
+    "date": "2026-04-27",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3evp06w.exe",
+        "name": "r3evp06w.exe",
+        "sha256": "C00F749F043FE45395B59871B153836DA1E89DAFA813F72984F23CEC6DA89B38",
+        "size": 19984432
+      }
+    ],
+    "extract_command": "r3evp06w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3ets01w_2_.xml",
+    "metadata_sha256": "579057ab76df8cb7b950972c0f6e4b779a813122db862f6a4ee7a64c8e211b56",
+    "category": "Storage",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel"
+    ],
+    "types": [
+      "21X2",
+      "21X3"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x2_Win11.xml"
+    ],
+    "id": "r3ets01w",
+    "title": "Intel Total Storage Encryption - 11 (24H2 or Later)",
+    "version": "1.5.0.1043",
+    "date": "2026-04-27",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3ets01w.exe",
+        "name": "r3ets01w.exe",
+        "sha256": "E9DC6502FA539C76EFB46F0078DACD074CF0BDCB61330989FBB7DB593D9DCC67",
+        "size": 1131232
+      }
+    ],
+    "extract_command": "r3ets01w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3ewr05w_2_.xml",
+    "metadata_sha256": "b434d60be0d2ee3c711374a706a49d4c94dd118e45141f4d9882b53e5581f856",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel"
+    ],
+    "types": [
+      "21X2",
+      "21X3"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x2_Win11.xml"
+    ],
+    "id": "r3ewr05w",
+    "title": "Snapdragon X12 4G Cat12 Modem WWAN Software - 11 (24H2 or Later)",
+    "version": "3.12.0.13",
+    "date": "2026-06-15",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3ewr05w.exe",
+        "name": "r3ewr05w.exe",
+        "sha256": "385E2BA50FB35C97537B1C87C69B5948D4215386AADC7617064671AE310CDB6F",
+        "size": 97711456
+      }
+    ],
+    "extract_command": "r3ewr05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r3erw05w_2_.xml",
+    "metadata_sha256": "2fe63907dc8a2245c8f35215cbc5039681e155903f72fd323a2409a0ad709749",
+    "category": "Networking Wireless WAN",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel"
+    ],
+    "types": [
+      "21X2",
+      "21X3"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21x2_Win11.xml"
+    ],
+    "id": "r3erw05w",
+    "title": "Snapdragon X12 4G Cat6 Modem WWAN Software - 11 (24H2 or Later)",
+    "version": "3.0.0.32",
+    "date": "2026-06-15",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r3erw05w.exe",
+        "name": "r3erw05w.exe",
+        "sha256": "2A44BA9134D7B4DFBF3DAECF612F67E198B2293CAD2E39F49E5BE4C7647F37EF",
+        "size": 79378984
+      }
+    ],
+    "extract_command": "r3erw05w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\""
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r2ifc03w_2_.xml",
+    "metadata_sha256": "fe842cc41d4546ca053b4e0db36d1f5a8764ce11e6ea7de6b31109d2ecb5692a",
+    "category": "Motherboard Devices Backplanes core chipset onboard video PCIe switches",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD"
+    ],
+    "types": [
+      "21L5",
+      "21L6"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21l6_Win11.xml"
+    ],
+    "id": "r2ifc03w",
+    "title": "AMD S0I3 Filter Driver - 10 (21H2 or Later)/11 (22H2 or Later)",
+    "version": "1.0.0.20",
+    "date": "2024-09-02",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r2ifc03w.exe",
+        "name": "r2ifc03w.exe",
+        "sha256": "E3ED61BCA5D3CB13E6B317B3E3BC2EB577AC4A52818A3931FCBE4DB390F8D7C6",
+        "size": 1120432
+      }
+    ],
+    "extract_command": "r2ifc03w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "exclusion_reason": "Nonessential generic NetService S0i3 network filter omitted from automatic setup bootstrap."
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1kam04w_2_.xml",
+    "metadata_sha256": "f46bd2e4b781e45dc27fad2583d8d120033d4e77f455bc026e2c8ba9dd1602eb",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD"
+    ],
+    "types": [
+      "20X5",
+      "20X6",
+      "20X7",
+      "20X8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/20x6_Win11.xml"
+    ],
+    "id": "r1kam04w",
+    "title": "AMD Processor Power Management Support - 10 (1909 or Later)/11 (21H2 or Later)",
+    "version": "7.0.3.5",
+    "date": "2022-03-17",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1kam04w.exe",
+        "name": "r1kam04w.exe",
+        "sha256": "03B3453EAE139C7C10F122E6FEE566F9B7829AF4FBDB9838EF89656C245D3A20",
+        "size": 1097728
+      }
+    ],
+    "extract_command": "r1kam04w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "exclusion_reason": "No INF driver payload: PPKG processor power provisioning only."
+  },
+  {
+    "metadata_url": "https://download.lenovo.com/pccbbs/mobiles/r1ypk01w_2_.xml",
+    "metadata_sha256": "698dc78477ce1cd02a1aa4df180d357d4032203863d2e8b4fbdd9d353aff7f66",
+    "category": "Power Management",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C5",
+      "21C6",
+      "21C7",
+      "21C8"
+    ],
+    "catalogs": [
+      "https://download.lenovo.com/catalog/21c6_Win11.xml"
+    ],
+    "id": "r1ypk01w",
+    "title": "AMD Processor Power Management Support - 10 (20H2 or Later)/11 (21H2 or Later)",
+    "version": "6.0.0.9",
+    "date": "2022-03-07",
+    "files": [
+      {
+        "url": "https://download.lenovo.com/pccbbs/mobiles/r1ypk01w.exe",
+        "name": "r1ypk01w.exe",
+        "sha256": "B9BE6F55F92A1A196DF5532542C1A18C23BE10DFAAF633E141E8A3CC5C9D04D3",
+        "size": 1095216
+      }
+    ],
+    "extract_command": "r1ypk01w.exe /VERYSILENT /DIR=%PACKAGEPATH% /EXTRACT=\"YES\"",
+    "exclusion_reason": "No INF driver payload: PPKG processor power provisioning only."
+  }
+]

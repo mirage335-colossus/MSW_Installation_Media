@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?><packages count="37">
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ug301w_2_.xml</location>
+    <category>Mouse Pen and Keyboard</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">71396815c270c04cc4a14cd2160b0be488bafe68e42b75c2a02c68693fd79364</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/tbt4dkkp2fw1014_3_w11_2_.xml</location>
+    <category>Advanced Firmware</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">9ef16f8a79d058432427cc5e4822c6420650501fa2672dbdad3227d8331ff93a</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/usbcundkfw3098_w11_2_.xml</location>
+    <category>Advanced Firmware</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">60cc5341b385c4464cf1e0dd0b1a98919c6022d56e66c311b4caa8456e11efa7</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/ny3c407w_2_.xml</location>
+    <category>Camera and Card Reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">14f59f31d16619ec7e0c6fa60ac8e063d980a47d455210cebda3b1ea90c987e2</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nycsq02w_2_.xml</location>
+    <category>Camera and Card Reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">a48b34d5bfd5516450cc5caed3cf8561cbfe3adcba326cc811e3514cb33c0398</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2slf18w_2_.xml</location>
+    <category>Camera and Card Reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">206084bb6aaf8a917de33c3154fafe6c562a5dc7aac2f5e83727864601200709</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n1fupa7w_w11_2_.xml</location>
+    <category>Power Management</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">8aa3029de1453a6488f7595e9b56e247f2c1f9485da8e78401b7668102b0164c</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n41me31w_2_.xml</location>
+    <category>Camera and Card Reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">10d273812f826be03ea95e8ce6505f3a715dd4e58a0a465a052280c55e611ad4</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n4bku13w_w11_2_.xml</location>
+    <category>Power Management</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">93e717909b2432dbe0ed516a8fb0ecf41e347027c6827f90dc91febb091daf28</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n25by28w_w11_2_.xml</location>
+    <category>Power Management</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">f85174b6ceed54c401e1ab2300805f3bb1ad28417c82f195ab66eb176b442642</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n3yfz33w_w11_2_.xml</location>
+    <category>Display and Video Graphics</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">0bb2d52c76a977c1854c2e6868d8880bee7788dfe7e9768545630d3e1a1c4e6a</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/fwsdwy80_2_.xml</location>
+    <category>Storage</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">204d5b48c71a0792aca8fa05950f39628de34a4ea297105f637e6ca9eb0ad3bb</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ucm01w_2_.xml</location>
+    <category>Camera and Card Reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">2c13fc6bd04a9cc37dc249fe8732dccc47bfb4a14fd23930122afea0901e02bb</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2upp05w_2_.xml</location>
+    <category>Software and Utilities</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">281c54d40d8a7bc3a2fe799fc63155ae4dc2efa66677903eed935643b2388e73</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ugg03w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">4d70db8c2f67add3f33b9c5c6d5ccc3d588a7793c7bb882d3d21a6cb3412e48b</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ums04w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">8d376082cafc714177ec40c7300e995d475c8f9340e414dd65747668127d6a7b</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2unf05w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">aeb804f4f84da4c646413e5809e94177a230be55c27f1a4f81f78a006e8540f8</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2upe03w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">e6be208100909a2d3ddf60d1a67e86fa6d05b3d8e5303badd025a25c403c39e0</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2upk05w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">c97b7498a86b28b8087b47f640b386eb6f0b4b359a4a218bca245d55df973176</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2uai03w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">10f56ce7330bf8de47733080cb1165c533ca68723a15c7ce7bd33686e504816f</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2uas03w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">e531135508e1819bf01a5e8f9e0c705e24035409d85903acf8c75df60fffde66</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nyanp01w_w11_2_.xml</location>
+    <category>Software and Utilities</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">40db8d5baa9dedca4eb105eb658cd80a54e358f0978cdb99aec1cf7ba2da0c24</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2udt04w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">365bee16f53444c5e9429ec38cdeb62dd169dfbe88b423edb4c7a7f54882736f</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ud712w_2_.xml</location>
+    <category>Display and Video Graphics</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">5a89247b2ad092672e50a7cde6a744e4be36ae953cf2b641ca86b60154c22f37</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nyam105w_w11_2_.xml</location>
+    <category>Display and Video Graphics</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">338e31a761c419db1e258ea330281e5a2e05a9b2c92c1b40484a6741f697fc71</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2urr04w_2_.xml</location>
+    <category>Networking LAN Ethernet</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">c258229eca982fa08f63a1852c463902eb34f697e73b0c3121f8f6db23fe316b</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nyate07w_w11_2_.xml</location>
+    <category>Mouse Pen and Keyboard</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">258f986bf6b3a9264da0b1a724cd42a3b39ec26e0cd0e91e1ee0f8bb4564f498</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ua307w_2_.xml</location>
+    <category>Audio</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">4c253c647c805af55133bf06e602068ac8e02384008fe2164633b61dff6fc0d0</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n4ody12w_w11_2_.xml</location>
+    <category>Software and Utilities</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">4e7dfd1f910c5284b2780fdf7852af9a06124dd940c2fca844a2571f37022a30</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/n3yfz29w_w11_2_.xml</location>
+    <category>Display and Video Graphics</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">19269dae8a019bc0efd703e8dee54edae5652aede83fd50f55b9ed491ab51c81</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2up805w_2_.xml</location>
+    <category>Motherboard Devices Backplanes core chipset onboard video PCIe switches</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">6c1b7f93d39a99e2ca648eb658b4ad125700d034748543bb31b73bd9512ce50b</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2ubs14w_2_.xml</location>
+    <category>Bluetooth and Modem</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">c351d81d2cd9d653154add26ecc9ba230b8e23155c527280e8db178d587a71fc</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nyagn10w_w11_2_.xml</location>
+    <category>Fingerprint reader</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">c1a58dd523015b407a38dce25625ce431753d95758040a4f93d69c09e857a4ed</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/nycwt03w_2_.xml</location>
+    <category>Networking Wireless WAN</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">c218dc27f35cb480d33caf586ea211bd0348947627899c83cc90967655710e53</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2uws10w_2_.xml</location>
+    <category>Networking Wireless LAN</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">a1f142e6feace291acd939d47833bb7c9e51e6411f80eb7d11d8b0cd4543cea2</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r18vu75w_w11_2_.xml</location>
+    <category>Software and Utilities</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">befe694e8eec711f4845cd64dc5d1a3b56a16d7bafbe99942334bc02c3c78070</checksum>
+  </package>
+  <package>
+    <location>https://download.lenovo.com/pccbbs/mobiles/r2uuj09w_2_.xml</location>
+    <category>BIOS UEFI</category>
+    <oslangs></oslangs>
+    <checksum type="sha256">f8dff2bb3b8d7e9f881c2d20d9bc7d9a0bb86dbdac576e792a258b0725a98f48</checksum>
+  </package>
+</packages>

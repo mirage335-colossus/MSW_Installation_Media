@@ -1,0 +1,654 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package For Windows 11 Version 24H2
+Support Models
+ThinkPad L14 Gen 2 Type 20X1 20X2 Laptops
+ThinkPad L15 Gen 2 Type 20X3 20X4 Laptop
+View Less Models
+Operating Systems
+Windows 11 (24H2)
+Version
+01
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+drivers.  INF file will be available after executing the downloaded self-extracting EXE package.
+Changes in This Release
+Package 01    Rev 01    2024/09/30  Initial Release For Windows 11 (24H2)
+Software name
+Build ID
+Version number
+CS18 Docking Station Audio Driver
+N20PE10W
+6.3.9600.2299
+(Added)
+Realtek Audio Driver
+R1JA210W
+6.0.9673.1
+(Added)
+Intel Bluetooth Driver
+R1JIB14W
+23.40.0.2
+(Added)
+Intel AX210 Bluetooth Driver
+R1JIB14W
+23.40.0.2
+(Added)
+Realtek Bluetooth Driver
+R1JRB07W
+1.9.1051.3009
+(Added)
+Mediatek Bluetooth Driver
+R1JMB16W
+23.33.2.204
+(Added)
+Integrated Camera driver
+N34CM24W
+Sunplus: 5.0.18.169
+Realtek: 10.0.22000.20261
+Sonix: 10.13.22621.20
+(Added)
+Integrated Card Reader Driver
+R1KBR02W
+Realtek: 10.0.22000.21350
+Bayhub: 2.1.101.10540
+(Added)
+Alcor Smart Card Reader
+N34SR05W
+1.9.17.2318
+(Added)
+Intel Chipset Driver
+R1JCH03W
+10.1.24.6
+(Added)
+Intel Management Engine 15.0 Software
+R1JMD17W
+2406.5.5.0
+(Added)
+Intel(R) Dynamic Tuning Technology
+R1JHD05W
+8.7.10700.22502
+(Added)
+Intel SerialIO Driver
+R1JLI04W
+30.100.2129.8
+(Added)
+Thinkpad Monitor file
+R1JOI05W
+6.14.15.0
+(Added)
+Intel PRO 1000 LAN Software
+R1JRW10W
+12.19.2.56
+(Added)
+Inte HID driver
+R1JHE07W
+2.2.2.9
+(Added)
+Synaptcis Clickpad Driver
+R1MST13W
+19.5.19.95
+(Added)
+Lenovo Base utility driver
+R18VU59W
+10.10.0.13
+(Added)
+Intel Thunderbolt driver
+R1JTA09W
+1.41.1353.0
+(Added)
+Lenovo Power Management Driver
+N3AKU13W
+1.68.30.0
+(Added)
+Lenovo ITS Driver
+N3YDY56W
+2.1.22.12
+(Added)
+Lenovo Smart Standby
+N25BY27W
+4.3.11.0
+(Added)
+Synaptics FingerPrint Driver
+N34FP05W
+6.0.64.1105
+(Added)
+Intel TXT Authenticated Code Module driver
+R1JAD02W
+1.14.39.0
+(Added)
+Goodix FingerPrint Driver
+R1JGF06W
+3.4.55.250
+(Added)
+Intel(R) Iris(R) Xe Graphics Driver
+R1JIV25W
+31.0.101.5388
+(Added)
+nVIDIA Graphics driver
+R1JDA24W
+31.0.15.3878
+(Added)
+Quectel EM120R-GL WWAN
+NZ7WJ12W
+1.0.0.37
+(Added)
+Static Power Reduction software package
+R1JSP06W
+1.0.0.4
+(Added)
+Realtek Wlreless Lan driver
+R1JRE11W
+6001.10.353.0
+(Added)
+Intel Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+(Added)
+Intel AX210 Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+(Added)
+Mediatek Wireless Lan Driver
+R1JMW17W
+23.33.2.563
+(Added)
+NXP NFC Driver
+R1JWA03W
+12.0.6.0
+(Added)
+Dependency
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+Important Notice
+Not Applicable
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+Version List
+Software name
+Build ID
+Version number
+CS18 Docking Station Audio Driver
+N20PE10W
+6.3.9600.2299
+Realtek Audio Driver
+R1JA210W
+6.0.9673.1
+Intel Bluetooth Driver
+R1JIB14W
+23.40.0.2
+Intel AX210 Bluetooth Driver
+R1JIB14W
+23.40.0.2
+Realtek Bluetooth Driver
+R1JRB07W
+1.9.1051.3009
+Mediatek Bluetooth Driver
+R1JMB16W
+23.33.2.204
+Integrated Camera driver
+N34CM24W
+Sunplus: 5.0.18.169
+Realtek: 10.0.22000.20261
+Sonix: 10.13.22621.20
+Integrated Card Reader Driver
+R1KBR02W
+Realtek: 10.0.22000.21350
+Bayhub: 2.1.101.10540
+Alcor Smart Card Reader
+N34SR05W
+1.9.17.2318
+Intel Chipset Driver
+R1JCH03W
+10.1.24.6
+Intel Management Engine 15.0 Software
+R1JMD17W
+2406.5.5.0
+Intel(R) Dynamic Tuning Technology
+R1JHD05W
+8.7.10700.22502
+Intel SerialIO Driver
+R1JLI04W
+30.100.2129.8
+Thinkpad Monitor file
+R1JOI05W
+6.14.15.0
+Intel PRO 1000 LAN Software
+R1JRW10W
+12.19.2.56
+Inte HID driver
+R1JHE07W
+2.2.2.9
+Synaptcis Clickpad Driver
+R1MST13W
+19.5.19.95
+Lenovo Base utility driver
+R18VU59W
+10.10.0.13
+Intel Thunderbolt driver
+R1JTA09W
+1.41.1353.0
+Lenovo Power Management Driver
+N3AKU13W
+1.68.30.0
+Lenovo ITS Driver
+N3YDY56W
+2.1.22.12
+Lenovo Smart Standby
+N25BY27W
+4.3.11.0
+Synaptics FingerPrint Driver
+N34FP05W
+6.0.64.1105
+Intel TXT Authenticated Code Module driver
+R1JAD02W
+1.14.39.0
+Goodix FingerPrint Driver
+R1JGF06W
+3.4.55.250
+Intel(R) Iris(R) Xe Graphics Driver
+R1JIV25W
+31.0.101.5388
+nVIDIA Graphics driver
+R1JDA24W
+31.0.15.3878
+Quectel EM120R-GL WWAN
+NZ7WJ12W
+1.0.0.37
+Static Power Reduction software package
+R1JSP06W
+1.0.0.4
+Realtek Wlreless Lan driver
+R1JRE11W
+6001.10.353.0
+Intel Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+Intel AX210 Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+Mediatek Wireless Lan Driver
+R1JMW17W
+23.33.2.563
+NXP NFC Driver
+R1JWA03W
+12.0.6.0
+VERSION INFORMATION
+The following versions have been released to date.
+Package
+Rev.
+Issue Date
+01
+01
+2024/10/18
+SUMMARY OF CHANGES
+Package 01    Rev 01    2024/09/30  Initial Release For Windows 11 (24H2)
+Software name
+Build ID
+Version number
+CS18 Docking Station Audio Driver
+N20PE10W
+6.3.9600.2299
+(Added)
+Realtek Audio Driver
+R1JA210W
+6.0.9673.1
+(Added)
+Intel Bluetooth Driver
+R1JIB14W
+23.40.0.2
+(Added)
+Intel AX210 Bluetooth Driver
+R1JIB14W
+23.40.0.2
+(Added)
+Realtek Bluetooth Driver
+R1JRB07W
+1.9.1051.3009
+(Added)
+Mediatek Bluetooth Driver
+R1JMB16W
+23.33.2.204
+(Added)
+Integrated Camera driver
+N34CM24W
+Sunplus: 5.0.18.169
+Realtek: 10.0.22000.20261
+Sonix: 10.13.22621.20
+(Added)
+Integrated Card Reader Driver
+R1KBR02W
+Realtek: 10.0.22000.21350
+Bayhub: 2.1.101.10540
+(Added)
+Alcor Smart Card Reader
+N34SR05W
+1.9.17.2318
+(Added)
+Intel Chipset Driver
+R1JCH03W
+10.1.24.6
+(Added)
+Intel Management Engine 15.0 Software
+R1JMD17W
+2406.5.5.0
+(Added)
+Intel(R) Dynamic Tuning Technology
+R1JHD05W
+8.7.10700.22502
+(Added)
+Intel SerialIO Driver
+R1JLI04W
+30.100.2129.8
+(Added)
+Thinkpad Monitor file
+R1JOI05W
+6.14.15.0
+(Added)
+Intel PRO 1000 LAN Software
+R1JRW10W
+12.19.2.56
+(Added)
+Inte HID driver
+R1JHE07W
+2.2.2.9
+(Added)
+Synaptcis Clickpad Driver
+R1MST13W
+19.5.19.95
+(Added)
+Lenovo Base utility driver
+R18VU59W
+10.10.0.13
+(Added)
+Intel Thunderbolt driver
+R1JTA09W
+1.41.1353.0
+(Added)
+Lenovo Power Management Driver
+N3AKU13W
+1.68.30.0
+(Added)
+Lenovo ITS Driver
+N3YDY56W
+2.1.22.12
+(Added)
+Lenovo Smart Standby
+N25BY27W
+4.3.11.0
+(Added)
+Synaptics FingerPrint Driver
+N34FP05W
+6.0.64.1105
+(Added)
+Intel TXT Authenticated Code Module driver
+R1JAD02W
+1.14.39.0
+(Added)
+Goodix FingerPrint Driver
+R1JGF06W
+3.4.55.250
+(Added)
+Intel(R) Iris(R) Xe Graphics Driver
+R1JIV25W
+31.0.101.5388
+(Added)
+nVIDIA Graphics driver
+R1JDA24W
+31.0.15.3878
+(Added)
+Quectel EM120R-GL WWAN
+NZ7WJ12W
+1.0.0.37
+(Added)
+Static Power Reduction software package
+R1JSP06W
+1.0.0.4
+(Added)
+Realtek Wlreless Lan driver
+R1JRE11W
+6001.10.353.0
+(Added)
+Intel Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+(Added)
+Intel AX210 Wireless Lan Driver
+R1JIW15W
+23.40.0.4
+(Added)
+Mediatek Wireless Lan Driver
+R1JMW17W
+23.33.2.563
+(Added)
+NXP NFC Driver
+R1JWA03W
+12.0.6.0
+(Added)
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Sunplus is a registered trademark of Sunplus Innovation Technology Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

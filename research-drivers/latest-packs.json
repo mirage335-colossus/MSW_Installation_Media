@@ -1,0 +1,309 @@
+[
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "22H2",
+    "date": "2023-11-30",
+    "crc": "686abe0ee0f084c2494b1eb2f50384115384cbfe62171c3255751f642c977afe",
+    "md5": "01a9aec7467423d7f09f87cd0601c5c9",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14gen1_mt20u1-20u2-l15gen1_mt20u3-20u4_w11_22_22h2_202310.exe",
+    "models": [
+      "ThinkPad L14 Type 20U1 20U2 Intel",
+      "ThinkPad L15 Type 20U3 20U4 Intel"
+    ],
+    "types": [
+      "20U1",
+      "20U2",
+      "20U4",
+      "20U3"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "22H2",
+    "date": "2023-11-30",
+    "crc": "5dc724b2f9f4f877f849cadb9a42fe18441e9f9d5ccc9f339a207eb89337f39e",
+    "md5": "bc960e2b0d556b8918c689c0c8d3b5e2",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14gen1_mt20u5_mt20u6_l15gen1_mt20u7_mt20u8_amd_w11_22_22h2_202310.exe",
+    "models": [
+      "ThinkPad L14 Type 20U5 20U6 AMD",
+      "ThinkPad L15 Type 20U7 20U8 AMD"
+    ],
+    "types": [
+      "20U5",
+      "20U6",
+      "20U7",
+      "20U8"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "24H2",
+    "date": "2024-10-24",
+    "crc": "81819aed923b98a18a6d9634ecb76566eac4cc480d70d4957c9feba36b27de8f",
+    "md5": "5284ecbfd6384f898b37b309eb75dfc6",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l1415gen2_mt20x1-20x2-20x3-20x4_w11_24h2_202410.exe",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X1 20X2 Intel",
+      "ThinkPad L15 Gen 2 Type 20X3 20X4 Intel"
+    ],
+    "types": [
+      "20X1",
+      "20X2",
+      "20X4",
+      "20X3"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "24H2",
+    "date": "2024-10-24",
+    "crc": "8dd4763ec3fbef272aa362f096f64f2b15b00ba5d6055db0836b0719e60de3b7",
+    "md5": "ece1fd3cbf592f27a1082cbf8420efff",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14gen2_amd_mt20x5-20x6-l15gen2_amd_mt20x7-20x8_w11_24h2_202410.exe",
+    "models": [
+      "ThinkPad L14 Gen 2 Type 20X5 20X6 AMD",
+      "ThinkPad L15 Gen 2 Type 20X7 20X8 AMD"
+    ],
+    "types": [
+      "20X6",
+      "20X5",
+      "20X8",
+      "20X7"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "23H2",
+    "date": "2024-06-18",
+    "crc": "fd9257708f3c2e32c9783dc05ca320a1149133439c39ab77e9e08b179aacb17b",
+    "md5": "babfd14c8d375ffb2624afef0804838a",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21c5_mt21c6_l15_mt21c7_mt21c8_w11_23h2_202405.exe",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C5 21C6 AMD",
+      "ThinkPad L15 Gen 3 Type 21C7 21C8 AMD"
+    ],
+    "types": [
+      "21C6",
+      "21C5",
+      "21C7",
+      "21C8"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "23H2",
+    "date": "2024-06-10",
+    "crc": "6f59562f6a6407876415f06c27cdb40f2230fea71441cacd3cafccda458c27ba",
+    "md5": "5eba8fa3dc3e8763faa750d969f81ef3",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21c1_mt21c2_l15_mt21c3_mt21c4_w11_23h2_202405.exe",
+    "models": [
+      "ThinkPad L14 Gen 3 Type 21C1 21C2 Intel",
+      "ThinkPad L15 Gen 3 Type 21C3 21C4 Intel"
+    ],
+    "types": [
+      "21C2",
+      "21C1",
+      "21C4",
+      "21C3"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "24H2",
+    "date": "2025-08-07",
+    "crc": "db236327773f88a979813d412da633e870ced7065ac5186ea9ac82fcf7ff6ccd",
+    "md5": "d9d6d480a303623d0932f8e5cafeb8aa",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21h5_mt21h6_l15_mt21h7_mt21h8_w11_24h2_202507.exe",
+    "models": [
+      "ThinkPad L15 Gen 4 Type 21H7 21H8 AMD",
+      "ThinkPad L14 Gen 4 Type 21H5 21H6 AMD"
+    ],
+    "types": [
+      "21H8",
+      "21H7",
+      "21H6",
+      "21H5"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "24H2",
+    "date": "2026-07-07",
+    "crc": "03e485e70b7f7361afb62e07fb933b0dd585459956f68d2673bd7e9089df5923",
+    "md5": "c5ed2e0caa180b8143855e85647d47c7",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21h1_mt21h2_l15_mt21h3_mt21h4_w11_24h2_202601.exe",
+    "models": [
+      "ThinkPad L14 Gen 4 Type 21H1 21H2 Intel",
+      "ThinkPad L15 Gen 4 Type 21H3 21H4 Intel"
+    ],
+    "types": [
+      "21H1",
+      "21H2",
+      "21H3",
+      "21H4"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "24H2",
+    "date": "2026-05-07",
+    "crc": "022d8dd130606824c5ed38de79fd7dd6e54508513abaef88eb9597d304a3c413",
+    "md5": "f304c25926b23fe05ad71b84d0def595",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21l5_mt21l6_l16_mt21l7_mt21l8_w11_24h2_202604.exe",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L5 21L6 AMD"
+    ],
+    "types": [
+      "21L6",
+      "21L5"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-03",
+    "crc": "4dfc63ed3fc31d7456ecca8995d0f292b21bb433cbf03ddf9e760087cf8df8d8",
+    "md5": "a4f29863309d01dddf4a9d4b3a078589",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21l1_mt21l2_l16_mt21l3_mt21l4_w11_25h2_202605.exe",
+    "models": [
+      "ThinkPad L14 Gen 5 Type 21L1 21L2 Intel"
+    ],
+    "types": [
+      "21L1",
+      "21L2"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-14",
+    "crc": "56d1dfd00d904fdecec835137b092d264750917e8f56e235b198e6ec613d0014",
+    "md5": "1f30546ae6c27d29eaea6ab7ab42f51a",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21sx-sy-sr-ss-ua_w11_24h2_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14P Gen 6 Type 21UA Intel"
+    ],
+    "types": [
+      "21UA"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-14",
+    "crc": "f017ddbcc195b5cec3dfcbe6b7ddea2c89b7922f15a4940f711483eedd03081f",
+    "md5": "544e94cf1c826c095021a126775899eb",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14P Gen 6 Type 21UB Intel"
+    ],
+    "types": [
+      "21UB"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-06-11",
+    "crc": "16635f1cfbd61063e033db1addae424496c8f1cd92910a27b94b5da47cb03080",
+    "md5": "c97c3af21dd09cab9d6f0bdf5b52b853",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21s6_mt21s7_l16_mt21sa_mt21sb_w11_25h2_202605.exe",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S6 21S7 Intel"
+    ],
+    "types": [
+      "21S6",
+      "21S7"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-08",
+    "crc": "e1c4ab21ea66bffd89375ecdcf6d28e012e8b123f68bb11105b5cbf0ad2c3f9b",
+    "md5": "790dd5b4a3bb29fb4606b855b7a67539",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21s8_mt21s9_l16_mt21sc_mt21sd_w11_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21S8 21S9 AMD"
+    ],
+    "types": [
+      "21S8",
+      "21S9"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-08",
+    "crc": "e78291c43b730f011a80064a59d7562dd7a55188357bfd35fad787489c58bd2f",
+    "md5": "9f34e18f34c4b459f4d6eb9f313ba7e5",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21se_mt21sf_l16_mt21rh_mt21rj_w11_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14 Gen 6 Type 21SE 21SF AMD"
+    ],
+    "types": [
+      "21SF",
+      "21SE"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-10",
+    "crc": "2f8ef83c99b216fd3e82fdb004dd5288aafb652e268849637bcd235331d00b1c",
+    "md5": "381c9acfffd393ea3d32e3a9403b0b63",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21x6_mt21x7_l16_mt21xc_mt21xd_no_wwan_w11_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X6 21X7 AMD"
+    ],
+    "types": [
+      "21X6",
+      "21X7"
+    ]
+  },
+  {
+    "kind": "SCCM",
+    "os": "win11",
+    "version": "25H2",
+    "date": "2026-07-03",
+    "crc": "14045643f05d8d7ce9619ba644b60c140f6095888e491aa05139e469be1d9dea",
+    "md5": "0d8eac6dd607d81095574924f51b6925",
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_l14_mt21x2_mt21x3_l16_mt21x8_mt21x9_no_wwan_w11_25h2_202606.exe",
+    "models": [
+      "ThinkPad L14 Gen 7 Type 21X2 21X3 Intel"
+    ],
+    "types": [
+      "21X2",
+      "21X3"
+    ]
+  },
+  {
+    "url": "https://download.lenovo.com/pccbbs/mobiles/tp_e485_e585_w1064_202105.exe",
+    "models": [
+      "ThinkPad E485 Type20KU AMD"
+    ],
+    "types": [
+      "20KU"
+    ],
+    "date": "2021-05-24",
+    "os": "win10",
+    "version": "21H1",
+    "crc": "f3d9b92f47e606bd20e4e4b8921da8e220095f7b4a85433ee6c46d7055f79777"
+  }
+]

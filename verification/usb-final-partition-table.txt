@@ -1,0 +1,10 @@
+Disk /dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0: 57.73 GiB, 61991813120 bytes, 121077760 sectors
+Disk model: DataTraveler 3.0
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x50b84980
+
+Device                                                                           Boot Start       End   Sectors  Size Id Type
+/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_4CEDFB74A32C1A70790301C3-0:0-part1 *     2048 121077759 121075712 57.7G  c W95 FAT32 (LBA)

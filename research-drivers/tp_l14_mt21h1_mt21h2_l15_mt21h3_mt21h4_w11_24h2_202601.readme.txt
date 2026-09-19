@@ -1,0 +1,917 @@
+ReadMe
+@import 'bootstrap/scss/bootstrap';
+        
+              
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }    
+                    
+                    html, body { height: 100%; }
+                    body { margin: 0; font: normal normal normal 16px Lato;
+                      letter-spacing: 0px;}
+
+                    .nav-breadcumb {
+                      position: sticky;
+                      top: 0;
+                      z-index: 999;
+                      display: flex;
+                      flex-direction: row;
+                      box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+                      background-color: white !important;
+                      height: 40px;
+                    }
+
+                    h2 {
+                      font-size: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    
+                    .collapsible {
+                      background-color: white;
+                      color: black;
+                      cursor: pointer;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none !important;
+                      font-size: 28px;
+                      font-weight: bold;
+                      border-bottom: 2px solid lightgrey;
+                      padding-left: 0px !important;
+                      padding-bottom: 16px;
+                      padding-top: 32px;
+                    }
+
+                    .collapsible.active {
+                      border: none;
+                    }
+                  
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+
+                    .topSection {
+                      margin-top: 32px;
+                    }
+                  
+                    .topSectionHeading {
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+                  
+                    .topSectionContent {
+                      font-size: 16px;
+                      padding-top: 15px;
+                      line-height: 19px;
+                    }
+                  
+                    .card.card-body {
+                      font-size: 11pt;
+                      border: none;
+                      border-bottom: 1px solid lightgray;
+                      border-radius: 0px;
+                      padding-left: 0px;
+                      padding-top: 0px;
+                      padding-bottom: 32px;
+                      font-family: 'Lucida Console';  
+                    }
+                  
+                    .heading {
+                      font-size: 34px;
+                      font-weight: bold;
+                    }
+                  
+                    .container {
+                      padding-top: 32px;
+                      padding-bottom: 78px;
+                    }
+                  
+                    .topList {
+                      margin-bottom: 0px;
+                    }
+  
+                  .card.card-body p {
+                    margin-bottom: 0px !important;
+                  }
+
+                  .collapsible .gg-chevron {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: block;
+                    transform: scale(var(--ggs,1));
+                    width: 22px;
+                    height: 22px;
+                    border: 2px solid transparent;
+                    border-radius: 100px;
+                    float: right;
+                  }
+                  .collapsible .gg-chevron::after {
+                    content: "";
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    border-bottom: 3px solid;
+                    border-right: 3px solid;
+                    transform: rotate(45deg);
+                    left: 4px;
+                    top: 2px;
+                    transition: transform 0.3s;
+                    margin-top: 2px;
+                  }                  
+                  .collapsible.active .gg-chevron::after {
+                      border-top: 3px solid;
+                      border-bottom: none;
+                      transform: rotate(-45deg);
+                      margin-top: 12px;
+                      transition: transform 0.3s;
+                  }
+
+                  a.viewMoreLink {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #294E95;
+                    text-decoration: none;
+                    cursor: default;
+                  }
+                  
+                  a.viewMoreLink:hover {
+                    text-decoration: underline;
+                  }
+                  .htmlContainer .card.card-body{
+                    white-space: pre-wrap
+                  }
+                  #readmeContent table {
+                    border-collapse: collapse;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent span table {    
+                    display: inline-table;
+                  }
+  
+                  #readmeContent td {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+                  #readmeContent th {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black; 
+                  }
+
+                  #readmeContent a {
+                    color: #ff5722;
+                  }
+                  table {
+                    display: contents;
+                  }
+SCCM Package for Windows 11 Version 24H2
+Support Models
+ThinkPad L14 Gen 4 (Type 21H1, 21H2) Laptop
+ThinkPad L15 Gen 4 (Type 21H3, 21H4) Laptop
+View Less Models
+Operating Systems
+Windows 11 (24H2)
+Version
+04
+Support Device
+SCCM
+Revision
+1
+What This Package Does
+This package provides the device drivers in .inf form for ThinkPad computers,
+in order to allow you to deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device drivers.
+INF files will be available after executing the downloaded self-extracting EXE package.
+Changes in This Release
+Package 04
+Rev 01
+2026/02/10
+Software name
+Build ID
+Version Number
+Status
+Integrated Camera Driver
+NZ3CD07W
+realtek:10.0.22000.20386 Sunplus:5.0.18.286
+Sonix:
+10.13.26100.5
+Updated
+Genesys Logic Card Reader
+R24S503W
+1.1.51.0
+Updated
+Realtek Media Card Reader Driver
+R24Q604W
+10.0.26100.21383
+Updated
+Intel Dynamic Tuning Technology Driver
+NZAHD04W
+2.2.10205.3620/9.0.11909.60720/2.1.10500.7
+Updated
+Intel Graphics Driver
+NZADR18W
+32.0.101.7076
+Updated
+NVIDIA Video Features
+NZADB08W
+32.0.15.8160
+Updated
+Realtek and Senary Audio Features
+R24AC06W
+6.0.9694.1(Realtek Audio)3.48.34.4(Senary Audio)
+10.29.00.11525(Intel SST)
+Updated
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG12W
+6.0.62.1136
+Updated
+Round Power Button Fingerprint Reader(Goodix)
+NZAGI08W
+3.4.51.1210
+Updated
+ThinkPad Monitor File
+NZAOI04W
+6.14.26.0
+Updated
+Intel HID Event Filter Driver
+NZAEF05W
+2.2.2.17
+Updated
+Intel Bluetooth AX211 Driver
+NZAWW12W
+23.170.0.3
+Updated
+Intel Bluetooth AX201 Driver
+NZAWX12W
+23.170.0.3
+Updated
+Intel Wireless AX211 LAN Driver
+NZBWL08W
+23.170.0.1
+Updated
+Intel Wireless AX201 LAN Driver
+NZAWM09W
+23.170.0.1
+Updated
+Intel Management Engine 16.0 Software
+NZARA07W
+MEI:2517.8.1.0 SOL:2516.8.0.0 (vPro)
+Updated
+Lenovo Intelligent Thermal Solution Driver
+n4bdy58w
+2.1.52.20
+Updated
+Lenovo Settings Power Base Module
+n1fupa06w
+10.2.4.1
+Updated
+Lenovo Base Utility Package
+r18vu68w
+10.15.2509.1
+Updated
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Updated
+(*1) NVIDIA Video Features Driver is included in another package added "_NVidia" in the name. Please refer to Dependency and Important Notice in detail.
+Dependency
+- For models without NVIDIA graphics card, only this common package is required for SCCM deployment / installation.
+- For models with NVIDIA graphics card, 2 packages are required for SCCM deployment / installation:
+(1) tp_l14_mt21h1_mt21h2_l15_mt21h3_mt21h4_
+OSversion
+_yyyymm.exe (This package)
+Standard SCCM package for ALL MODELS.
+All drivers except NVIDIA graphics driver are included.
+(2) tp_l14_mt21h1_mt21h2_l15_mt21h3_mt21h4_nvidia_
+OSversion
+_yyyymm.exe
+NVIDIA SCCM package for NVIDIA graphics models.
+Only NVIDIA graphics driver is included.
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the computer first.
+Important Notice
+- This package is NOT including NVIDIA Graphics driver. For models with NVIDIA graphics card,
+another SCCM package for NVIDIA graphics driver is required. Please refer to Dependency section in detail.
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+computer first.
+- The SCCM match Server WinPE version 10.0.26100.1
+Determining Which Version Is Installed
+Not Applicable
+Determining Operating System Version
+Not Applicable
+Installation Instructions / How To Use This Software
+Not Applicable
+Not Applicable
+Version Information
+VERSION LIST:
+Software name
+Build ID
+Version number
+Integrated Camera Driver
+NZ3CD07W
+realtek:10.0.22000.20386 Sunplus:5.0.18.286
+Sonix: 10.13.26100.5
+BayHubTech Flash Memory Card
+R24BR03W
+2.1.101.10734
+Genesys Logic Card Reader
+R24S503W
+1.1.51.0
+Realtek Media Card Reader Driver
+R24Q604W
+10.0.26100.21383
+Intel Chipset Driver
+NZAIC03W
+10.1.36.7
+Intel Dynamic Tuning Technology Driver
+NZAHD04W
+2.2.10205.3620/9.0.11909.60720/2.1.10500.7
+Intel Graphics Driver
+NZADR18W
+32.0.101.7076
+Alcor SmartCard Reader Driver
+NZAV103W
+1.9.17.2325
+ELAN TrackPoint Device Driver
+NZAG206W
+31.21.49.1
+NVIDIA Video Features
+NZADB08W
+32.0.15.8160
+Realtek and Senary Audio Features
+R24AC06W
+6.0.9694.1(Realtek Audio)3.48.34.4(Senary Audio)
+10.29.00.11525(Intel SST)
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG12W
+6.0.62.1136
+Round Power Button Fingerprint Reader(Goodix)
+NZAGI08W
+3.4.51.1210
+ThinkPad Monitor File
+NZAOI04W
+6.14.26.0
+Intel Serial IO Driver
+NZALI02W
+30.100.2417.30
+NXP NFC Driver
+NZAWC01W
+12.0.6.0
+Intel HID Event Filter Driver
+NZAEF05W
+2.2.2.17
+Intel(R) TXT Authenticated Code Module
+NZAJT03W
+1.18.18.0
+Intel Thunderbolt Controller Driver
+NZATA02W
+1.41.1423.0
+Intel PRO/1000 LAN Adapter Software
+NZARW03W
+12.19.2.61
+Fibocom Wireless WAN L860-GL-16 Software
+NZAWJ05W
+3.8.0.3044(Driver Package Version)
+0.5.100.883(Intel(R) XMM(TM) 7560 LTE Advanced Pro)
+0.5.100.883(Modem Control Device)
+4.19042.7.2(Fibocom GNSS Sensor)
+18601.5906.1730.2 (FWUpdateDriver Device)
+8601.3.3.30(FiboConfigDriver)
+Quectel EM05-CN Wireless WAN Driver
+NZAWR07W
+1.0.0.18(Driver)30.0.0.8 (Quantel USB Composition Device)
+5.0.0.28 (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11 (Quectel GNSS Sensor Device)
+6.0.0.11  (Quectel Mini DPR Service EM05CN)
+Quectel EM05-G Wireless WAN Driver
+NZAWS06W
+1.0.0.36(Driver Package Version)
+1.0.2.12(Quectel GNSS Sensor Device)
+5.0.7.27 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Intel Bluetooth AX211 Driver
+NZAWW12W
+23.170.0.3
+Intel Bluetooth AX201 Driver
+NZAWX12W
+23.170.0.3
+Intel Wireless AX211 LAN Driver
+NZBWL08W
+23.170.0.1
+Intel Wireless AX201 LAN Driver
+NZAWM09W
+23.170.0.1
+Intel Management Engine 16.0 Software
+NZARA07W
+MEI:2517.8.1.0 SOL:2516.8.0.0 (vPro)
+Lenovo View Driver
+N3XLF09W
+3.1.32.201
+Lenovo Intelligent Thermal Solution Driver
+n4bdy58w
+2.1.52.20
+Lenovo Power Management Driver
+n3yku05w
+1.69.15.1
+Lenovo Settings Power Base Module
+n1fupa06w
+10.2.4.1
+Lenovo Base Utility Package
+r18vu68w
+10.15.2509.1
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W1
+10.62.829.2024
+(*1) NVIDIA Video Features Driver is included in another package added "_nvidia" in the name. Please refer to Dependency and Important Notice in detail.
+Where: Build ID is for administrative purpose.
+VERSION INFORMATION:
+The following versions have been released to date.
+Package
+Rev.
+Issue Date
+04
+01
+2026/02/24
+03
+01
+2025/07/31
+02
+01
+2024/07/19
+01
+01
+2024/04/23
+Package 04
+Rev 01
+2026/02/10
+Software Name
+Build ID
+Version Number
+Status
+Integrated Camera Driver
+NZ3CD07W
+realtek:10.0.22000.20386 Sunplus:5.0.18.286
+Sonix: 10.13.26100.5
+Updated
+Genesys Logic Card Reader
+R24S503W
+1.1.51.0
+Updated
+Realtek Media Card Reader Driver
+R24Q604W
+10.0.26100.21383
+Updated
+Intel Dynamic Tuning Technology Driver
+NZAHD04W
+2.2.10205.3620/9.0.11909.60720/2.1.10500.7
+Updated
+Intel Graphics Driver
+NZADR18W
+32.0.101.7076
+Updated
+NVIDIA Video Features
+NZADB08W
+32.0.15.8160
+Updated
+Realtek and Senary Audio Features
+R24AC06W
+6.0.9694.1(Realtek Audio)
+3.48.34.4(Senary Audio)
+10.29.00.11525(Intel SST)
+Updated
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG12W
+6.0.62.1136
+Updated
+Round Power Button Fingerprint Reader(Goodix)
+NZAGI08W
+3.4.51.1210
+Updated
+ThinkPad Monitor File
+NZAOI04W
+6.14.26.0
+Updated
+Intel HID Event Filter Driver
+NZAEF05W
+2.2.2.17
+Updated
+Intel Bluetooth AX211 Driver
+NZAWW12W
+23.170.0.3
+Updated
+Intel Bluetooth AX201 Driver
+NZAWX12W
+23.170.0.3
+Updated
+Intel Wireless AX211 LAN Driver
+NZBWL08W
+23.170.0.1
+Updated
+Intel Wireless AX201 LAN Driver
+NZAWM09W
+23.170.0.1
+Updated
+Intel Management Engine 16.0 Software
+NZARA07W
+MEI:2517.8.1.0 SOL:2516.8.0.0 (vPro)
+Updated
+Lenovo Intelligent Thermal Solution Driver
+n4bdy58w
+2.1.52.20
+Updated
+Lenovo Settings Power Base Module
+n1fupa06w
+10.2.4.1
+Updated
+Lenovo Base Utility Package
+r18vu68w
+10.15.2509.1
+Updated
+Lenovo Smart Standby
+n25by28w
+4.3.13.0
+Updated
+Package 03        01    2025/07/22
+Software Name
+Build ID
+Version Number
+Status
+BayHubTech Flash Memory Card
+R24BR03W
+2.1.101.10734
+Updated
+Intel Graphics Driver
+NZADR14W
+32.0.101.6733
+Updated
+ELAN TrackPoint Device Driver
+NZAG206W
+31.21.49.1
+Updated
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG10W
+6.0.58.1136
+Updated
+ThinkPad Monitor File
+NZAOI03W
+6.14.25.0
+Updated
+Intel HID Event Filter Driver
+NZAEF04W
+2.2.2.12
+Updated
+Intel Thunderbolt Controller Driver
+NZATA02W
+1.41.1423.0
+Updated
+Quectel EM05-CN Wireless WAN Driver
+NZAWR07W
+1.0.0.18(Driver Package version)
+30.0.0.8 (Quantel USB Composition Device)
+5.0.0.28 (Quantel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11 (Quantel GNSS Sensor Device)
+6.0.0.11 (Quectel Mini DPR Service EM05CN)
+Updated
+Intel Bluetooth AX211 Driver
+NZAWW09W
+23.130.0.3
+Updated
+Intel Bluetooth AX201 Driver
+NZAWX09W
+23.130.0.3
+Updated
+Intel Wireless AX211 LAN Driver
+NZAWL07W
+23.130.1.1
+Updated
+Intel Wireless AX201 LAN Driver
+NZAWM06W
+23.130.1.1
+Updated
+Intel Management Engine 16.0 Software
+NZARA04W
+MEI:2505.7.2.0 SOL:2441.7.0.0 (vPro)
+Updated
+Lenovo Settings Power Base Module
+n1fupa4w
+10.2.1.22
+Updated
+Lenovo Base Utility Package
+r18vu65w
+10.13.2.1
+Updated
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN14W1
+10.62.829.2024
+Updated
+Package     02
+Rev 01
+2025/03/24
+Software Name
+Build ID
+Version Number
+Status
+Integrated Camera Driver
+NZ3CD02W
+Realtek:10.0.22000.20356 Sunplus:5.0.18.247
+Updated
+BayHubTech Flash Memory Card
+R24BR02W
+2.1.101.10700
+Updated
+Genesys Logic Card Reader
+R24S502W
+1.1.49.0
+Updated
+Realtek Media Card Reader Driver
+R24Q603W
+10.0.26100.21373
+Updated
+Intel Graphics Driver
+NZADR12W
+32.0.101.6314
+Updated
+Realtek and Senary Audio Features
+R24AC05W
+6.0.9694.1(Realtek Audio)3.48.34.4(Senary Audio)
+10.29.00.11525(Intel SST)
+Updated
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG07W
+6.0.52.1136
+Updated
+Round Power Button Fingerprint Reader(Goodix)
+NZAGI06W
+3.4.51.1065
+Updated
+Fibocom Wireless WAN L860-GL-16 Software
+NZAWJ05W
+3.8.0.3044(Driver Package Version)
+0.5.100.883(Intel(R) XMM(TM) 7560 LTE Advanced Pro)
+0.5.100.883(ModemControl Device)
+4.19042.7.2(Fibocom GNSS Sensor)
+18601.5906.1730.2 (FWUpdateDriver Device)
+8601.3.3.30(FiboConfigDriver)
+Updated
+Quectel EM05-CN Wireless WAN Driver
+NZAWR06W
+1.0.0.16(Driver)
+30.0.0.8 (Quectel USB Composition Device)
+5.0.0.27 (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11 (Quectel GNSS Sensor Device)
+6.0.0.10  (Quectel Mini DPR Service EM05CN)
+Updated
+Quectel EM05-G Wireless WAN Driver
+NZAWS06W
+1.0.0.36(Driver Package Version)
+1.0.2.12(Quectel GNSS Sensor Device)
+5.0.7.27 (Quectel MBIHV Mobile Broadband Firmware Device)
+30.0.0.9 (Quectel USB Composition device)
+Updated
+Intel Bluetooth AX211 Driver
+NZAWW08W
+23.100.1.1
+Updated
+Intel Bluetooth AX201 Driver
+NZAWX07W
+23.100.0.4
+Updated
+Intel Wireless AX211 LAN Driver
+NZAWL06W
+23.110.0.5
+Updated
+Intel Wireless AX201 LAN Driver
+NZAWM05W
+23.110.0.5
+Updated
+Lenovo View Driver
+N3XLF09W
+3.1.32.201
+Updated
+Lenovo Settings Power Base Module
+n1fupa3w
+10.1.10.0
+Updated
+Lenovo Base Utility Package
+r18vu62w
+10.12.0.5
+Updated
+(*1) NVIDIA Video Features Driver is included in another package added "_ Nvidia" in the name. Please refer to Dependency and Important Notice in detail.
+Package     01
+Rev 01
+2024/09/12    Initial Released
+Software name
+BuildID
+Version_Number
+Added
+Integrated Camera Driver
+NZACD05W
+Realtek:10.0.22000.20328 Sunplus:5.0.18.221
+Added
+BayHubTech Flash Memory Card
+R24BR01W
+2.1.101.10580
+Added
+Genesys Logic Card Reader
+R24S501W
+1.1.30.0
+Added
+Realtek Media Card Reader Driver
+R24Q602W
+10.0.22621.21359
+Added
+Intel Chipset Driver
+NZAIC02W
+10.1.36.7
+Added
+Intel Dynamic Tuning Technology Driver
+NZAHD01W
+1.0.11203.34112(Base driver)
+9.0.11203.34112 (Component Extension)
+Added
+Intel Graphics Driver
+NZADR06W
+31.0.101.5186
+Added
+Alcor SmartCard Reader Driver
+NZAV102W
+1.9.17.2321
+Added
+ELAN TrackPoint Device Driver
+NZAG204W
+31.21.43.4
+Added
+NVIDIA Video Features
+NZADB03W
+31.0.15.3859
+Added
+Realtek and Senary Audio Features
+R24AC02W
+6.0.9559.1(Realtek Audio)3.31.0.14(Senary Audio)
+10.29.00.10783(Intel SST)
+Added
+Round Power Button Fingerprint Reader (Synaptics)
+NZAGG04W
+6.0.48.1136
+Added
+Round Power Button Fingerprint Reader(Goodix)
+NZAGI05W
+3.4.51.850
+Added
+ThinkPad Monitor File
+NZAOI02W
+6.14.22.0
+Added
+Intel Serial IO Driver
+NZALI01W
+30.100.2237.26
+Added
+NXP NFC Driver
+NZAWC01W
+12.0.6.0
+Added
+Intel HID Event Filter Driver
+NZAEF02W
+2.2.2.9
+Added
+Intel(R) TXT Authenticated Code Module
+NZAJT02W
+1.18.16.0
+Added
+USB4(TBT4) DisplayPort Bandwidth Management
+R24TT01W
+1.1.0.0
+Added
+Intel PRO/1000 LAN Adapter Software
+NZARW02W
+12.19.2.56
+Added
+Fibocom Wireless WAN L860-GL-16 Software
+NZAWJ03W
+3.8.00.3037(Driver Package Version)
+0.5.100.883(Intel(R) XMM(TM) 7560 LTE Advanced Pro)
+0.5.100.883(ModemControl Device)
+4.19042.7.2(Fibocom GNSS Sensor)
+18601.5906.1730.2 (FWUpdateDriver Device)
+8601.3.3.22(FiboConfigDriver)
+Added
+Quectel EM05-CN Wireless WAN Driver
+NZAWR05W
+1.0.0.15(Driver)
+30.0.0.8 (Quectel USB Composition Device)
+5.0.0.26 (Quectel MBIHV Mobile Broadband Firmware Device)
+1.0.2.11 (Quectel GNSS Sensor Device)
+6.0.0.9  (Quectel Mini DPR Service EM05CN)
+Added
+Quectel EM05-G Wireless WAN Driver
+NZAWS04W
+1.0.0.33 (Driver Package Version)
+1.0.2.11 (Quectel GNSS Sensor Device)
+5.0.7.24 (Quectel MBIHV Mobile Broadband Firmware Device)
+20.0.71.6 (Quectel Serial Driver)
+30.0.0.8 (Quectel USB Composition device)
+5.0.0.18 (Quectel Modem Auth Service(EM05G))
+5.0.0.10  (MiniDprService)
+Added
+Intel Bluetooth AX211 Driver
+NZAWW05W
+23.60.0.1
+Added
+Intel Bluetooth AX201 Driver
+NZAWX04W
+23.60.0.1
+Added
+Intel Wireless AX211 LAN Driver
+NZAWL05W
+23.60.1.2
+Added
+Intel Wireless AX201 LAN Driver
+NZAWM03W
+23.60.1.2
+Added
+Intel Management Engine 16.0 Software
+R2MMK01W
+MEI:2334.5.1.0 SOL:2316.5.0.0(only vPro)
+Added
+Lenovo View Driver
+n3xlf07w
+3.1.30.201
+Added
+Lenovo Intelligent Thermal Solution Driver
+n3ydy56w
+2.1.22.12
+Added
+Lenovo Power Management Driver
+n3yku05w
+1.69.15.1
+Added
+Lenovo Settings Power Base Module
+n1fupa1w
+10.1.7.0
+Added
+Lenovo Base Utility Package
+r18vu59w
+10.10.0.13
+Added
+Lenovo Smart Standby
+N25BY27W
+4.3.11.0
+Added
+ThinkPad USB 3.0 Ethernet INF64 Driver
+U3ETN10W2
+1153.13.0420.2023
+Added
+Trademarks
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* NVIDIA is a registered trademark of NVIDIA Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Sunplus is a registered trademark of Sunplus Innovation Technology Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+Other company, product, and service names may be registered trademarks, trademarks or service marks of others.
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    function showMoreModels() {
+      document.getElementById('remainingItems').style.display = 'block';
+      document.getElementById('viewMore').style.display = 'none';
+      
+    }
+    function showLessModels() {
+      document.getElementById('remainingItems').style.display = 'none';
+      document.getElementById('viewMore').style.display = 'block';
+      
+    }

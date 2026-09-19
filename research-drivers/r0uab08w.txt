@@ -1,0 +1,211 @@
+                                                                   Revision : 01
+--------------------------------------------------------------------------------
+Software name      Qualcomm Atheros Bluetooth Driver for Windows 10 Version 1709 
+                   or later
+
+Support models     ThinkPad E485 (Machine types: 20KU)
+                   ThinkPad E585 (Machine types: 20KV)
+
+Operating Systems  Microsoft Windows 10 64-bit (1709 or later)
+
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Versions           10.0.0.1159
+
+Support device     Qualcomm Atheros QCA9377 Bluetooth 4.1
+
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package installs the software (Qualcomm Atheros QCA9377 Bluetooth Driver)
+  to enable the following device.
+
+  Device name                             Device name in the Device Manager
+  --------------------------------------  --------------------------------------
+  Qualcomm Atheros QCA9377 Bluetooth 4.1  Qualcomm Atheros QCA9377 Bluetooth 4.1
+
+
+  Refer to marketing materials to find out what computer models support which
+  devices.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+   Version 10.0.0.1159
+
+[Important updates]
+   Nothing.
+
+[New functions or enhancements]
+   Nothing.
+
+[Problem fixes]
+ - Enhancement to address security vulnerability CVE-2020-26555, CVE-2020-26556, 
+   CVE-2020-26557, CVE-2020-26558, CVE-2020-26559, CVE-2020-26560.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+
+ [Windows 10]
+
+  [Mouse and Keyboard]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Press "M" key to open Device Manager.
+  3. At the popup window left, click Device.
+  4. Double-click Bluetooth.
+  5. Double-click Qualcomm Atheros QCA9377 Bluetooth 4.1.
+  6. Select the Driver tab.
+  7. Check Driver Version.
+
+
+--------------------------------------------------------------------------------
+NOTES
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+
+Note:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the software. To determine if you should update the software, refer to the
+  Version Information section.
+
+
+Manual Install
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading file
+  1. Select the underlined file name. Once this is done, some pop-up windows
+     will appear.
+  2. Follow the instructions on the screen.
+  3. In the window to choose Run or Save, select Save.
+  4. Choose the folder you would like to download the file to, and select Save.
+     A different window will appear and the download will begin and complete.
+     Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting file
+  5. Make sure to be logged on with an administrator account.
+  6. Locate the folder where the file was downloaded.
+  7. Locate the file that was downloaded and double-click/double-tap it.
+  8. Follow the instructions on the screen.
+  9. In Extract or Install? window, select "Install", click Next, and move to
+     step 13 to contiue installation.
+     Or, select "Extract only" and click Next to extract and keep the files on 
+     the specified folder.
+ 10. In the Select Destination Location window, select Extract. If you would like
+     to select a different folder, select Browse.
+ 11. All the necessary files will be extracted to the folder selected in the
+     step 10.
+ 12. Click Finish.
+
+  Installing files
+ 13. In the Ready to Install window, click Install. All the necessary files will
+     be extracted to the temporally folder. And extracted files will be deleted
+     after installation.
+ 14. Click Finish.
+ 15. Follow the instructions on the screen to complete installation and restart
+     the computer.
+
+
+Unattended Install
+
+  This is for system administrators' use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+  2. Open command windows as admin, and run "r0uab08w.exe /verysilent" to do
+     silent installation. 
+
+
+--------------------------------------------------------------------------------
+UNINSTALLATION INSTRUCTIONS
+
+
+Manual Uninstall
+
+
+ [Windows 10]
+
+  1. Start Windows and logon with an administrator account.
+  2. Press "Win+X" key, then press "M" key to open Device Manager
+  3. Select Qualcomm Atheros QCA9377 Bluetooth 4.1, and 
+     left-click, then pop menu, select Uninstall.
+  4. Follow the instructions on the screen to complete uninstallation and
+     restart the computer.
+
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Version     BUILD ID    Rev.  Issue Date
+  ----------  --------    ----  ----------
+  10.0.0.1159 R0UAB08W    01    2021/11/22
+  10.0.0.948  R0UAB07W    01    2020/06/05
+  10.0.0.720  R0UAB06W    01    2018/09/25
+  10.0.0.455  R0UAB03W    01    2018/05/24
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+
+Summary of Changes
+
+  Where: <   >        Driver version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<10.0.0.1159> (R0UAB08W)
+ -(Fix) Enhancement to address security vulnerability CVE-2020-26555, CVE-2020-26556, 
+        CVE-2020-26557, CVE-2020-26558, CVE-2020-26559, CVE-2020-26560.
+
+<10.0.0.948> (R0UAB07W)
+ -(Fix) Enhancement to address security vulnerability LEN-32699, LEN-33297,
+        LEN-32700 and LEN-33788.
+
+<10.0.0.720> (R0UAB06W)
+ -[Important] Update release for ThinkPad E485, E585 RS4
+
+<10.0.0.455> (R0UAB03W)
+ -(New) Initial release for ThinkPad E485 (Machine types: 20KU),
+                            ThinkPad E585 (Machine types: 20KV).
+
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo and ThinkPad are registered trademarks of Lenovo.
+
+* Microsoft, Internet Explorer and Windows are registered trademarks of
+  Microsoft Corporation.
+* Qualcomm is a registered trademark of Broadcom Corp.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.
