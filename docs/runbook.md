@@ -1,5 +1,9 @@
 # Rebuild, test, and write the installation media
 
+For a clone with no ignored binary inputs, start with
+[restoring the preserved build](from-git-clone.md). It distinguishes the verified
+final driver-cache route from replaying the original installer extraction.
+
 This is the maintainer procedure for the **2026-09-18 reference build**. Read the
 [lessons](lessons-learned.md) before running it. The commands below are a recipe
 for a new run, not a request to rewrite a connected disk merely to update docs.

@@ -1,0 +1,16 @@
+test_changed_driver_fails (test_clone_inputs.PreservedCacheChecks.test_changed_driver_fails) ... ok
+test_exact_cache_passes_without_original_installers (test_clone_inputs.PreservedCacheChecks.test_exact_cache_passes_without_original_installers) ... ok
+test_extra_driver_file_fails (test_clone_inputs.PreservedCacheChecks.test_extra_driver_file_fails) ... ok
+test_missing_driver_file_fails (test_clone_inputs.PreservedCacheChecks.test_missing_driver_file_fails) ... ok
+test_symlink_fails (test_clone_inputs.PreservedCacheChecks.test_symlink_fails) ... ok
+test_wrong_iso_fails (test_clone_inputs.PreservedCacheChecks.test_wrong_iso_fails) ... ok
+test_existing_but_untracked_profile_is_rejected (test_clone_inputs.SourceChecks.test_existing_but_untracked_profile_is_rejected) ... ok
+test_incomplete_driver_checksum_inventory_is_rejected (test_clone_inputs.SourceChecks.test_incomplete_driver_checksum_inventory_is_rejected) ... ok
+test_missing_required_source_is_rejected (test_clone_inputs.SourceChecks.test_missing_required_source_is_rejected) ... ok
+test_modified_driver_descriptor_is_rejected (test_clone_inputs.SourceChecks.test_modified_driver_descriptor_is_rejected) ... ok
+test_tracked_snapshot_without_binary_downloads (test_clone_inputs.SourceChecks.test_tracked_snapshot_without_binary_downloads) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.957s
+
+OK

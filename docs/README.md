@@ -8,6 +8,7 @@ separate, verified artifact.
 
 | Need | Start here |
 | --- | --- |
+| Restore the existing build from a fresh clone and retained input cache | [From Git clone](from-git-clone.md) |
 | Perform a rebuild, test it, and write a USB | [Runbook](runbook.md) |
 | Create a ready-to-flash `.img`, verify it, and hand it off | [Release image build and flashing](ready-to-flash-image.md) |
 | Decide whether an image/USB passed boot, installation and usability testing | [Testing and acceptance](testing-and-acceptance.md), [blank test report](templates/test-report.md) |

@@ -1,0 +1,20 @@
+{
+  "temporary_root": "/tmp/msw-clone-zbgh8f5h",
+  "clone": "/tmp/msw-clone-zbgh8f5h/clone",
+  "source_base_commit": "5e54e8e7b5c49e49023b59f7bcc5e16fecf559fa",
+  "candidate_commit": "101a91305d7ea75e740dbf9f30e83ea22b6d831a",
+  "changed_files": [
+    "README.md",
+    "docs/README.md",
+    "docs/runbook.md",
+    "docs/from-git-clone.md",
+    "scripts/check-clone-inputs.py",
+    "tests/test_clone_inputs.py"
+  ],
+  "ignored_binary_inputs_absent": true,
+  "final_candidate_commit": "b5053fd6b86badad83e1a1dbc5c25d7e0db0cd85",
+  "final_clone": "/tmp/msw-clone-zbgh8f5h/clone-final",
+  "preserved_cache_check_candidate_commit": "101a91305d7ea75e740dbf9f30e83ea22b6d831a",
+  "final_change_after_cache_check": "Only host command discovery for losetup; preserved-input hashing unchanged.",
+  "final_clone_worktree_clean": true
+}

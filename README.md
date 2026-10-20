@@ -1,6 +1,8 @@
 # Windows 11 installation USB for Lenovo ThinkPads
 
-For maintainers, start with the [rebuild and refresh runbook](docs/runbook.md).
+For a fresh clone, start with [rebuilding the preserved installer](docs/from-git-clone.md),
+including the exact binary inputs to retain outside Git and a prerequisite checker.
+For maintainers, the [rebuild and refresh runbook](docs/runbook.md) gives the detailed steps.
 To produce a file for a USB flasher, follow [ready-to-flash image creation](docs/ready-to-flash-image.md).
 Use [testing and acceptance](docs/testing-and-acceptance.md) for pass/fail criteria,
 error diagnosis, independent image checks, and verification of each written USB.
